@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
+
+    <!-- NuGet Package Information -->
+    <PackageId>Haze.TablerIcons</PackageId>
+    <Version>3.34.1</Version>
+    <Authors>zaevi</Authors>
+    <Description>A Godot library that provides direct access to Tabler Icons as embedded SVG resources.</Description>
+    <Copyright>Copyright (c) 2025 zaevi</Copyright>
+    <PackageProjectUrl>https://github.com/zaevi/Haze.TablerIcons</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/zaevi/Haze.TablerIcons</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+
+    <AssemblyVersion>3.34.1</AssemblyVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GodotSharp" Version="4.5.0-beta.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
