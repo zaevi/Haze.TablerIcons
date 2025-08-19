@@ -5,7 +5,7 @@ namespace Haze;
 /// <summary>
 /// Represents a Tabler icon with its metadata and provides methods to convert it to Godot textures.
 /// </summary>
-public record class TablerIcon(string Name, string Svg, string Category, string[] Tags)
+public record class TablerIcon(string Name, string Unicode, string Svg, string Category, string[] Tags)
 {
 	/// <summary>
 	/// Gets or creates a cached SvgTexture for this icon with the specified scale.
@@ -17,6 +17,8 @@ public record class TablerIcon(string Name, string Svg, string Category, string[
 	{
 		return GetOrCreate(scale);
 	}
+
+	public SvgTexture GetTextureByHeight(float height) => GetTexture(height / 24.0f);
 
 	/// <summary>
 	/// Creates a new SvgTexture instance for this icon with the specified scale.
@@ -30,6 +32,10 @@ public record class TablerIcon(string Name, string Svg, string Category, string[
 	/// Implicitly converts a TablerIcon to an SvgTexture.
 	/// </summary>
 	public static implicit operator SvgTexture(TablerIcon icon) => icon.GetTexture();
+
+	public static implicit operator string(TablerIcon icon) => icon.Unicode;
+	public override string ToString() => Unicode;
+
 
 	SvgTexture GetOrCreate(float scale)
 	{

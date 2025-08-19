@@ -8,27 +8,27 @@ public static partial class TablerIcons
 {
 	public static partial class Sytem
 	{
-		public static TablerIcon Filter2Bolt => field ??= new(nameof(Filter2Bolt), Sources.Filter2Bolt, "Sytem", []);
-		public static TablerIcon Filter2Cancel => field ??= new(nameof(Filter2Cancel), Sources.Filter2Cancel, "Sytem", []);
-		public static TablerIcon Filter2Check => field ??= new(nameof(Filter2Check), Sources.Filter2Check, "Sytem", []);
-		public static TablerIcon Filter2Code => field ??= new(nameof(Filter2Code), Sources.Filter2Code, "Sytem", []);
-		public static TablerIcon Filter2Cog => field ??= new(nameof(Filter2Cog), Sources.Filter2Cog, "Sytem", []);
-		public static TablerIcon Filter2Discount => field ??= new(nameof(Filter2Discount), Sources.Filter2Discount, "Sytem", []);
-		public static TablerIcon Filter2Dollar => field ??= new(nameof(Filter2Dollar), Sources.Filter2Dollar, "Sytem", []);
-		public static TablerIcon Filter2Down => field ??= new(nameof(Filter2Down), Sources.Filter2Down, "Sytem", []);
-		public static TablerIcon Filter2Edit => field ??= new(nameof(Filter2Edit), Sources.Filter2Edit, "Sytem", []);
-		public static TablerIcon Filter2Exclamation => field ??= new(nameof(Filter2Exclamation), Sources.Filter2Exclamation, "Sytem", []);
-		public static TablerIcon Filter2Minus => field ??= new(nameof(Filter2Minus), Sources.Filter2Minus, "Sytem", []);
-		public static TablerIcon Filter2Pause => field ??= new(nameof(Filter2Pause), Sources.Filter2Pause, "Sytem", []);
-		public static TablerIcon Filter2Pin => field ??= new(nameof(Filter2Pin), Sources.Filter2Pin, "Sytem", []);
-		public static TablerIcon Filter2Plus => field ??= new(nameof(Filter2Plus), Sources.Filter2Plus, "Sytem", []);
-		public static TablerIcon Filter2Question => field ??= new(nameof(Filter2Question), Sources.Filter2Question, "Sytem", []);
-		public static TablerIcon Filter2Search => field ??= new(nameof(Filter2Search), Sources.Filter2Search, "Sytem", []);
-		public static TablerIcon Filter2Share => field ??= new(nameof(Filter2Share), Sources.Filter2Share, "Sytem", []);
-		public static TablerIcon Filter2Spark => field ??= new(nameof(Filter2Spark), Sources.Filter2Spark, "Sytem", []);
-		public static TablerIcon Filter2Up => field ??= new(nameof(Filter2Up), Sources.Filter2Up, "Sytem", []);
-		public static TablerIcon Filter2X => field ??= new(nameof(Filter2X), Sources.Filter2X, "Sytem", []);
-		public static TablerIcon Filter2 => field ??= new(nameof(Filter2), Sources.Filter2, "Sytem", []);
+		public static TablerIcon Filter2Bolt => field ??= new(nameof(Filter2Bolt), char.ConvertFromUtf32(0x1015f), Sources.Filter2Bolt, "Sytem", []);
+		public static TablerIcon Filter2Cancel => field ??= new(nameof(Filter2Cancel), char.ConvertFromUtf32(0x1015e), Sources.Filter2Cancel, "Sytem", []);
+		public static TablerIcon Filter2Check => field ??= new(nameof(Filter2Check), char.ConvertFromUtf32(0x1015d), Sources.Filter2Check, "Sytem", []);
+		public static TablerIcon Filter2Code => field ??= new(nameof(Filter2Code), char.ConvertFromUtf32(0x1015c), Sources.Filter2Code, "Sytem", []);
+		public static TablerIcon Filter2Cog => field ??= new(nameof(Filter2Cog), char.ConvertFromUtf32(0x1015b), Sources.Filter2Cog, "Sytem", []);
+		public static TablerIcon Filter2Discount => field ??= new(nameof(Filter2Discount), char.ConvertFromUtf32(0x1015a), Sources.Filter2Discount, "Sytem", []);
+		public static TablerIcon Filter2Dollar => field ??= new(nameof(Filter2Dollar), char.ConvertFromUtf32(0x10159), Sources.Filter2Dollar, "Sytem", []);
+		public static TablerIcon Filter2Down => field ??= new(nameof(Filter2Down), char.ConvertFromUtf32(0x10158), Sources.Filter2Down, "Sytem", []);
+		public static TablerIcon Filter2Edit => field ??= new(nameof(Filter2Edit), char.ConvertFromUtf32(0x10157), Sources.Filter2Edit, "Sytem", []);
+		public static TablerIcon Filter2Exclamation => field ??= new(nameof(Filter2Exclamation), char.ConvertFromUtf32(0x10156), Sources.Filter2Exclamation, "Sytem", []);
+		public static TablerIcon Filter2Minus => field ??= new(nameof(Filter2Minus), char.ConvertFromUtf32(0x10155), Sources.Filter2Minus, "Sytem", []);
+		public static TablerIcon Filter2Pause => field ??= new(nameof(Filter2Pause), char.ConvertFromUtf32(0x10154), Sources.Filter2Pause, "Sytem", []);
+		public static TablerIcon Filter2Pin => field ??= new(nameof(Filter2Pin), char.ConvertFromUtf32(0x10153), Sources.Filter2Pin, "Sytem", []);
+		public static TablerIcon Filter2Plus => field ??= new(nameof(Filter2Plus), char.ConvertFromUtf32(0x10152), Sources.Filter2Plus, "Sytem", []);
+		public static TablerIcon Filter2Question => field ??= new(nameof(Filter2Question), char.ConvertFromUtf32(0x10151), Sources.Filter2Question, "Sytem", []);
+		public static TablerIcon Filter2Search => field ??= new(nameof(Filter2Search), char.ConvertFromUtf32(0x10150), Sources.Filter2Search, "Sytem", []);
+		public static TablerIcon Filter2Share => field ??= new(nameof(Filter2Share), char.ConvertFromUtf32(0x1014f), Sources.Filter2Share, "Sytem", []);
+		public static TablerIcon Filter2Spark => field ??= new(nameof(Filter2Spark), char.ConvertFromUtf32(0x1014e), Sources.Filter2Spark, "Sytem", []);
+		public static TablerIcon Filter2Up => field ??= new(nameof(Filter2Up), char.ConvertFromUtf32(0x1014d), Sources.Filter2Up, "Sytem", []);
+		public static TablerIcon Filter2X => field ??= new(nameof(Filter2X), char.ConvertFromUtf32(0x1014c), Sources.Filter2X, "Sytem", []);
+		public static TablerIcon Filter2 => field ??= new(nameof(Filter2), char.ConvertFromUtf32(0x1014b), Sources.Filter2, "Sytem", []);
 		
 		public static TablerIcon[] Icons => field ??= [
 			Filter2Bolt,
