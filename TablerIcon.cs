@@ -39,14 +39,6 @@ public record class TablerIcon(string Name, string Unicode, string Svg, string C
 
 	SvgTexture GetOrCreate(float scale)
 	{
-		var key = (Name, scale);
-		if (TablerIcons.Textures.TryGetValue(key, out var textureRef) && textureRef.TryGetTarget(out var texture) && GodotObject.IsInstanceValid(texture))
-		{
-			return texture;
-		}
-
-		texture = CreateTexture();
-		TablerIcons.Textures[key] = new WeakReference<SvgTexture>(texture);
-		return texture;
+		return TablerIcons.GetOrCreateFunc?.Invoke(this, scale) ?? CreateTexture(scale);
 	}
 }

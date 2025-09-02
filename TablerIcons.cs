@@ -11,6 +11,28 @@ public static partial class TablerIcons
 {
 	internal static readonly Dictionary<(string, float), WeakReference<SvgTexture>> Textures = [];
 
+	public static Func<TablerIcon, float, SvgTexture>? GetOrCreateFunc = DefaultGetOrCreate;
+
+	/// <summary>
+	/// Default implementation for creating or getting an SVG texture.
+	/// </summary>
+	public static SvgTexture DefaultGetOrCreate(TablerIcon icon, float scale)
+	{
+		var key = (icon.Name, scale);
+		if (TablerIcons.Textures.TryGetValue(key, out var textureRef) && textureRef.TryGetTarget(out var texture) && GodotObject.IsInstanceValid(texture))
+		{
+			return texture;
+		}
+
+		texture = icon.CreateTexture();
+		TablerIcons.Textures[key] = new WeakReference<SvgTexture>(texture);
+		return texture;
+	}
+
+	/// <summary>
+	/// Clears the texture cache.
+	/// </summary>
+	public static void ClearCache() => Textures.Clear();
 
 	/// <summary>
 	/// Gets the TTF font file as a stream.
@@ -28,10 +50,4 @@ public static partial class TablerIcons
 
 		return stream;
 	}
-
-
-	/// <summary>
-	/// Clears the texture cache.
-	/// </summary>
-	public static void ClearCache() => Textures.Clear();
 }
