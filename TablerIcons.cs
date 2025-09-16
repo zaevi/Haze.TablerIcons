@@ -9,14 +9,14 @@ namespace Haze;
 /// </summary>
 public static partial class TablerIcons
 {
-	internal static readonly Dictionary<(string, float), WeakReference<SvgTexture>> Textures = [];
+	internal static readonly Dictionary<(string, float), WeakReference<DpiTexture>> Textures = [];
 
-	public static Func<TablerIcon, float, SvgTexture>? GetOrCreateFunc = DefaultGetOrCreate;
+	public static Func<TablerIcon, float, DpiTexture>? GetOrCreateFunc = DefaultGetOrCreate;
 
 	/// <summary>
 	/// Default implementation for creating or getting an SVG texture.
 	/// </summary>
-	public static SvgTexture DefaultGetOrCreate(TablerIcon icon, float scale)
+	public static DpiTexture DefaultGetOrCreate(TablerIcon icon, float scale)
 	{
 		var key = (icon.Name, scale);
 		if (TablerIcons.Textures.TryGetValue(key, out var textureRef) && textureRef.TryGetTarget(out var texture) && GodotObject.IsInstanceValid(texture))
@@ -25,7 +25,7 @@ public static partial class TablerIcons
 		}
 
 		texture = icon.CreateTexture();
-		TablerIcons.Textures[key] = new WeakReference<SvgTexture>(texture);
+		TablerIcons.Textures[key] = new WeakReference<DpiTexture>(texture);
 		return texture;
 	}
 
@@ -50,4 +50,9 @@ public static partial class TablerIcons
 
 		return stream;
 	}
+
+	/// <summary>
+	/// Empty icon.
+	/// </summary>
+	public static TablerIcon Empty => field ??= new TablerIcon("Empty", "  ", "", "", []);
 }

@@ -13,12 +13,12 @@ public record class TablerIcon(string Name, string Unicode, string Svg, string C
 	/// </summary>
 	/// <param name="scale">The scale factor for the texture (default: 1.0)</param>
 	/// <returns>A cached or new SvgTexture instance</returns>
-	public SvgTexture GetTexture(float scale = 1.0f)
+	public DpiTexture GetTexture(float scale = 1.0f)
 	{
 		return GetOrCreate(scale);
 	}
 
-	public SvgTexture GetTextureByHeight(float height) => GetTexture(height / 24.0f);
+	public DpiTexture GetTextureByHeight(float height) => GetTexture(height / 24.0f);
 
 	/// <summary>
 	/// Creates a new SvgTexture instance for this icon with the specified scale.
@@ -26,18 +26,18 @@ public record class TablerIcon(string Name, string Unicode, string Svg, string C
 	/// </summary>
 	/// <param name="scale">The scale factor for the texture (default: 1.0)</param>
 	/// <returns>A new SvgTexture instance</returns>
-	public SvgTexture CreateTexture(float scale = 1.0f) => SvgTexture.CreateFromString(Svg, scale);
+	public DpiTexture CreateTexture(float scale = 1.0f) => DpiTexture.CreateFromString(Svg, scale);
 
 	/// <summary>
-	/// Implicitly converts a TablerIcon to an SvgTexture.
+	/// Implicitly converts a TablerIcon to a DpiTexture.
 	/// </summary>
-	public static implicit operator SvgTexture(TablerIcon icon) => icon.GetTexture();
+	public static implicit operator DpiTexture(TablerIcon icon) => icon.GetTexture();
 
 	public static implicit operator string(TablerIcon icon) => icon.Unicode;
 	public override string ToString() => Unicode;
 
 
-	SvgTexture GetOrCreate(float scale)
+	DpiTexture GetOrCreate(float scale)
 	{
 		return TablerIcons.GetOrCreateFunc?.Invoke(this, scale) ?? CreateTexture(scale);
 	}
