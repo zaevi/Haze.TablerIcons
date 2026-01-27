@@ -8,25 +8,25 @@ public static partial class TablerIcons
 {
 	public static partial class Electrical
 	{
-		public static TablerIcon CircuitAmmeter => field ??= new(nameof(CircuitAmmeter), "\uF271", Sources.CircuitAmmeter, "Electrical", ["diagram", "electric", "electricity"]);
-		public static TablerIcon CircuitBattery => field ??= new(nameof(CircuitBattery), "\uF272", Sources.CircuitBattery, "Electrical", ["diagram", "electric", "electricity", "power"]);
-		public static TablerIcon CircuitBulb => field ??= new(nameof(CircuitBulb), "\uF273", Sources.CircuitBulb, "Electrical", ["lamp", "light", "electric", "electricity"]);
-		public static TablerIcon CircuitCapacitorPolarized => field ??= new(nameof(CircuitCapacitorPolarized), "\uF274", Sources.CircuitCapacitorPolarized, "Electrical", ["diagram", "electric", "electricity"]);
-		public static TablerIcon CircuitCapacitor => field ??= new(nameof(CircuitCapacitor), "\uF275", Sources.CircuitCapacitor, "Electrical", ["diagram", "electric", "electricity"]);
-		public static TablerIcon CircuitCellPlus => field ??= new(nameof(CircuitCellPlus), "\uF276", Sources.CircuitCellPlus, "Electrical", ["electric", "diagram", "electricity", "battery", "power"]);
-		public static TablerIcon CircuitCell => field ??= new(nameof(CircuitCell), "\uF277", Sources.CircuitCell, "Electrical", ["electric", "diagram", "electricity", "battery", "power"]);
-		public static TablerIcon CircuitChangeover => field ??= new(nameof(CircuitChangeover), "\uF278", Sources.CircuitChangeover, "Electrical", ["electric", "diagram", "electricity", "change"]);
-		public static TablerIcon CircuitDiodeZener => field ??= new(nameof(CircuitDiodeZener), "\uF279", Sources.CircuitDiodeZener, "Electrical", ["electric", "electricity", "diagram", "digital"]);
-		public static TablerIcon CircuitDiode => field ??= new(nameof(CircuitDiode), "\uF27A", Sources.CircuitDiode, "Electrical", ["diagram", "electric", "electronic", "led"]);
-		public static TablerIcon CircuitGroundDigital => field ??= new(nameof(CircuitGroundDigital), "\uF27B", Sources.CircuitGroundDigital, "Electrical", ["electric", "electricity", "diagram"]);
-		public static TablerIcon CircuitGround => field ??= new(nameof(CircuitGround), "\uF27C", Sources.CircuitGround, "Electrical", ["electric", "electricity", "diagram"]);
-		public static TablerIcon CircuitInductor => field ??= new(nameof(CircuitInductor), "\uF27D", Sources.CircuitInductor, "Electrical", ["electric", "electricity", "diagram", "coil"]);
-		public static TablerIcon CircuitMotor => field ??= new(nameof(CircuitMotor), "\uF27E", Sources.CircuitMotor, "Electrical", ["circuity", "diagram", "electric", "electricity"]);
-		public static TablerIcon CircuitPushbutton => field ??= new(nameof(CircuitPushbutton), "\uF27F", Sources.CircuitPushbutton, "Electrical", ["diagram", "electric", "electricity", "open"]);
-		public static TablerIcon CircuitResistor => field ??= new(nameof(CircuitResistor), "\uF280", Sources.CircuitResistor, "Electrical", ["diagram", "electric", "electricity", "nema"]);
-		public static TablerIcon CircuitSwitchClosed => field ??= new(nameof(CircuitSwitchClosed), "\uF281", Sources.CircuitSwitchClosed, "Electrical", ["diagram", "electric", "electricity", "locked"]);
-		public static TablerIcon CircuitSwitchOpen => field ??= new(nameof(CircuitSwitchOpen), "\uF282", Sources.CircuitSwitchOpen, "Electrical", ["diagram", "electric", "electricity", "opened"]);
-		public static TablerIcon CircuitVoltmeter => field ??= new(nameof(CircuitVoltmeter), "\uF283", Sources.CircuitVoltmeter, "Electrical", ["diagram", "electric", "electricity", "component"]);
+		public static TablerIcon CircuitAmmeter => field ??= new(nameof(CircuitAmmeter), "\uF271", Sources.CircuitAmmeter, "Electrical", ["diagram", "electric", "electricity", "circuit", "ammeter", "energy", "voltage", "power", "current", "interface"]);
+		public static TablerIcon CircuitBattery => field ??= new(nameof(CircuitBattery), "\uF272", Sources.CircuitBattery, "Electrical", ["diagram", "electric", "electricity", "power", "circuit", "battery", "charge", "energy", "voltage", "current"]);
+		public static TablerIcon CircuitBulb => field ??= new(nameof(CircuitBulb), "\uF273", Sources.CircuitBulb, "Electrical", ["lamp", "light", "electric", "electricity", "circuit", "bulb", "energy", "voltage", "power", "current"]);
+		public static TablerIcon CircuitCapacitorPolarized => field ??= new(nameof(CircuitCapacitorPolarized), "\uF274", Sources.CircuitCapacitorPolarized, "Electrical", ["diagram", "electric", "electricity", "circuit", "capacitor", "polarized", "energy", "voltage", "power", "current"]);
+		public static TablerIcon CircuitCapacitor => field ??= new(nameof(CircuitCapacitor), "\uF275", Sources.CircuitCapacitor, "Electrical", ["diagram", "electric", "electricity", "circuit", "capacitor", "energy", "voltage", "power", "current", "interface"]);
+		public static TablerIcon CircuitCellPlus => field ??= new(nameof(CircuitCellPlus), "\uF276", Sources.CircuitCellPlus, "Electrical", ["electric", "diagram", "electricity", "battery", "power", "circuit", "cell", "plus", "energy", "add"]);
+		public static TablerIcon CircuitCell => field ??= new(nameof(CircuitCell), "\uF277", Sources.CircuitCell, "Electrical", ["electric", "diagram", "electricity", "battery", "power", "circuit", "cell", "energy", "voltage", "current"]);
+		public static TablerIcon CircuitChangeover => field ??= new(nameof(CircuitChangeover), "\uF278", Sources.CircuitChangeover, "Electrical", ["electric", "diagram", "electricity", "change", "circuit", "changeover", "energy", "voltage", "power", "current"]);
+		public static TablerIcon CircuitDiodeZener => field ??= new(nameof(CircuitDiodeZener), "\uF279", Sources.CircuitDiodeZener, "Electrical", ["electric", "electricity", "diagram", "digital", "circuit", "diode", "zener", "energy", "voltage", "power"]);
+		public static TablerIcon CircuitDiode => field ??= new(nameof(CircuitDiode), "\uF27A", Sources.CircuitDiode, "Electrical", ["diagram", "electric", "electronic", "led", "circuit", "diode", "energy", "voltage", "power", "current"]);
+		public static TablerIcon CircuitGroundDigital => field ??= new(nameof(CircuitGroundDigital), "\uF27B", Sources.CircuitGroundDigital, "Electrical", ["electric", "electricity", "diagram", "circuit", "ground", "digital", "energy", "voltage", "power", "current"]);
+		public static TablerIcon CircuitGround => field ??= new(nameof(CircuitGround), "\uF27C", Sources.CircuitGround, "Electrical", ["electric", "electricity", "diagram", "circuit", "ground", "energy", "voltage", "power", "current", "interface"]);
+		public static TablerIcon CircuitInductor => field ??= new(nameof(CircuitInductor), "\uF27D", Sources.CircuitInductor, "Electrical", ["electric", "electricity", "diagram", "coil", "circuit", "inductor", "energy", "voltage", "power", "current"]);
+		public static TablerIcon CircuitMotor => field ??= new(nameof(CircuitMotor), "\uF27E", Sources.CircuitMotor, "Electrical", ["circuity", "diagram", "electric", "electricity", "circuit", "motor", "energy", "voltage", "power", "current"]);
+		public static TablerIcon CircuitPushbutton => field ??= new(nameof(CircuitPushbutton), "\uF27F", Sources.CircuitPushbutton, "Electrical", ["diagram", "electric", "electricity", "open", "circuit", "pushbutton", "energy", "voltage", "power", "current"]);
+		public static TablerIcon CircuitResistor => field ??= new(nameof(CircuitResistor), "\uF280", Sources.CircuitResistor, "Electrical", ["diagram", "electric", "electricity", "nema", "circuit", "resistor", "energy", "voltage", "power", "current"]);
+		public static TablerIcon CircuitSwitchClosed => field ??= new(nameof(CircuitSwitchClosed), "\uF281", Sources.CircuitSwitchClosed, "Electrical", ["diagram", "electric", "electricity", "locked", "circuit", "switch", "closed", "energy", "voltage", "power"]);
+		public static TablerIcon CircuitSwitchOpen => field ??= new(nameof(CircuitSwitchOpen), "\uF282", Sources.CircuitSwitchOpen, "Electrical", ["diagram", "electric", "electricity", "opened", "circuit", "switch", "open", "energy", "voltage", "power"]);
+		public static TablerIcon CircuitVoltmeter => field ??= new(nameof(CircuitVoltmeter), "\uF283", Sources.CircuitVoltmeter, "Electrical", ["diagram", "electric", "electricity", "component", "circuit", "voltmeter", "energy", "voltage", "power", "current"]);
 		
 		public static TablerIcon[] Icons => field ??= [
 			CircuitAmmeter,

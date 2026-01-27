@@ -403,11 +403,13 @@ public static partial class TablerIcons
 		public static TablerIcon CropLandscapeFilled => field ??= new(nameof(CropLandscapeFilled), "\uFE4A", Sources.CropLandscapeFilled, "Other", []);
 		public static TablerIcon CropPortraitFilled => field ??= new(nameof(CropPortraitFilled), "\uFE49", Sources.CropPortraitFilled, "Other", []);
 		public static TablerIcon CrossFilled => field ??= new(nameof(CrossFilled), "\uF675", Sources.CrossFilled, "Other", []);
+		public static TablerIcon CrownFilled => field ??= new(nameof(CrownFilled), "\u0000", Sources.CrownFilled, "Other", []);
 		public static TablerIcon CurrentLocationFilled => field ??= new(nameof(CurrentLocationFilled), char.ConvertFromUtf32(0x10125), Sources.CurrentLocationFilled, "Other", []);
 		public static TablerIcon DashboardFilled => field ??= new(nameof(DashboardFilled), char.ConvertFromUtf32(0x10019), Sources.DashboardFilled, "Other", []);
 		public static TablerIcon DeviceCctvFilled => field ??= new(nameof(DeviceCctvFilled), char.ConvertFromUtf32(0x1004b), Sources.DeviceCctvFilled, "Other", []);
 		public static TablerIcon DeviceDesktopFilled => field ??= new(nameof(DeviceDesktopFilled), char.ConvertFromUtf32(0x1004a), Sources.DeviceDesktopFilled, "Other", []);
 		public static TablerIcon DeviceGamepad3Filled => field ??= new(nameof(DeviceGamepad3Filled), char.ConvertFromUtf32(0x10049), Sources.DeviceGamepad3Filled, "Other", []);
+		public static TablerIcon DeviceGamepadFilled => field ??= new(nameof(DeviceGamepadFilled), char.ConvertFromUtf32(0x1019c), Sources.DeviceGamepadFilled, "Other", []);
 		public static TablerIcon DeviceHeartMonitorFilled => field ??= new(nameof(DeviceHeartMonitorFilled), "\uFA38", Sources.DeviceHeartMonitorFilled, "Other", []);
 		public static TablerIcon DeviceImacFilled => field ??= new(nameof(DeviceImacFilled), char.ConvertFromUtf32(0x10048), Sources.DeviceImacFilled, "Other", []);
 		public static TablerIcon DeviceIpadFilled => field ??= new(nameof(DeviceIpadFilled), char.ConvertFromUtf32(0x10047), Sources.DeviceIpadFilled, "Other", []);
@@ -477,26 +479,38 @@ public static partial class TablerIcons
 		public static TablerIcon FileDescriptionFilled => field ??= new(nameof(FileDescriptionFilled), char.ConvertFromUtf32(0x1011e), Sources.FileDescriptionFilled, "Other", []);
 		public static TablerIcon FileDiffFilled => field ??= new(nameof(FileDiffFilled), char.ConvertFromUtf32(0x1016f), Sources.FileDiffFilled, "Other", []);
 		public static TablerIcon FileDigitFilled => field ??= new(nameof(FileDigitFilled), char.ConvertFromUtf32(0x1011d), Sources.FileDigitFilled, "Other", []);
+		public static TablerIcon FileDollarFilled => field ??= new(nameof(FileDollarFilled), char.ConvertFromUtf32(0x1019b), Sources.FileDollarFilled, "Other", []);
 		public static TablerIcon FileDotsFilled => field ??= new(nameof(FileDotsFilled), char.ConvertFromUtf32(0x1016e), Sources.FileDotsFilled, "Other", []);
 		public static TablerIcon FileDownloadFilled => field ??= new(nameof(FileDownloadFilled), char.ConvertFromUtf32(0x1012a), Sources.FileDownloadFilled, "Other", []);
+		public static TablerIcon FileEuroFilled => field ??= new(nameof(FileEuroFilled), char.ConvertFromUtf32(0x1019a), Sources.FileEuroFilled, "Other", []);
 		public static TablerIcon FileFunctionFilled => field ??= new(nameof(FileFunctionFilled), char.ConvertFromUtf32(0x1016d), Sources.FileFunctionFilled, "Other", []);
 		public static TablerIcon FileHorizontalFilled => field ??= new(nameof(FileHorizontalFilled), char.ConvertFromUtf32(0x1011c), Sources.FileHorizontalFilled, "Other", []);
 		public static TablerIcon FileInfoFilled => field ??= new(nameof(FileInfoFilled), char.ConvertFromUtf32(0x1016c), Sources.FileInfoFilled, "Other", []);
 		public static TablerIcon FileInvoiceFilled => field ??= new(nameof(FileInvoiceFilled), char.ConvertFromUtf32(0x1011b), Sources.FileInvoiceFilled, "Other", []);
 		public static TablerIcon FileLambdaFilled => field ??= new(nameof(FileLambdaFilled), char.ConvertFromUtf32(0x10129), Sources.FileLambdaFilled, "Other", []);
 		public static TablerIcon FileMinusFilled => field ??= new(nameof(FileMinusFilled), char.ConvertFromUtf32(0x1011a), Sources.FileMinusFilled, "Other", []);
+		public static TablerIcon FileMusicFilled => field ??= new(nameof(FileMusicFilled), char.ConvertFromUtf32(0x10199), Sources.FileMusicFilled, "Other", []);
 		public static TablerIcon FileNeutralFilled => field ??= new(nameof(FileNeutralFilled), char.ConvertFromUtf32(0x10119), Sources.FileNeutralFilled, "Other", []);
+		public static TablerIcon FilePencilFilled => field ??= new(nameof(FilePencilFilled), char.ConvertFromUtf32(0x10198), Sources.FilePencilFilled, "Other", []);
 		public static TablerIcon FilePercentFilled => field ??= new(nameof(FilePercentFilled), char.ConvertFromUtf32(0x10128), Sources.FilePercentFilled, "Other", []);
 		public static TablerIcon FilePhoneFilled => field ??= new(nameof(FilePhoneFilled), char.ConvertFromUtf32(0x10127), Sources.FilePhoneFilled, "Other", []);
 		public static TablerIcon FilePowerFilled => field ??= new(nameof(FilePowerFilled), char.ConvertFromUtf32(0x10118), Sources.FilePowerFilled, "Other", []);
 		public static TablerIcon FileRssFilled => field ??= new(nameof(FileRssFilled), char.ConvertFromUtf32(0x10126), Sources.FileRssFilled, "Other", []);
 		public static TablerIcon FileSadFilled => field ??= new(nameof(FileSadFilled), char.ConvertFromUtf32(0x10117), Sources.FileSadFilled, "Other", []);
+		public static TablerIcon FileScissorsFilled => field ??= new(nameof(FileScissorsFilled), char.ConvertFromUtf32(0x10197), Sources.FileScissorsFilled, "Other", []);
+		public static TablerIcon FileSettingsFilled => field ??= new(nameof(FileSettingsFilled), char.ConvertFromUtf32(0x10196), Sources.FileSettingsFilled, "Other", []);
+		public static TablerIcon FileSignalFilled => field ??= new(nameof(FileSignalFilled), char.ConvertFromUtf32(0x10195), Sources.FileSignalFilled, "Other", []);
 		public static TablerIcon FileSmileFilled => field ??= new(nameof(FileSmileFilled), char.ConvertFromUtf32(0x10116), Sources.FileSmileFilled, "Other", []);
 		public static TablerIcon FileStarFilled => field ??= new(nameof(FileStarFilled), char.ConvertFromUtf32(0x10115), Sources.FileStarFilled, "Other", []);
 		public static TablerIcon FileTextFilled => field ??= new(nameof(FileTextFilled), char.ConvertFromUtf32(0x10114), Sources.FileTextFilled, "Other", []);
+		public static TablerIcon FileTimeFilled => field ??= new(nameof(FileTimeFilled), char.ConvertFromUtf32(0x10194), Sources.FileTimeFilled, "Other", []);
 		public static TablerIcon FileTypographyFilled => field ??= new(nameof(FileTypographyFilled), char.ConvertFromUtf32(0x1016b), Sources.FileTypographyFilled, "Other", []);
+		public static TablerIcon FileUnknownFilled => field ??= new(nameof(FileUnknownFilled), char.ConvertFromUtf32(0x10193), Sources.FileUnknownFilled, "Other", []);
+		public static TablerIcon FileUploadFilled => field ??= new(nameof(FileUploadFilled), char.ConvertFromUtf32(0x10192), Sources.FileUploadFilled, "Other", []);
+		public static TablerIcon FileVectorFilled => field ??= new(nameof(FileVectorFilled), char.ConvertFromUtf32(0x10191), Sources.FileVectorFilled, "Other", []);
 		public static TablerIcon FileXFilled => field ??= new(nameof(FileXFilled), "\uF748", Sources.FileXFilled, "Other", []);
 		public static TablerIcon FileFilled => field ??= new(nameof(FileFilled), "\uF747", Sources.FileFilled, "Other", []);
+		public static TablerIcon FilesFilled => field ??= new(nameof(FilesFilled), char.ConvertFromUtf32(0x10190), Sources.FilesFilled, "Other", []);
 		public static TablerIcon FilterFilled => field ??= new(nameof(FilterFilled), "\uFC27", Sources.FilterFilled, "Other", []);
 		public static TablerIcon FiltersFilled => field ??= new(nameof(FiltersFilled), char.ConvertFromUtf32(0x100c7), Sources.FiltersFilled, "Other", []);
 		public static TablerIcon FishBoneFilled => field ??= new(nameof(FishBoneFilled), char.ConvertFromUtf32(0x1010b), Sources.FishBoneFilled, "Other", []);
@@ -508,6 +522,7 @@ public static partial class TablerIcons
 		public static TablerIcon Flask2Filled => field ??= new(nameof(Flask2Filled), "\uFD12", Sources.Flask2Filled, "Other", []);
 		public static TablerIcon FlaskFilled => field ??= new(nameof(FlaskFilled), "\uFD13", Sources.FlaskFilled, "Other", []);
 		public static TablerIcon FlowerFilled => field ??= new(nameof(FlowerFilled), char.ConvertFromUtf32(0x10010), Sources.FlowerFilled, "Other", []);
+		public static TablerIcon FolderOpenFilled => field ??= new(nameof(FolderOpenFilled), "\u0000", Sources.FolderOpenFilled, "Other", []);
 		public static TablerIcon FolderFilled => field ??= new(nameof(FolderFilled), "\uF749", Sources.FolderFilled, "Other", []);
 		public static TablerIcon FoldersFilled => field ??= new(nameof(FoldersFilled), char.ConvertFromUtf32(0x100c4), Sources.FoldersFilled, "Other", []);
 		public static TablerIcon Forbid2Filled => field ??= new(nameof(Forbid2Filled), "\uFC28", Sources.Forbid2Filled, "Other", []);
@@ -767,6 +782,7 @@ public static partial class TablerIcons
 		public static TablerIcon ReceiptFilled => field ??= new(nameof(ReceiptFilled), "\uFF06", Sources.ReceiptFilled, "Other", []);
 		public static TablerIcon RectangleVerticalFilled => field ??= new(nameof(RectangleVerticalFilled), "\uF69B", Sources.RectangleVerticalFilled, "Other", []);
 		public static TablerIcon RectangleFilled => field ??= new(nameof(RectangleFilled), "\uF69A", Sources.RectangleFilled, "Other", []);
+		public static TablerIcon RegisteredFilled => field ??= new(nameof(RegisteredFilled), char.ConvertFromUtf32(0x1018f), Sources.RegisteredFilled, "Other", []);
 		public static TablerIcon RelationManyToManyFilled => field ??= new(nameof(RelationManyToManyFilled), "\uFE0C", Sources.RelationManyToManyFilled, "Other", []);
 		public static TablerIcon RelationOneToManyFilled => field ??= new(nameof(RelationOneToManyFilled), "\uFE0B", Sources.RelationOneToManyFilled, "Other", []);
 		public static TablerIcon RelationOneToOneFilled => field ??= new(nameof(RelationOneToOneFilled), "\uFE0A", Sources.RelationOneToOneFilled, "Other", []);
@@ -966,10 +982,14 @@ public static partial class TablerIcons
 		public static TablerIcon UmbrellaFilled => field ??= new(nameof(UmbrellaFilled), "\uF6B0", Sources.UmbrellaFilled, "Other", []);
 		public static TablerIcon UserFilled => field ??= new(nameof(UserFilled), "\uFD19", Sources.UserFilled, "Other", []);
 		public static TablerIcon VersionsFilled => field ??= new(nameof(VersionsFilled), "\uF6B1", Sources.VersionsFilled, "Other", []);
+		public static TablerIcon VideoMinusFilled => field ??= new(nameof(VideoMinusFilled), char.ConvertFromUtf32(0x1018e), Sources.VideoMinusFilled, "Other", []);
+		public static TablerIcon VideoPlusFilled => field ??= new(nameof(VideoPlusFilled), char.ConvertFromUtf32(0x1018d), Sources.VideoPlusFilled, "Other", []);
 		public static TablerIcon VideoFilled => field ??= new(nameof(VideoFilled), char.ConvertFromUtf32(0x1009b), Sources.VideoFilled, "Other", []);
 		public static TablerIcon WindmillFilled => field ??= new(nameof(WindmillFilled), "\uF6B2", Sources.WindmillFilled, "Other", []);
 		public static TablerIcon WindsockFilled => field ??= new(nameof(WindsockFilled), char.ConvertFromUtf32(0x1009a), Sources.WindsockFilled, "Other", []);
 		public static TablerIcon WomanFilled => field ??= new(nameof(WomanFilled), "\uFDCC", Sources.WomanFilled, "Other", []);
+		public static TablerIcon WritingSignFilled => field ??= new(nameof(WritingSignFilled), char.ConvertFromUtf32(0x1018c), Sources.WritingSignFilled, "Other", []);
+		public static TablerIcon WritingFilled => field ??= new(nameof(WritingFilled), char.ConvertFromUtf32(0x1018b), Sources.WritingFilled, "Other", []);
 		public static TablerIcon XboxAFilled => field ??= new(nameof(XboxAFilled), "\uFDCB", Sources.XboxAFilled, "Other", []);
 		public static TablerIcon XboxBFilled => field ??= new(nameof(XboxBFilled), "\uFDCA", Sources.XboxBFilled, "Other", []);
 		public static TablerIcon XboxXFilled => field ??= new(nameof(XboxXFilled), "\uFDC9", Sources.XboxXFilled, "Other", []);
@@ -989,512 +1009,6 @@ public static partial class TablerIcons
 		public static TablerIcon ZoomQuestionFilled => field ??= new(nameof(ZoomQuestionFilled), "\uFDC0", Sources.ZoomQuestionFilled, "Other", []);
 		public static TablerIcon ZoomScanFilled => field ??= new(nameof(ZoomScanFilled), "\uFDBF", Sources.ZoomScanFilled, "Other", []);
 		public static TablerIcon ZoomFilled => field ??= new(nameof(ZoomFilled), "\uF787", Sources.ZoomFilled, "Other", []);
-		public static TablerIcon AB2 => field ??= new(nameof(AB2), "\uF25F", Sources.AB2, "Other", ["test", "visual", "user"]);
-		public static TablerIcon ABOff => field ??= new(nameof(ABOff), "\uF0A6", Sources.ABOff, "Other", ["test", "visual", "user"]);
-		public static TablerIcon Abc => field ??= new(nameof(Abc), "\uF567", Sources.Abc, "Other", ["letters", "alphabet", "latin"]);
-		public static TablerIcon AccessibleOff => field ??= new(nameof(AccessibleOff), "\uF0A7", Sources.AccessibleOff, "Other", ["low-vision", "blind", "disability", "handicapped"]);
-		public static TablerIcon Accessible => field ??= new(nameof(Accessible), "\uEBA9", Sources.Accessible, "Other", ["low-vision", "blind", "disability", "handicapped"]);
-		public static TablerIcon ActivityHeartbeat => field ??= new(nameof(ActivityHeartbeat), "\uF0DB", Sources.ActivityHeartbeat, "Other", ["pulse", "lifeline", "impuls", "hospital", "heartrate"]);
-		public static TablerIcon Activity => field ??= new(nameof(Activity), "\uED23", Sources.Activity, "Other", ["pulse", "motion", "health", "action"]);
-		public static TablerIcon AdCircleOff => field ??= new(nameof(AdCircleOff), "\uF79D", Sources.AdCircleOff, "Other", ["marketing", "promotion", "advertisement", "shape"]);
-		public static TablerIcon AdCircle => field ??= new(nameof(AdCircle), "\uF79E", Sources.AdCircle, "Other", ["marketing", "promotion", "advertisement", "shape"]);
-		public static TablerIcon AddressBookOff => field ??= new(nameof(AddressBookOff), "\uF3B8", Sources.AddressBookOff, "Other", ["contact", "contacts", "phonebook", "profile", "resources"]);
-		public static TablerIcon AddressBook => field ??= new(nameof(AddressBook), "\uF021", Sources.AddressBook, "Other", ["contact", "contacts", "phonebook", "profile", "resources"]);
-		public static TablerIcon Affiliate => field ??= new(nameof(Affiliate), "\uEDFF", Sources.Affiliate, "Other", ["network", "connection", "collaboration", "people", "connect", "organization", "networking"]);
-		public static TablerIcon AirConditioningDisabled => field ??= new(nameof(AirConditioningDisabled), "\uF542", Sources.AirConditioningDisabled, "Other", ["cold", "home", "cooling", "hot", "off"]);
-		public static TablerIcon AirConditioning => field ??= new(nameof(AirConditioning), "\uF3A2", Sources.AirConditioning, "Other", ["cold", "ice", "home", "cooling", "heating", "hot"]);
-		public static TablerIcon AlarmSmoke => field ??= new(nameof(AlarmSmoke), char.ConvertFromUtf32(0x100b6), Sources.AlarmSmoke, "Other", ["alert", "hazard", "safety", "sensor", "device", "warning", "detector", "emergency", "protection", "system"]);
-		public static TablerIcon AlbumOff => field ??= new(nameof(AlbumOff), "\uF3B9", Sources.AlbumOff, "Other", ["photos", "photography", "gallery", "music", "image"]);
-		public static TablerIcon Album => field ??= new(nameof(Album), "\uF022", Sources.Album, "Other", ["photos", "photography", "gallery", "music", "image"]);
-		public static TablerIcon Alien => field ??= new(nameof(Alien), "\uEBDE", Sources.Alien, "Other", ["universe", "extraterrestrial", "ufo", "space", "galaxy", "planet"]);
-		public static TablerIcon AnalyzeOff => field ??= new(nameof(AnalyzeOff), "\uF3BA", Sources.AnalyzeOff, "Other", ["analytics", "data", "statistics", "graph"]);
-		public static TablerIcon Analyze => field ??= new(nameof(Analyze), "\uF3A3", Sources.Analyze, "Other", ["analytics", "data", "statistics", "graph"]);
-		public static TablerIcon AppWindow => field ??= new(nameof(AppWindow), "\uEFE6", Sources.AppWindow, "Other", ["browser", "page", "website", "web", "interface"]);
-		public static TablerIcon Armchair2Off => field ??= new(nameof(Armchair2Off), "\uF3BD", Sources.Armchair2Off, "Other", ["seat", "chair", "sofa", "home", "furniture"]);
-		public static TablerIcon Armchair2 => field ??= new(nameof(Armchair2), "\uEFE7", Sources.Armchair2, "Other", ["seat", "chair", "sofa", "home", "furniture"]);
-		public static TablerIcon ArmchairOff => field ??= new(nameof(ArmchairOff), "\uF3BE", Sources.ArmchairOff, "Other", ["seat", "chair", "sofa", "home", "furniture"]);
-		public static TablerIcon Armchair => field ??= new(nameof(Armchair), "\uEF9E", Sources.Armchair, "Other", ["seat", "chair", "sofa", "home", "furniture"]);
-		public static TablerIcon Atom2 => field ??= new(nameof(Atom2), "\uEBDF", Sources.Atom2, "Other", ["unit", "element", "part", "electrons", "protons", "neutrons"]);
-		public static TablerIcon AtomOff => field ??= new(nameof(AtomOff), "\uF0F9", Sources.AtomOff, "Other", ["unit", "element", "part", "electrons"]);
-		public static TablerIcon Atom => field ??= new(nameof(Atom), "\uEB79", Sources.Atom, "Other", ["unit", "element", "part", "electrons"]);
-		public static TablerIcon Avocado => field ??= new(nameof(Avocado), "\uFD8E", Sources.Avocado, "Other", ["fruit", "food", "green", "nutrition", "healthy", "ingredient", "diet", "vegetable", "meal", "snack"]);
-		public static TablerIcon AwardOff => field ??= new(nameof(AwardOff), "\uF0FA", Sources.AwardOff, "Other", ["prize", "reward", "competition", "contest", "win"]);
-		public static TablerIcon Award => field ??= new(nameof(Award), "\uEA2C", Sources.Award, "Other", ["prize", "reward", "competition", "contest", "win"]);
-		public static TablerIcon BadgeOff => field ??= new(nameof(BadgeOff), "\uF0FB", Sources.BadgeOff, "Other", ["army", "badge", "military", "rank", "soldier", "war"]);
-		public static TablerIcon Badge => field ??= new(nameof(Badge), "\uEFC2", Sources.Badge, "Other", ["army", "badge", "military", "rank", "soldier", "war"]);
-		public static TablerIcon BadgesOff => field ??= new(nameof(BadgesOff), "\uF0FC", Sources.BadgesOff, "Other", ["army", "badge", "military", "rank", "soldier", "war"]);
-		public static TablerIcon Badges => field ??= new(nameof(Badges), "\uEFC3", Sources.Badges, "Other", ["army", "badge", "military", "rank", "soldier", "war"]);
-		public static TablerIcon BalloonOff => field ??= new(nameof(BalloonOff), "\uF0FD", Sources.BalloonOff, "Other", ["party", "birthday", "decoration"]);
-		public static TablerIcon Balloon => field ??= new(nameof(Balloon), "\uEF3A", Sources.Balloon, "Other", ["party", "birthday", "decoration"]);
-		public static TablerIcon Ban => field ??= new(nameof(Ban), "\uEA2E", Sources.Ban, "Other", ["no", "reject", "restriction", "prohibited"]);
-		public static TablerIcon BarrelOff => field ??= new(nameof(BarrelOff), "\uF0FE", Sources.BarrelOff, "Other", ["beer", "wine", "fuel", "tank", "cask"]);
-		public static TablerIcon Barrel => field ??= new(nameof(Barrel), "\uF0B4", Sources.Barrel, "Other", ["beer", "wine", "fuel", "tank", "cask"]);
-		public static TablerIcon BarrierBlockOff => field ??= new(nameof(BarrierBlockOff), "\uF0B5", Sources.BarrierBlockOff, "Other", ["construction", "stop", "traffic", "barricade", "street"]);
-		public static TablerIcon BarrierBlock => field ??= new(nameof(BarrierBlock), "\uF00E", Sources.BarrierBlock, "Other", ["construction", "stop", "traffic", "barricade", "street"]);
-		public static TablerIcon BathOff => field ??= new(nameof(BathOff), "\uF0FF", Sources.BathOff, "Other", ["water", "clean", "hygiene", "bathroom", "tub"]);
-		public static TablerIcon Bath => field ??= new(nameof(Bath), "\uEF48", Sources.Bath, "Other", ["water", "clean", "hygiene", "bathroom", "tub"]);
-		public static TablerIcon BedFlat => field ??= new(nameof(BedFlat), "\uFCA1", Sources.BedFlat, "Other", ["mattress", "sofa", "couch", "futon", "sleeping", "restful", "horizontal", "recline", "lying", "horizontal-bed"]);
-		public static TablerIcon BellSchool => field ??= new(nameof(BellSchool), "\uF05E", Sources.BellSchool, "Other", ["alarm", "education", "alert", "sound", "notification", "study"]);
-		public static TablerIcon Bible => field ??= new(nameof(Bible), "\uEFC4", Sources.Bible, "Other", ["religion", "holy", "christian", "miracle", "church"]);
-		public static TablerIcon Binoculars => field ??= new(nameof(Binoculars), "\uFEFE", Sources.Binoculars, "Other", ["birds", "explorer", "field glasses", "magnifying eye glasses", "observe", "view", "watch"]);
-		public static TablerIcon Blade => field ??= new(nameof(Blade), "\uF4BD", Sources.Blade, "Other", ["razor", "beard", "barber", "cut"]);
-		public static TablerIcon Blob => field ??= new(nameof(Blob), "\uFEAF", Sources.Blob, "Other", ["shape", "form", "mass", "clump", "bulk", "group", "cluster", "lump", "patch", "chunk"]);
-		public static TablerIcon Blocks => field ??= new(nameof(Blocks), char.ConvertFromUtf32(0x100b2), Sources.Blocks, "Other", ["structure", "stack", "build", "cube", "brick", "construct", "arrange", "assemble", "piece", "model"]);
-		public static TablerIcon BoltOff => field ??= new(nameof(BoltOff), "\uECEC", Sources.BoltOff, "Other", ["energy", "power", "electricity", "storm", "lightning", "flash"]);
-		public static TablerIcon Bolt => field ??= new(nameof(Bolt), "\uEA38", Sources.Bolt, "Other", ["energy", "power", "electricity", "storm", "lightning", "flash"]);
-		public static TablerIcon Bomb => field ??= new(nameof(Bomb), "\uF59C", Sources.Bomb, "Other", ["explosion", "weapon", "military", "war"]);
-		public static TablerIcon BongOff => field ??= new(nameof(BongOff), "\uF3C7", Sources.BongOff, "Other", ["smoke", "smoking", "cannabis", "marijuana", "drugs"]);
-		public static TablerIcon Bong => field ??= new(nameof(Bong), "\uF3A7", Sources.Bong, "Other", ["smoke", "smoking", "cannabis", "marijuana", "drugs"]);
-		public static TablerIcon Boom => field ??= new(nameof(Boom), "\uFDBE", Sources.Boom, "Other", ["blast", "explosion", "bang", "detonation", "burst", "erupt", "shockwave", "blowup", "kaboom", "boom"]);
-		public static TablerIcon BorderCornerIos => field ??= new(nameof(BorderCornerIos), "\uFD98", Sources.BorderCornerIos, "Other", ["apple", "iphone", "style", "device", "technology", "interface", "ios", "smartphone", "design", "theme"]);
-		public static TablerIcon BoxMultiple => field ??= new(nameof(BoxMultiple), "\uEE17", Sources.BoxMultiple, "Other", ["css", "cascading", "style", "sheet", "background", "section", "website", "layer"]);
-		public static TablerIcon BoxOff => field ??= new(nameof(BoxOff), "\uF102", Sources.BoxOff, "Other", ["cube", "app", "application", "package", "container"]);
-		public static TablerIcon Box => field ??= new(nameof(Box), "\uEA45", Sources.Box, "Other", ["cube", "app", "application", "package", "container"]);
-		public static TablerIcon BracketsAngleOff => field ??= new(nameof(BracketsAngleOff), "\uFCB1", Sources.BracketsAngleOff, "Other", ["code", "syntax", "programming", "development", "deactivate", "exclude", "remove", "cancel", "suspend"]);
-		public static TablerIcon BracketsAngle => field ??= new(nameof(BracketsAngle), "\uFCB2", Sources.BracketsAngle, "Other", ["code", "syntax", "markup", "programming", "language", "punctuation", "tags", "development", "text", "interface"]);
-		public static TablerIcon Braille => field ??= new(nameof(Braille), "\uF545", Sources.Braille, "Other", ["blind", "alphabet", "disability", "letters", "read"]);
-		public static TablerIcon Briefcase2 => field ??= new(nameof(Briefcase2), "\uFB03", Sources.Briefcase2, "Other", ["bag", "baggage", "folder", "carrier", "documents", "suitcase", "job", "work", "luggage"]);
-		public static TablerIcon BriefcaseOff => field ??= new(nameof(BriefcaseOff), "\uF3CC", Sources.BriefcaseOff, "Other", ["bag", "baggage", "folder", "carrier", "documents", "suitcase", "job", "work", "luggage"]);
-		public static TablerIcon Briefcase => field ??= new(nameof(Briefcase), "\uEA46", Sources.Briefcase, "Other", ["bag", "baggage", "folder", "carrier", "documents", "suitcase", "job", "work", "luggage"]);
-		public static TablerIcon BrightnessAuto => field ??= new(nameof(BrightnessAuto), "\uFD99", Sources.BrightnessAuto, "Other", ["adjustment", "sensor", "light", "screen", "display", "automatic", "control", "level", "adaptation", "contrast"]);
-		public static TablerIcon BulbOff => field ??= new(nameof(BulbOff), "\uEA50", Sources.BulbOff, "Other", ["energy", "power", "electricity", "creativity", "light", "idea"]);
-		public static TablerIcon Bulb => field ??= new(nameof(Bulb), "\uEA51", Sources.Bulb, "Other", ["energy", "power", "electricity", "creativity", "light", "idea"]);
-		public static TablerIcon Businessplan => field ??= new(nameof(Businessplan), "\uEE1E", Sources.Businessplan, "Other", ["business", "money", "corporate", "document", "goal", "achieve", "manage", "roadmap", "grow"]);
-		public static TablerIcon Candle => field ??= new(nameof(Candle), "\uEFC6", Sources.Candle, "Other", ["light", "birthday", "decoration", "halloween", "fire", "christmas"]);
-		public static TablerIcon Car4wd => field ??= new(nameof(Car4wd), "\uFDB8", Sources.Car4wd, "Other", ["vehicle", "off-road", "traction", "adventure", "drive", "power", "automobile", "transport", "four-wheel", "terrain"]);
-		public static TablerIcon CarFan1 => field ??= new(nameof(CarFan1), "\uFDB7", Sources.CarFan1, "Other", ["vehicle", "ventilation", "cooling", "airflow", "auto", "automobile", "drive", "mechanic", "transport", "climate"]);
-		public static TablerIcon CarFan2 => field ??= new(nameof(CarFan2), "\uFDB6", Sources.CarFan2, "Other", ["vehicle", "ventilation", "cooling", "circulation", "automobile", "drive", "auto", "mechanic", "fan", "airflow"]);
-		public static TablerIcon CarFan3 => field ??= new(nameof(CarFan3), "\uFDB5", Sources.CarFan3, "Other", ["vehicle", "airflow", "cooling", "ventilation", "drive", "auto", "automobile", "fan", "mechanic", "climate"]);
-		public static TablerIcon CarFanAuto => field ??= new(nameof(CarFanAuto), "\uFDB4", Sources.CarFanAuto, "Other", ["vehicle", "ventilation", "automatic", "auto", "cooling", "airflow", "driving", "automobile", "mechanic", "climate"]);
-		public static TablerIcon CarFan => field ??= new(nameof(CarFan), "\uFDB3", Sources.CarFan, "Other", ["vehicle", "ventilation", "cooling", "airflow", "automobile", "automotive", "auto", "drive", "climate", "mechanic"]);
-		public static TablerIcon CaretLeftRight => field ??= new(nameof(CaretLeftRight), "\uFC43", Sources.CaretLeftRight, "Other", ["arrow-horizontal", "double-arrow", "side-arrow", "left-right", "horizontal-pointer", "directional", "horizontal-caret", "bidirectional", "opposite", "horizontal-arrow"]);
-		public static TablerIcon CashBanknoteEdit => field ??= new(nameof(CashBanknoteEdit), char.ConvertFromUtf32(0x10149), Sources.CashBanknoteEdit, "Other", []);
-		public static TablerIcon CashBanknoteHeart => field ??= new(nameof(CashBanknoteHeart), char.ConvertFromUtf32(0x10148), Sources.CashBanknoteHeart, "Other", []);
-		public static TablerIcon CashBanknoteMinus => field ??= new(nameof(CashBanknoteMinus), char.ConvertFromUtf32(0x10147), Sources.CashBanknoteMinus, "Other", []);
-		public static TablerIcon CashBanknoteMoveBack => field ??= new(nameof(CashBanknoteMoveBack), char.ConvertFromUtf32(0x10146), Sources.CashBanknoteMoveBack, "Other", []);
-		public static TablerIcon CashBanknoteMove => field ??= new(nameof(CashBanknoteMove), char.ConvertFromUtf32(0x10145), Sources.CashBanknoteMove, "Other", []);
-		public static TablerIcon CashBanknotePlus => field ??= new(nameof(CashBanknotePlus), char.ConvertFromUtf32(0x10144), Sources.CashBanknotePlus, "Other", []);
-		public static TablerIcon CashEdit => field ??= new(nameof(CashEdit), char.ConvertFromUtf32(0x10143), Sources.CashEdit, "Other", []);
-		public static TablerIcon CashHeart => field ??= new(nameof(CashHeart), char.ConvertFromUtf32(0x10142), Sources.CashHeart, "Other", []);
-		public static TablerIcon CashMinus => field ??= new(nameof(CashMinus), char.ConvertFromUtf32(0x10141), Sources.CashMinus, "Other", []);
-		public static TablerIcon CashMoveBack => field ??= new(nameof(CashMoveBack), char.ConvertFromUtf32(0x10140), Sources.CashMoveBack, "Other", []);
-		public static TablerIcon CashMove => field ??= new(nameof(CashMove), char.ConvertFromUtf32(0x1013f), Sources.CashMove, "Other", []);
-		public static TablerIcon CashPlus => field ??= new(nameof(CashPlus), char.ConvertFromUtf32(0x1013e), Sources.CashPlus, "Other", []);
-		public static TablerIcon Cell => field ??= new(nameof(Cell), "\uF05F", Sources.Cell, "Other", ["biology", "molecule", "chemistry", "human", "laboratory"]);
-		public static TablerIcon ChairDirector => field ??= new(nameof(ChairDirector), "\uF2D5", Sources.ChairDirector, "Other", ["film", "seat", "furniture", "interior"]);
-		public static TablerIcon ChalkboardTeacher => field ??= new(nameof(ChalkboardTeacher), char.ConvertFromUtf32(0x10160), Sources.ChalkboardTeacher, "Other", []);
-		public static TablerIcon Checklist => field ??= new(nameof(Checklist), "\uF074", Sources.Checklist, "Other", ["task", "delivery", "clipboard", "document", "plan"]);
-		public static TablerIcon Chisel => field ??= new(nameof(Chisel), "\uF383", Sources.Chisel, "Other", ["tool", "equipment", "work", "wood"]);
-		public static TablerIcon ChristmasBall => field ??= new(nameof(ChristmasBall), "\uFD31", Sources.ChristmasBall, "Other", ["holiday-ball", "festive", "ornament", "decoration", "christmas", "bauble", "celebration", "seasonal", "holiday", "decorative"]);
-		public static TablerIcon CircleDashedPercentage => field ??= new(nameof(CircleDashedPercentage), "\uFD7A", Sources.CircleDashedPercentage, "Other", ["percent", "ratio", "portion", "fraction", "rate", "100", "per", "decimal", "markup", "discount"]);
-		public static TablerIcon CircleKey => field ??= new(nameof(CircleKey), "\uF633", Sources.CircleKey, "Other", ["shape", "lock", "door", "acsses"]);
-		public static TablerIcon CirclePercentage => field ??= new(nameof(CirclePercentage), "\uFD7B", Sources.CirclePercentage, "Other", ["finance", "discount", "interest", "rate", "calculation", "measurement", "ratio", "percent", "statistics", "math"]);
-		public static TablerIcon CircleTriangle => field ??= new(nameof(CircleTriangle), "\uF011", Sources.CircleTriangle, "Other", ["arrow", "down", "shape", "geometry"]);
-		public static TablerIcon CirclesRelation => field ??= new(nameof(CirclesRelation), "\uF4C3", Sources.CirclesRelation, "Other", ["connection", "link", "shape", "hyperlink"]);
-		public static TablerIcon ClearAll => field ??= new(nameof(ClearAll), "\uEE41", Sources.ClearAll, "Other", ["app", "clear", "all", "emails", "phone"]);
-		public static TablerIcon Click => field ??= new(nameof(Click), "\uEBBC", Sources.Click, "Other", ["select", "cursor"]);
-		public static TablerIcon CloudBitcoin => field ??= new(nameof(CloudBitcoin), "\uFF3E", Sources.CloudBitcoin, "Other", ["cryptocurrency", "finance", "money", "blockchain", "digital", "currency", "wealth", "investment", "trade", "transaction"]);
-		public static TablerIcon CloudNetwork => field ??= new(nameof(CloudNetwork), "\uFC78", Sources.CloudNetwork, "Other", ["connection", "internet", "communication", "link", "online", "system", "data", "sharing", "interactive", "community"]);
-		public static TablerIcon CodeVariableMinus => field ??= new(nameof(CodeVariableMinus), char.ConvertFromUtf32(0x100ad), Sources.CodeVariableMinus, "Other", ["subtract", "reduce", "deduct", "diminish", "decrease", "lower", "abate", "decline", "cut", "shorten"]);
-		public static TablerIcon CodeVariablePlus => field ??= new(nameof(CodeVariablePlus), char.ConvertFromUtf32(0x100ac), Sources.CodeVariablePlus, "Other", ["add", "increase", "extend", "expand", "augment", "boost", "enhance", "amplify", "raise", "enlarge"]);
-		public static TablerIcon CodeVariable => field ??= new(nameof(CodeVariable), char.ConvertFromUtf32(0x100ab), Sources.CodeVariable, "Other", ["element", "constant", "loop", "iterator", "operand", "symbol", "identifier", "expression", "function", "placeholder"]);
-		public static TablerIcon Coffin => field ??= new(nameof(Coffin), "\uF579", Sources.Coffin, "Other", ["halloween", "death", "scary", "horror", "cementry"]);
-		public static TablerIcon CoinTaka => field ??= new(nameof(CoinTaka), "\uFD0D", Sources.CoinTaka, "Other", ["currency", "money", "bangladesh", "finance", "coin", "trade", "economy", "exchange", "wealth", "funds"]);
-		public static TablerIcon ConfettiOff => field ??= new(nameof(ConfettiOff), "\uF3D9", Sources.ConfettiOff, "Other", ["party", "celebrate", "streamers", "paper", "parade", "wedding", "celebration"]);
-		public static TablerIcon Confetti => field ??= new(nameof(Confetti), "\uEE46", Sources.Confetti, "Other", ["party", "celebrate", "streamers", "paper", "parade", "wedding", "celebration"]);
-		public static TablerIcon CongruentTo => field ??= new(nameof(CongruentTo), "\uFFA3", Sources.CongruentTo, "Other", ["equal", "similar", "alike", "match", "correspond", "identical", "mirror", "parallel", "equivalent", "consistent"]);
-		public static TablerIcon CookieMan => field ??= new(nameof(CookieMan), "\uFDB2", Sources.CookieMan, "Other", ["identity", "person", "individual", "figure", "character", "personage", "being", "life", "human", "profile"]);
-		public static TablerIcon Crosshair => field ??= new(nameof(Crosshair), "\uEC3E", Sources.Crosshair, "Other", ["reticle", "tag", "tracer", "measurement", "target"]);
-		public static TablerIcon CrownOff => field ??= new(nameof(CrownOff), "\uEE50", Sources.CrownOff, "Other", ["symbol", "queen", "king", "prince", "princess", "dynasty", "royalty"]);
-		public static TablerIcon Crown => field ??= new(nameof(Crown), "\uED12", Sources.Crown, "Other", ["symbol", "queen", "king", "prince", "princess", "dynasty", "royalty"]);
-		public static TablerIcon CrystalBall => field ??= new(nameof(CrystalBall), "\uF57B", Sources.CrystalBall, "Other", ["magic", "fortune", "christmas", "witch", "future"]);
-		public static TablerIcon Cube3dSphereOff => field ??= new(nameof(Cube3dSphereOff), "\uF3B5", Sources.Cube3dSphereOff, "Other", ["printing", "vector", "shape"]);
-		public static TablerIcon Cube3dSphere => field ??= new(nameof(Cube3dSphere), "\uECD7", Sources.Cube3dSphere, "Other", ["printing", "vector", "shape"]);
-		public static TablerIcon CubeSend => field ??= new(nameof(CubeSend), "\uF61B", Sources.CubeSend, "Other", ["box", "delivery", "package", "shipping"]);
-		public static TablerIcon CubeUnfolded => field ??= new(nameof(CubeUnfolded), "\uF61C", Sources.CubeUnfolded, "Other", ["folding", "filed", "box", "unwrapped"]);
-		public static TablerIcon CurlyLoop => field ??= new(nameof(CurlyLoop), "\uECDA", Sources.CurlyLoop, "Other", ["voicemail", "power", "infinity"]);
-		public static TablerIcon CurrencyXrp => field ??= new(nameof(CurrencyXrp), "\uFD34", Sources.CurrencyXrp, "Other", ["xrp", "cryptocurrency", "digital-currency", "blockchain", "ripple", "crypto", "virtual-currency", "xrp-coin", "financial", "digital-money"]);
-		public static TablerIcon CursorOff => field ??= new(nameof(CursorOff), "\uF10F", Sources.CursorOff, "Other", ["editor", "indicate", "position", "input", "mouse", "type"]);
-		public static TablerIcon DatabaseSmile => field ??= new(nameof(DatabaseSmile), "\uFD9B", Sources.DatabaseSmile, "Other", ["happy", "joyful", "cheerful", "content", "pleased", "delighted", "bright", "sunny", "gleeful", "jovial"]);
-		public static TablerIcon DentalBroken => field ??= new(nameof(DentalBroken), "\uF286", Sources.DentalBroken, "Other", ["tooth", "dentist", "medical", "care", "caries"]);
-		public static TablerIcon Deselect => field ??= new(nameof(Deselect), "\uF9F3", Sources.Deselect, "Other", ["unselect", "clear-selection", "deselection", "unpick", "uncheck", "deactivate", "unmark", "remove-selection", "untag", "unchoose"]);
-		public static TablerIcon Desk => field ??= new(nameof(Desk), "\uFD35", Sources.Desk, "Other", ["workspace", "workstation", "table", "office-desk", "workplace", "furniture", "desk-setup", "desktop", "office-furniture", "working"]);
-		public static TablerIcon DetailsOff => field ??= new(nameof(DetailsOff), "\uF3E2", Sources.DetailsOff, "Other", ["geometric", "half", "shape", "highlight", "triangle"]);
-		public static TablerIcon Details => field ??= new(nameof(Details), "\uEE71", Sources.Details, "Other", ["geometric", "half", "shape", "highlight", "triangle"]);
-		public static TablerIcon DeviceProjector => field ??= new(nameof(DeviceProjector), "\uFC11", Sources.DeviceProjector, "Other", ["display", "presentation", "screen", "show", "project", "beam", "visual", "image", "view", "demonstrate"]);
-		public static TablerIcon DeviceUnknown => field ??= new(nameof(DeviceUnknown), "\uFEF4", Sources.DeviceUnknown, "Other", ["mystery", "undefined", "unclear", "unidentified", "uncertain", "ambiguous", "obscure", "unseen", "anonymous", "unspecified"]);
-		public static TablerIcon DiamondOff => field ??= new(nameof(DiamondOff), "\uF115", Sources.DiamondOff, "Other", ["jewellery", "crystal", "mineral", "jewelry", "ring"]);
-		public static TablerIcon Diamond => field ??= new(nameof(Diamond), "\uEB65", Sources.Diamond, "Other", ["jewellery", "crystal", "mineral", "jewelry", "ring"]);
-		public static TablerIcon DirectionArrows => field ??= new(nameof(DirectionArrows), "\uFD36", Sources.DirectionArrows, "Other", ["arrows", "directional", "navigate", "wayfinding", "pointing", "route", "orientation", "arrow-sign", "guidance", "direction"]);
-		public static TablerIcon DirectionHorizontal => field ??= new(nameof(DirectionHorizontal), "\uEBFA", Sources.DirectionHorizontal, "Other", ["travel", "navigation discover", "plane"]);
-		public static TablerIcon DirectionSignOff => field ??= new(nameof(DirectionSignOff), "\uF3E5", Sources.DirectionSignOff, "Other", ["arrow", "navigation", "forward", "right"]);
-		public static TablerIcon DirectionSign => field ??= new(nameof(DirectionSign), "\uF1F7", Sources.DirectionSign, "Other", ["arrow", "navigation", "forward", "right"]);
-		public static TablerIcon Direction => field ??= new(nameof(Direction), "\uEBFB", Sources.Direction, "Other", ["travel", "navigation discover"]);
-		public static TablerIcon DoorEnter => field ??= new(nameof(DoorEnter), "\uEF4C", Sources.DoorEnter, "Other", ["entrance", "open", "in", "entry"]);
-		public static TablerIcon DoorExit => field ??= new(nameof(DoorExit), "\uEF4D", Sources.DoorExit, "Other", ["out", "close", "leave"]);
-		public static TablerIcon DoorOff => field ??= new(nameof(DoorOff), "\uF11B", Sources.DoorOff, "Other", ["entrance", "home", "house", "room"]);
-		public static TablerIcon Door => field ??= new(nameof(Door), "\uEF4E", Sources.Door, "Other", ["entrance", "home", "house", "room"]);
-		public static TablerIcon DropCircle => field ??= new(nameof(DropCircle), "\uEFDE", Sources.DropCircle, "Other", ["water", "rain", "droplet", "oil"]);
-		public static TablerIcon Droplets => field ??= new(nameof(Droplets), "\uFC12", Sources.Droplets, "Other", ["liquid", "fluid", "moisture", "water", "sprinkle", "drip", "splash", "particle", "bead", "drop"]);
-		public static TablerIcon ElevatorOff => field ??= new(nameof(ElevatorOff), "\uF3E8", Sources.ElevatorOff, "Other", ["hotel", "up", "down", "service", "door", "lift"]);
-		public static TablerIcon Elevator => field ??= new(nameof(Elevator), "\uEFDF", Sources.Elevator, "Other", ["hotel", "up", "down", "service", "door", "lift"]);
-		public static TablerIcon ExchangeOff => field ??= new(nameof(ExchangeOff), "\uF123", Sources.ExchangeOff, "Other", ["cantor", "money", "product", "student"]);
-		public static TablerIcon Exchange => field ??= new(nameof(Exchange), "\uEBE7", Sources.Exchange, "Other", ["cantor", "money", "product", "student"]);
-		public static TablerIcon ExclamationCircle => field ??= new(nameof(ExclamationCircle), "\uF634", Sources.ExclamationCircle, "Other", ["warning", "error", "shape", "caution", "alert"]);
-		public static TablerIcon ExclamationMarkOff => field ??= new(nameof(ExclamationMarkOff), "\uF124", Sources.ExclamationMarkOff, "Other", ["warning", "caution", "alert", "danger", "!"]);
-		public static TablerIcon ExclamationMark => field ??= new(nameof(ExclamationMark), "\uEFB4", Sources.ExclamationMark, "Other", ["warning", "caution", "alert", "danger", "!"]);
-		public static TablerIcon ExplicitOff => field ??= new(nameof(ExplicitOff), "\uF3EA", Sources.ExplicitOff, "Other", ["adult", "content", "xxx", "curse", "words", "porn"]);
-		public static TablerIcon Explicit => field ??= new(nameof(Explicit), "\uF256", Sources.Explicit, "Other", ["adult", "content", "xxx", "curse", "words", "porn"]);
-		public static TablerIcon EyeBitcoin => field ??= new(nameof(EyeBitcoin), "\uFF3D", Sources.EyeBitcoin, "Other", ["crypto", "currency", "finance", "digital", "blockchain", "coin", "wallet", "virtual", "invest", "trade"]);
-		public static TablerIcon EyeDiscount => field ??= new(nameof(EyeDiscount), "\uFB70", Sources.EyeDiscount, "Other", ["sale", "offer", "price", "deal", "bargain", "vision", "promotion", "rebate", "markdown", "sight"]);
-		public static TablerIcon EyeDotted => field ??= new(nameof(EyeDotted), "\uFEAD", Sources.EyeDotted, "Other", ["pattern", "point", "vision", "sight", "design", "spot", "view", "particular", "focus", "look"]);
-		public static TablerIcon FaceIdError => field ??= new(nameof(FaceIdError), "\uEFA7", Sources.FaceIdError, "Other", ["scan", "apple", "iphone", "ipad"]);
-		public static TablerIcon FaceId => field ??= new(nameof(FaceId), "\uEA9B", Sources.FaceId, "Other", ["apple", "iphone", "ipad"]);
-		public static TablerIcon FidgetSpinner => field ??= new(nameof(FidgetSpinner), "\uF068", Sources.FidgetSpinner, "Other", ["toy", "spinning", "gadget", "kids", "children", "loader", "loading"]);
-		public static TablerIcon FileExcel => field ??= new(nameof(FileExcel), "\uFEF3", Sources.FileExcel, "Other", ["spreadsheet", "data", "charts", "tables", "analysis", "calculation", "document", "finance", "figures", "worksheet"]);
-		public static TablerIcon FileNeutral => field ??= new(nameof(FileNeutral), "\uFD22", Sources.FileNeutral, "Other", ["document", "standard", "generic", "default", "unbiased", "plain", "ordinary", "basic", "common", "typical"]);
-		public static TablerIcon FileSad => field ??= new(nameof(FileSad), "\uFD23", Sources.FileSad, "Other", ["document", "unhappy", "emotional", "negative", "distress", "gloomy", "blue", "melancholy", "sorrow", "downcast"]);
-		public static TablerIcon FileSmile => field ??= new(nameof(FileSmile), "\uFD24", Sources.FileSmile, "Other", ["document", "happy", "joyful", "positive", "cheerful", "pleased", "beam", "grin", "delighted", "satisfied"]);
-		public static TablerIcon FileWord => field ??= new(nameof(FileWord), "\uFEF2", Sources.FileWord, "Other", ["document", "word", "text", "editor", "office", "file", "write", "typing", "paper", "microsoft"]);
-		public static TablerIcon FilterDiscount => field ??= new(nameof(FilterDiscount), "\uFB80", Sources.FilterDiscount, "Other", ["sale", "reduction", "offer", "save", "deal", "discount", "bargain", "cheap", "cost", "cut"]);
-		public static TablerIcon FilterSpark => field ??= new(nameof(FilterSpark), char.ConvertFromUtf32(0x1014a), Sources.FilterSpark, "Other", []);
-		public static TablerIcon Filters => field ??= new(nameof(Filters), "\uF793", Sources.Filters, "Other", ["design", "editing", "effects"]);
-		public static TablerIcon FingerprintScan => field ??= new(nameof(FingerprintScan), "\uFCB5", Sources.FingerprintScan, "Other", ["biometric", "security", "identity", "authentication", "access", "verify", "unique", "pattern", "touch", "print"]);
-		public static TablerIcon FireExtinguisher => field ??= new(nameof(FireExtinguisher), "\uFAF6", Sources.FireExtinguisher, "Other", ["safety", "emergency", "protect", "control", "suppress", "fight", "putout", "alarm", "equipment", "fixed"]);
-		public static TablerIcon FishHookOff => field ??= new(nameof(FishHookOff), "\uF3EE", Sources.FishHookOff, "Other", ["fishing", "bait", "hanging", "catch", "water"]);
-		public static TablerIcon FishHook => field ??= new(nameof(FishHook), "\uF1F9", Sources.FishHook, "Other", ["fishing", "bait", "hanging", "catch", "water"]);
-		public static TablerIcon FlagBitcoin => field ??= new(nameof(FlagBitcoin), "\uFF3C", Sources.FlagBitcoin, "Other", ["crypto", "currency", "blockchain", "digital", "btc", "token", "trade", "investment", "decentralized", "exchange"]);
-		public static TablerIcon FlagDiscount => field ??= new(nameof(FlagDiscount), "\uFB8F", Sources.FlagDiscount, "Other", ["sale", "offer", "deal", "reduction", "bargain", "saving", "promotion", "cut", "markdown", "price"]);
-		public static TablerIcon FlameOff => field ??= new(nameof(FlameOff), "\uF12E", Sources.FlameOff, "Other", ["fire", "fireplace", "light", "burn", "bonfire", "smoke", "barbecue"]);
-		public static TablerIcon Flame => field ??= new(nameof(Flame), "\uEC2C", Sources.Flame, "Other", ["fire", "fireplace", "light", "burn", "bonfire", "smoke", "barbecue"]);
-		public static TablerIcon FolderOpen => field ??= new(nameof(FolderOpen), "\uFAF7", Sources.FolderOpen, "Other", ["access", "unseal", "uncover", "unlock", "expose", "reveal", "unshield", "available", "accessible", "visible"]);
-		public static TablerIcon FolderRoot => field ??= new(nameof(FolderRoot), "\uFD43", Sources.FolderRoot, "Other", ["base", "origin", "core", "source", "foundation", "anchor", "fundament", "basis", "groundwork", "beginning"]);
-		public static TablerIcon FolderSymlink => field ??= new(nameof(FolderSymlink), "\uF91B", Sources.FolderSymlink, "Other", ["shortcut", "alias", "link", "connector", "redirect", "pointer", "reference", "junction", "conduit", "path"]);
-		public static TablerIcon Forbid2 => field ??= new(nameof(Forbid2), "\uEBD4", Sources.Forbid2, "Other", ["banish", "prohibit", "interdict", "outlaw", "restrict", "abolish", "refrain", "restrain", "hinder", "block"]);
-		public static TablerIcon Forbid => field ??= new(nameof(Forbid), "\uEBD5", Sources.Forbid, "Other", ["prohibit", "veto", "disallow", "prevent", "exclude", "bar", "inhibit", "restrain", "blacklist", "preclude"]);
-		public static TablerIcon FreeRights => field ??= new(nameof(FreeRights), "\uEFB6", Sources.FreeRights, "Other", ["justice", "inviolability", "freedom"]);
-		public static TablerIcon FriendsOff => field ??= new(nameof(FriendsOff), "\uF136", Sources.FriendsOff, "Other", ["people", "boy", "girl", "man", "woman"]);
-		public static TablerIcon Friends => field ??= new(nameof(Friends), "\uEAB0", Sources.Friends, "Other", ["people", "boy", "girl", "man", "woman"]);
-		public static TablerIcon Galaxy => field ??= new(nameof(Galaxy), "\uFCB6", Sources.Galaxy, "Other", ["universe", "cosmos", "nebula", "astronomy", "stardust", "constellation", "celestial", "stellar", "intergalactic", "macrocosm"]);
-		public static TablerIcon Gavel => field ??= new(nameof(Gavel), "\uEF90", Sources.Gavel, "Other", ["justice", "law", "hammer", "legal", "auction"]);
-		public static TablerIcon Gizmo => field ??= new(nameof(Gizmo), "\uF02B", Sources.Gizmo, "Other", ["system", "network", "tech", "connection"]);
-		public static TablerIcon GoGame => field ??= new(nameof(GoGame), "\uF512", Sources.GoGame, "Other", ["strategy", "board", "mind"]);
-		public static TablerIcon Gradienter => field ??= new(nameof(Gradienter), "\uF3AB", Sources.Gradienter, "Other", ["level", "tool", "measure", "spirit", "gauge", "balance", "plumb", "survey", "align", "precision"]);
-		public static TablerIcon Grain => field ??= new(nameof(Grain), "\uEE92", Sources.Grain, "Other", ["dots", "pattern", "random", "round", "circle", "nodes"]);
-		public static TablerIcon GraphOff => field ??= new(nameof(GraphOff), "\uF3F4", Sources.GraphOff, "Other", ["analytics", "raport", "statistics", "chart"]);
-		public static TablerIcon Graph => field ??= new(nameof(Graph), "\uF288", Sources.Graph, "Other", ["analytics", "raport", "statistics", "chart"]);
-		public static TablerIcon GridPattern => field ??= new(nameof(GridPattern), "\uEFC9", Sources.GridPattern, "Other", ["grid", "mesh", "net", "line"]);
-		public static TablerIcon GuitarPick => field ??= new(nameof(GuitarPick), "\uF4C6", Sources.GuitarPick, "Other", ["music", "instrument", "melody", "accesories"]);
-		public static TablerIcon Gymnastics => field ??= new(nameof(Gymnastics), "\uFD44", Sources.Gymnastics, "Other", ["exercise", "flexible", "balance", "strength", "acrobatics", "sport", "routine", "fitness", "stretch", "performance"]);
-		public static TablerIcon HammerOff => field ??= new(nameof(HammerOff), "\uF13C", Sources.HammerOff, "Other", ["tool", "repair", "building", "construction"]);
-		public static TablerIcon Hammer => field ??= new(nameof(Hammer), "\uEF91", Sources.Hammer, "Other", ["tool", "repair", "building", "construction"]);
-		public static TablerIcon Hanger2 => field ??= new(nameof(Hanger2), "\uF09C", Sources.Hanger2, "Other", ["clothes", "wardrobe", "hook", "hang", "wooden", "plastic", "wire", "shop", "store", "clothing", "fashion"]);
-		public static TablerIcon Hash => field ??= new(nameof(Hash), "\uEABC", Sources.Hash, "Other", ["hashtag", "#", "instagram"]);
-		public static TablerIcon HazeMoon => field ??= new(nameof(HazeMoon), "\uFAF8", Sources.HazeMoon, "Other", ["blur", "night", "sky", "cloud", "opaque", "dim", "luminosity", "atmosphere", "twilight"]);
-		public static TablerIcon HeartBitcoin => field ??= new(nameof(HeartBitcoin), "\uFF3B", Sources.HeartBitcoin, "Other", ["crypto", "currency", "blockchain", "finance", "digital", "love", "money", "cryptocurrency", "investment", "decentralized"]);
-		public static TablerIcon HeartDiscount => field ??= new(nameof(HeartDiscount), "\uFBA3", Sources.HeartDiscount, "Other", ["sale", "promo", "offer", "deal", "coupon", "bargain", "reduction", "rebate", "cut", "save"]);
-		public static TablerIcon HeartHandshake => field ??= new(nameof(HeartHandshake), "\uF0F3", Sources.HeartHandshake, "Other", ["support", "care", "friends", "couple", "relation"]);
-		public static TablerIcon Hexagon3d => field ??= new(nameof(Hexagon3d), "\uF4C7", Sources.Hexagon3d, "Other", ["geometry", "six", "dimensional", "shape"]);
-		public static TablerIcon HistoryToggle => field ??= new(nameof(HistoryToggle), "\uF1FC", Sources.HistoryToggle, "Other", ["on", "off", "control", "interface"]);
-		public static TablerIcon HomeBitcoin => field ??= new(nameof(HomeBitcoin), "\uFF3A", Sources.HomeBitcoin, "Other", ["cryptocurrency", "digital", "currency", "blockchain", "house", "residence", "start", "origin", "base", "dwelling"]);
-		public static TablerIcon Horse => field ??= new(nameof(Horse), "\uFC46", Sources.Horse, "Other", ["equine", "equestrian", "stallion", "mare", "pony", "steed", "riding", "hoofed-animal", "horseback", "thoroughbred"]);
-		public static TablerIcon Horseshoe => field ??= new(nameof(Horseshoe), "\uFCB7", Sources.Horseshoe, "Other", ["luck", "charm", "u-shape", "curve", "horse", "clover", "protection", "metal", "safety", "symbol"]);
-		public static TablerIcon HospitalCircle => field ??= new(nameof(HospitalCircle), "\uFD58", Sources.HospitalCircle, "Other", ["medical-center", "healthcare", "clinic", "emergency", "hospital-round", "health", "care", "medical-facility", "circle-hospital", "health-center"]);
-		public static TablerIcon Hospital => field ??= new(nameof(Hospital), "\uFD59", Sources.Hospital, "Other", ["medical-facility", "healthcare", "clinic", "emergency", "hospital-building", "health", "care", "medical-center", "hospital-structure", "health-center"]);
-		public static TablerIcon HotelService => field ??= new(nameof(HotelService), "\uEF80", Sources.HotelService, "Other", ["food", "reception", "accommodation", "room", "bell"]);
-		public static TablerIcon Ikosaedr => field ??= new(nameof(Ikosaedr), "\uFEC6", Sources.Ikosaedr, "Other", ["geometry", "polyhedron", "twenty", "faces", "shapes", "3d", "solid", "structure", "form", "multisided"]);
-		public static TablerIcon ImageInPicture => field ??= new(nameof(ImageInPicture), "\uFD9F", Sources.ImageInPicture, "Other", ["photo", "snapshot", "visual", "frame", "layer", "embed", "nest", "overlay", "merge", "media"]);
-		public static TablerIcon InboxOff => field ??= new(nameof(InboxOff), "\uF14A", Sources.InboxOff, "Other", ["mail", "gmail", "email", "envelope", "post"]);
-		public static TablerIcon Inbox => field ??= new(nameof(Inbox), "\uEAC4", Sources.Inbox, "Other", ["mail", "gmail", "email", "envelope", "post"]);
-		public static TablerIcon InputAi => field ??= new(nameof(InputAi), "\uFC5A", Sources.InputAi, "Other", ["data", "feed", "imbibe", "consume", "machine", "learning", "process", "entry", "artificial", "intelligence"]);
-		public static TablerIcon InputCheck => field ??= new(nameof(InputCheck), "\uFC5B", Sources.InputCheck, "Other", ["verify", "validate", "review", "inspect", "control", "tick", "confirm", "examine", "approve", "audit"]);
-		public static TablerIcon InputSpark => field ??= new(nameof(InputSpark), "\uFFB4", Sources.InputSpark, "Other", ["ignite", "light", "start", "energize", "power", "initiate", "kindle", "trigger", "active", "catalyst"]);
-		public static TablerIcon InputX => field ??= new(nameof(InputX), "\uFC5C", Sources.InputX, "Other", ["cross", "cancel", "remove", "delete", "not", "clear", "erase", "exit", "close", "negate"]);
-		public static TablerIcon Jetpack => field ??= new(nameof(Jetpack), "\uF581", Sources.Jetpack, "Other", ["fly", "rocket", "transport", "space", "future"]);
-		public static TablerIcon JoinBevel => field ??= new(nameof(JoinBevel), "\uFF4C", Sources.JoinBevel, "Other", ["miter", "corner", "angle", "edge", "intersection", "splice", "connect", "junction", "joint", "seam"]);
-		public static TablerIcon JoinRound => field ??= new(nameof(JoinRound), "\uFF4B", Sources.JoinRound, "Other", ["curve", "arc", "smooth", "bend", "rounded", "connect", "boundary", "joint", "seam"]);
-		public static TablerIcon JoinStraight => field ??= new(nameof(JoinStraight), "\uFF4A", Sources.JoinStraight, "Other", ["align", "linear", "direct", "connection", "straight", "line", "junction", "link", "connect", "seam"]);
-		public static TablerIcon KeyOff => field ??= new(nameof(KeyOff), "\uF14B", Sources.KeyOff, "Other", ["password", "login", "authentication", "secure"]);
-		public static TablerIcon Key => field ??= new(nameof(Key), "\uEAC7", Sources.Key, "Other", ["password", "login", "authentication", "secure"]);
-		public static TablerIcon LabelImportant => field ??= new(nameof(LabelImportant), "\uFF49", Sources.LabelImportant, "Other", ["priority", "urgent", "highlight", "notable", "key", "marker", "tag", "significant", "flag", "pivotal"]);
-		public static TablerIcon LabelOff => field ??= new(nameof(LabelOff), "\uFF39", Sources.LabelOff, "Other", ["mute", "inactive", "dormant", "quiet", "deactivate", "silent", "void", "unmarked", "disengage", "disable"]);
-		public static TablerIcon Label => field ??= new(nameof(Label), "\uFF38", Sources.Label, "Other", ["tag", "sticker", "marker", "badge", "identifier", "notate", "record", "name", "plot"]);
-		public static TablerIcon LadderOff => field ??= new(nameof(LadderOff), "\uF14C", Sources.LadderOff, "Other", ["up", "equipment", "garden", "climb", "climbing"]);
-		public static TablerIcon Ladder => field ??= new(nameof(Ladder), "\uEFE2", Sources.Ladder, "Other", ["up", "equipment", "garden", "climb", "climbing"]);
-		public static TablerIcon Ladle => field ??= new(nameof(Ladle), "\uFC14", Sources.Ladle, "Other", ["scoop", "spoon", "serve", "pour", "kitchen", "utensil", "cook", "ladle", "bowl", "liquid"]);
-		public static TablerIcon Lamp2 => field ??= new(nameof(Lamp2), "\uF09E", Sources.Lamp2, "Other", ["light", "room", "decoration", "electic", "energy"]);
-		public static TablerIcon LampOff => field ??= new(nameof(LampOff), "\uF14D", Sources.LampOff, "Other", ["light", "room", "decoration", "electic", "energy"]);
-		public static TablerIcon Lamp => field ??= new(nameof(Lamp), "\uEFAB", Sources.Lamp, "Other", ["light", "room", "decoration", "electic", "energy"]);
-		public static TablerIcon Lane => field ??= new(nameof(Lane), "\uFAF9", Sources.Lane, "Other", ["pathway", "track", "route", "corridor", "passage", "road", "line", "ribbon", "strip", "course"]);
-		public static TablerIcon LaurelWreath1 => field ??= new(nameof(LaurelWreath1), "\uFF48", Sources.LaurelWreath1, "Other", ["victory", "achievement", "winner", "honor", "prize", "gala", "celebrate", "ornament", "leaf", "garland"]);
-		public static TablerIcon LaurelWreath2 => field ??= new(nameof(LaurelWreath2), "\uFF47", Sources.LaurelWreath2, "Other", ["victory", "achievement", "winner", "honor", "prize", "celebrate", "ornament", "leaf", "emblem"]);
-		public static TablerIcon LaurelWreath3 => field ??= new(nameof(LaurelWreath3), "\uFF46", Sources.LaurelWreath3, "Other", ["victory", "achievement", "winner", "honor", "prize", "celebrate", "ornament", "receive", "medal", "praise"]);
-		public static TablerIcon LaurelWreath => field ??= new(nameof(LaurelWreath), "\uFF45", Sources.LaurelWreath, "Other", ["victory", "achievement", "winner", "honor", "prize", "celebrate", "ornament", "authority", "encomium", "glory"]);
-		public static TablerIcon LayoutBottombarInactive => field ??= new(nameof(LayoutBottombarInactive), "\uFD45", Sources.LayoutBottombarInactive, "Other", ["dock", "taskbar", "status", "panel", "footer", "shelf", "bar", "menu", "inactive", "grid"]);
-		public static TablerIcon LayoutNavbarInactive => field ??= new(nameof(LayoutNavbarInactive), "\uFD46", Sources.LayoutNavbarInactive, "Other", ["menu", "navigation", "directory", "browse", "navigate", "layout", "inactive", "interface", "tool", "header"]);
-		public static TablerIcon LayoutSidebarInactive => field ??= new(nameof(LayoutSidebarInactive), "\uFD47", Sources.LayoutSidebarInactive, "Other", ["navigation", "panel", "side", "edge", "menu", "toolbar", "browse", "inactive", "border", "interface"]);
-		public static TablerIcon LayoutSidebarRightInactive => field ??= new(nameof(LayoutSidebarRightInactive), "\uFD48", Sources.LayoutSidebarRightInactive, "Other", ["navigation", "panel", "align", "right", "side", "border", "menu", "toolbar", "inactive", "interface"]);
-		public static TablerIcon LegoOff => field ??= new(nameof(LegoOff), "\uF401", Sources.LegoOff, "Other", ["toy", "boy", "face", "play"]);
-		public static TablerIcon Lego => field ??= new(nameof(Lego), "\uEADC", Sources.Lego, "Other", ["toy", "boy", "face", "play"]);
-		public static TablerIcon LibraryMinus => field ??= new(nameof(LibraryMinus), "\uFD49", Sources.LibraryMinus, "Other", ["remove", "subtract", "delete", "minus", "archive", "collection", "books", "catalog", "reduce", "lessen"]);
-		public static TablerIcon LibraryPhoto => field ??= new(nameof(LibraryPhoto), "\uFD4A", Sources.LibraryPhoto, "Other", ["image", "gallery", "album", "pictures", "photography", "archive", "collection", "snapshot", "catalog", "photos"]);
-		public static TablerIcon LibraryPlus => field ??= new(nameof(LibraryPlus), "\uFD4B", Sources.LibraryPlus, "Other", ["add", "increase", "include", "plus", "archive", "collection", "library", "books", "expand", "enhance"]);
-		public static TablerIcon Library => field ??= new(nameof(Library), "\uFD4C", Sources.Library, "Other", ["archive", "collection", "books", "catalog", "shelves", "repository", "knowledge", "read", "information", "account"]);
-		public static TablerIcon LicenseOff => field ??= new(nameof(LicenseOff), "\uF153", Sources.LicenseOff, "Other", ["authorisation", "permission", "consent", "permit", "document", "agree"]);
-		public static TablerIcon License => field ??= new(nameof(License), "\uEBC0", Sources.License, "Other", ["authorisation", "permission", "consent", "permit", "document", "agree"]);
-		public static TablerIcon LifebuoyOff => field ??= new(nameof(LifebuoyOff), "\uF154", Sources.LifebuoyOff, "Other", ["life ring", "help", "support"]);
-		public static TablerIcon Lifebuoy => field ??= new(nameof(Lifebuoy), "\uEADD", Sources.Lifebuoy, "Other", ["life ring", "help", "support"]);
-		public static TablerIcon Lighter => field ??= new(nameof(Lighter), "\uF794", Sources.Lighter, "Other", ["fire", "flame", "camping", "light", "burn", "adventure"]);
-		public static TablerIcon ListLetters => field ??= new(nameof(ListLetters), "\uFC47", Sources.ListLetters, "Other", ["alphabet", "type", "catalog", "index", "arrange", "sequence", "layout", "write", "text", "document"]);
-		public static TablerIcon ListTree => field ??= new(nameof(ListTree), "\uFAFA", Sources.ListTree, "Other", ["hierarchy", "structure", "outline", "directory", "classification", "taxonomy", "organization", "scheme", "framework", "overview"]);
-		public static TablerIcon LocationDiscount => field ??= new(nameof(LocationDiscount), "\uFBB4", Sources.LocationDiscount, "Other", ["offer", "sale", "promotion", "deal", "reduce", "bargain", "pricecut", "special", "saving", "markdown"]);
-		public static TablerIcon LuggageOff => field ??= new(nameof(LuggageOff), "\uF158", Sources.LuggageOff, "Other", ["travel", "vacation", "suitcase", "bag", "holiday", "baggage"]);
-		public static TablerIcon Luggage => field ??= new(nameof(Luggage), "\uEFAD", Sources.Luggage, "Other", ["travel", "vacation", "suitcase", "bag", "holiday", "baggage"]);
-		public static TablerIcon MagnetOff => field ??= new(nameof(MagnetOff), "\uF159", Sources.MagnetOff, "Other", ["magnetic field", "pole", "iron", "attract"]);
-		public static TablerIcon Magnet => field ??= new(nameof(Magnet), "\uEAE3", Sources.Magnet, "Other", ["magnetic field", "pole", "iron", "attract"]);
-		public static TablerIcon Magnetic => field ??= new(nameof(Magnetic), "\uFCB9", Sources.Magnetic, "Other", ["attract", "pull", "draw", "force", "magnetism", "charm", "allure", "fascination", "engage", "appeal"]);
-		public static TablerIcon MailBitcoin => field ??= new(nameof(MailBitcoin), "\uFF36", Sources.MailBitcoin, "Other", ["crypto", "currency", "message", "virtual", "send", "transaction", "exchange", "digital", "coin", "transfer"]);
-		public static TablerIcon Man => field ??= new(nameof(Man), "\uEAE6", Sources.Man, "Other", ["guy", "boy", "male", "gender"]);
-		public static TablerIcon ManualGearbox => field ??= new(nameof(ManualGearbox), "\uED7B", Sources.ManualGearbox, "Other", ["car", "vehicle", "torque", "transmission", "mechanics", "motor", "engine"]);
-		public static TablerIcon Marquee2 => field ??= new(nameof(Marquee2), "\uEEAE", Sources.Marquee2, "Other", ["tag", "tracer", "html", "animation", "text", "graphic"]);
-		public static TablerIcon MarqueeOff => field ??= new(nameof(MarqueeOff), "\uF15D", Sources.MarqueeOff, "Other", ["tag", "tracer", "html", "animation", "text", "graphic"]);
-		public static TablerIcon Marquee => field ??= new(nameof(Marquee), "\uEC77", Sources.Marquee, "Other", ["tag", "tracer", "html", "animation", "text", "graphic"]);
-		public static TablerIcon Matchstick => field ??= new(nameof(Matchstick), "\uF577", Sources.Matchstick, "Other", ["fire", "flame", "burn", "spark"]);
-		public static TablerIcon Medal2 => field ??= new(nameof(Medal2), "\uEFCD", Sources.Medal2, "Other", ["decorate", "uniform"]);
-		public static TablerIcon Medal => field ??= new(nameof(Medal), "\uEC78", Sources.Medal, "Other", ["decorate", "uniform"]);
-		public static TablerIcon Menu4 => field ??= new(nameof(Menu4), "\uFF42", Sources.Menu4, "Other", ["list", "arrange", "directory", "navigation", "panel", "select", "catalog", "structure", "options", "layout"]);
-		public static TablerIcon MenuDeep => field ??= new(nameof(MenuDeep), "\uFAFB", Sources.MenuDeep, "Other", ["explore", "layers", "details", "sublevels", "drilldown", "submenu", "navigate", "structure", "in-depth", "complex"]);
-		public static TablerIcon MessageCircleUser => field ??= new(nameof(MessageCircleUser), "\uFEC5", Sources.MessageCircleUser, "Other", ["person", "individual", "member", "participant", "profile", "chat", "communication", "dialogue", "identity", "actor"]);
-		public static TablerIcon MessageReply => field ??= new(nameof(MessageReply), "\uFD4D", Sources.MessageReply, "Other", ["respond", "answer", "react", "return", "comment", "feedback", "acknowledge", "rejoinder", "correspond", "rejoin"]);
-		public static TablerIcon MessageUser => field ??= new(nameof(MessageUser), "\uFEC4", Sources.MessageUser, "Other", ["identity", "member", "person", "individual", "participant", "customer", "viewer", "visitor", "client", "account"]);
-		public static TablerIcon MeterCube => field ??= new(nameof(MeterCube), "\uFD7C", Sources.MeterCube, "Other", ["volume", "capacity", "space", "measurement", "quantity", "size", "dimension", "amount", "bulk", "measure"]);
-		public static TablerIcon MeterSquare => field ??= new(nameof(MeterSquare), "\uFD7D", Sources.MeterSquare, "Other", ["area", "size", "measure", "dimensions", "space", "extent", "region", "scope", "expanse", "measurement"]);
-		public static TablerIcon Metronome => field ??= new(nameof(Metronome), "\uFD25", Sources.Metronome, "Other", ["tempo", "rhythm", "beat", "timing", "pace", "measure", "timekeeper", "count", "cadence", "meter"]);
-		public static TablerIcon Mickey => field ??= new(nameof(Mickey), "\uF2A3", Sources.Mickey, "Other", ["fable", "cartoon", "mouse", "kids"]);
-		public static TablerIcon MilitaryAward => field ??= new(nameof(MilitaryAward), "\uF079", Sources.MilitaryAward, "Other", ["achievement", "honor", "badge", "medal", "prize", "army"]);
-		public static TablerIcon MilitaryRank => field ??= new(nameof(MilitaryRank), "\uEFCF", Sources.MilitaryRank, "Other", ["soldier", "army", "private", "private second class", "private first class", "specialist", "corporal", "sergeant", "staff sergeant"]);
-		public static TablerIcon MinusVertical => field ??= new(nameof(MinusVertical), "\uEEB4", Sources.MinusVertical, "Other", ["subtract", "less", "divide"]);
-		public static TablerIcon MobiledataOff => field ??= new(nameof(MobiledataOff), "\uF9F4", Sources.MobiledataOff, "Other", ["disconnect", "block", "disable", "inactive", "unavailable", "halt", "offline", "terminate", "stop"]);
-		public static TablerIcon Mobiledata => field ??= new(nameof(Mobiledata), "\uF9F5", Sources.Mobiledata, "Other", ["connect", "enable", "active", "available", "network", "signal", "communication", "online", "transmission", "service"]);
-		public static TablerIcon MoneybagEdit => field ??= new(nameof(MoneybagEdit), char.ConvertFromUtf32(0x1013d), Sources.MoneybagEdit, "Other", []);
-		public static TablerIcon MoneybagHeart => field ??= new(nameof(MoneybagHeart), char.ConvertFromUtf32(0x1013c), Sources.MoneybagHeart, "Other", []);
-		public static TablerIcon MoneybagMinus => field ??= new(nameof(MoneybagMinus), char.ConvertFromUtf32(0x1013b), Sources.MoneybagMinus, "Other", []);
-		public static TablerIcon MoneybagMoveBack => field ??= new(nameof(MoneybagMoveBack), char.ConvertFromUtf32(0x1013a), Sources.MoneybagMoveBack, "Other", []);
-		public static TablerIcon MoneybagMove => field ??= new(nameof(MoneybagMove), char.ConvertFromUtf32(0x10139), Sources.MoneybagMove, "Other", []);
-		public static TablerIcon MoneybagPlus => field ??= new(nameof(MoneybagPlus), char.ConvertFromUtf32(0x10138), Sources.MoneybagPlus, "Other", []);
-		public static TablerIcon Moneybag => field ??= new(nameof(Moneybag), "\uF506", Sources.Moneybag, "Other", ["finance", "cash", "dollar", "currency", "bank"]);
-		public static TablerIcon Moustache => field ??= new(nameof(Moustache), "\uF4C9", Sources.Moustache, "Other", ["man", "face", "beard", "male"]);
-		public static TablerIcon MusicDiscount => field ??= new(nameof(MusicDiscount), "\uFBDA", Sources.MusicDiscount, "Other", ["offer", "sale", "reduce", "discounted", "promotion", "bargain", "deal", "cut", "rebate", "markdown"]);
-		public static TablerIcon NeedleThread => field ??= new(nameof(NeedleThread), "\uF507", Sources.NeedleThread, "Other", ["sewing", "tailoring", "craft", "tailor"]);
-		public static TablerIcon Needle => field ??= new(nameof(Needle), "\uF508", Sources.Needle, "Other", ["sewing", "tailoring", "craft", "tailor"]);
-		public static TablerIcon NewSection => field ??= new(nameof(NewSection), "\uEBC1", Sources.NewSection, "Other", ["add", "element", "component", "layout", "page"]);
-		public static TablerIcon Nut => field ??= new(nameof(Nut), "\uFC61", Sources.Nut, "Other", ["hardware", "fastener", "metal", "steel", "hexagon", "fitting", "mechanical", "industrial", "tool", "connection"]);
-		public static TablerIcon Outbound => field ??= new(nameof(Outbound), "\uF249", Sources.Outbound, "Other", ["call", "exit", "telephone", "out"]);
-		public static TablerIcon Outlet => field ??= new(nameof(Outlet), "\uEBD7", Sources.Outlet, "Other", ["socket", "electricity", "electrical", "plug in", "device"]);
-		public static TablerIcon Paperclip => field ??= new(nameof(Paperclip), "\uEB02", Sources.Paperclip, "Other", ["attachment", "annex", "hold"]);
-		public static TablerIcon PawOff => field ??= new(nameof(PawOff), "\uF419", Sources.PawOff, "Other", ["animal", "dog", "cat", "foot", "pets"]);
-		public static TablerIcon Paw => field ??= new(nameof(Paw), "\uEFF9", Sources.Paw, "Other", ["animal", "dog", "cat", "foot", "pets"]);
-		public static TablerIcon PencilDiscount => field ??= new(nameof(PencilDiscount), "\uFC02", Sources.PencilDiscount, "Other", ["edit", "reduce", "bargain", "offer", "deal", "promotion", "price", "sale", "adjust", "markdown"]);
-		public static TablerIcon Pentagram => field ??= new(nameof(Pentagram), "\uF586", Sources.Pentagram, "Other", ["evil", "scary", "satanism", "halloween"]);
-		public static TablerIcon Percentage0 => field ??= new(nameof(Percentage0), "\uFEE5", Sources.Percentage0, "Other", ["none", "zero", "null", "void", "empty", "naught", "cipher", "nil", "nothing", "blank"]);
-		public static TablerIcon Percentage10 => field ??= new(nameof(Percentage10), "\uFEE4", Sources.Percentage10, "Other", ["ten", "decile", "tenth", "fraction", "portion", "degree", "segment", "bit", "trace", "piece"]);
-		public static TablerIcon Percentage100 => field ??= new(nameof(Percentage100), "\uFEE3", Sources.Percentage100, "Other", ["full", "whole", "complete", "total", "entire", "max", "absolute", "consummate", "perfect", "finished"]);
-		public static TablerIcon Percentage20 => field ??= new(nameof(Percentage20), "\uFEE2", Sources.Percentage20, "Other", ["twenty", "fifth", "quintile", "component", "fifthpart", "fraction", "portion", "segment", "slice", "chunk"]);
-		public static TablerIcon Percentage25 => field ??= new(nameof(Percentage25), "\uFEE1", Sources.Percentage25, "Other", ["quarter", "fourth", "part", "portion", "slice", "section", "fraction", "segment", "piece", "bit"]);
-		public static TablerIcon Percentage30 => field ??= new(nameof(Percentage30), "\uFEE0", Sources.Percentage30, "Other", ["thirty", "percent", "fraction", "third", "tranche", "part", "segment", "portion", "slice", "section"]);
-		public static TablerIcon Percentage33 => field ??= new(nameof(Percentage33), "\uFEDF", Sources.Percentage33, "Other", ["third", "percent", "thirty-three", "triple", "fraction", "section", "portion", "segment", "slice", "thirdpart"]);
-		public static TablerIcon Percentage40 => field ??= new(nameof(Percentage40), "\uFEDE", Sources.Percentage40, "Other", ["forty", "percentage", "twofifths", "fraction", "segment", "portion", "part", "chunk", "section", "block"]);
-		public static TablerIcon Percentage50 => field ??= new(nameof(Percentage50), "\uFEDD", Sources.Percentage50, "Other", ["half", "fifty", "moiety", "fraction", "portion", "segment", "division", "equal", "split", "part"]);
-		public static TablerIcon Percentage60 => field ??= new(nameof(Percentage60), "\uFEDC", Sources.Percentage60, "Other", ["sixty", "percentage", "threefifths", "fraction", "part", "segment", "portion", "section", "cross-section", "division"]);
-		public static TablerIcon Percentage66 => field ??= new(nameof(Percentage66), "\uFEDB", Sources.Percentage66, "Other", ["twothirds", "sixty-six", "fraction", "portion", "chunk", "slice", "segment", "part", "division", "ration"]);
-		public static TablerIcon Percentage70 => field ??= new(nameof(Percentage70), "\uFEDA", Sources.Percentage70, "Other", ["seventy", "percentage", "fraction", "portion", "third", "slice", "segment", "part", "chunk", "parcel"]);
-		public static TablerIcon Percentage75 => field ??= new(nameof(Percentage75), "\uFED9", Sources.Percentage75, "Other", ["threequarters", "fraction", "percent", "parts", "slice", "portion", "segment", "division", "piece", "shard"]);
-		public static TablerIcon Percentage80 => field ??= new(nameof(Percentage80), "\uFED8", Sources.Percentage80, "Other", ["eighty", "percentage", "fourfifths", "fraction", "portion", "slice", "section", "part", "segment"]);
-		public static TablerIcon Percentage90 => field ??= new(nameof(Percentage90), "\uFED7", Sources.Percentage90, "Other", ["ninety", "percentage", "nine-tenths", "fraction", "portion", "slice", "division", "segment", "part", "component"]);
-		public static TablerIcon PhoneDone => field ??= new(nameof(PhoneDone), "\uFF9E", Sources.PhoneDone, "Other", ["complete", "finished", "successful", "answered", "call", "communication", "conversation", "connect", "end-call", "check"]);
-		public static TablerIcon PhoneEnd => field ??= new(nameof(PhoneEnd), "\uFF9D", Sources.PhoneEnd, "Other", ["terminate", "disconnect", "hangup", "finish", "cutoff", "halting", "call-off", "finalize", "cancel", "stop"]);
-		public static TablerIcon PhoneRinging => field ??= new(nameof(PhoneRinging), "\uFF9C", Sources.PhoneRinging, "Other", ["incoming", "alert", "bell", "notification", "dialing", "call", "sound", "ringtone", "vibrate", "connect"]);
-		public static TablerIcon PhotoBitcoin => field ??= new(nameof(PhotoBitcoin), "\uFF31", Sources.PhotoBitcoin, "Other", ["crypto", "currency", "digital", "finance", "coin", "blockchain", "money", "symbol", "photography", "snapshot"]);
-		public static TablerIcon PhotoCircle => field ??= new(nameof(PhotoCircle), "\uFC4A", Sources.PhotoCircle, "Other", ["round", "oval", "loop", "border", "frame", "snap", "capture", "shape", "photograph", "icon"]);
-		public static TablerIcon PhotoHexagon => field ??= new(nameof(PhotoHexagon), "\uFC4B", Sources.PhotoHexagon, "Other", ["six-sided", "polygon", "shape", "geometry", "angle", "border", "snap", "form", "photography", "picture"]);
-		public static TablerIcon PhotoPentagon => field ??= new(nameof(PhotoPentagon), "\uFC4C", Sources.PhotoPentagon, "Other", ["five-sided", "polygon", "shape", "geometry", "angle", "snap", "form", "structure", "frame", "icon"]);
-		public static TablerIcon PhotoSquareRounded => field ??= new(nameof(PhotoSquareRounded), "\uFC4D", Sources.PhotoSquareRounded, "Other", ["corner", "soft-edge", "shape", "border", "rectangle", "snap", "form", "angle", "frame", "design"]);
-		public static TablerIcon PhotoVideo => field ??= new(nameof(PhotoVideo), "\uFC95", Sources.PhotoVideo, "Other", ["motion", "film", "footage", "clip", "capture", "record", "snap", "visual", "media", "icon"]);
-		public static TablerIcon PinEnd => field ??= new(nameof(PinEnd), "\uFD5B", Sources.PinEnd, "Other", ["pin", "location-pin", "map-pin", "marker", "place-pin", "destination-pin", "end-pin", "point", "position-pin", "mark-end"]);
-		public static TablerIcon PinInvoke => field ??= new(nameof(PinInvoke), "\uFD5C", Sources.PinInvoke, "Other", ["pin", "location-pin", "map-pin", "marker", "place-pin", "invoke-pin", "trigger-pin", "point", "position-pin", "invoke-mark"]);
-		public static TablerIcon Placeholder => field ??= new(nameof(Placeholder), "\uF626", Sources.Placeholder, "Other", ["input", "form"]);
-		public static TablerIcon PlaylistAdd => field ??= new(nameof(PlaylistAdd), "\uF008", Sources.PlaylistAdd, "Other", ["music", "spotify", "new", "create", "library", "album"]);
-		public static TablerIcon PointOff => field ??= new(nameof(PointOff), "\uF181", Sources.PointOff, "Other", ["dot", "label"]);
-		public static TablerIcon Point => field ??= new(nameof(Point), "\uEB0C", Sources.Point, "Other", ["dot", "label"]);
-		public static TablerIcon Poo => field ??= new(nameof(Poo), "\uF258", Sources.Poo, "Other", ["poop", "shit", "crap", "toilet"]);
-		public static TablerIcon Pray => field ??= new(nameof(Pray), "\uECBF", Sources.Pray, "Other", ["religion", "faith", "christianity", "islam", "buddhism", "judaism"]);
-		public static TablerIcon PremiumRights => field ??= new(nameof(PremiumRights), "\uEFBD", Sources.PremiumRights, "Other", ["money", "work", "job", "cash", "dollar"]);
-		public static TablerIcon PrismLight => field ??= new(nameof(PrismLight), "\uFEA6", Sources.PrismLight, "Other", ["optics", "refraction", "geometry", "spectrum", "physics", "transparency", "shape", "brightness", "science", "glass"]);
-		public static TablerIcon Prong => field ??= new(nameof(Prong), "\uFDA1", Sources.Prong, "Other", ["fork", "split", "divide", "branch", "part", "section", "tine", "tool", "connector", "spike"]);
-		public static TablerIcon PropellerOff => field ??= new(nameof(PropellerOff), "\uF185", Sources.PropellerOff, "Other", ["rotate", "blade", "spiral", "air", "ship", "fan", "power"]);
-		public static TablerIcon Propeller => field ??= new(nameof(Propeller), "\uEEC4", Sources.Propeller, "Other", ["rotate", "blade", "spiral", "air", "ship", "fan", "power"]);
-		public static TablerIcon Protocol => field ??= new(nameof(Protocol), "\uFD81", Sources.Protocol, "Other", ["procedure", "system", "method", "guideline", "rule", "standard", "framework", "process", "format", "structure"]);
-		public static TablerIcon QuestionMark => field ??= new(nameof(QuestionMark), "\uEC9D", Sources.QuestionMark, "Other", ["sign", "symbol", "ask", "sentence", "word", "letters", "?"]);
-		public static TablerIcon ReceiptRupee => field ??= new(nameof(ReceiptRupee), "\uFD82", Sources.ReceiptRupee, "Other", ["currency", "bill", "transaction", "invoice", "payment", "finance", "economy", "account", "cash", "document"]);
-		public static TablerIcon Recharging => field ??= new(nameof(Recharging), "\uEECA", Sources.Recharging, "Other", ["battery", "power", "charge", "socket", "electricity", "device", "phone", "laptop", "low"]);
-		public static TablerIcon RecordMailOff => field ??= new(nameof(RecordMailOff), "\uF18B", Sources.RecordMailOff, "Other", ["voice", "voicemail", "message"]);
-		public static TablerIcon RecordMail => field ??= new(nameof(RecordMail), "\uEB12", Sources.RecordMail, "Other", ["voice", "voicemail", "message"]);
-		public static TablerIcon Reorder => field ??= new(nameof(Reorder), "\uFC15", Sources.Reorder, "Other", ["arrange", "organize", "sort", "structure", "sequence", "position", "alignment", "list", "adjust", "systemize"]);
-		public static TablerIcon ReplaceOff => field ??= new(nameof(ReplaceOff), "\uF422", Sources.ReplaceOff, "Other", ["change", "place", "position", "move", "exchange"]);
-		public static TablerIcon ReplaceUser => field ??= new(nameof(ReplaceUser), char.ConvertFromUtf32(0x100f0), Sources.ReplaceUser, "Other", ["swap", "exchange", "change", "substitute", "switch", "alternate", "modify", "update", "alter", "transition"]);
-		public static TablerIcon Replace => field ??= new(nameof(Replace), "\uEBC7", Sources.Replace, "Other", ["change", "place", "position", "move", "exchange"]);
-		public static TablerIcon ReservedLine => field ??= new(nameof(ReservedLine), "\uF9F6", Sources.ReservedLine, "Other", ["booking", "designation", "allocated", "status", "line", "marked", "set-aside", "reserved", "unavailable", "annotated"]);
-		public static TablerIcon Restore => field ??= new(nameof(Restore), "\uFAFD", Sources.Restore, "Other", ["recover", "repair", "reinstate", "redeem", "revive", "return", "reset", "retrieve", "reestablish", "fix"]);
-		public static TablerIcon RobotFace => field ??= new(nameof(RobotFace), "\uFCBE", Sources.RobotFace, "Other", ["bot", "android", "ai", "machine", "cyborg", "automaton", "head", "gizmo", "mech"]);
-		public static TablerIcon RobotOff => field ??= new(nameof(RobotOff), "\uF192", Sources.RobotOff, "Other", ["technology", "ai", "machine", "bot", "android"]);
-		public static TablerIcon Rotate3d => field ??= new(nameof(Rotate3d), "\uF020", Sources.Rotate3d, "Other", ["rotation", "geometry", "3d", "modeling"]);
-		public static TablerIcon RouteScan => field ??= new(nameof(RouteScan), "\uFCBF", Sources.RouteScan, "Other", ["path", "direction", "track", "find", "gps", "map", "navigate", "explore", "trace", "survey"]);
-		public static TablerIcon Rss => field ??= new(nameof(Rss), "\uEB19", Sources.Rss, "Other", ["feed", "subscribe"]);
-		public static TablerIcon RvTruck => field ??= new(nameof(RvTruck), "\uFCC0", Sources.RvTruck, "Other", ["vehicle", "transport", "drive", "trailer", "auto", "motorhome", "camper", "caravan", "hauler"]);
-		public static TablerIcon ScaleOff => field ??= new(nameof(ScaleOff), "\uF198", Sources.ScaleOff, "Other", ["weigh", "balance", "amount", "heavy", "light", "libra"]);
-		public static TablerIcon ScaleOutlineOff => field ??= new(nameof(ScaleOutlineOff), "\uF199", Sources.ScaleOutlineOff, "Other", ["weight", "weigh", "diet", "healthy", "measurement"]);
-		public static TablerIcon ScaleOutline => field ??= new(nameof(ScaleOutline), "\uEF53", Sources.ScaleOutline, "Other", ["weight", "weigh", "diet", "healthy", "measurement"]);
-		public static TablerIcon Scale => field ??= new(nameof(Scale), "\uEBC2", Sources.Scale, "Other", ["weigh", "balance", "amount", "heavy", "light", "libra"]);
-		public static TablerIcon SchoolBell => field ??= new(nameof(SchoolBell), "\uF64A", Sources.SchoolBell, "Other", ["break", "lesson", "alarm", "ring"]);
-		public static TablerIcon Screenshot => field ??= new(nameof(Screenshot), "\uF201", Sources.Screenshot, "Other", ["image", "capture", "photo"]);
-		public static TablerIcon SearchOff => field ??= new(nameof(SearchOff), "\uF19C", Sources.SearchOff, "Other", ["find", "magnifier", "magnifying glass"]);
-		public static TablerIcon Search => field ??= new(nameof(Search), "\uEB1C", Sources.Search, "Other", ["find", "magnifier", "magnifying glass"]);
-		public static TablerIcon SelectAll => field ??= new(nameof(SelectAll), "\uF9F7", Sources.SelectAll, "Other", ["highlight", "choose", "pick", "elect", "mark", "set", "check", "complete", "fill", "total"]);
-		public static TablerIcon ShareOff => field ??= new(nameof(ShareOff), "\uF1A1", Sources.ShareOff, "Other", ["network", "link", "connection"]);
-		public static TablerIcon Share => field ??= new(nameof(Share), "\uEB21", Sources.Share, "Other", ["network", "link", "connection"]);
-		public static TablerIcon ShoppingCartCopy => field ??= new(nameof(ShoppingCartCopy), "\uFB5C", Sources.ShoppingCartCopy, "Other", ["duplicate", "replicate", "clone", "reproduce", "imitate", "mimic", "backup", "mirror", "carbon"]);
-		public static TablerIcon ShoppingCartDiscount => field ??= new(nameof(ShoppingCartDiscount), "\uFB5D", Sources.ShoppingCartDiscount, "Other", ["sale", "offer", "deal", "bargain", "promotion", "markdown", "rebate", "savings", "cut", "attraction"]);
-		public static TablerIcon ShovelPitchforks => field ??= new(nameof(ShovelPitchforks), "\uFD3A", Sources.ShovelPitchforks, "Other", ["shovel", "pitchfork", "digging-tool", "gardening", "agriculture", "farm-tool", "manual-labor", "soil", "gardening-implement", "dig"]);
-		public static TablerIcon Shovel => field ??= new(nameof(Shovel), "\uF1D9", Sources.Shovel, "Other", ["garden", "tool", "digging", "farm", "dirt", "gardening"]);
-		public static TablerIcon SkewX => field ??= new(nameof(SkewX), "\uFD3B", Sources.SkewX, "Other", ["skew-horizontal", "tilt-x", "slant-x", "distort-horizontal", "angled", "slanted", "tilted", "diagonal", "oblique", "slope-x"]);
-		public static TablerIcon SkewY => field ??= new(nameof(SkewY), "\uFD3C", Sources.SkewY, "Other", ["skew-vertical", "tilt-y", "slant-y", "distort-vertical", "angled", "slanted", "tilted", "diagonal", "oblique", "slope-y"]);
-		public static TablerIcon Slashes => field ??= new(nameof(Slashes), "\uF588", Sources.Slashes, "Other", ["sign", "key", "button", "dash", "divide"]);
-		public static TablerIcon Snowboarding => field ??= new(nameof(Snowboarding), "\uFD4F", Sources.Snowboarding, "Other", ["sport", "winter", "snow", "board", "riding", "slope", "extreme", "mountain", "action", "freestyle"]);
-		public static TablerIcon Snowman => field ??= new(nameof(Snowman), "\uF26D", Sources.Snowman, "Other", ["winter", "christmas", "snow", "cold", "frosty"]);
-		public static TablerIcon SocialOff => field ??= new(nameof(SocialOff), "\uF1A9", Sources.SocialOff, "Other", ["society", "community", "collectivity"]);
-		public static TablerIcon Social => field ??= new(nameof(Social), "\uEBEC", Sources.Social, "Other", ["society", "community", "collectivity"]);
-		public static TablerIcon SofaOff => field ??= new(nameof(SofaOff), "\uF42C", Sources.SofaOff, "Other", ["chair", "seat", "home", "furniture", "couch"]);
-		public static TablerIcon Sofa => field ??= new(nameof(Sofa), "\uEFAF", Sources.Sofa, "Other", ["chair", "seat", "home", "furniture", "couch"]);
-		public static TablerIcon SolarElectricity => field ??= new(nameof(SolarElectricity), "\uFCC1", Sources.SolarElectricity, "Other", ["power", "energy", "renewable", "panel", "sunlight", "green", "sustainable", "generation", "technology", "efficiency"]);
-		public static TablerIcon SolarPanel2 => field ??= new(nameof(SolarPanel2), "\uF7BE", Sources.SolarPanel2, "Other", ["energy", "sun", "power", "ecology", "electricity"]);
-		public static TablerIcon SolarPanel => field ??= new(nameof(SolarPanel), "\uF7BF", Sources.SolarPanel, "Other", ["energy", "sun", "power", "ecology", "electricity"]);
-		public static TablerIcon SortAscendingShapes => field ??= new(nameof(SortAscendingShapes), "\uFD94", Sources.SortAscendingShapes, "Other", ["order", "sequence", "increase", "arrange", "orderly", "progress", "upward", "hierarchy", "pattern", "system"]);
-		public static TablerIcon SortAscendingSmallBig => field ??= new(nameof(SortAscendingSmallBig), "\uFD95", Sources.SortAscendingSmallBig, "Other", ["order", "sequence", "increase", "arrange", "scale", "size", "growth", "progress", "upward", "magnitude"]);
-		public static TablerIcon SortDescendingShapes => field ??= new(nameof(SortDescendingShapes), "\uFD97", Sources.SortDescendingShapes, "Other", ["order", "sequence", "decrease", "arrange", "reverse", "downward", "hierarchy", "logic", "pattern", "system"]);
-		public static TablerIcon SortDescendingSmallBig => field ??= new(nameof(SortDescendingSmallBig), "\uFD96", Sources.SortDescendingSmallBig, "Other", ["order", "sequence", "decrease", "arrange", "scale", "size", "diminish", "reduction", "magnitude", "shrink"]);
-		public static TablerIcon Sos => field ??= new(nameof(Sos), "\uF24A", Sources.Sos, "Other", ["help", "emergency", "signal", "message", "alert"]);
-		public static TablerIcon Spaces => field ??= new(nameof(Spaces), "\uFEA4", Sources.Spaces, "Other", ["gap", "interval", "distance", "void", "separation", "area", "margin", "expanse", "breach", "emptiness"]);
-		public static TablerIcon Sparkles => field ??= new(nameof(Sparkles), "\uF6D7", Sources.Sparkles, "Other", ["star", "light", "fire", "shine"]);
-		public static TablerIcon SpiralOff => field ??= new(nameof(SpiralOff), "\uF42E", Sources.SpiralOff, "Other", ["hypnosis", "rotation", "growth"]);
-		public static TablerIcon Spiral => field ??= new(nameof(Spiral), "\uF294", Sources.Spiral, "Other", ["hypnosis", "rotation", "growth"]);
-		public static TablerIcon Spray => field ??= new(nameof(Spray), "\uF50B", Sources.Spray, "Other", ["paint", "clean", "hygiene", "graffiti"]);
-		public static TablerIcon SpyOff => field ??= new(nameof(SpyOff), "\uF42F", Sources.SpyOff, "Other", ["security", "incognito", "privacy", "browser", "web"]);
-		public static TablerIcon Spy => field ??= new(nameof(Spy), "\uF227", Sources.Spy, "Other", ["security", "incognito", "privacy", "browser", "web"]);
-		public static TablerIcon SquareAsterisk => field ??= new(nameof(SquareAsterisk), "\uF01A", Sources.SquareAsterisk, "Other", ["shapes", "star", "password", "security"]);
-		public static TablerIcon SquareDashed => field ??= new(nameof(SquareDashed), char.ConvertFromUtf32(0x100bb), Sources.SquareDashed, "Other", ["box", "line", "shape", "geometry", "pattern", "design", "frame", "border", "outline", "graphic"]);
-		public static TablerIcon SquareForbid2 => field ??= new(nameof(SquareForbid2), "\uED5A", Sources.SquareForbid2, "Other", ["box", "disabled", "off", "block"]);
-		public static TablerIcon SquareForbid => field ??= new(nameof(SquareForbid), "\uED5B", Sources.SquareForbid, "Other", ["box", "disabled", "off", "block"]);
-		public static TablerIcon SquareKey => field ??= new(nameof(SquareKey), "\uF638", Sources.SquareKey, "Other", ["shape", "lock", "door", "acsses"]);
-		public static TablerIcon SquarePercentage => field ??= new(nameof(SquarePercentage), "\uFD83", Sources.SquarePercentage, "Other", ["geometry", "fraction", "ratio", "calculate", "evaluate", "determine", "measure", "symbol", "statistic", "proportion"]);
-		public static TablerIcon SquareRotatedForbid2 => field ??= new(nameof(SquareRotatedForbid2), "\uF01B", Sources.SquareRotatedForbid2, "Other", ["shape", "geometry", "rhombus", "ban", "restricted"]);
-		public static TablerIcon SquareRotatedForbid => field ??= new(nameof(SquareRotatedForbid), "\uF01C", Sources.SquareRotatedForbid, "Other", ["shape", "geometry", "rhombus", "ban", "restricted"]);
-		public static TablerIcon SquareRoundedPercentage => field ??= new(nameof(SquareRoundedPercentage), "\uFD84", Sources.SquareRoundedPercentage, "Other", ["geometry", "fraction", "ratio", "calculate", "evaluate", "determine", "proportion", "symbol", "percentage", "statistic"]);
-		public static TablerIcon SquaresSelected => field ??= new(nameof(SquaresSelected), "\uFEA3", Sources.SquaresSelected, "Other", ["checkbox", "chosen", "highlight", "marked", "pick", "selected", "choice", "option", "choose", "preference"]);
-		public static TablerIcon StackBack => field ??= new(nameof(StackBack), "\uFD26", Sources.StackBack, "Other", ["layers", "depth", "background", "arrangement", "structure", "order", "position", "sequence", "arrange", "layout"]);
-		public static TablerIcon StackBackward => field ??= new(nameof(StackBackward), "\uFD27", Sources.StackBackward, "Other", ["layers", "depth", "background", "arrangement", "reorder", "reverse", "underneath", "position", "sequence", "arrange"]);
-		public static TablerIcon StackForward => field ??= new(nameof(StackForward), "\uFD28", Sources.StackForward, "Other", ["layers", "depth", "foreground", "arrangement", "advance", "position", "sequence", "structure", "order", "arrange"]);
-		public static TablerIcon StackFront => field ??= new(nameof(StackFront), "\uFD29", Sources.StackFront, "Other", ["layers", "depth", "foreground", "arrangement", "position", "sequence", "structure", "priority", "place", "front"]);
-		public static TablerIcon StackMiddle => field ??= new(nameof(StackMiddle), "\uFD2A", Sources.StackMiddle, "Other", ["layers", "depth", "center", "arrangement", "position", "sequence", "structure", "order", "layout", "median"]);
-		public static TablerIcon StatusChange => field ??= new(nameof(StatusChange), "\uF3B0", Sources.StatusChange, "Other", ["available", "unavailable", "switch"]);
-		public static TablerIcon Steam => field ??= new(nameof(Steam), "\uF24B", Sources.Steam, "Other", ["app", "social", "games", "platform", "software"]);
-		public static TablerIcon StereoGlasses => field ??= new(nameof(StereoGlasses), "\uF4CB", Sources.StereoGlasses, "Other", ["cinema", "3d", "eyewear", "film", "movie"]);
-		public static TablerIcon Sticker2 => field ??= new(nameof(Sticker2), "\uFD3D", Sources.Sticker2, "Other", ["label-2", "adhesive", "decorative-label", "tag-2", "sticky-note", "decal", "post-it", "sticker-label", "paper-sticker", "2nd-sticker"]);
-		public static TablerIcon Sticker => field ??= new(nameof(Sticker), "\uEB2F", Sources.Sticker, "Other", ["label", "stamp", "adhesive"]);
-		public static TablerIcon Subtask => field ??= new(nameof(Subtask), "\uEC9F", Sources.Subtask, "Other", ["management", "break down", "work"]);
-		public static TablerIcon SunElectricity => field ??= new(nameof(SunElectricity), "\uFCC2", Sources.SunElectricity, "Other", ["solar", "energy", "renewable", "sunlight", "power", "generate", "convert", "green", "sustainable", "eco-friendly"]);
-		public static TablerIcon Swipe => field ??= new(nameof(Swipe), "\uF551", Sources.Swipe, "Other", ["right", "left", "gesture", "scroll"]);
-		public static TablerIcon TableDashed => field ??= new(nameof(TableDashed), char.ConvertFromUtf32(0x100ba), Sources.TableDashed, "Other", ["grid", "rows", "columns", "cells", "chart", "matrix", "dotted", "frame", "layout", "pattern"]);
-		public static TablerIcon TaxEuro => field ??= new(nameof(TaxEuro), "\uFEF0", Sources.TaxEuro, "Other", ["finance", "charge", "duty", "levy", "value", "monetary", "currency", "europe", "assessment", "payment"]);
-		public static TablerIcon TaxPound => field ??= new(nameof(TaxPound), "\uFEEF", Sources.TaxPound, "Other", ["finance", "charge", "duty", "levy", "value", "monetary", "currency", "britain", "assessment", "payment"]);
-		public static TablerIcon Tax => field ??= new(nameof(Tax), "\uFEEE", Sources.Tax, "Other", ["finance", "charge", "duty", "levy", "value", "government", "revenue", "fee", "assessment", "payment"]);
-		public static TablerIcon TelescopeOff => field ??= new(nameof(TelescopeOff), "\uF1AE", Sources.TelescopeOff, "Other", ["astronomy", "moon", "observation", "vision", "space", "astrology"]);
-		public static TablerIcon Telescope => field ??= new(nameof(Telescope), "\uF07D", Sources.Telescope, "Other", ["astronomy", "moon", "observation", "vision", "space", "astrology"]);
-		public static TablerIcon TemperatureSnow => field ??= new(nameof(TemperatureSnow), "\uFDA3", Sources.TemperatureSnow, "Other", ["cold", "winter", "climate", "chills", "freeze", "degree", "weather", "forecast", "frost", "ice"]);
-		public static TablerIcon TemperatureSun => field ??= new(nameof(TemperatureSun), "\uFDA4", Sources.TemperatureSun, "Other", ["heat", "warm", "climate", "summer", "degree", "weather", "forecast", "sun", "shine", "hot"]);
-		public static TablerIcon Terminal => field ??= new(nameof(Terminal), "\uEBDC", Sources.Terminal, "Other", ["console", "command", "git", "command line", "command prompt"]);
-		public static TablerIcon TestPipe2 => field ??= new(nameof(TestPipe2), "\uF0A4", Sources.TestPipe2, "Other", ["sample", "color", "flask", "liquid", "container", "glass", "chemistry", "test", "laboratory", "experimental", "beta"]);
-		public static TablerIcon TestPipeOff => field ??= new(nameof(TestPipeOff), "\uF1B1", Sources.TestPipeOff, "Other", ["sample", "color", "flask", "liquid", "container", "glass", "chemistry", "test", "laboratory", "experimental", "beta"]);
-		public static TablerIcon TestPipe => field ??= new(nameof(TestPipe), "\uEB3A", Sources.TestPipe, "Other", ["sample", "color", "flask", "liquid", "container", "glass", "chemistry", "test", "laboratory", "experimental", "beta"]);
-		public static TablerIcon Texture => field ??= new(nameof(Texture), "\uF51B", Sources.Texture, "Other", ["pattern", "abstract", "decoration", "background", "fashion"]);
-		public static TablerIcon TicketOff => field ??= new(nameof(TicketOff), "\uF1B2", Sources.TicketOff, "Other", ["cinema", "event", "theatre", "entry", "fine", "coupon", "pass"]);
-		public static TablerIcon Ticket => field ??= new(nameof(Ticket), "\uEB3D", Sources.Ticket, "Other", ["cinema", "event", "theatre", "entry", "fine", "coupon", "pass"]);
-		public static TablerIcon Tilde => field ??= new(nameof(Tilde), "\uF4A5", Sources.Tilde, "Other", ["key", "sign", "about", "rounding", "math"]);
-		public static TablerIcon Timeline => field ??= new(nameof(Timeline), "\uF031", Sources.Timeline, "Other", ["process", "plan", "planning", "diagram", "chart", "roadmap"]);
-		public static TablerIcon Timezone => field ??= new(nameof(Timezone), "\uFEED", Sources.Timezone, "Other", ["zone", "utc", "offset", "region", "location", "local", "difference", "standard", "time", "clock"]);
-		public static TablerIcon TipJarEuro => field ??= new(nameof(TipJarEuro), "\uFEEC", Sources.TipJarEuro, "Other", ["donate", "contribution", "money", "euro", "charity", "fund", "gift", "jar", "support", "currency"]);
-		public static TablerIcon TipJarPound => field ??= new(nameof(TipJarPound), "\uFEEB", Sources.TipJarPound, "Other", ["donate", "contribution", "money", "pound", "charity", "fund", "gift", "jar", "support", "currency"]);
-		public static TablerIcon TipJar => field ??= new(nameof(TipJar), "\uFEEA", Sources.TipJar, "Other", ["donate", "contribution", "money", "charity", "fund", "gift", "jar", "support", "currency", "help"]);
-		public static TablerIcon ToiletPaperOff => field ??= new(nameof(ToiletPaperOff), "\uF1B4", Sources.ToiletPaperOff, "Other", ["bathroom", "hygiene", "wc", "cleaning", "rubbing"]);
-		public static TablerIcon ToiletPaper => field ??= new(nameof(ToiletPaper), "\uEFD3", Sources.ToiletPaper, "Other", ["bathroom", "hygiene", "wc", "cleaning", "rubbing"]);
-		public static TablerIcon TransactionRupee => field ??= new(nameof(TransactionRupee), "\uFD85", Sources.TransactionRupee, "Other", ["currency", "exchange", "trade", "payment", "cash", "money", "rupee", "finance", "transfer", "india"]);
-		public static TablerIcon TransferVertical => field ??= new(nameof(TransferVertical), "\uFC1E", Sources.TransferVertical, "Other", ["move", "up", "down", "shift", "exchange", "switch", "vertical", "navigate", "change", "direction"]);
-		public static TablerIcon Transfer => field ??= new(nameof(Transfer), "\uFC1F", Sources.Transfer, "Other", ["move", "exchange", "send", "transfer", "switch", "change", "shift", "swap", "share", "flow"]);
-		public static TablerIcon TransformPointBottomLeft => field ??= new(nameof(TransformPointBottomLeft), "\uFDA5", Sources.TransformPointBottomLeft, "Other", ["reshape", "edit", "adjust", "modify", "transform", "left", "bottom", "point", "corner", "design"]);
-		public static TablerIcon TransformPointBottomRight => field ??= new(nameof(TransformPointBottomRight), "\uFDA6", Sources.TransformPointBottomRight, "Other", ["reshape", "edit", "adjust", "modify", "transform", "right", "bottom", "point", "corner", "design"]);
-		public static TablerIcon TransformPointTopLeft => field ??= new(nameof(TransformPointTopLeft), "\uFDA7", Sources.TransformPointTopLeft, "Other", ["reshape", "edit", "adjust", "modify", "transform", "left", "top", "point", "corner", "design"]);
-		public static TablerIcon TransformPointTopRight => field ??= new(nameof(TransformPointTopRight), "\uFDA8", Sources.TransformPointTopRight, "Other", ["reshape", "edit", "adjust", "modify", "transform", "right", "top", "point", "corner", "design"]);
-		public static TablerIcon TransformPoint => field ??= new(nameof(TransformPoint), "\uFDA9", Sources.TransformPoint, "Other", ["reshape", "edit", "adjust", "modify", "transform", "center", "point", "change", "design", "move"]);
-		public static TablerIcon Transform => field ??= new(nameof(Transform), "\uF38E", Sources.Transform, "Other", ["change", "convert", "adaptation", "direction"]);
-		public static TablerIcon Trident => field ??= new(nameof(Trident), "\uECC5", Sources.Trident, "Other", ["three", "spear", "weapon", "sharp", "tool"]);
-		public static TablerIcon TrophyOff => field ??= new(nameof(TrophyOff), "\uF438", Sources.TrophyOff, "Other", ["success", "win", "prize", "winner"]);
-		public static TablerIcon Trophy => field ??= new(nameof(Trophy), "\uEB45", Sources.Trophy, "Other", ["success", "win", "prize", "winner"]);
-		public static TablerIcon Trowel => field ??= new(nameof(Trowel), "\uF368", Sources.Trowel, "Other", ["tool", "garden", "equipment", "mason", "cement"]);
-		public static TablerIcon Typeface => field ??= new(nameof(Typeface), "\uFDAB", Sources.Typeface, "Other", ["font", "text", "lettering", "typography", "style", "design", "print", "glyph", "format", "character"]);
-		public static TablerIcon UfoOff => field ??= new(nameof(UfoOff), "\uF26E", Sources.UfoOff, "Other", ["alien", "space", "astronomy", "spaceship", "galaxy"]);
-		public static TablerIcon Uhd => field ??= new(nameof(Uhd), char.ConvertFromUtf32(0x100aa), Sources.Uhd, "Other", ["ultra", "high", "definition", "resolution", "crystal", "clear", "sharp", "detail", "vivid", "brilliant"]);
-		public static TablerIcon Umbrella2 => field ??= new(nameof(Umbrella2), "\uFF0E", Sources.Umbrella2, "Other", ["rain", "weather", "storm", "wet", "autumn", "fall"]);
-		public static TablerIcon UmbrellaClosed2 => field ??= new(nameof(UmbrellaClosed2), "\uFF0D", Sources.UmbrellaClosed2, "Other", ["rain", "protection", "shield", "cover", "shelter", "dry", "compact", "portable", "folded", "defense"]);
-		public static TablerIcon UmbrellaClosed => field ??= new(nameof(UmbrellaClosed), "\uFF0C", Sources.UmbrellaClosed, "Other", ["rain", "weather", "storm", "wet", "autumn", "fall"]);
-		public static TablerIcon UmbrellaOff => field ??= new(nameof(UmbrellaOff), "\uF1BB", Sources.UmbrellaOff, "Other", ["rain", "weather", "storm", "wet", "autumn", "fall"]);
-		public static TablerIcon Umbrella => field ??= new(nameof(Umbrella), "\uEBF1", Sources.Umbrella, "Other", ["rain", "weather", "storm", "wet", "autumn", "fall"]);
-		public static TablerIcon Universe => field ??= new(nameof(Universe), "\uFCC4", Sources.Universe, "Other", ["cosmos", "galaxy", "space", "astronomy", "stars", "planets", "infinite", "vast", "beyond", "expanse"]);
-		public static TablerIcon Urgent => field ??= new(nameof(Urgent), "\uEB48", Sources.Urgent, "Other", ["alert", "important"]);
-		public static TablerIcon Usb => field ??= new(nameof(Usb), "\uF00C", Sources.Usb, "Other", ["drive", "cable", "plug", "device", "technology", "connect"]);
-		public static TablerIcon UserBitcoin => field ??= new(nameof(UserBitcoin), "\uFF30", Sources.UserBitcoin, "Other", ["cryptocurrency", "blockchain", "investment", "wallet", "digital", "finance", "trade", "currency", "virtual", "peer-to-peer"]);
-		public static TablerIcon UserHexagon => field ??= new(nameof(UserHexagon), "\uFC4E", Sources.UserHexagon, "Other", ["shape", "geometry", "six", "polygon", "structure", "design", "pattern", "angles", "form", "figure"]);
-		public static TablerIcon UserPentagon => field ??= new(nameof(UserPentagon), "\uFC4F", Sources.UserPentagon, "Other", ["shape", "geometry", "five", "polygon", "structure", "design", "pattern", "angles", "form", "figure"]);
-		public static TablerIcon UserSquareRounded => field ??= new(nameof(UserSquareRounded), "\uFC50", Sources.UserSquareRounded, "Other", ["border", "frame", "rectangle", "shape", "geometry", "design", "pattern", "corners", "form", "angular"]);
-		public static TablerIcon UserSquare => field ??= new(nameof(UserSquare), "\uFC51", Sources.UserSquare, "Other", ["border", "frame", "rectangle", "shape", "geometry", "design", "pattern", "corners", "form", "angular"]);
-		public static TablerIcon VacuumCleaner => field ??= new(nameof(VacuumCleaner), "\uF5E6", Sources.VacuumCleaner, "Other", ["robot", "clean", "hoover", "home", "electronics"]);
-		public static TablerIcon View360Arrow => field ??= new(nameof(View360Arrow), "\uF62F", Sources.View360Arrow, "Other", ["rotate", "view", "degree", "virtual", "vr"]);
-		public static TablerIcon View360Number => field ??= new(nameof(View360Number), "\uF566", Sources.View360Number, "Other", ["degree", "rotation", "reality", "camera"]);
-		public static TablerIcon View360Off => field ??= new(nameof(View360Off), "\uF1C1", Sources.View360Off, "Other", ["panoramic", "degrees", "image", "around"]);
-		public static TablerIcon View360 => field ??= new(nameof(View360), "\uED84", Sources.View360, "Other", ["panoramic", "degrees", "image", "around"]);
-		public static TablerIcon ViewportShort => field ??= new(nameof(ViewportShort), "\uFEE9", Sources.ViewportShort, "Other", ["compact", "narrow", "shrink", "condensed", "brief", "concise", "mini", "reduced", "trim", "tight"]);
-		public static TablerIcon ViewportTall => field ??= new(nameof(ViewportTall), "\uFEE8", Sources.ViewportTall, "Other", ["elongate", "extend", "stretch", "high", "lofty", "elevated", "lengthy", "prolong", "tower", "vertical"]);
-		public static TablerIcon VipOff => field ??= new(nameof(VipOff), "\uF43A", Sources.VipOff, "Other", ["premium", "exclusive", "staff", "expensive"]);
-		public static TablerIcon Vip => field ??= new(nameof(Vip), "\uF3B3", Sources.Vip, "Other", ["premium", "exclusive", "staff", "expensive"]);
-		public static TablerIcon Vs => field ??= new(nameof(Vs), "\uFC52", Sources.Vs, "Other", ["compare", "against", "contrast", "compete", "rival", "match", "versus", "contest", "challenge", "battle"]);
-		public static TablerIcon WalletOff => field ??= new(nameof(WalletOff), "\uF1C4", Sources.WalletOff, "Other", ["money", "pay", "banknote", "coin", "payment", "bank"]);
-		public static TablerIcon Wallet => field ??= new(nameof(Wallet), "\uEB75", Sources.Wallet, "Other", ["money", "pay", "banknote", "coin", "payment", "bank"]);
-		public static TablerIcon WallpaperOff => field ??= new(nameof(WallpaperOff), "\uF1C5", Sources.WallpaperOff, "Other", ["picture", "image", "photo", "decoration", "house", "room", "decor"]);
-		public static TablerIcon Wallpaper => field ??= new(nameof(Wallpaper), "\uEF56", Sources.Wallpaper, "Other", ["picture", "image", "photo", "decoration", "house", "room", "decor"]);
-		public static TablerIcon WandOff => field ??= new(nameof(WandOff), "\uF1C6", Sources.WandOff, "Other", ["magic", "tool", "color", "pixel", "design"]);
-		public static TablerIcon Wand => field ??= new(nameof(Wand), "\uEBCB", Sources.Wand, "Other", ["magic", "tool", "color", "pixel", "design"]);
-		public static TablerIcon WaveSawTool => field ??= new(nameof(WaveSawTool), "\uECD3", Sources.WaveSawTool, "Other", ["pulse", "signal", "ratio", "rate", "volume"]);
-		public static TablerIcon WaveSine => field ??= new(nameof(WaveSine), "\uECD4", Sources.WaveSine, "Other", ["pulse", "signal", "ratio", "rate", "volume"]);
-		public static TablerIcon WaveSquare => field ??= new(nameof(WaveSquare), "\uECD5", Sources.WaveSquare, "Other", ["pulse", "signal", "ratio", "rate", "volume"]);
-		public static TablerIcon WavesElectricity => field ??= new(nameof(WavesElectricity), "\uFCC5", Sources.WavesElectricity, "Other", ["energy", "power", "currents", "flow", "dynamics", "surge", "oscillation", "movement", "charge", "frequency"]);
-		public static TablerIcon Weight => field ??= new(nameof(Weight), "\uF589", Sources.Weight, "Other", ["gym", "fitness", "balance", "exercise", "sport"]);
-		public static TablerIcon Wheel => field ??= new(nameof(Wheel), "\uFC64", Sources.Wheel, "Other", ["circular", "round", "spin", "rotation", "revolve", "hub", "axle", "turn", "motion", "vehicle"]);
-		public static TablerIcon WindElectricity => field ??= new(nameof(WindElectricity), "\uFCC6", Sources.WindElectricity, "Other", ["turbine", "renewable", "sustainable", "breeze", "airflow", "power", "energy", "green", "clean", "kinetic"]);
-		public static TablerIcon Woman => field ??= new(nameof(Woman), "\uEB53", Sources.Woman, "Other", ["girl", "female", "gender"]);
-		public static TablerIcon Wood => field ??= new(nameof(Wood), "\uF359", Sources.Wood, "Other", ["tree", "forest", "natural", "timber", "log"]);
-		public static TablerIcon X => field ??= new(nameof(X), "\uEB55", Sources.X, "Other", ["cancel", "remove", "delete", "empty", "close"]);
-		public static TablerIcon Xd => field ??= new(nameof(Xd), "\uFA33", Sources.Xd, "Other", ["emotion", "funny", "smile", "giggle", "playful", "humor", "joy", "laugh", "happy", "amusement"]);
-		public static TablerIcon Xxx => field ??= new(nameof(Xxx), "\uFC20", Sources.Xxx, "Other", ["private", "secret", "restricted", "forbidden", "exclusive", "classified", "intimate", "veiled", "covert", "unspoken"]);
-		public static TablerIcon ZzzOff => field ??= new(nameof(ZzzOff), "\uF440", Sources.ZzzOff, "Other", ["sleep", "sleeping", "bed", "dream", "snooze", "rest"]);
-		public static TablerIcon Zzz => field ??= new(nameof(Zzz), "\uF228", Sources.Zzz, "Other", ["sleep", "sleeping", "bed", "dream", "snooze", "rest"]);
 		
 		public static TablerIcon[] Icons => field ??= [
 			AccessibleFilled,
@@ -1892,11 +1406,13 @@ public static partial class TablerIcons
 			CropLandscapeFilled,
 			CropPortraitFilled,
 			CrossFilled,
+			CrownFilled,
 			CurrentLocationFilled,
 			DashboardFilled,
 			DeviceCctvFilled,
 			DeviceDesktopFilled,
 			DeviceGamepad3Filled,
+			DeviceGamepadFilled,
 			DeviceHeartMonitorFilled,
 			DeviceImacFilled,
 			DeviceIpadFilled,
@@ -1966,26 +1482,38 @@ public static partial class TablerIcons
 			FileDescriptionFilled,
 			FileDiffFilled,
 			FileDigitFilled,
+			FileDollarFilled,
 			FileDotsFilled,
 			FileDownloadFilled,
+			FileEuroFilled,
 			FileFunctionFilled,
 			FileHorizontalFilled,
 			FileInfoFilled,
 			FileInvoiceFilled,
 			FileLambdaFilled,
 			FileMinusFilled,
+			FileMusicFilled,
 			FileNeutralFilled,
+			FilePencilFilled,
 			FilePercentFilled,
 			FilePhoneFilled,
 			FilePowerFilled,
 			FileRssFilled,
 			FileSadFilled,
+			FileScissorsFilled,
+			FileSettingsFilled,
+			FileSignalFilled,
 			FileSmileFilled,
 			FileStarFilled,
 			FileTextFilled,
+			FileTimeFilled,
 			FileTypographyFilled,
+			FileUnknownFilled,
+			FileUploadFilled,
+			FileVectorFilled,
 			FileXFilled,
 			FileFilled,
+			FilesFilled,
 			FilterFilled,
 			FiltersFilled,
 			FishBoneFilled,
@@ -1997,6 +1525,7 @@ public static partial class TablerIcons
 			Flask2Filled,
 			FlaskFilled,
 			FlowerFilled,
+			FolderOpenFilled,
 			FolderFilled,
 			FoldersFilled,
 			Forbid2Filled,
@@ -2256,6 +1785,7 @@ public static partial class TablerIcons
 			ReceiptFilled,
 			RectangleVerticalFilled,
 			RectangleFilled,
+			RegisteredFilled,
 			RelationManyToManyFilled,
 			RelationOneToManyFilled,
 			RelationOneToOneFilled,
@@ -2455,10 +1985,14 @@ public static partial class TablerIcons
 			UmbrellaFilled,
 			UserFilled,
 			VersionsFilled,
+			VideoMinusFilled,
+			VideoPlusFilled,
 			VideoFilled,
 			WindmillFilled,
 			WindsockFilled,
 			WomanFilled,
+			WritingSignFilled,
+			WritingFilled,
 			XboxAFilled,
 			XboxBFilled,
 			XboxXFilled,
@@ -2478,512 +2012,6 @@ public static partial class TablerIcons
 			ZoomQuestionFilled,
 			ZoomScanFilled,
 			ZoomFilled,
-			AB2,
-			ABOff,
-			Abc,
-			AccessibleOff,
-			Accessible,
-			ActivityHeartbeat,
-			Activity,
-			AdCircleOff,
-			AdCircle,
-			AddressBookOff,
-			AddressBook,
-			Affiliate,
-			AirConditioningDisabled,
-			AirConditioning,
-			AlarmSmoke,
-			AlbumOff,
-			Album,
-			Alien,
-			AnalyzeOff,
-			Analyze,
-			AppWindow,
-			Armchair2Off,
-			Armchair2,
-			ArmchairOff,
-			Armchair,
-			Atom2,
-			AtomOff,
-			Atom,
-			Avocado,
-			AwardOff,
-			Award,
-			BadgeOff,
-			Badge,
-			BadgesOff,
-			Badges,
-			BalloonOff,
-			Balloon,
-			Ban,
-			BarrelOff,
-			Barrel,
-			BarrierBlockOff,
-			BarrierBlock,
-			BathOff,
-			Bath,
-			BedFlat,
-			BellSchool,
-			Bible,
-			Binoculars,
-			Blade,
-			Blob,
-			Blocks,
-			BoltOff,
-			Bolt,
-			Bomb,
-			BongOff,
-			Bong,
-			Boom,
-			BorderCornerIos,
-			BoxMultiple,
-			BoxOff,
-			Box,
-			BracketsAngleOff,
-			BracketsAngle,
-			Braille,
-			Briefcase2,
-			BriefcaseOff,
-			Briefcase,
-			BrightnessAuto,
-			BulbOff,
-			Bulb,
-			Businessplan,
-			Candle,
-			Car4wd,
-			CarFan1,
-			CarFan2,
-			CarFan3,
-			CarFanAuto,
-			CarFan,
-			CaretLeftRight,
-			CashBanknoteEdit,
-			CashBanknoteHeart,
-			CashBanknoteMinus,
-			CashBanknoteMoveBack,
-			CashBanknoteMove,
-			CashBanknotePlus,
-			CashEdit,
-			CashHeart,
-			CashMinus,
-			CashMoveBack,
-			CashMove,
-			CashPlus,
-			Cell,
-			ChairDirector,
-			ChalkboardTeacher,
-			Checklist,
-			Chisel,
-			ChristmasBall,
-			CircleDashedPercentage,
-			CircleKey,
-			CirclePercentage,
-			CircleTriangle,
-			CirclesRelation,
-			ClearAll,
-			Click,
-			CloudBitcoin,
-			CloudNetwork,
-			CodeVariableMinus,
-			CodeVariablePlus,
-			CodeVariable,
-			Coffin,
-			CoinTaka,
-			ConfettiOff,
-			Confetti,
-			CongruentTo,
-			CookieMan,
-			Crosshair,
-			CrownOff,
-			Crown,
-			CrystalBall,
-			Cube3dSphereOff,
-			Cube3dSphere,
-			CubeSend,
-			CubeUnfolded,
-			CurlyLoop,
-			CurrencyXrp,
-			CursorOff,
-			DatabaseSmile,
-			DentalBroken,
-			Deselect,
-			Desk,
-			DetailsOff,
-			Details,
-			DeviceProjector,
-			DeviceUnknown,
-			DiamondOff,
-			Diamond,
-			DirectionArrows,
-			DirectionHorizontal,
-			DirectionSignOff,
-			DirectionSign,
-			Direction,
-			DoorEnter,
-			DoorExit,
-			DoorOff,
-			Door,
-			DropCircle,
-			Droplets,
-			ElevatorOff,
-			Elevator,
-			ExchangeOff,
-			Exchange,
-			ExclamationCircle,
-			ExclamationMarkOff,
-			ExclamationMark,
-			ExplicitOff,
-			Explicit,
-			EyeBitcoin,
-			EyeDiscount,
-			EyeDotted,
-			FaceIdError,
-			FaceId,
-			FidgetSpinner,
-			FileExcel,
-			FileNeutral,
-			FileSad,
-			FileSmile,
-			FileWord,
-			FilterDiscount,
-			FilterSpark,
-			Filters,
-			FingerprintScan,
-			FireExtinguisher,
-			FishHookOff,
-			FishHook,
-			FlagBitcoin,
-			FlagDiscount,
-			FlameOff,
-			Flame,
-			FolderOpen,
-			FolderRoot,
-			FolderSymlink,
-			Forbid2,
-			Forbid,
-			FreeRights,
-			FriendsOff,
-			Friends,
-			Galaxy,
-			Gavel,
-			Gizmo,
-			GoGame,
-			Gradienter,
-			Grain,
-			GraphOff,
-			Graph,
-			GridPattern,
-			GuitarPick,
-			Gymnastics,
-			HammerOff,
-			Hammer,
-			Hanger2,
-			Hash,
-			HazeMoon,
-			HeartBitcoin,
-			HeartDiscount,
-			HeartHandshake,
-			Hexagon3d,
-			HistoryToggle,
-			HomeBitcoin,
-			Horse,
-			Horseshoe,
-			HospitalCircle,
-			Hospital,
-			HotelService,
-			Ikosaedr,
-			ImageInPicture,
-			InboxOff,
-			Inbox,
-			InputAi,
-			InputCheck,
-			InputSpark,
-			InputX,
-			Jetpack,
-			JoinBevel,
-			JoinRound,
-			JoinStraight,
-			KeyOff,
-			Key,
-			LabelImportant,
-			LabelOff,
-			Label,
-			LadderOff,
-			Ladder,
-			Ladle,
-			Lamp2,
-			LampOff,
-			Lamp,
-			Lane,
-			LaurelWreath1,
-			LaurelWreath2,
-			LaurelWreath3,
-			LaurelWreath,
-			LayoutBottombarInactive,
-			LayoutNavbarInactive,
-			LayoutSidebarInactive,
-			LayoutSidebarRightInactive,
-			LegoOff,
-			Lego,
-			LibraryMinus,
-			LibraryPhoto,
-			LibraryPlus,
-			Library,
-			LicenseOff,
-			License,
-			LifebuoyOff,
-			Lifebuoy,
-			Lighter,
-			ListLetters,
-			ListTree,
-			LocationDiscount,
-			LuggageOff,
-			Luggage,
-			MagnetOff,
-			Magnet,
-			Magnetic,
-			MailBitcoin,
-			Man,
-			ManualGearbox,
-			Marquee2,
-			MarqueeOff,
-			Marquee,
-			Matchstick,
-			Medal2,
-			Medal,
-			Menu4,
-			MenuDeep,
-			MessageCircleUser,
-			MessageReply,
-			MessageUser,
-			MeterCube,
-			MeterSquare,
-			Metronome,
-			Mickey,
-			MilitaryAward,
-			MilitaryRank,
-			MinusVertical,
-			MobiledataOff,
-			Mobiledata,
-			MoneybagEdit,
-			MoneybagHeart,
-			MoneybagMinus,
-			MoneybagMoveBack,
-			MoneybagMove,
-			MoneybagPlus,
-			Moneybag,
-			Moustache,
-			MusicDiscount,
-			NeedleThread,
-			Needle,
-			NewSection,
-			Nut,
-			Outbound,
-			Outlet,
-			Paperclip,
-			PawOff,
-			Paw,
-			PencilDiscount,
-			Pentagram,
-			Percentage0,
-			Percentage10,
-			Percentage100,
-			Percentage20,
-			Percentage25,
-			Percentage30,
-			Percentage33,
-			Percentage40,
-			Percentage50,
-			Percentage60,
-			Percentage66,
-			Percentage70,
-			Percentage75,
-			Percentage80,
-			Percentage90,
-			PhoneDone,
-			PhoneEnd,
-			PhoneRinging,
-			PhotoBitcoin,
-			PhotoCircle,
-			PhotoHexagon,
-			PhotoPentagon,
-			PhotoSquareRounded,
-			PhotoVideo,
-			PinEnd,
-			PinInvoke,
-			Placeholder,
-			PlaylistAdd,
-			PointOff,
-			Point,
-			Poo,
-			Pray,
-			PremiumRights,
-			PrismLight,
-			Prong,
-			PropellerOff,
-			Propeller,
-			Protocol,
-			QuestionMark,
-			ReceiptRupee,
-			Recharging,
-			RecordMailOff,
-			RecordMail,
-			Reorder,
-			ReplaceOff,
-			ReplaceUser,
-			Replace,
-			ReservedLine,
-			Restore,
-			RobotFace,
-			RobotOff,
-			Rotate3d,
-			RouteScan,
-			Rss,
-			RvTruck,
-			ScaleOff,
-			ScaleOutlineOff,
-			ScaleOutline,
-			Scale,
-			SchoolBell,
-			Screenshot,
-			SearchOff,
-			Search,
-			SelectAll,
-			ShareOff,
-			Share,
-			ShoppingCartCopy,
-			ShoppingCartDiscount,
-			ShovelPitchforks,
-			Shovel,
-			SkewX,
-			SkewY,
-			Slashes,
-			Snowboarding,
-			Snowman,
-			SocialOff,
-			Social,
-			SofaOff,
-			Sofa,
-			SolarElectricity,
-			SolarPanel2,
-			SolarPanel,
-			SortAscendingShapes,
-			SortAscendingSmallBig,
-			SortDescendingShapes,
-			SortDescendingSmallBig,
-			Sos,
-			Spaces,
-			Sparkles,
-			SpiralOff,
-			Spiral,
-			Spray,
-			SpyOff,
-			Spy,
-			SquareAsterisk,
-			SquareDashed,
-			SquareForbid2,
-			SquareForbid,
-			SquareKey,
-			SquarePercentage,
-			SquareRotatedForbid2,
-			SquareRotatedForbid,
-			SquareRoundedPercentage,
-			SquaresSelected,
-			StackBack,
-			StackBackward,
-			StackForward,
-			StackFront,
-			StackMiddle,
-			StatusChange,
-			Steam,
-			StereoGlasses,
-			Sticker2,
-			Sticker,
-			Subtask,
-			SunElectricity,
-			Swipe,
-			TableDashed,
-			TaxEuro,
-			TaxPound,
-			Tax,
-			TelescopeOff,
-			Telescope,
-			TemperatureSnow,
-			TemperatureSun,
-			Terminal,
-			TestPipe2,
-			TestPipeOff,
-			TestPipe,
-			Texture,
-			TicketOff,
-			Ticket,
-			Tilde,
-			Timeline,
-			Timezone,
-			TipJarEuro,
-			TipJarPound,
-			TipJar,
-			ToiletPaperOff,
-			ToiletPaper,
-			TransactionRupee,
-			TransferVertical,
-			Transfer,
-			TransformPointBottomLeft,
-			TransformPointBottomRight,
-			TransformPointTopLeft,
-			TransformPointTopRight,
-			TransformPoint,
-			Transform,
-			Trident,
-			TrophyOff,
-			Trophy,
-			Trowel,
-			Typeface,
-			UfoOff,
-			Uhd,
-			Umbrella2,
-			UmbrellaClosed2,
-			UmbrellaClosed,
-			UmbrellaOff,
-			Umbrella,
-			Universe,
-			Urgent,
-			Usb,
-			UserBitcoin,
-			UserHexagon,
-			UserPentagon,
-			UserSquareRounded,
-			UserSquare,
-			VacuumCleaner,
-			View360Arrow,
-			View360Number,
-			View360Off,
-			View360,
-			ViewportShort,
-			ViewportTall,
-			VipOff,
-			Vip,
-			Vs,
-			WalletOff,
-			Wallet,
-			WallpaperOff,
-			Wallpaper,
-			WandOff,
-			Wand,
-			WaveSawTool,
-			WaveSine,
-			WaveSquare,
-			WavesElectricity,
-			Weight,
-			Wheel,
-			WindElectricity,
-			Woman,
-			Wood,
-			X,
-			Xd,
-			Xxx,
-			ZzzOff,
-			Zzz,
 		];
 	}
 }

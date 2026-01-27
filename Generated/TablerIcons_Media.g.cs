@@ -8,9 +8,11 @@ public static partial class TablerIcons
 {
 	public static partial class Media
 	{
-		public static TablerIcon AspectRatioOff => field ??= new(nameof(AspectRatioOff), "\uF0AF", Sources.AspectRatioOff, "Media", ["size", "dimension", "width", "height", "orientation"]);
-		public static TablerIcon AspectRatio => field ??= new(nameof(AspectRatio), "\uED30", Sources.AspectRatio, "Media", ["size", "dimension", "width", "height", "orientation"]);
-		public static TablerIcon CameraAi => field ??= new(nameof(CameraAi), "\uFFA8", Sources.CameraAi, "Media", ["video", "photo", "aperture"]);
+		public static TablerIcon AlbumOff => field ??= new(nameof(AlbumOff), "\uF3B9", Sources.AlbumOff, "Media", ["photos", "photography", "gallery", "music", "album", "off", "disabled", "inactive", "collection", "pictures"]);
+		public static TablerIcon Album => field ??= new(nameof(Album), "\uF022", Sources.Album, "Media", ["photos", "photography", "gallery", "music", "album", "collection", "pictures", "media"]);
+		public static TablerIcon AspectRatioOff => field ??= new(nameof(AspectRatioOff), "\uF0AF", Sources.AspectRatioOff, "Media", ["size", "dimension", "width", "height", "orientation", "aspect", "ratio", "off", "content", "entertainment"]);
+		public static TablerIcon AspectRatio => field ??= new(nameof(AspectRatio), "\uED30", Sources.AspectRatio, "Media", ["size", "dimension", "width", "height", "orientation", "aspect", "ratio", "content", "entertainment", "multimedia"]);
+		public static TablerIcon CameraAi => field ??= new(nameof(CameraAi), "\uFFA8", Sources.CameraAi, "Media", ["video", "photo", "aperture", "camera", "content", "entertainment", "ai", "multimedia", "broadcast", "audio"]);
 		public static TablerIcon CameraBitcoin => field ??= new(nameof(CameraBitcoin), "\uFFA7", Sources.CameraBitcoin, "Media", ["cryptocurrency", "blockchain", "digital", "currency", "investment", "crypto", "technology", "finance", "bitcoin", "token"]);
 		public static TablerIcon CameraBolt => field ??= new(nameof(CameraBolt), "\uF833", Sources.CameraBolt, "Media", ["flash", "lightning", "electric", "shock", "energy", "power", "thunder", "charge", "zap", "spark"]);
 		public static TablerIcon CameraCancel => field ??= new(nameof(CameraCancel), "\uF834", Sources.CameraCancel, "Media", ["stop", "terminate", "cease", "abort", "void", "nullify", "eliminate", "delete", "end", "remove"]);
@@ -21,42 +23,42 @@ public static partial class TablerIcons
 		public static TablerIcon CameraDown => field ??= new(nameof(CameraDown), "\uF839", Sources.CameraDown, "Media", ["descend", "reduce", "lower", "decrease", "sink", "diminish", "fall", "plummet", "subside", "ebb"]);
 		public static TablerIcon CameraExclamation => field ??= new(nameof(CameraExclamation), "\uF83A", Sources.CameraExclamation, "Media", ["alert", "notice", "warning", "attention", "caution", "notify", "critical", "important", "signal", "urgent"]);
 		public static TablerIcon CameraHeart => field ??= new(nameof(CameraHeart), "\uF83B", Sources.CameraHeart, "Media", ["love", "affection", "adore", "cherish", "fondness", "warmth", "romance", "devotion", "passion", "caring"]);
-		public static TablerIcon CameraMinus => field ??= new(nameof(CameraMinus), "\uEC3A", Sources.CameraMinus, "Media", ["video", "photo", "aperture"]);
+		public static TablerIcon CameraMinus => field ??= new(nameof(CameraMinus), "\uEC3A", Sources.CameraMinus, "Media", ["video", "photo", "aperture", "camera", "minus", "content", "entertainment", "subtract", "remove", "less"]);
 		public static TablerIcon CameraMoon => field ??= new(nameof(CameraMoon), "\uFFA6", Sources.CameraMoon, "Media", ["night", "lunar", "dark", "evening", "nocturnal", "stellar", "celestial", "astronomy", "crescent", "eclipse"]);
-		public static TablerIcon CameraOff => field ??= new(nameof(CameraOff), "\uECEE", Sources.CameraOff, "Media", ["video", "photo", "aperture"]);
+		public static TablerIcon CameraOff => field ??= new(nameof(CameraOff), "\uECEE", Sources.CameraOff, "Media", ["video", "photo", "aperture", "camera", "off", "content", "entertainment", "disabled", "inactive", "multimedia"]);
 		public static TablerIcon CameraPause => field ??= new(nameof(CameraPause), "\uF83C", Sources.CameraPause, "Media", ["break", "rest", "halt", "stop", "interrupt", "freeze", "hold", "suspend", "delay", "breather"]);
 		public static TablerIcon CameraPin => field ??= new(nameof(CameraPin), "\uF83D", Sources.CameraPin, "Media", ["attach", "connect", "fix", "secure", "fasten", "affix", "anchor", "hold", "link", "stick"]);
-		public static TablerIcon CameraPlus => field ??= new(nameof(CameraPlus), "\uEC3B", Sources.CameraPlus, "Media", ["video", "photo", "aperture"]);
+		public static TablerIcon CameraPlus => field ??= new(nameof(CameraPlus), "\uEC3B", Sources.CameraPlus, "Media", ["video", "photo", "aperture", "camera", "plus", "content", "entertainment", "add", "more", "increase"]);
 		public static TablerIcon CameraQuestion => field ??= new(nameof(CameraQuestion), "\uF83E", Sources.CameraQuestion, "Media", ["photography", "query", "inquiry", "lens", "confusion", "focus", "doubt", "investigation", "curiosity", "snapshot"]);
 		public static TablerIcon CameraSearch => field ??= new(nameof(CameraSearch), "\uF83F", Sources.CameraSearch, "Media", ["photography", "zoom", "lens", "exploration", "discovery", "hunting", "seek", "explore", "investigate", "snapshot"]);
 		public static TablerIcon CameraShare => field ??= new(nameof(CameraShare), "\uF840", Sources.CameraShare, "Media", ["photography", "social", "send", "exchange", "connect", "disseminate", "distribute", "broadcast", "transmit", "snapshot"]);
-		public static TablerIcon CameraSpark => field ??= new(nameof(CameraSpark), "\uFFBC", Sources.CameraSpark, "Media", ["video", "photo", "aperture"]);
+		public static TablerIcon CameraSpark => field ??= new(nameof(CameraSpark), "\uFFBC", Sources.CameraSpark, "Media", ["video", "photo", "aperture", "camera", "spark", "content", "entertainment", "glitter", "shine", "flash"]);
 		public static TablerIcon CameraStar => field ??= new(nameof(CameraStar), "\uF841", Sources.CameraStar, "Media", ["photography", "favorite", "highlight", "lens", "award", "recognition", "popularity", "feature", "special", "snapshot"]);
 		public static TablerIcon CameraUp => field ??= new(nameof(CameraUp), "\uF842", Sources.CameraUp, "Media", ["photography", "upload", "increase", "rise", "ascend", "elevate", "lens", "promote", "upgrade", "snapshot"]);
-		public static TablerIcon CameraX => field ??= new(nameof(CameraX), "\uF843", Sources.CameraX, "Media", ["photography", "delete", "remove", "cancel", "close", "terminate", "dismiss", "end", "snapshot"]);
-		public static TablerIcon Camera => field ??= new(nameof(Camera), "\uEA54", Sources.Camera, "Media", ["video", "photo", "aperture"]);
-		public static TablerIcon CaptureOff => field ??= new(nameof(CaptureOff), "\uF0C6", Sources.CaptureOff, "Media", ["photo", "photographer", "sharpen"]);
-		public static TablerIcon Capture => field ??= new(nameof(Capture), "\uEC3C", Sources.Capture, "Media", ["photo", "photographer", "sharpen"]);
-		public static TablerIcon CastOff => field ??= new(nameof(CastOff), "\uF0C9", Sources.CastOff, "Media", ["broadcast", "stream", "mirroring", "apple", "airplay", "chromecast"]);
-		public static TablerIcon Cast => field ??= new(nameof(Cast), "\uEA56", Sources.Cast, "Media", ["broadcast", "stream", "mirroring", "apple", "airplay", "chromecast"]);
-		public static TablerIcon HeadphonesOff => field ??= new(nameof(HeadphonesOff), "\uED1D", Sources.HeadphonesOff, "Media", ["music", "headset", "audio", "sound", "customer"]);
-		public static TablerIcon Headphones => field ??= new(nameof(Headphones), "\uEABD", Sources.Headphones, "Media", ["music", "headset", "audio", "sound", "customer"]);
-		public static TablerIcon HeadsetOff => field ??= new(nameof(HeadsetOff), "\uF3F6", Sources.HeadsetOff, "Media", ["music", "headphones", "audio", "sound", "customer"]);
-		public static TablerIcon Headset => field ??= new(nameof(Headset), "\uEB90", Sources.Headset, "Media", ["music", "headphones", "audio", "sound", "customer"]);
-		public static TablerIcon KeyframeAlignCenter => field ??= new(nameof(KeyframeAlignCenter), "\uF582", Sources.KeyframeAlignCenter, "Media", ["middle", "animation", "shape"]);
-		public static TablerIcon KeyframeAlignHorizontal => field ??= new(nameof(KeyframeAlignHorizontal), "\uF583", Sources.KeyframeAlignHorizontal, "Media", ["animation", "shape"]);
-		public static TablerIcon KeyframeAlignVertical => field ??= new(nameof(KeyframeAlignVertical), "\uF584", Sources.KeyframeAlignVertical, "Media", ["animation", "shape"]);
-		public static TablerIcon Keyframe => field ??= new(nameof(Keyframe), "\uF576", Sources.Keyframe, "Media", ["animation", "shape", "design", "align"]);
-		public static TablerIcon Keyframes => field ??= new(nameof(Keyframes), "\uF585", Sources.Keyframes, "Media", ["animation", "shape", "design", "align"]);
-		public static TablerIcon MaximizeOff => field ??= new(nameof(MaximizeOff), "\uF15F", Sources.MaximizeOff, "Media", ["fullscreen", "maximize", "expand", "window", "size", "resize", "direction"]);
-		public static TablerIcon Maximize => field ??= new(nameof(Maximize), "\uEAEA", Sources.Maximize, "Media", ["fullscreen", "maximize", "expand", "window", "size", "resize", "direction"]);
-		public static TablerIcon Microphone2Off => field ??= new(nameof(Microphone2Off), "\uF40D", Sources.Microphone2Off, "Media", ["record", "sound", "listen", "sing"]);
-		public static TablerIcon Microphone2 => field ??= new(nameof(Microphone2), "\uEF2C", Sources.Microphone2, "Media", ["record", "sound", "listen", "sing"]);
-		public static TablerIcon MicrophoneOff => field ??= new(nameof(MicrophoneOff), "\uED16", Sources.MicrophoneOff, "Media", ["record", "sound", "listen"]);
-		public static TablerIcon Microphone => field ??= new(nameof(Microphone), "\uEAF0", Sources.Microphone, "Media", ["record", "sound", "listen"]);
-		public static TablerIcon Minimize => field ??= new(nameof(Minimize), "\uEAF1", Sources.Minimize, "Media", ["exit", "close"]);
-		public static TablerIcon MovieOff => field ??= new(nameof(MovieOff), "\uF164", Sources.MovieOff, "Media", ["film", "video", "cinema"]);
-		public static TablerIcon Movie => field ??= new(nameof(Movie), "\uEAFA", Sources.Movie, "Media", ["film", "video", "cinema"]);
+		public static TablerIcon CameraX => field ??= new(nameof(CameraX), "\uF843", Sources.CameraX, "Media", ["photography", "delete", "remove", "cancel", "close", "terminate", "dismiss", "end", "snapshot", "camera"]);
+		public static TablerIcon Camera => field ??= new(nameof(Camera), "\uEA54", Sources.Camera, "Media", ["video", "photo", "aperture", "camera", "content", "entertainment", "multimedia", "broadcast", "audio"]);
+		public static TablerIcon CaptureOff => field ??= new(nameof(CaptureOff), "\uF0C6", Sources.CaptureOff, "Media", ["photo", "photographer", "sharpen", "capture", "off", "content", "entertainment", "disabled", "inactive", "multimedia"]);
+		public static TablerIcon Capture => field ??= new(nameof(Capture), "\uEC3C", Sources.Capture, "Media", ["photo", "photographer", "sharpen", "capture", "content", "entertainment", "multimedia", "broadcast", "audio"]);
+		public static TablerIcon CastOff => field ??= new(nameof(CastOff), "\uF0C9", Sources.CastOff, "Media", ["broadcast", "stream", "mirroring", "apple", "airplay", "chromecast", "cast", "off", "content", "entertainment"]);
+		public static TablerIcon Cast => field ??= new(nameof(Cast), "\uEA56", Sources.Cast, "Media", ["broadcast", "stream", "mirroring", "apple", "airplay", "chromecast", "cast", "content", "entertainment", "multimedia"]);
+		public static TablerIcon HeadphonesOff => field ??= new(nameof(HeadphonesOff), "\uED1D", Sources.HeadphonesOff, "Media", ["music", "headset", "audio", "sound", "customer", "headphones", "off", "content", "entertainment", "disabled"]);
+		public static TablerIcon Headphones => field ??= new(nameof(Headphones), "\uEABD", Sources.Headphones, "Media", ["music", "headset", "audio", "sound", "customer", "headphones", "content", "entertainment", "multimedia", "broadcast"]);
+		public static TablerIcon HeadsetOff => field ??= new(nameof(HeadsetOff), "\uF3F6", Sources.HeadsetOff, "Media", ["music", "headphones", "audio", "sound", "customer", "headset", "off", "content", "entertainment", "disabled"]);
+		public static TablerIcon Headset => field ??= new(nameof(Headset), "\uEB90", Sources.Headset, "Media", ["music", "headphones", "audio", "sound", "customer", "headset", "content", "entertainment", "multimedia", "broadcast"]);
+		public static TablerIcon KeyframeAlignCenter => field ??= new(nameof(KeyframeAlignCenter), "\uF582", Sources.KeyframeAlignCenter, "Media", ["middle", "animation", "shape", "keyframe", "align", "center", "content", "entertainment", "multimedia", "broadcast"]);
+		public static TablerIcon KeyframeAlignHorizontal => field ??= new(nameof(KeyframeAlignHorizontal), "\uF583", Sources.KeyframeAlignHorizontal, "Media", ["animation", "shape", "keyframe", "align", "horizontal", "content", "entertainment", "multimedia", "broadcast", "audio"]);
+		public static TablerIcon KeyframeAlignVertical => field ??= new(nameof(KeyframeAlignVertical), "\uF584", Sources.KeyframeAlignVertical, "Media", ["animation", "shape", "keyframe", "align", "vertical", "content", "entertainment", "multimedia", "broadcast", "audio"]);
+		public static TablerIcon Keyframe => field ??= new(nameof(Keyframe), "\uF576", Sources.Keyframe, "Media", ["animation", "shape", "design", "align", "keyframe", "content", "entertainment", "multimedia", "broadcast", "audio"]);
+		public static TablerIcon Keyframes => field ??= new(nameof(Keyframes), "\uF585", Sources.Keyframes, "Media", ["animation", "shape", "design", "align", "keyframes", "content", "entertainment", "multimedia", "broadcast", "audio"]);
+		public static TablerIcon MaximizeOff => field ??= new(nameof(MaximizeOff), "\uF15F", Sources.MaximizeOff, "Media", ["fullscreen", "maximize", "expand", "window", "size", "resize", "direction", "off", "content", "entertainment"]);
+		public static TablerIcon Maximize => field ??= new(nameof(Maximize), "\uEAEA", Sources.Maximize, "Media", ["fullscreen", "maximize", "expand", "window", "size", "resize", "direction", "content", "entertainment", "multimedia"]);
+		public static TablerIcon Microphone2Off => field ??= new(nameof(Microphone2Off), "\uF40D", Sources.Microphone2Off, "Media", ["record", "sound", "listen", "sing", "microphone", "off", "content", "entertainment", "disabled", "inactive"]);
+		public static TablerIcon Microphone2 => field ??= new(nameof(Microphone2), "\uEF2C", Sources.Microphone2, "Media", ["record", "sound", "listen", "sing", "microphone", "content", "entertainment", "multimedia", "broadcast", "audio"]);
+		public static TablerIcon MicrophoneOff => field ??= new(nameof(MicrophoneOff), "\uED16", Sources.MicrophoneOff, "Media", ["record", "sound", "listen", "microphone", "off", "content", "entertainment", "disabled", "inactive", "multimedia"]);
+		public static TablerIcon Microphone => field ??= new(nameof(Microphone), "\uEAF0", Sources.Microphone, "Media", ["record", "sound", "listen", "microphone", "content", "entertainment", "multimedia", "broadcast", "audio"]);
+		public static TablerIcon Minimize => field ??= new(nameof(Minimize), "\uEAF1", Sources.Minimize, "Media", ["exit", "close", "minimize", "content", "entertainment", "multimedia", "broadcast", "audio"]);
+		public static TablerIcon MovieOff => field ??= new(nameof(MovieOff), "\uF164", Sources.MovieOff, "Media", ["film", "video", "cinema", "movie", "off", "content", "entertainment", "disabled", "inactive", "multimedia"]);
+		public static TablerIcon Movie => field ??= new(nameof(Movie), "\uEAFA", Sources.Movie, "Media", ["film", "video", "cinema", "movie", "content", "entertainment", "multimedia", "broadcast", "audio"]);
 		public static TablerIcon MusicBolt => field ??= new(nameof(MusicBolt), "\uFBD5", Sources.MusicBolt, "Media", ["electric", "energy", "charge", "dynamic", "power", "lightning", "fast", "tempo", "beat", "vibrant"]);
 		public static TablerIcon MusicCancel => field ??= new(nameof(MusicCancel), "\uFBD6", Sources.MusicCancel, "Media", ["mute", "stop", "disable", "halt", "silence", "cut", "end", "disconnect", "terminate", "block"]);
 		public static TablerIcon MusicCheck => field ??= new(nameof(MusicCheck), "\uFBD7", Sources.MusicCheck, "Media", ["verify", "confirm", "validate", "approve", "tick", "agree", "pass", "complete", "ensure", "accept"]);
@@ -66,8 +68,8 @@ public static partial class TablerIcons
 		public static TablerIcon MusicDown => field ??= new(nameof(MusicDown), "\uFBDC", Sources.MusicDown, "Media", ["decrease", "lower", "reduce", "fall", "drop", "descend", "diminish", "diminutive", "below", "decline"]);
 		public static TablerIcon MusicExclamation => field ??= new(nameof(MusicExclamation), "\uFBDD", Sources.MusicExclamation, "Media", ["alert", "warning", "notice", "urgent", "important", "emphasis", "highlight", "attention", "caution", "remark"]);
 		public static TablerIcon MusicHeart => field ??= new(nameof(MusicHeart), "\uFBDE", Sources.MusicHeart, "Media", ["love", "affection", "care", "adore", "passion", "fond", "like", "cherish", "emotion", "feel"]);
-		public static TablerIcon MusicMinus => field ??= new(nameof(MusicMinus), "\uFBDF", Sources.MusicMinus, "Media", ["reduce", "negative", "lower", "subtract", "diminish", "less", "decline", "decrement", "down"]);
-		public static TablerIcon MusicOff => field ??= new(nameof(MusicOff), "\uF166", Sources.MusicOff, "Media", ["sound", "mp3", "album", "speakers", "melody"]);
+		public static TablerIcon MusicMinus => field ??= new(nameof(MusicMinus), "\uFBDF", Sources.MusicMinus, "Media", ["reduce", "negative", "lower", "subtract", "diminish", "less", "decline", "decrement", "down", "music"]);
+		public static TablerIcon MusicOff => field ??= new(nameof(MusicOff), "\uF166", Sources.MusicOff, "Media", ["sound", "mp3", "album", "speakers", "melody", "music", "off", "content", "entertainment", "disabled"]);
 		public static TablerIcon MusicPause => field ??= new(nameof(MusicPause), "\uFBE0", Sources.MusicPause, "Media", ["halt", "break", "interval", "stop", "suspend", "freeze", "hold", "rest", "wait", "cease"]);
 		public static TablerIcon MusicPin => field ??= new(nameof(MusicPin), "\uFBE1", Sources.MusicPin, "Media", ["attach", "fix", "bookmark", "point", "secure", "marker", "fasten", "stick", "location", "anchor"]);
 		public static TablerIcon MusicPlus => field ??= new(nameof(MusicPlus), "\uFBE2", Sources.MusicPlus, "Media", ["increase", "add", "expand", "grow", "augment", "boost", "elevate", "extra", "enhance", "gain"]);
@@ -77,55 +79,55 @@ public static partial class TablerIcons
 		public static TablerIcon MusicStar => field ??= new(nameof(MusicStar), "\uFBE6", Sources.MusicStar, "Media", ["favorite", "highlight", "best", "top", "bright", "shine", "selection", "elite", "premium", "noteworthy"]);
 		public static TablerIcon MusicUp => field ??= new(nameof(MusicUp), "\uFBE7", Sources.MusicUp, "Media", ["increase", "rise", "elevate", "advance", "ascend", "boost", "grow", "progress", "climb", "upward"]);
 		public static TablerIcon MusicX => field ??= new(nameof(MusicX), "\uFBE8", Sources.MusicX, "Media", ["close", "delete", "cancel", "remove", "end", "terminate", "exit", "void", "stop", "abandon"]);
-		public static TablerIcon Music => field ??= new(nameof(Music), "\uEAFC", Sources.Music, "Media", ["sound", "mp3", "album", "speakers", "melody"]);
-		public static TablerIcon PhotoAi => field ??= new(nameof(PhotoAi), "\uFA32", Sources.PhotoAi, "Media", ["image", "picture", "landscape", "camera"]);
-		public static TablerIcon PhotoBolt => field ??= new(nameof(PhotoBolt), "\uF990", Sources.PhotoBolt, "Media", ["lightning", "electricity", "energy", "power", "fast", "storm", "icon", "snap", "photograph", "instant"]);
-		public static TablerIcon PhotoCancel => field ??= new(nameof(PhotoCancel), "\uF35D", Sources.PhotoCancel, "Media", ["delete", "gallery", "image"]);
-		public static TablerIcon PhotoCheck => field ??= new(nameof(PhotoCheck), "\uF35E", Sources.PhotoCheck, "Media", ["success", "complete", "image", "gallery"]);
+		public static TablerIcon Music => field ??= new(nameof(Music), "\uEAFC", Sources.Music, "Media", ["sound", "mp3", "album", "speakers", "melody", "music", "content", "entertainment", "multimedia", "broadcast"]);
+		public static TablerIcon PhotoAi => field ??= new(nameof(PhotoAi), "\uFA32", Sources.PhotoAi, "Media", ["picture", "landscape", "camera", "photo", "content", "entertainment", "ai", "multimedia", "broadcast", "audio"]);
+		public static TablerIcon PhotoBolt => field ??= new(nameof(PhotoBolt), "\uF990", Sources.PhotoBolt, "Media", ["lightning", "electricity", "energy", "power", "fast", "storm", "snap", "photograph", "instant", "photo"]);
+		public static TablerIcon PhotoCancel => field ??= new(nameof(PhotoCancel), "\uF35D", Sources.PhotoCancel, "Media", ["delete", "gallery", "photo", "cancel", "content", "entertainment", "stop", "abort", "close", "dismiss"]);
+		public static TablerIcon PhotoCheck => field ??= new(nameof(PhotoCheck), "\uF35E", Sources.PhotoCheck, "Media", ["success", "complete", "gallery", "photo", "check", "content", "entertainment", "confirm", "approve", "multimedia"]);
 		public static TablerIcon PhotoCircleMinus => field ??= new(nameof(PhotoCircleMinus), "\uFC62", Sources.PhotoCircleMinus, "Media", ["subtract", "reduce", "delete", "decrease", "minus", "empty", "border", "rim", "round", "picture"]);
 		public static TablerIcon PhotoCirclePlus => field ??= new(nameof(PhotoCirclePlus), "\uFC63", Sources.PhotoCirclePlus, "Media", ["add", "increase", "enhance", "augment", "expand", "border", "rim", "round", "picture", "photograph"]);
-		public static TablerIcon PhotoCode => field ??= new(nameof(PhotoCode), "\uF991", Sources.PhotoCode, "Media", ["program", "script", "software", "binary", "developer", "html", "markup", "syntax", "photograph"]);
+		public static TablerIcon PhotoCode => field ??= new(nameof(PhotoCode), "\uF991", Sources.PhotoCode, "Media", ["program", "script", "software", "binary", "developer", "html", "markup", "syntax", "photograph", "photo"]);
 		public static TablerIcon PhotoCog => field ??= new(nameof(PhotoCog), "\uF992", Sources.PhotoCog, "Media", ["gear", "settings", "preference", "configure", "tool", "mechanism", "adjust", "tune", "photo", "visual"]);
-		public static TablerIcon PhotoDollar => field ??= new(nameof(PhotoDollar), "\uF993", Sources.PhotoDollar, "Media", ["money", "currency", "finance", "wealth", "economy", "cash", "snapshot", "image", "icon", "symbol"]);
-		public static TablerIcon PhotoDown => field ??= new(nameof(PhotoDown), "\uF35F", Sources.PhotoDown, "Media", ["image", "gallery", "download", "arrow", "south"]);
-		public static TablerIcon PhotoEdit => field ??= new(nameof(PhotoEdit), "\uF360", Sources.PhotoEdit, "Media", ["image", "gallery", "tool", "create"]);
-		public static TablerIcon PhotoExclamation => field ??= new(nameof(PhotoExclamation), "\uF994", Sources.PhotoExclamation, "Media", ["alert", "warning", "notice", "attention", "caution", "mark", "icon", "capture", "highlight", "symbol"]);
-		public static TablerIcon PhotoHeart => field ??= new(nameof(PhotoHeart), "\uF361", Sources.PhotoHeart, "Media", ["image", "gallery", "love", "romance", "wedding"]);
-		public static TablerIcon PhotoMinus => field ??= new(nameof(PhotoMinus), "\uF362", Sources.PhotoMinus, "Media", ["image", "gallery", "delete", "remove"]);
-		public static TablerIcon PhotoOff => field ??= new(nameof(PhotoOff), "\uECF6", Sources.PhotoOff, "Media", ["image", "picture", "landscape", "camera"]);
-		public static TablerIcon PhotoPause => field ??= new(nameof(PhotoPause), "\uF995", Sources.PhotoPause, "Media", ["halt", "stop", "wait", "interrupt", "break", "hold", "photograph", "defer", "capture", "icon"]);
-		public static TablerIcon PhotoPin => field ??= new(nameof(PhotoPin), "\uF996", Sources.PhotoPin, "Media", ["location", "map", "point", "place", "marker", "icon", "peg", "snapshot", "indicator"]);
-		public static TablerIcon PhotoPlus => field ??= new(nameof(PhotoPlus), "\uF363", Sources.PhotoPlus, "Media", ["image", "gallery", "add", "new"]);
-		public static TablerIcon PhotoQuestion => field ??= new(nameof(PhotoQuestion), "\uF997", Sources.PhotoQuestion, "Media", ["inquiry", "doubt", "ask", "query", "photograph", "curiosity", "interrogate", "enquire", "symbol", "snapshot"]);
-		public static TablerIcon PhotoSearch => field ??= new(nameof(PhotoSearch), "\uF364", Sources.PhotoSearch, "Media", ["image", "gallery", "find", "zoom"]);
-		public static TablerIcon PhotoShare => field ??= new(nameof(PhotoShare), "\uF998", Sources.PhotoShare, "Media", ["distribute", "broadcast", "spread", "disseminate", "post", "photograph", "connect", "icon", "send", "transfer"]);
-		public static TablerIcon PhotoShield => field ??= new(nameof(PhotoShield), "\uF365", Sources.PhotoShield, "Media", ["image", "gallery", "safety", "secure"]);
-		public static TablerIcon PhotoSpark => field ??= new(nameof(PhotoSpark), "\uFFB0", Sources.PhotoSpark, "Media", ["image", "picture", "landscape", "camera"]);
-		public static TablerIcon PhotoStar => field ??= new(nameof(PhotoStar), "\uF366", Sources.PhotoStar, "Media", ["image", "gallery", "favourite", "best"]);
-		public static TablerIcon PhotoUp => field ??= new(nameof(PhotoUp), "\uF38B", Sources.PhotoUp, "Media", ["image", "gallery", "load", "send", "arrow", "north"]);
-		public static TablerIcon PhotoX => field ??= new(nameof(PhotoX), "\uF367", Sources.PhotoX, "Media", ["image", "gallery", "delete", "remove"]);
-		public static TablerIcon Photo => field ??= new(nameof(Photo), "\uEB0A", Sources.Photo, "Media", ["image", "picture", "landscape", "camera"]);
-		public static TablerIcon PictureInPictureOff => field ??= new(nameof(PictureInPictureOff), "\uED43", Sources.PictureInPictureOff, "Media", ["size", "photo", "elements", "adjust", "image"]);
-		public static TablerIcon PictureInPictureOn => field ??= new(nameof(PictureInPictureOn), "\uED44", Sources.PictureInPictureOn, "Media", ["size", "photo", "elements", "adjust", "image"]);
-		public static TablerIcon PictureInPictureTop => field ??= new(nameof(PictureInPictureTop), "\uEFE4", Sources.PictureInPictureTop, "Media", ["browser", "shape", "rectangle"]);
-		public static TablerIcon PictureInPicture => field ??= new(nameof(PictureInPicture), "\uED35", Sources.PictureInPicture, "Media", ["size", "photo", "elements", "adjust", "image"]);
-		public static TablerIcon PlayerEject => field ??= new(nameof(PlayerEject), "\uEFBC", Sources.PlayerEject, "Media", ["media", "multimedia", "music", "audio", "control", "figures"]);
-		public static TablerIcon PlayerPause => field ??= new(nameof(PlayerPause), "\uED45", Sources.PlayerPause, "Media", ["video", "film", "music", "player", "stop"]);
-		public static TablerIcon PlayerPlay => field ??= new(nameof(PlayerPlay), "\uED46", Sources.PlayerPlay, "Media", ["start", "video", "film", "music", "player"]);
-		public static TablerIcon PlayerRecord => field ??= new(nameof(PlayerRecord), "\uED47", Sources.PlayerRecord, "Media", ["music", "song", "playlist", "melody", "device", "voice", "recorder", "dictation", "machine"]);
-		public static TablerIcon PlayerSkipBack => field ??= new(nameof(PlayerSkipBack), "\uED48", Sources.PlayerSkipBack, "Media", ["button", "player", "video", "film", "music", "cancel", "rewind", "reverse"]);
-		public static TablerIcon PlayerSkipForward => field ??= new(nameof(PlayerSkipForward), "\uED49", Sources.PlayerSkipForward, "Media", ["button", "player", "video", "film", "music", "omit"]);
-		public static TablerIcon PlayerStop => field ??= new(nameof(PlayerStop), "\uED4A", Sources.PlayerStop, "Media", ["music", "song", "playlist", "melody", "device", "voice", "silence", "break"]);
-		public static TablerIcon PlayerTrackNext => field ??= new(nameof(PlayerTrackNext), "\uED4B", Sources.PlayerTrackNext, "Media", ["music", "forward", "play", "song", "playlist"]);
-		public static TablerIcon PlayerTrackPrev => field ??= new(nameof(PlayerTrackPrev), "\uED4C", Sources.PlayerTrackPrev, "Media", ["music", "forward", "play", "song", "playlist"]);
-		public static TablerIcon PlaylistOff => field ??= new(nameof(PlaylistOff), "\uF17F", Sources.PlaylistOff, "Media", ["music", "song", "artist", "spotify", "track", "play", "record"]);
-		public static TablerIcon PlaylistX => field ??= new(nameof(PlaylistX), "\uF009", Sources.PlaylistX, "Media", ["off", "delete", "remove"]);
-		public static TablerIcon Playlist => field ??= new(nameof(Playlist), "\uEEC0", Sources.Playlist, "Media", ["music", "song", "artist", "spotify", "track", "play", "record"]);
-		public static TablerIcon RadioOff => field ??= new(nameof(RadioOff), "\uF420", Sources.RadioOff, "Media", ["music", "news", "sound", "broadcost", "communication", "station"]);
-		public static TablerIcon Radio => field ??= new(nameof(Radio), "\uEF2D", Sources.Radio, "Media", ["music", "news", "sound", "broadcost", "communication", "station"]);
-		public static TablerIcon RepeatOff => field ??= new(nameof(RepeatOff), "\uF18E", Sources.RepeatOff, "Media", ["reuse", "redo", "action", "replay", "loop", "flip"]);
-		public static TablerIcon RepeatOnce => field ??= new(nameof(RepeatOnce), "\uEB71", Sources.RepeatOnce, "Media", ["reuse", "redo", "action", "replay", "loop"]);
-		public static TablerIcon Repeat => field ??= new(nameof(Repeat), "\uEB72", Sources.Repeat, "Media", ["reuse", "redo", "action", "replay", "loop", "flip"]);
+		public static TablerIcon PhotoDollar => field ??= new(nameof(PhotoDollar), "\uF993", Sources.PhotoDollar, "Media", ["money", "currency", "finance", "wealth", "economy", "cash", "snapshot", "photo", "dollar", "usd"]);
+		public static TablerIcon PhotoDown => field ??= new(nameof(PhotoDown), "\uF35F", Sources.PhotoDown, "Media", ["gallery", "download", "arrow", "south", "photo", "down", "bottom", "decrease", "content", "fall"]);
+		public static TablerIcon PhotoEdit => field ??= new(nameof(PhotoEdit), "\uF360", Sources.PhotoEdit, "Media", ["gallery", "tool", "create", "photo", "edit", "modify", "change", "update", "content", "revise"]);
+		public static TablerIcon PhotoExclamation => field ??= new(nameof(PhotoExclamation), "\uF994", Sources.PhotoExclamation, "Media", ["alert", "warning", "notice", "attention", "caution", "mark", "capture", "highlight", "photo", "exclamation"]);
+		public static TablerIcon PhotoHeart => field ??= new(nameof(PhotoHeart), "\uF361", Sources.PhotoHeart, "Media", ["gallery", "love", "romance", "wedding", "photo", "heart", "content", "entertainment", "like", "multimedia"]);
+		public static TablerIcon PhotoMinus => field ??= new(nameof(PhotoMinus), "\uF362", Sources.PhotoMinus, "Media", ["gallery", "delete", "remove", "photo", "minus", "content", "entertainment", "subtract", "less", "decrease"]);
+		public static TablerIcon PhotoOff => field ??= new(nameof(PhotoOff), "\uECF6", Sources.PhotoOff, "Media", ["picture", "landscape", "camera", "photo", "off", "content", "entertainment", "disabled", "inactive", "multimedia"]);
+		public static TablerIcon PhotoPause => field ??= new(nameof(PhotoPause), "\uF995", Sources.PhotoPause, "Media", ["halt", "stop", "wait", "interrupt", "break", "hold", "photograph", "defer", "capture", "photo"]);
+		public static TablerIcon PhotoPin => field ??= new(nameof(PhotoPin), "\uF996", Sources.PhotoPin, "Media", ["location", "map", "point", "place", "marker", "peg", "snapshot", "indicator", "photo", "pin"]);
+		public static TablerIcon PhotoPlus => field ??= new(nameof(PhotoPlus), "\uF363", Sources.PhotoPlus, "Media", ["gallery", "add", "new", "photo", "plus", "content", "entertainment", "more", "increase", "positive"]);
+		public static TablerIcon PhotoQuestion => field ??= new(nameof(PhotoQuestion), "\uF997", Sources.PhotoQuestion, "Media", ["inquiry", "doubt", "ask", "query", "photograph", "curiosity", "interrogate", "enquire", "snapshot", "photo"]);
+		public static TablerIcon PhotoSearch => field ??= new(nameof(PhotoSearch), "\uF364", Sources.PhotoSearch, "Media", ["gallery", "find", "zoom", "photo", "search", "look", "seek", "content", "entertainment", "query"]);
+		public static TablerIcon PhotoShare => field ??= new(nameof(PhotoShare), "\uF998", Sources.PhotoShare, "Media", ["distribute", "broadcast", "spread", "disseminate", "post", "photograph", "connect", "send", "transfer", "photo"]);
+		public static TablerIcon PhotoShield => field ??= new(nameof(PhotoShield), "\uF365", Sources.PhotoShield, "Media", ["gallery", "safety", "secure", "photo", "shield", "content", "entertainment", "multimedia", "broadcast", "audio"]);
+		public static TablerIcon PhotoSpark => field ??= new(nameof(PhotoSpark), "\uFFB0", Sources.PhotoSpark, "Media", ["picture", "landscape", "camera", "photo", "spark", "content", "entertainment", "glitter", "shine", "flash"]);
+		public static TablerIcon PhotoStar => field ??= new(nameof(PhotoStar), "\uF366", Sources.PhotoStar, "Media", ["gallery", "favourite", "best", "photo", "star", "content", "entertainment", "favorite", "rating", "multimedia"]);
+		public static TablerIcon PhotoUp => field ??= new(nameof(PhotoUp), "\uF38B", Sources.PhotoUp, "Media", ["gallery", "load", "send", "arrow", "north", "photo", "top", "increase", "content", "up"]);
+		public static TablerIcon PhotoX => field ??= new(nameof(PhotoX), "\uF367", Sources.PhotoX, "Media", ["gallery", "delete", "remove", "photo", "content", "entertainment", "multimedia", "broadcast", "audio", "x"]);
+		public static TablerIcon Photo => field ??= new(nameof(Photo), "\uEB0A", Sources.Photo, "Media", ["picture", "landscape", "camera", "photo", "content", "entertainment", "multimedia", "broadcast", "audio"]);
+		public static TablerIcon PictureInPictureOff => field ??= new(nameof(PictureInPictureOff), "\uED43", Sources.PictureInPictureOff, "Media", ["size", "photo", "elements", "adjust", "picture", "off", "content", "entertainment", "disabled", "in"]);
+		public static TablerIcon PictureInPictureOn => field ??= new(nameof(PictureInPictureOn), "\uED44", Sources.PictureInPictureOn, "Media", ["size", "photo", "elements", "adjust", "picture", "content", "entertainment", "in", "on", "multimedia"]);
+		public static TablerIcon PictureInPictureTop => field ??= new(nameof(PictureInPictureTop), "\uEFE4", Sources.PictureInPictureTop, "Media", ["browser", "shape", "rectangle", "picture", "top", "content", "entertainment", "in", "multimedia", "broadcast"]);
+		public static TablerIcon PictureInPicture => field ??= new(nameof(PictureInPicture), "\uED35", Sources.PictureInPicture, "Media", ["size", "photo", "elements", "adjust", "picture", "content", "entertainment", "in", "multimedia", "broadcast"]);
+		public static TablerIcon PlayerEject => field ??= new(nameof(PlayerEject), "\uEFBC", Sources.PlayerEject, "Media", ["media", "multimedia", "music", "audio", "control", "figures", "player", "eject", "content", "entertainment"]);
+		public static TablerIcon PlayerPause => field ??= new(nameof(PlayerPause), "\uED45", Sources.PlayerPause, "Media", ["video", "film", "music", "player", "stop", "pause", "content", "entertainment", "break", "suspend"]);
+		public static TablerIcon PlayerPlay => field ??= new(nameof(PlayerPlay), "\uED46", Sources.PlayerPlay, "Media", ["start", "video", "film", "music", "player", "play", "content", "entertainment", "multimedia", "broadcast"]);
+		public static TablerIcon PlayerRecord => field ??= new(nameof(PlayerRecord), "\uED47", Sources.PlayerRecord, "Media", ["music", "song", "playlist", "melody", "device", "voice", "recorder", "dictation", "machine", "player"]);
+		public static TablerIcon PlayerSkipBack => field ??= new(nameof(PlayerSkipBack), "\uED48", Sources.PlayerSkipBack, "Media", ["button", "player", "video", "film", "music", "cancel", "rewind", "reverse", "skip", "back"]);
+		public static TablerIcon PlayerSkipForward => field ??= new(nameof(PlayerSkipForward), "\uED49", Sources.PlayerSkipForward, "Media", ["button", "player", "video", "film", "music", "omit", "skip", "forward", "content", "entertainment"]);
+		public static TablerIcon PlayerStop => field ??= new(nameof(PlayerStop), "\uED4A", Sources.PlayerStop, "Media", ["music", "song", "playlist", "melody", "device", "voice", "silence", "break", "player", "stop"]);
+		public static TablerIcon PlayerTrackNext => field ??= new(nameof(PlayerTrackNext), "\uED4B", Sources.PlayerTrackNext, "Media", ["music", "forward", "play", "song", "playlist", "player", "track", "next", "content", "entertainment"]);
+		public static TablerIcon PlayerTrackPrev => field ??= new(nameof(PlayerTrackPrev), "\uED4C", Sources.PlayerTrackPrev, "Media", ["music", "forward", "play", "song", "playlist", "player", "track", "prev", "content", "entertainment"]);
+		public static TablerIcon PlaylistOff => field ??= new(nameof(PlaylistOff), "\uF17F", Sources.PlaylistOff, "Media", ["music", "song", "artist", "spotify", "track", "play", "record", "playlist", "off", "content"]);
+		public static TablerIcon PlaylistX => field ??= new(nameof(PlaylistX), "\uF009", Sources.PlaylistX, "Media", ["off", "delete", "remove", "playlist", "content", "entertainment", "multimedia", "broadcast", "audio", "x"]);
+		public static TablerIcon Playlist => field ??= new(nameof(Playlist), "\uEEC0", Sources.Playlist, "Media", ["music", "song", "artist", "spotify", "track", "play", "record", "playlist", "content", "entertainment"]);
+		public static TablerIcon RadioOff => field ??= new(nameof(RadioOff), "\uF420", Sources.RadioOff, "Media", ["music", "news", "sound", "broadcost", "communication", "station", "radio", "off", "content", "entertainment"]);
+		public static TablerIcon Radio => field ??= new(nameof(Radio), "\uEF2D", Sources.Radio, "Media", ["music", "news", "sound", "broadcost", "communication", "station", "radio", "content", "entertainment", "multimedia"]);
+		public static TablerIcon RepeatOff => field ??= new(nameof(RepeatOff), "\uF18E", Sources.RepeatOff, "Media", ["reuse", "redo", "action", "replay", "loop", "flip", "repeat", "off", "content", "entertainment"]);
+		public static TablerIcon RepeatOnce => field ??= new(nameof(RepeatOnce), "\uEB71", Sources.RepeatOnce, "Media", ["reuse", "redo", "action", "replay", "loop", "repeat", "once", "content", "entertainment", "multimedia"]);
+		public static TablerIcon Repeat => field ??= new(nameof(Repeat), "\uEB72", Sources.Repeat, "Media", ["reuse", "redo", "action", "replay", "loop", "flip", "repeat", "content", "entertainment", "multimedia"]);
 		public static TablerIcon RewindBackward10 => field ??= new(nameof(RewindBackward10), "\uFABA", Sources.RewindBackward10, "Media", ["reverse", "rewind", "ten", "time", "back", "playback", "go-back", "control", "step-back", "media"]);
 		public static TablerIcon RewindBackward15 => field ??= new(nameof(RewindBackward15), "\uFABB", Sources.RewindBackward15, "Media", ["reverse", "rewind", "fifteen", "time", "back", "playback", "go-back", "control", "step-back", "media"]);
 		public static TablerIcon RewindBackward20 => field ??= new(nameof(RewindBackward20), "\uFABC", Sources.RewindBackward20, "Media", ["reverse", "rewind", "twenty", "time", "back", "playback", "go-back", "control", "step-back", "media"]);
@@ -143,18 +145,25 @@ public static partial class TablerIcons
 		public static TablerIcon RewindForward50 => field ??= new(nameof(RewindForward50), "\uFAC8", Sources.RewindForward50, "Media", ["forward", "advance", "fast-forward", "rewind", "skip", "jump", "next", "move-50", "fast", "ahead"]);
 		public static TablerIcon RewindForward60 => field ??= new(nameof(RewindForward60), "\uFAC9", Sources.RewindForward60, "Media", ["forward", "advance", "fast-forward", "rewind", "skip", "jump", "next", "move-60", "fast", "ahead"]);
 		public static TablerIcon Shareplay => field ??= new(nameof(Shareplay), "\uFEA5", Sources.Shareplay, "Media", ["stream", "connect", "broadcast", "entertain", "socialize", "network", "share", "multimedia", "interact", "join"]);
-		public static TablerIcon Speakerphone => field ??= new(nameof(Speakerphone), "\uED61", Sources.Speakerphone, "Media", ["voice", "loud", "microphone", "loudspeaker", "event", "protest", "speaker", "shout", "listen"]);
-		public static TablerIcon UserScreen => field ??= new(nameof(UserScreen), "\uFEA0", Sources.UserScreen, "Media", ["display", "monitor", "view", "digital", "interface", "technology", "projector", "visualize", "image", "show"]);
-		public static TablerIcon VideoMinus => field ??= new(nameof(VideoMinus), "\uED1F", Sources.VideoMinus, "Media", ["film", "shoot", "recording", "taping", "camera", "remotion"]);
-		public static TablerIcon VideoOff => field ??= new(nameof(VideoOff), "\uED20", Sources.VideoOff, "Media", ["film", "shoot", "recording", "taping", "camera"]);
-		public static TablerIcon VideoPlus => field ??= new(nameof(VideoPlus), "\uED21", Sources.VideoPlus, "Media", ["film", "shoot", "recording", "taping", "camera", "closeup"]);
-		public static TablerIcon Video => field ??= new(nameof(Video), "\uED22", Sources.Video, "Media", ["film", "shoot", "recording", "taping", "camera"]);
-		public static TablerIcon Volume2 => field ??= new(nameof(Volume2), "\uEB4F", Sources.Volume2, "Media", ["music", "sound", "speaker"]);
-		public static TablerIcon Volume3 => field ??= new(nameof(Volume3), "\uEB50", Sources.Volume3, "Media", ["mute", "music", "sound", "off", "speaker"]);
-		public static TablerIcon VolumeOff => field ??= new(nameof(VolumeOff), "\uF1C3", Sources.VolumeOff, "Media", ["music", "sound", "speaker"]);
-		public static TablerIcon Volume => field ??= new(nameof(Volume), "\uEB51", Sources.Volume, "Media", ["music", "sound", "speaker"]);
+		public static TablerIcon Speakerphone => field ??= new(nameof(Speakerphone), "\uED61", Sources.Speakerphone, "Media", ["voice", "loud", "microphone", "loudspeaker", "event", "protest", "speaker", "shout", "listen", "speakerphone"]);
+		public static TablerIcon SubtitlesAi => field ??= new(nameof(SubtitlesAi), char.ConvertFromUtf32(0x101a4), Sources.SubtitlesAi, "Media", ["subtitles", "ai", "captions", "accessibility", "a11y", "video", "text", "generate", "automatic", "speech-to-text"]);
+		public static TablerIcon SubtitlesEdit => field ??= new(nameof(SubtitlesEdit), char.ConvertFromUtf32(0x101a3), Sources.SubtitlesEdit, "Media", ["subtitles", "edit", "captions", "accessibility", "a11y", "video", "modify", "pencil", "change", "text"]);
+		public static TablerIcon SubtitlesOff => field ??= new(nameof(SubtitlesOff), char.ConvertFromUtf32(0x101a2), Sources.SubtitlesOff, "Media", ["subtitles", "off", "captions", "accessibility", "a11y", "video", "disabled", "hidden", "inactive", "text"]);
+		public static TablerIcon Subtitles => field ??= new(nameof(Subtitles), char.ConvertFromUtf32(0x101a1), Sources.Subtitles, "Media", ["captions", "closed-captioning", "cc", "accessibility", "a11y", "hearing", "deaf", "video", "text", "inclusive"]);
+		public static TablerIcon UserScreen => field ??= new(nameof(UserScreen), "\uFEA0", Sources.UserScreen, "Media", ["display", "monitor", "view", "digital", "interface", "technology", "projector", "visualize", "show", "user"]);
+		public static TablerIcon VideoMinus => field ??= new(nameof(VideoMinus), "\uED1F", Sources.VideoMinus, "Media", ["film", "shoot", "recording", "taping", "camera", "remotion", "video", "minus", "content", "entertainment"]);
+		public static TablerIcon VideoOff => field ??= new(nameof(VideoOff), "\uED20", Sources.VideoOff, "Media", ["film", "shoot", "recording", "taping", "camera", "video", "off", "content", "entertainment", "disabled"]);
+		public static TablerIcon VideoPlus => field ??= new(nameof(VideoPlus), "\uED21", Sources.VideoPlus, "Media", ["film", "shoot", "recording", "taping", "camera", "closeup", "video", "plus", "content", "entertainment"]);
+		public static TablerIcon Video => field ??= new(nameof(Video), "\uED22", Sources.Video, "Media", ["film", "shoot", "recording", "taping", "camera", "video", "content", "entertainment", "multimedia", "broadcast"]);
+		public static TablerIcon Volume2 => field ??= new(nameof(Volume2), "\uEB4F", Sources.Volume2, "Media", ["music", "sound", "speaker", "volume", "content", "entertainment", "multimedia", "broadcast", "audio", "2"]);
+		public static TablerIcon Volume3 => field ??= new(nameof(Volume3), "\uEB50", Sources.Volume3, "Media", ["mute", "music", "sound", "off", "speaker", "volume", "content", "entertainment", "multimedia", "broadcast"]);
+		public static TablerIcon Volume4 => field ??= new(nameof(Volume4), char.ConvertFromUtf32(0x1019d), Sources.Volume4, "Media", ["mute", "music", "sound", "off"]);
+		public static TablerIcon VolumeOff => field ??= new(nameof(VolumeOff), "\uF1C3", Sources.VolumeOff, "Media", ["music", "sound", "speaker", "volume", "off", "content", "entertainment", "disabled", "inactive", "multimedia"]);
+		public static TablerIcon Volume => field ??= new(nameof(Volume), "\uEB51", Sources.Volume, "Media", ["music", "sound", "speaker", "volume", "content", "entertainment", "multimedia", "broadcast", "audio", "accessibility", "a11y", "hearing"]);
 		
 		public static TablerIcon[] Icons => field ??= [
+			AlbumOff,
+			Album,
 			AspectRatioOff,
 			AspectRatio,
 			CameraAi,
@@ -291,6 +300,10 @@ public static partial class TablerIcons
 			RewindForward60,
 			Shareplay,
 			Speakerphone,
+			SubtitlesAi,
+			SubtitlesEdit,
+			SubtitlesOff,
+			Subtitles,
 			UserScreen,
 			VideoMinus,
 			VideoOff,
@@ -298,6 +311,7 @@ public static partial class TablerIcons
 			Video,
 			Volume2,
 			Volume3,
+			Volume4,
 			VolumeOff,
 			Volume,
 		];
