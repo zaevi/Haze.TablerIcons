@@ -33,7 +33,7 @@ public record class TablerIcon(string Name, string Unicode, string Svg, string C
 	/// </summary>
 	public static implicit operator DpiTexture(TablerIcon icon) => icon.GetTexture();
 
-	public static implicit operator string(TablerIcon icon) => icon.Unicode;
+	// public static implicit operator string(TablerIcon icon) => icon.Unicode;
 	public override string ToString() => Unicode;
 
 

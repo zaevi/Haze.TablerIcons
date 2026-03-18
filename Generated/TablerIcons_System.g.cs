@@ -188,6 +188,7 @@ public static partial class TablerIcons
 		public static TablerIcon CreativeCommonsSa => field ??= new(nameof(CreativeCommonsSa), "\uF222", Sources.CreativeCommonsSa, "System", ["licence", "license", "creative", "commons", "control", "operation", "sa", "function", "interface", "management"]);
 		public static TablerIcon CreativeCommonsZero => field ??= new(nameof(CreativeCommonsZero), "\uF223", Sources.CreativeCommonsZero, "System", ["licence", "license", "creative", "commons", "zero", "control", "operation", "function", "interface", "management"]);
 		public static TablerIcon CreativeCommons => field ??= new(nameof(CreativeCommons), "\uEFB3", Sources.CreativeCommons, "System", ["licence", "license", "creative", "commons", "control", "operation", "function", "interface", "management"]);
+		public static TablerIcon Credits => field ??= new(nameof(Credits), char.ConvertFromUtf32(0x101f2), Sources.Credits, "System", ["acknowledgment", "attribution", "recognition", "thanks", "reward", "points", "balance", "payment", "debt", "score", "reputation", "honor"]);
 		public static TablerIcon Crosshair => field ??= new(nameof(Crosshair), "\uEC3E", Sources.Crosshair, "System", ["reticle", "tag", "tracer", "measurement", "target", "crosshair"]);
 		public static TablerIcon Cube3dSphereOff => field ??= new(nameof(Cube3dSphereOff), "\uF3B5", Sources.Cube3dSphereOff, "System", ["printing", "vector", "shape", "cube", "sphere", "off", "disabled", "inactive", "3d"]);
 		public static TablerIcon Cube3dSphere => field ??= new(nameof(Cube3dSphere), "\uECD7", Sources.Cube3dSphere, "System", ["printing", "vector", "shape", "cube", "sphere", "3d"]);
@@ -748,6 +749,7 @@ public static partial class TablerIcons
 		public static TablerIcon View360 => field ??= new(nameof(View360), "\uED84", Sources.View360, "System", ["panoramic", "degrees", "around", "view", "360"]);
 		public static TablerIcon ViewportShort => field ??= new(nameof(ViewportShort), "\uFEE9", Sources.ViewportShort, "System", ["compact", "narrow", "shrink", "condensed", "brief", "concise", "mini", "reduced", "trim", "tight"]);
 		public static TablerIcon ViewportTall => field ??= new(nameof(ViewportTall), "\uFEE8", Sources.ViewportTall, "System", ["elongate", "extend", "stretch", "high", "lofty", "elevated", "lengthy", "prolong", "tower", "vertical"]);
+		public static TablerIcon Vip2 => field ??= new(nameof(Vip2), char.ConvertFromUtf32(0x101fa), Sources.Vip2, "System", ["premium", "exclusive", "staff", "expensive", "vip", "variant", "alternate"]);
 		public static TablerIcon VipOff => field ??= new(nameof(VipOff), "\uF43A", Sources.VipOff, "System", ["premium", "exclusive", "staff", "expensive", "vip", "off", "disabled", "inactive"]);
 		public static TablerIcon Vip => field ??= new(nameof(Vip), "\uF3B3", Sources.Vip, "System", ["premium", "exclusive", "staff", "expensive", "vip"]);
 		public static TablerIcon Vs => field ??= new(nameof(Vs), "\uFC52", Sources.Vs, "System", ["compare", "against", "contrast", "compete", "rival", "match", "versus", "contest", "challenge", "battle"]);
@@ -952,6 +954,7 @@ public static partial class TablerIcons
 			CreativeCommonsSa,
 			CreativeCommonsZero,
 			CreativeCommons,
+			Credits,
 			Crosshair,
 			Cube3dSphereOff,
 			Cube3dSphere,
@@ -1512,6 +1515,7 @@ public static partial class TablerIcons
 			View360,
 			ViewportShort,
 			ViewportTall,
+			Vip2,
 			VipOff,
 			Vip,
 			Vs,

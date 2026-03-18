@@ -243,6 +243,10 @@ public static partial class TablerIcons
 		public static TablerIcon CircleChevronsLeft => field ??= new(nameof(CircleChevronsLeft), "\uF643", Sources.CircleChevronsLeft, "Arrows", ["shape", "direction", "west", "circle", "chevrons", "left", "navigation", "flow", "round", "circular"]);
 		public static TablerIcon CircleChevronsRight => field ??= new(nameof(CircleChevronsRight), "\uF644", Sources.CircleChevronsRight, "Arrows", ["shape", "direction", "east", "circle", "chevrons", "right", "navigation", "flow", "round", "circular"]);
 		public static TablerIcon CircleChevronsUp => field ??= new(nameof(CircleChevronsUp), "\uF645", Sources.CircleChevronsUp, "Arrows", ["shape", "direction", "north", "top", "circle", "chevrons", "increase", "navigation", "flow", "round"]);
+		public static TablerIcon CircleOpenArrowDown => field ??= new(nameof(CircleOpenArrowDown), char.ConvertFromUtf32(0x10209), Sources.CircleOpenArrowDown, "Arrows", ["circle", "open", "arrow", "down", "direction", "south", "navigation", "pointer", "round"]);
+		public static TablerIcon CircleOpenArrowLeft => field ??= new(nameof(CircleOpenArrowLeft), char.ConvertFromUtf32(0x10208), Sources.CircleOpenArrowLeft, "Arrows", ["circle", "open", "arrow", "left", "direction", "west", "navigation", "pointer", "round"]);
+		public static TablerIcon CircleOpenArrowRight => field ??= new(nameof(CircleOpenArrowRight), char.ConvertFromUtf32(0x10207), Sources.CircleOpenArrowRight, "Arrows", ["circle", "open", "arrow", "right", "direction", "east", "navigation", "pointer", "round"]);
+		public static TablerIcon CircleOpenArrowUp => field ??= new(nameof(CircleOpenArrowUp), char.ConvertFromUtf32(0x10206), Sources.CircleOpenArrowUp, "Arrows", ["circle", "open", "arrow", "up", "direction", "north", "navigation", "pointer", "round"]);
 		public static TablerIcon CornerDownLeftDouble => field ??= new(nameof(CornerDownLeftDouble), "\uEE48", Sources.CornerDownLeftDouble, "Arrows", ["arrow", "previous", "back", "return", "below", "point", "corner", "down", "left", "double"]);
 		public static TablerIcon CornerDownLeft => field ??= new(nameof(CornerDownLeft), "\uEA7C", Sources.CornerDownLeft, "Arrows", ["move", "arrow", "corner", "down", "left", "bottom", "decrease", "navigation", "flow", "fall"]);
 		public static TablerIcon CornerDownRightDouble => field ??= new(nameof(CornerDownRightDouble), "\uEE49", Sources.CornerDownRightDouble, "Arrows", ["arrow", "next", "below", "forward", "point", "corner", "down", "right", "double", "bottom"]);
@@ -573,6 +577,10 @@ public static partial class TablerIcons
 			CircleChevronsLeft,
 			CircleChevronsRight,
 			CircleChevronsUp,
+			CircleOpenArrowDown,
+			CircleOpenArrowLeft,
+			CircleOpenArrowRight,
+			CircleOpenArrowUp,
 			CornerDownLeftDouble,
 			CornerDownLeft,
 			CornerDownRightDouble,

@@ -250,6 +250,7 @@ public static partial class TablerIcons
 		public static TablerIcon Magnetic => field ??= new(nameof(Magnetic), "\uFCB9", Sources.Magnetic, "Design", ["attract", "pull", "draw", "force", "magnetism", "charm", "allure", "fascination", "engage", "appeal"]);
 		public static TablerIcon MaskOff => field ??= new(nameof(MaskOff), "\uEEAF", Sources.MaskOff, "Design", ["edit", "layer", "mask", "tool", "design", "off", "creative", "artistic", "disabled", "inactive"]);
 		public static TablerIcon Mask => field ??= new(nameof(Mask), "\uEEB0", Sources.Mask, "Design", ["edit", "layer", "mask", "tool", "design", "creative", "artistic", "visual", "aesthetic", "style"]);
+		public static TablerIcon Mesh => field ??= new(nameof(Mesh), char.ConvertFromUtf32(0x10201), Sources.Mesh, "Design", ["mesh", "grid", "graphic", "3d", "wireframe", "lattice", "structure", "pattern"]);
 		public static TablerIcon Mickey => field ??= new(nameof(Mickey), "\uF2A3", Sources.Mickey, "Design", ["fable", "cartoon", "mouse", "kids", "mickey"]);
 		public static TablerIcon Moustache => field ??= new(nameof(Moustache), "\uF4C9", Sources.Moustache, "Design", ["man", "face", "beard", "male", "moustache"]);
 		public static TablerIcon NeedleThread => field ??= new(nameof(NeedleThread), "\uF507", Sources.NeedleThread, "Design", ["sewing", "tailoring", "craft", "tailor", "needle", "thread"]);
@@ -320,6 +321,9 @@ public static partial class TablerIcons
 		public static TablerIcon Stack => field ??= new(nameof(Stack), "\uEB2D", Sources.Stack, "Design", ["pile", "elements", "layout", "wrap", "stack", "creative", "artistic", "visual", "aesthetic", "style"]);
 		public static TablerIcon Sticker2 => field ??= new(nameof(Sticker2), "\uFD3D", Sources.Sticker2, "Design", ["label-2", "adhesive", "decorative-label", "tag-2", "sticky-note", "decal", "post-it", "sticker-label", "paper-sticker", "2nd-sticker"]);
 		public static TablerIcon Sticker => field ??= new(nameof(Sticker), "\uEB2F", Sources.Sticker, "Design", ["label", "stamp", "adhesive", "sticker"]);
+		public static TablerIcon StrokeCurved => field ??= new(nameof(StrokeCurved), char.ConvertFromUtf32(0x101fe), Sources.StrokeCurved, "Design", ["stroke", "curved", "line", "path", "design", "style", "illustration", "vector"]);
+		public static TablerIcon StrokeDynamic => field ??= new(nameof(StrokeDynamic), char.ConvertFromUtf32(0x101fd), Sources.StrokeDynamic, "Design", ["stroke", "dynamic", "line", "path", "design", "style", "illustration", "variable"]);
+		public static TablerIcon StrokeStraight => field ??= new(nameof(StrokeStraight), char.ConvertFromUtf32(0x101fc), Sources.StrokeStraight, "Design", ["stroke", "straight", "line", "path", "design", "style", "illustration", "vector"]);
 		public static TablerIcon TemplateOff => field ??= new(nameof(TemplateOff), "\uF1B0", Sources.TemplateOff, "Design", ["grid", "columns", "masonry", "collage", "template", "off", "creative", "artistic", "disabled", "inactive"]);
 		public static TablerIcon Template => field ??= new(nameof(Template), "\uEB39", Sources.Template, "Design", ["grid", "columns", "masonry", "collage", "template", "creative", "artistic", "visual", "aesthetic", "style"]);
 		public static TablerIcon TextResize => field ??= new(nameof(TextResize), "\uEF87", Sources.TextResize, "Design", ["edit", "editor", "scale", "font", "bigger", "smaller", "text", "resize", "creative", "artistic"]);
@@ -582,6 +586,7 @@ public static partial class TablerIcons
 			Magnetic,
 			MaskOff,
 			Mask,
+			Mesh,
 			Mickey,
 			Moustache,
 			NeedleThread,
@@ -652,6 +657,9 @@ public static partial class TablerIcons
 			Stack,
 			Sticker2,
 			Sticker,
+			StrokeCurved,
+			StrokeDynamic,
+			StrokeStraight,
 			TemplateOff,
 			Template,
 			TextResize,

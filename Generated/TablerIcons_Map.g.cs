@@ -95,6 +95,7 @@ public static partial class TablerIcons
 		public static TablerIcon MapEast => field ??= new(nameof(MapEast), "\uFC5D", Sources.MapEast, "Map", ["orient", "sunrise", "direction", "right", "oriental", "asia", "compass", "cardinal", "sunup", "far"]);
 		public static TablerIcon MapExclamation => field ??= new(nameof(MapExclamation), "\uFBCB", Sources.MapExclamation, "Map", ["alert", "warn", "caution", "notice", "emphasis", "signal", "highlight", "stress", "attention", "callout"]);
 		public static TablerIcon MapHeart => field ??= new(nameof(MapHeart), "\uFBCC", Sources.MapHeart, "Map", ["love", "affection", "romance", "care", "passion", "emotion", "fondness", "devotion", "adore", "cherish"]);
+		public static TablerIcon MapLock => field ??= new(nameof(MapLock), char.ConvertFromUtf32(0x10203), Sources.MapLock, "Map", ["map", "lock", "security", "location", "protected", "access", "secure"]);
 		public static TablerIcon MapMinus => field ??= new(nameof(MapMinus), "\uFBCD", Sources.MapMinus, "Map", ["subtract", "reduce", "lessen", "decrease", "diminish", "lower", "deduct", "decline", "shrink", "contract"]);
 		public static TablerIcon MapNorth => field ??= new(nameof(MapNorth), "\uFC5E", Sources.MapNorth, "Map", ["northward", "upward", "compass", "boreal", "cardinal", "arctic", "poleward", "direction", "trip", "geographic"]);
 		public static TablerIcon MapOff => field ??= new(nameof(MapOff), "\uF15C", Sources.MapOff, "Map", ["navigation", "location", "travel", "map", "off", "disabled", "inactive", "geography", "place", "position"]);
@@ -127,6 +128,7 @@ public static partial class TablerIcons
 		public static TablerIcon MapRoute => field ??= new(nameof(MapRoute), "\uFC79", Sources.MapRoute, "Map", ["path", "way", "course", "track", "journey", "navigation", "direction", "trail", "road", "map"]);
 		public static TablerIcon MapSearch => field ??= new(nameof(MapSearch), "\uEF82", Sources.MapSearch, "Map", ["location", "navigation", "gps", "find", "pin", "map", "search", "look", "seek", "query"]);
 		public static TablerIcon MapShare => field ??= new(nameof(MapShare), "\uFBD1", Sources.MapShare, "Map", ["distribute", "spread", "exchange", "give", "publish", "connect", "send", "communicate", "broadcast", "release"]);
+		public static TablerIcon MapShield => field ??= new(nameof(MapShield), char.ConvertFromUtf32(0x10202), Sources.MapShield, "Map", ["map", "shield", "security", "protection", "location", "safe", "guarded"]);
 		public static TablerIcon MapSouth => field ??= new(nameof(MapSouth), "\uFC5F", Sources.MapSouth, "Map", ["down", "below", "lower", "under", "beneath", "sub", "southward", "descend", "bottom", "inferior"]);
 		public static TablerIcon MapStar => field ??= new(nameof(MapStar), "\uFBD2", Sources.MapStar, "Map", ["favorite", "highlight", "feature", "premium", "elite", "top", "famous", "prominent", "renowned", "prestige"]);
 		public static TablerIcon MapUp => field ??= new(nameof(MapUp), "\uFBD3", Sources.MapUp, "Map", ["elevate", "raise", "ascend", "higher", "boost", "increase", "climb", "lift", "improve", "uplift"]);
@@ -238,6 +240,7 @@ public static partial class TablerIcons
 		public static TablerIcon WorldHeart => field ??= new(nameof(WorldHeart), "\uF9E1", Sources.WorldHeart, "Map", ["love", "care", "affection", "emotion", "compassion", "global", "humanity", "bond", "connection", "empathy"]);
 		public static TablerIcon WorldLatitude => field ??= new(nameof(WorldLatitude), "\uED2E", Sources.WorldLatitude, "Map", ["earth", "globe", "global", "language", "union", "world", "latitude", "location", "navigation", "geography"]);
 		public static TablerIcon WorldLongitude => field ??= new(nameof(WorldLongitude), "\uED2F", Sources.WorldLongitude, "Map", ["earth", "globe", "global", "language", "union", "world", "longitude", "location", "navigation", "geography"]);
+		public static TablerIcon WorldMap => field ??= new(nameof(WorldMap), char.ConvertFromUtf32(0x101e9), Sources.WorldMap, "Map", ["world", "map", "globe", "earth", "geography", "location", "travel", "planet", "navigation"]);
 		public static TablerIcon WorldMinus => field ??= new(nameof(WorldMinus), "\uF9E2", Sources.WorldMinus, "Map", ["reduce", "subtract", "decrease", "delete", "remove", "diminish", "global", "lessen", "deduct", "deplete"]);
 		public static TablerIcon WorldOff => field ??= new(nameof(WorldOff), "\uF1CA", Sources.WorldOff, "Map", ["earth", "globe", "global", "language", "union", "world", "off", "location", "navigation", "disabled"]);
 		public static TablerIcon WorldPause => field ??= new(nameof(WorldPause), "\uF9E3", Sources.WorldPause, "Map", ["halt", "rest", "stop", "freeze", "break", "suspend", "global", "interval", "wait", "intermission"]);
@@ -355,6 +358,7 @@ public static partial class TablerIcons
 			MapEast,
 			MapExclamation,
 			MapHeart,
+			MapLock,
 			MapMinus,
 			MapNorth,
 			MapOff,
@@ -387,6 +391,7 @@ public static partial class TablerIcons
 			MapRoute,
 			MapSearch,
 			MapShare,
+			MapShield,
 			MapSouth,
 			MapStar,
 			MapUp,
@@ -498,6 +503,7 @@ public static partial class TablerIcons
 			WorldHeart,
 			WorldLatitude,
 			WorldLongitude,
+			WorldMap,
 			WorldMinus,
 			WorldOff,
 			WorldPause,

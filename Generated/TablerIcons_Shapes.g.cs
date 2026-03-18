@@ -36,6 +36,7 @@ public static partial class TablerIcons
 		public static TablerIcon CircleOff => field ??= new(nameof(CircleOff), "\uEE40", Sources.CircleOff, "Shapes", ["off", "zero", "circle", "disabled", "inactive", "round", "circular", "geometry", "form", "figure"]);
 		public static TablerIcon CirclePercentage => field ??= new(nameof(CirclePercentage), "\uFD7B", Sources.CirclePercentage, "Shapes", ["finance", "discount", "interest", "rate", "calculation", "measurement", "ratio", "percent", "statistics", "math"]);
 		public static TablerIcon CirclePlus2 => field ??= new(nameof(CirclePlus2), "\uFC8D", Sources.CirclePlus2, "Shapes", ["increase", "add", "expand", "enhance", "grow", "enlarge", "amplify", "boost", "supplement", "positive"]);
+		public static TablerIcon CirclePlusMinus => field ??= new(nameof(CirclePlusMinus), char.ConvertFromUtf32(0x10205), Sources.CirclePlusMinus, "Shapes", ["circle", "plus", "minus", "add", "remove", "expand", "collapse", "round", "control"]);
 		public static TablerIcon CirclePlus => field ??= new(nameof(CirclePlus), "\uEA69", Sources.CirclePlus, "Shapes", ["add", "create", "new", "circle", "plus", "round", "circular", "more", "increase", "positive"]);
 		public static TablerIcon CircleRectangleOff => field ??= new(nameof(CircleRectangleOff), "\uF0CD", Sources.CircleRectangleOff, "Shapes", ["shape", "geometric", "geometry", "figure", "circle", "rectangle", "off", "disabled", "inactive", "round"]);
 		public static TablerIcon CircleRectangle => field ??= new(nameof(CircleRectangle), "\uF010", Sources.CircleRectangle, "Shapes", ["shape", "geometric", "geometry", "figure", "circle", "rectangle", "round", "circular", "form", "pattern"]);
@@ -219,6 +220,7 @@ public static partial class TablerIcons
 			CircleOff,
 			CirclePercentage,
 			CirclePlus2,
+			CirclePlusMinus,
 			CirclePlus,
 			CircleRectangleOff,
 			CircleRectangle,

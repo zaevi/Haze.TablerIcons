@@ -8,7 +8,7 @@
 
     <!-- NuGet Package Information -->
     <PackageId>Haze.TablerIcons</PackageId>
-    <Version>3.36.1.0</Version>
+    <Version>3.40.0.0</Version>
     <Authors>zaevi</Authors>
     <Description>A Godot library that provides direct access to Tabler Icons as embedded SVG resources.</Description>
     <Copyright>Copyright (c) 2025 zaevi</Copyright>
@@ -18,7 +18,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
 
-    <AssemblyVersion>3.36.1</AssemblyVersion>
+    <AssemblyVersion>3.40.0.0</AssemblyVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 

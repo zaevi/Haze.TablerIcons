@@ -11,6 +11,7 @@ public static partial class TablerIcons
 		public static TablerIcon AccessibleFilled => field ??= new(nameof(AccessibleFilled), "\uF6EA", Sources.AccessibleFilled, "Other", []);
 		public static TablerIcon AdCircleFilled => field ??= new(nameof(AdCircleFilled), "\uF7D3", Sources.AdCircleFilled, "Other", []);
 		public static TablerIcon AdFilled => field ??= new(nameof(AdFilled), "\uF6EB", Sources.AdFilled, "Other", []);
+		public static TablerIcon AdjustmentsHorizontalFilled => field ??= new(nameof(AdjustmentsHorizontalFilled), char.ConvertFromUtf32(0x101e7), Sources.AdjustmentsHorizontalFilled, "Other", []);
 		public static TablerIcon AdjustmentsFilled => field ??= new(nameof(AdjustmentsFilled), "\uF6EC", Sources.AdjustmentsFilled, "Other", []);
 		public static TablerIcon AerialLiftFilled => field ??= new(nameof(AerialLiftFilled), char.ConvertFromUtf32(0x10101), Sources.AerialLiftFilled, "Other", []);
 		public static TablerIcon AffiliateFilled => field ??= new(nameof(AffiliateFilled), "\uF6ED", Sources.AffiliateFilled, "Other", []);
@@ -108,6 +109,7 @@ public static partial class TablerIcons
 		public static TablerIcon BadgeWcFilled => field ??= new(nameof(BadgeWcFilled), "\uFE90", Sources.BadgeWcFilled, "Other", []);
 		public static TablerIcon BadgeFilled => field ??= new(nameof(BadgeFilled), "\uF667", Sources.BadgeFilled, "Other", []);
 		public static TablerIcon BadgesFilled => field ??= new(nameof(BadgesFilled), "\uF7DD", Sources.BadgesFilled, "Other", []);
+		public static TablerIcon BallBowlingFilled => field ??= new(nameof(BallBowlingFilled), char.ConvertFromUtf32(0x101c5), Sources.BallBowlingFilled, "Other", []);
 		public static TablerIcon BalloonFilled => field ??= new(nameof(BalloonFilled), "\uFA84", Sources.BalloonFilled, "Other", []);
 		public static TablerIcon BallpenFilled => field ??= new(nameof(BallpenFilled), "\uFA85", Sources.BallpenFilled, "Other", []);
 		public static TablerIcon BandageFilled => field ??= new(nameof(BandageFilled), "\uF7DE", Sources.BandageFilled, "Other", []);
@@ -264,6 +266,7 @@ public static partial class TablerIcons
 		public static TablerIcon ChartPie3Filled => field ??= new(nameof(ChartPie3Filled), char.ConvertFromUtf32(0x100d9), Sources.ChartPie3Filled, "Other", []);
 		public static TablerIcon ChartPie4Filled => field ??= new(nameof(ChartPie4Filled), char.ConvertFromUtf32(0x100d8), Sources.ChartPie4Filled, "Other", []);
 		public static TablerIcon ChartPieFilled => field ??= new(nameof(ChartPieFilled), "\uF670", Sources.ChartPieFilled, "Other", []);
+		public static TablerIcon CheckFilled => field ??= new(nameof(CheckFilled), char.ConvertFromUtf32(0x101e6), Sources.CheckFilled, "Other", []);
 		public static TablerIcon ChefHatFilled => field ??= new(nameof(ChefHatFilled), char.ConvertFromUtf32(0x100d7), Sources.ChefHatFilled, "Other", []);
 		public static TablerIcon CherryFilled => field ??= new(nameof(CherryFilled), "\uF728", Sources.CherryFilled, "Other", []);
 		public static TablerIcon ChessBishopFilled => field ??= new(nameof(ChessBishopFilled), "\uF729", Sources.ChessBishopFilled, "Other", []);
@@ -272,6 +275,8 @@ public static partial class TablerIcons
 		public static TablerIcon ChessQueenFilled => field ??= new(nameof(ChessQueenFilled), "\uF72D", Sources.ChessQueenFilled, "Other", []);
 		public static TablerIcon ChessRookFilled => field ??= new(nameof(ChessRookFilled), "\uF72E", Sources.ChessRookFilled, "Other", []);
 		public static TablerIcon ChessFilled => field ??= new(nameof(ChessFilled), "\uF72A", Sources.ChessFilled, "Other", []);
+		public static TablerIcon ChevronDownFilled => field ??= new(nameof(ChevronDownFilled), char.ConvertFromUtf32(0x101e5), Sources.ChevronDownFilled, "Other", []);
+		public static TablerIcon ChevronRightFilled => field ??= new(nameof(ChevronRightFilled), char.ConvertFromUtf32(0x101e4), Sources.ChevronRightFilled, "Other", []);
 		public static TablerIcon ChristmasTreeFilled => field ??= new(nameof(ChristmasTreeFilled), char.ConvertFromUtf32(0x1001a), Sources.ChristmasTreeFilled, "Other", []);
 		public static TablerIcon CircleArrowDownLeftFilled => field ??= new(nameof(CircleArrowDownLeftFilled), "\uF6F5", Sources.CircleArrowDownLeftFilled, "Other", []);
 		public static TablerIcon CircleArrowDownRightFilled => field ??= new(nameof(CircleArrowDownRightFilled), "\uF6F7", Sources.CircleArrowDownRightFilled, "Other", []);
@@ -338,6 +343,7 @@ public static partial class TablerIcons
 		public static TablerIcon CircleXFilled => field ??= new(nameof(CircleXFilled), "\uF739", Sources.CircleXFilled, "Other", []);
 		public static TablerIcon CircleFilled => field ??= new(nameof(CircleFilled), "\uF671", Sources.CircleFilled, "Other", []);
 		public static TablerIcon CirclesFilled => field ??= new(nameof(CirclesFilled), "\uF672", Sources.CirclesFilled, "Other", []);
+		public static TablerIcon ClickFilled => field ??= new(nameof(ClickFilled), char.ConvertFromUtf32(0x101e3), Sources.ClickFilled, "Other", []);
 		public static TablerIcon ClipboardCheckFilled => field ??= new(nameof(ClipboardCheckFilled), char.ConvertFromUtf32(0x100ce), Sources.ClipboardCheckFilled, "Other", []);
 		public static TablerIcon ClipboardDataFilled => field ??= new(nameof(ClipboardDataFilled), char.ConvertFromUtf32(0x100eb), Sources.ClipboardDataFilled, "Other", []);
 		public static TablerIcon ClipboardListFilled => field ??= new(nameof(ClipboardListFilled), char.ConvertFromUtf32(0x100ea), Sources.ClipboardListFilled, "Other", []);
@@ -392,6 +398,7 @@ public static partial class TablerIcons
 		public static TablerIcon CopyMinusFilled => field ??= new(nameof(CopyMinusFilled), "\uFE52", Sources.CopyMinusFilled, "Other", []);
 		public static TablerIcon CopyPlusFilled => field ??= new(nameof(CopyPlusFilled), "\uFE51", Sources.CopyPlusFilled, "Other", []);
 		public static TablerIcon CopyXFilled => field ??= new(nameof(CopyXFilled), "\uFE50", Sources.CopyXFilled, "Other", []);
+		public static TablerIcon CopyFilled => field ??= new(nameof(CopyFilled), char.ConvertFromUtf32(0x101e2), Sources.CopyFilled, "Other", []);
 		public static TablerIcon CopyleftFilled => field ??= new(nameof(CopyleftFilled), "\uF73B", Sources.CopyleftFilled, "Other", []);
 		public static TablerIcon CopyrightFilled => field ??= new(nameof(CopyrightFilled), "\uF73C", Sources.CopyrightFilled, "Other", []);
 		public static TablerIcon CreditCardFilled => field ??= new(nameof(CreditCardFilled), "\uFD11", Sources.CreditCardFilled, "Other", []);
@@ -403,11 +410,14 @@ public static partial class TablerIcons
 		public static TablerIcon CropLandscapeFilled => field ??= new(nameof(CropLandscapeFilled), "\uFE4A", Sources.CropLandscapeFilled, "Other", []);
 		public static TablerIcon CropPortraitFilled => field ??= new(nameof(CropPortraitFilled), "\uFE49", Sources.CropPortraitFilled, "Other", []);
 		public static TablerIcon CrossFilled => field ??= new(nameof(CrossFilled), "\uF675", Sources.CrossFilled, "Other", []);
-		public static TablerIcon CrownFilled => field ??= new(nameof(CrownFilled), "\u0000", Sources.CrownFilled, "Other", []);
+		public static TablerIcon CrownFilled => field ??= new(nameof(CrownFilled), char.ConvertFromUtf32(0x101c4), Sources.CrownFilled, "Other", []);
 		public static TablerIcon CurrentLocationFilled => field ??= new(nameof(CurrentLocationFilled), char.ConvertFromUtf32(0x10125), Sources.CurrentLocationFilled, "Other", []);
 		public static TablerIcon DashboardFilled => field ??= new(nameof(DashboardFilled), char.ConvertFromUtf32(0x10019), Sources.DashboardFilled, "Other", []);
+		public static TablerIcon DatabaseFilled => field ??= new(nameof(DatabaseFilled), char.ConvertFromUtf32(0x101e1), Sources.DatabaseFilled, "Other", []);
 		public static TablerIcon DeviceCctvFilled => field ??= new(nameof(DeviceCctvFilled), char.ConvertFromUtf32(0x1004b), Sources.DeviceCctvFilled, "Other", []);
 		public static TablerIcon DeviceDesktopFilled => field ??= new(nameof(DeviceDesktopFilled), char.ConvertFromUtf32(0x1004a), Sources.DeviceDesktopFilled, "Other", []);
+		public static TablerIcon DeviceFloppyFilled => field ??= new(nameof(DeviceFloppyFilled), char.ConvertFromUtf32(0x101e0), Sources.DeviceFloppyFilled, "Other", []);
+		public static TablerIcon DeviceGamepad2Filled => field ??= new(nameof(DeviceGamepad2Filled), char.ConvertFromUtf32(0x101df), Sources.DeviceGamepad2Filled, "Other", []);
 		public static TablerIcon DeviceGamepad3Filled => field ??= new(nameof(DeviceGamepad3Filled), char.ConvertFromUtf32(0x10049), Sources.DeviceGamepad3Filled, "Other", []);
 		public static TablerIcon DeviceGamepadFilled => field ??= new(nameof(DeviceGamepadFilled), char.ConvertFromUtf32(0x1019c), Sources.DeviceGamepadFilled, "Other", []);
 		public static TablerIcon DeviceHeartMonitorFilled => field ??= new(nameof(DeviceHeartMonitorFilled), "\uFA38", Sources.DeviceHeartMonitorFilled, "Other", []);
@@ -438,6 +448,9 @@ public static partial class TablerIcons
 		public static TablerIcon DirectionsFilled => field ??= new(nameof(DirectionsFilled), char.ConvertFromUtf32(0x1003f), Sources.DirectionsFilled, "Other", []);
 		public static TablerIcon DiscFilled => field ??= new(nameof(DiscFilled), char.ConvertFromUtf32(0x1003e), Sources.DiscFilled, "Other", []);
 		public static TablerIcon DiscountFilled => field ??= new(nameof(DiscountFilled), char.ConvertFromUtf32(0x1003d), Sources.DiscountFilled, "Other", []);
+		public static TablerIcon DotsVerticalFilled => field ??= new(nameof(DotsVerticalFilled), char.ConvertFromUtf32(0x101de), Sources.DotsVerticalFilled, "Other", []);
+		public static TablerIcon DotsFilled => field ??= new(nameof(DotsFilled), char.ConvertFromUtf32(0x101dd), Sources.DotsFilled, "Other", []);
+		public static TablerIcon DownloadFilled => field ??= new(nameof(DownloadFilled), char.ConvertFromUtf32(0x101dc), Sources.DownloadFilled, "Other", []);
 		public static TablerIcon DropCircleFilled => field ??= new(nameof(DropCircleFilled), char.ConvertFromUtf32(0x10137), Sources.DropCircleFilled, "Other", []);
 		public static TablerIcon DropletHalf2Filled => field ??= new(nameof(DropletHalf2Filled), "\uFB6C", Sources.DropletHalf2Filled, "Other", []);
 		public static TablerIcon DropletHalfFilled => field ??= new(nameof(DropletHalfFilled), "\uF6C5", Sources.DropletHalfFilled, "Other", []);
@@ -448,6 +461,7 @@ public static partial class TablerIcons
 		public static TablerIcon EaseInControlPointFilled => field ??= new(nameof(EaseInControlPointFilled), char.ConvertFromUtf32(0x10174), Sources.EaseInControlPointFilled, "Other", []);
 		public static TablerIcon EaseInOutControlPointsFilled => field ??= new(nameof(EaseInOutControlPointsFilled), char.ConvertFromUtf32(0x10173), Sources.EaseInOutControlPointsFilled, "Other", []);
 		public static TablerIcon EaseOutControlPointFilled => field ??= new(nameof(EaseOutControlPointFilled), char.ConvertFromUtf32(0x10172), Sources.EaseOutControlPointFilled, "Other", []);
+		public static TablerIcon EditFilled => field ??= new(nameof(EditFilled), char.ConvertFromUtf32(0x101db), Sources.EditFilled, "Other", []);
 		public static TablerIcon EggCrackedFilled => field ??= new(nameof(EggCrackedFilled), char.ConvertFromUtf32(0x10012), Sources.EggCrackedFilled, "Other", []);
 		public static TablerIcon EggFriedFilled => field ??= new(nameof(EggFriedFilled), char.ConvertFromUtf32(0x10134), Sources.EggFriedFilled, "Other", []);
 		public static TablerIcon EggFilled => field ??= new(nameof(EggFilled), "\uF678", Sources.EggFilled, "Other", []);
@@ -460,6 +474,7 @@ public static partial class TablerIcons
 		public static TablerIcon ExclamationCircleFilled => field ??= new(nameof(ExclamationCircleFilled), "\uFF62", Sources.ExclamationCircleFilled, "Other", []);
 		public static TablerIcon ExplicitFilled => field ??= new(nameof(ExplicitFilled), char.ConvertFromUtf32(0x1012f), Sources.ExplicitFilled, "Other", []);
 		public static TablerIcon ExposureFilled => field ??= new(nameof(ExposureFilled), char.ConvertFromUtf32(0x10124), Sources.ExposureFilled, "Other", []);
+		public static TablerIcon ExternalLinkFilled => field ??= new(nameof(ExternalLinkFilled), char.ConvertFromUtf32(0x101da), Sources.ExternalLinkFilled, "Other", []);
 		public static TablerIcon EyeTableFilled => field ??= new(nameof(EyeTableFilled), char.ConvertFromUtf32(0x10123), Sources.EyeTableFilled, "Other", []);
 		public static TablerIcon EyeFilled => field ??= new(nameof(EyeFilled), "\uF679", Sources.EyeFilled, "Other", []);
 		public static TablerIcon Eyeglass2Filled => field ??= new(nameof(Eyeglass2Filled), char.ConvertFromUtf32(0x10122), Sources.Eyeglass2Filled, "Other", []);
@@ -522,7 +537,7 @@ public static partial class TablerIcons
 		public static TablerIcon Flask2Filled => field ??= new(nameof(Flask2Filled), "\uFD12", Sources.Flask2Filled, "Other", []);
 		public static TablerIcon FlaskFilled => field ??= new(nameof(FlaskFilled), "\uFD13", Sources.FlaskFilled, "Other", []);
 		public static TablerIcon FlowerFilled => field ??= new(nameof(FlowerFilled), char.ConvertFromUtf32(0x10010), Sources.FlowerFilled, "Other", []);
-		public static TablerIcon FolderOpenFilled => field ??= new(nameof(FolderOpenFilled), "\u0000", Sources.FolderOpenFilled, "Other", []);
+		public static TablerIcon FolderOpenFilled => field ??= new(nameof(FolderOpenFilled), char.ConvertFromUtf32(0x101c3), Sources.FolderOpenFilled, "Other", []);
 		public static TablerIcon FolderFilled => field ??= new(nameof(FolderFilled), "\uF749", Sources.FolderFilled, "Other", []);
 		public static TablerIcon FoldersFilled => field ??= new(nameof(FoldersFilled), char.ConvertFromUtf32(0x100c4), Sources.FoldersFilled, "Other", []);
 		public static TablerIcon Forbid2Filled => field ??= new(nameof(Forbid2Filled), "\uFC28", Sources.Forbid2Filled, "Other", []);
@@ -547,6 +562,7 @@ public static partial class TablerIcons
 		public static TablerIcon GuitarPickFilled => field ??= new(nameof(GuitarPickFilled), "\uF67B", Sources.GuitarPickFilled, "Other", []);
 		public static TablerIcon Hanger2Filled => field ??= new(nameof(Hanger2Filled), "\uFF61", Sources.Hanger2Filled, "Other", []);
 		public static TablerIcon HeadphonesFilled => field ??= new(nameof(HeadphonesFilled), "\uFA3C", Sources.HeadphonesFilled, "Other", []);
+		public static TablerIcon HeadsetFilled => field ??= new(nameof(HeadsetFilled), char.ConvertFromUtf32(0x101d9), Sources.HeadsetFilled, "Other", []);
 		public static TablerIcon HeartBrokenFilled => field ??= new(nameof(HeartBrokenFilled), char.ConvertFromUtf32(0x1016a), Sources.HeartBrokenFilled, "Other", []);
 		public static TablerIcon HeartFilled => field ??= new(nameof(HeartFilled), "\uF67C", Sources.HeartFilled, "Other", []);
 		public static TablerIcon HelicopterLandingFilled => field ??= new(nameof(HelicopterLandingFilled), char.ConvertFromUtf32(0x100c1), Sources.HelicopterLandingFilled, "Other", []);
@@ -557,6 +573,7 @@ public static partial class TablerIcons
 		public static TablerIcon HelpSquareRoundedFilled => field ??= new(nameof(HelpSquareRoundedFilled), "\uFA41", Sources.HelpSquareRoundedFilled, "Other", []);
 		public static TablerIcon HelpSquareFilled => field ??= new(nameof(HelpSquareFilled), "\uFA40", Sources.HelpSquareFilled, "Other", []);
 		public static TablerIcon HelpTriangleFilled => field ??= new(nameof(HelpTriangleFilled), "\uFA42", Sources.HelpTriangleFilled, "Other", []);
+		public static TablerIcon HelpFilled => field ??= new(nameof(HelpFilled), char.ConvertFromUtf32(0x101d8), Sources.HelpFilled, "Other", []);
 		public static TablerIcon HexagonLetterAFilled => field ??= new(nameof(HexagonLetterAFilled), "\uFE47", Sources.HexagonLetterAFilled, "Other", []);
 		public static TablerIcon HexagonLetterBFilled => field ??= new(nameof(HexagonLetterBFilled), "\uFE46", Sources.HexagonLetterBFilled, "Other", []);
 		public static TablerIcon HexagonLetterCFilled => field ??= new(nameof(HexagonLetterCFilled), "\uFE45", Sources.HexagonLetterCFilled, "Other", []);
@@ -596,10 +613,12 @@ public static partial class TablerIcons
 		public static TablerIcon HexagonNumber9Filled => field ??= new(nameof(HexagonNumber9Filled), "\uF755", Sources.HexagonNumber9Filled, "Other", []);
 		public static TablerIcon HexagonPlusFilled => field ??= new(nameof(HexagonPlusFilled), "\uFE2C", Sources.HexagonPlusFilled, "Other", []);
 		public static TablerIcon HexagonFilled => field ??= new(nameof(HexagonFilled), "\uF67D", Sources.HexagonFilled, "Other", []);
+		public static TablerIcon Home2Filled => field ??= new(nameof(Home2Filled), char.ConvertFromUtf32(0x101d7), Sources.Home2Filled, "Other", []);
 		public static TablerIcon HomeFilled => field ??= new(nameof(HomeFilled), "\uFE2B", Sources.HomeFilled, "Other", []);
 		public static TablerIcon HospitalCircleFilled => field ??= new(nameof(HospitalCircleFilled), "\uFED2", Sources.HospitalCircleFilled, "Other", []);
 		public static TablerIcon HourglassFilled => field ??= new(nameof(HourglassFilled), "\uF756", Sources.HourglassFilled, "Other", []);
 		public static TablerIcon IconsIconFilled => field ??= new(nameof(IconsIconFilled), char.ConvertFromUtf32(0x10070), Sources.IconsIconFilled, "Other", []);
+		public static TablerIcon IdFilled => field ??= new(nameof(IdFilled), char.ConvertFromUtf32(0x101d6), Sources.IdFilled, "Other", []);
 		public static TablerIcon InfoCircleFilled => field ??= new(nameof(InfoCircleFilled), "\uF6D8", Sources.InfoCircleFilled, "Other", []);
 		public static TablerIcon InfoHexagonFilled => field ??= new(nameof(InfoHexagonFilled), "\uFA43", Sources.InfoHexagonFilled, "Other", []);
 		public static TablerIcon InfoOctagonFilled => field ??= new(nameof(InfoOctagonFilled), "\uFA44", Sources.InfoOctagonFilled, "Other", []);
@@ -664,11 +683,16 @@ public static partial class TablerIcons
 		public static TablerIcon LayoutSidebarRightFilled => field ??= new(nameof(LayoutSidebarRightFilled), "\uFE19", Sources.LayoutSidebarRightFilled, "Other", []);
 		public static TablerIcon LayoutSidebarFilled => field ??= new(nameof(LayoutSidebarFilled), "\uFE18", Sources.LayoutSidebarFilled, "Other", []);
 		public static TablerIcon LayoutFilled => field ??= new(nameof(LayoutFilled), "\uFE17", Sources.LayoutFilled, "Other", []);
+		public static TablerIcon LeafFilled => field ??= new(nameof(LeafFilled), char.ConvertFromUtf32(0x101c2), Sources.LeafFilled, "Other", []);
 		public static TablerIcon LegoFilled => field ??= new(nameof(LegoFilled), "\uFE16", Sources.LegoFilled, "Other", []);
 		public static TablerIcon Lemon2Filled => field ??= new(nameof(Lemon2Filled), char.ConvertFromUtf32(0x100bf), Sources.Lemon2Filled, "Other", []);
 		public static TablerIcon LibraryPlusFilled => field ??= new(nameof(LibraryPlusFilled), char.ConvertFromUtf32(0x10181), Sources.LibraryPlusFilled, "Other", []);
 		public static TablerIcon LibraryFilled => field ??= new(nameof(LibraryFilled), char.ConvertFromUtf32(0x10180), Sources.LibraryFilled, "Other", []);
 		public static TablerIcon LifebuoyFilled => field ??= new(nameof(LifebuoyFilled), char.ConvertFromUtf32(0x100be), Sources.LifebuoyFilled, "Other", []);
+		public static TablerIcon LinkFilled => field ??= new(nameof(LinkFilled), char.ConvertFromUtf32(0x101d5), Sources.LinkFilled, "Other", []);
+		public static TablerIcon ListCheckFilled => field ??= new(nameof(ListCheckFilled), char.ConvertFromUtf32(0x101d4), Sources.ListCheckFilled, "Other", []);
+		public static TablerIcon ListDetailsFilled => field ??= new(nameof(ListDetailsFilled), char.ConvertFromUtf32(0x101d3), Sources.ListDetailsFilled, "Other", []);
+		public static TablerIcon ListFilled => field ??= new(nameof(ListFilled), char.ConvertFromUtf32(0x101d2), Sources.ListFilled, "Other", []);
 		public static TablerIcon LivePhotoFilled => field ??= new(nameof(LivePhotoFilled), "\uFED1", Sources.LivePhotoFilled, "Other", []);
 		public static TablerIcon LiveViewFilled => field ??= new(nameof(LiveViewFilled), char.ConvertFromUtf32(0x100a1), Sources.LiveViewFilled, "Other", []);
 		public static TablerIcon LocationFilled => field ??= new(nameof(LocationFilled), "\uF67F", Sources.LocationFilled, "Other", []);
@@ -685,11 +709,13 @@ public static partial class TablerIcons
 		public static TablerIcon MedicalCrossFilled => field ??= new(nameof(MedicalCrossFilled), "\uF681", Sources.MedicalCrossFilled, "Other", []);
 		public static TablerIcon MeepleFilled => field ??= new(nameof(MeepleFilled), char.ConvertFromUtf32(0x100a0), Sources.MeepleFilled, "Other", []);
 		public static TablerIcon MelonFilled => field ??= new(nameof(MelonFilled), char.ConvertFromUtf32(0x1000e), Sources.MelonFilled, "Other", []);
+		public static TablerIcon Menu2Filled => field ??= new(nameof(Menu2Filled), char.ConvertFromUtf32(0x101d1), Sources.Menu2Filled, "Other", []);
 		public static TablerIcon Message2Filled => field ??= new(nameof(Message2Filled), char.ConvertFromUtf32(0x1009f), Sources.Message2Filled, "Other", []);
 		public static TablerIcon MessageChatbotFilled => field ??= new(nameof(MessageChatbotFilled), "\uFED0", Sources.MessageChatbotFilled, "Other", []);
 		public static TablerIcon MessageCircleFilled => field ??= new(nameof(MessageCircleFilled), "\uFECF", Sources.MessageCircleFilled, "Other", []);
 		public static TablerIcon MessageReportFilled => field ??= new(nameof(MessageReportFilled), "\uFECE", Sources.MessageReportFilled, "Other", []);
 		public static TablerIcon MessageFilled => field ??= new(nameof(MessageFilled), "\uFECD", Sources.MessageFilled, "Other", []);
+		public static TablerIcon MessagesFilled => field ??= new(nameof(MessagesFilled), char.ConvertFromUtf32(0x101d0), Sources.MessagesFilled, "Other", []);
 		public static TablerIcon MeteorFilled => field ??= new(nameof(MeteorFilled), char.ConvertFromUtf32(0x1000d), Sources.MeteorFilled, "Other", []);
 		public static TablerIcon MichelinStarFilled => field ??= new(nameof(MichelinStarFilled), char.ConvertFromUtf32(0x1000c), Sources.MichelinStarFilled, "Other", []);
 		public static TablerIcon MickeyFilled => field ??= new(nameof(MickeyFilled), "\uF683", Sources.MickeyFilled, "Other", []);
@@ -721,15 +747,21 @@ public static partial class TablerIcons
 		public static TablerIcon OctagonFilled => field ??= new(nameof(OctagonFilled), "\uF686", Sources.OctagonFilled, "Other", []);
 		public static TablerIcon OvalVerticalFilled => field ??= new(nameof(OvalVerticalFilled), "\uF688", Sources.OvalVerticalFilled, "Other", []);
 		public static TablerIcon OvalFilled => field ??= new(nameof(OvalFilled), "\uF687", Sources.OvalFilled, "Other", []);
+		public static TablerIcon PacmanFilled => field ??= new(nameof(PacmanFilled), char.ConvertFromUtf32(0x101c1), Sources.PacmanFilled, "Other", []);
 		public static TablerIcon PaintFilled => field ??= new(nameof(PaintFilled), "\uF75F", Sources.PaintFilled, "Other", []);
 		public static TablerIcon PaletteFilled => field ??= new(nameof(PaletteFilled), char.ConvertFromUtf32(0x1009d), Sources.PaletteFilled, "Other", []);
 		public static TablerIcon PanoramaHorizontalFilled => field ??= new(nameof(PanoramaHorizontalFilled), "\uFECC", Sources.PanoramaHorizontalFilled, "Other", []);
 		public static TablerIcon PanoramaVerticalFilled => field ??= new(nameof(PanoramaVerticalFilled), "\uFECB", Sources.PanoramaVerticalFilled, "Other", []);
 		public static TablerIcon ParkingCircleFilled => field ??= new(nameof(ParkingCircleFilled), "\uFECA", Sources.ParkingCircleFilled, "Other", []);
 		public static TablerIcon PawFilled => field ??= new(nameof(PawFilled), "\uF689", Sources.PawFilled, "Other", []);
+		public static TablerIcon PencilFilled => field ??= new(nameof(PencilFilled), char.ConvertFromUtf32(0x101cf), Sources.PencilFilled, "Other", []);
 		public static TablerIcon Pennant2Filled => field ??= new(nameof(Pennant2Filled), "\uF68A", Sources.Pennant2Filled, "Other", []);
 		public static TablerIcon PennantFilled => field ??= new(nameof(PennantFilled), "\uF68B", Sources.PennantFilled, "Other", []);
 		public static TablerIcon PentagonFilled => field ??= new(nameof(PentagonFilled), "\uF68C", Sources.PentagonFilled, "Other", []);
+		public static TablerIcon PhoneCallFilled => field ??= new(nameof(PhoneCallFilled), char.ConvertFromUtf32(0x101c0), Sources.PhoneCallFilled, "Other", []);
+		public static TablerIcon PhoneCallingFilled => field ??= new(nameof(PhoneCallingFilled), char.ConvertFromUtf32(0x101bf), Sources.PhoneCallingFilled, "Other", []);
+		public static TablerIcon PhoneCheckFilled => field ??= new(nameof(PhoneCheckFilled), char.ConvertFromUtf32(0x101be), Sources.PhoneCheckFilled, "Other", []);
+		public static TablerIcon PhoneXFilled => field ??= new(nameof(PhoneXFilled), char.ConvertFromUtf32(0x101bd), Sources.PhoneXFilled, "Other", []);
 		public static TablerIcon PhoneFilled => field ??= new(nameof(PhoneFilled), "\uFA49", Sources.PhoneFilled, "Other", []);
 		public static TablerIcon PhotoFilled => field ??= new(nameof(PhotoFilled), "\uFA4A", Sources.PhotoFilled, "Other", []);
 		public static TablerIcon PictureInPictureTopFilled => field ??= new(nameof(PictureInPictureTopFilled), "\uFEC2", Sources.PictureInPictureTopFilled, "Other", []);
@@ -739,6 +771,10 @@ public static partial class TablerIcons
 		public static TablerIcon PinFilled => field ??= new(nameof(PinFilled), "\uF68D", Sources.PinFilled, "Other", []);
 		public static TablerIcon PinnedFilled => field ??= new(nameof(PinnedFilled), "\uF68E", Sources.PinnedFilled, "Other", []);
 		public static TablerIcon PizzaFilled => field ??= new(nameof(PizzaFilled), char.ConvertFromUtf32(0x10008), Sources.PizzaFilled, "Other", []);
+		public static TablerIcon PlaneArrivalFilled => field ??= new(nameof(PlaneArrivalFilled), char.ConvertFromUtf32(0x101bc), Sources.PlaneArrivalFilled, "Other", []);
+		public static TablerIcon PlaneDepartureFilled => field ??= new(nameof(PlaneDepartureFilled), char.ConvertFromUtf32(0x101bb), Sources.PlaneDepartureFilled, "Other", []);
+		public static TablerIcon PlaneTiltFilled => field ??= new(nameof(PlaneTiltFilled), char.ConvertFromUtf32(0x101ba), Sources.PlaneTiltFilled, "Other", []);
+		public static TablerIcon PlaneFilled => field ??= new(nameof(PlaneFilled), char.ConvertFromUtf32(0x101b9), Sources.PlaneFilled, "Other", []);
 		public static TablerIcon PlayCard1Filled => field ??= new(nameof(PlayCard1Filled), char.ConvertFromUtf32(0x10083), Sources.PlayCard1Filled, "Other", []);
 		public static TablerIcon PlayCard10Filled => field ??= new(nameof(PlayCard10Filled), char.ConvertFromUtf32(0x10082), Sources.PlayCard10Filled, "Other", []);
 		public static TablerIcon PlayCard2Filled => field ??= new(nameof(PlayCard2Filled), char.ConvertFromUtf32(0x10081), Sources.PlayCard2Filled, "Other", []);
@@ -754,6 +790,7 @@ public static partial class TablerIcons
 		public static TablerIcon PlayCardKFilled => field ??= new(nameof(PlayCardKFilled), char.ConvertFromUtf32(0x10077), Sources.PlayCardKFilled, "Other", []);
 		public static TablerIcon PlayCardQFilled => field ??= new(nameof(PlayCardQFilled), char.ConvertFromUtf32(0x10076), Sources.PlayCardQFilled, "Other", []);
 		public static TablerIcon PlayCardStarFilled => field ??= new(nameof(PlayCardStarFilled), char.ConvertFromUtf32(0x10075), Sources.PlayCardStarFilled, "Other", []);
+		public static TablerIcon PlayCardFilled => field ??= new(nameof(PlayCardFilled), char.ConvertFromUtf32(0x101b8), Sources.PlayCardFilled, "Other", []);
 		public static TablerIcon PlayerEjectFilled => field ??= new(nameof(PlayerEjectFilled), "\uF68F", Sources.PlayerEjectFilled, "Other", []);
 		public static TablerIcon PlayerPauseFilled => field ??= new(nameof(PlayerPauseFilled), "\uF690", Sources.PlayerPauseFilled, "Other", []);
 		public static TablerIcon PlayerPlayFilled => field ??= new(nameof(PlayerPlayFilled), "\uF691", Sources.PlayerPlayFilled, "Other", []);
@@ -763,6 +800,8 @@ public static partial class TablerIcons
 		public static TablerIcon PlayerStopFilled => field ??= new(nameof(PlayerStopFilled), "\uF695", Sources.PlayerStopFilled, "Other", []);
 		public static TablerIcon PlayerTrackNextFilled => field ??= new(nameof(PlayerTrackNextFilled), "\uF696", Sources.PlayerTrackNextFilled, "Other", []);
 		public static TablerIcon PlayerTrackPrevFilled => field ??= new(nameof(PlayerTrackPrevFilled), "\uF697", Sources.PlayerTrackPrevFilled, "Other", []);
+		public static TablerIcon PlaylistFilled => field ??= new(nameof(PlaylistFilled), char.ConvertFromUtf32(0x101b7), Sources.PlaylistFilled, "Other", []);
+		public static TablerIcon PlusFilled => field ??= new(nameof(PlusFilled), char.ConvertFromUtf32(0x101ce), Sources.PlusFilled, "Other", []);
 		public static TablerIcon PointFilled => field ??= new(nameof(PointFilled), "\uF698", Sources.PointFilled, "Other", []);
 		public static TablerIcon PointerFilled => field ??= new(nameof(PointerFilled), "\uFB30", Sources.PointerFilled, "Other", []);
 		public static TablerIcon PolaroidFilled => field ??= new(nameof(PolaroidFilled), "\uFA4B", Sources.PolaroidFilled, "Other", []);
@@ -787,14 +826,21 @@ public static partial class TablerIcons
 		public static TablerIcon RelationOneToManyFilled => field ??= new(nameof(RelationOneToManyFilled), "\uFE0B", Sources.RelationOneToManyFilled, "Other", []);
 		public static TablerIcon RelationOneToOneFilled => field ??= new(nameof(RelationOneToOneFilled), "\uFE0A", Sources.RelationOneToOneFilled, "Other", []);
 		public static TablerIcon ReplaceFilled => field ??= new(nameof(ReplaceFilled), "\uF69C", Sources.ReplaceFilled, "Other", []);
+		public static TablerIcon ReportAnalyticsFilled => field ??= new(nameof(ReportAnalyticsFilled), char.ConvertFromUtf32(0x101b6), Sources.ReportAnalyticsFilled, "Other", []);
+		public static TablerIcon ReportMoneyFilled => field ??= new(nameof(ReportMoneyFilled), char.ConvertFromUtf32(0x101b5), Sources.ReportMoneyFilled, "Other", []);
 		public static TablerIcon RollercoasterFilled => field ??= new(nameof(RollercoasterFilled), char.ConvertFromUtf32(0x100f7), Sources.RollercoasterFilled, "Other", []);
 		public static TablerIcon RosetteDiscountCheckFilled => field ??= new(nameof(RosetteDiscountCheckFilled), "\uF746", Sources.RosetteDiscountCheckFilled, "Other", []);
 		public static TablerIcon RosetteDiscountFilled => field ??= new(nameof(RosetteDiscountFilled), "\uFF05", Sources.RosetteDiscountFilled, "Other", []);
 		public static TablerIcon RosetteFilled => field ??= new(nameof(RosetteFilled), "\uF69D", Sources.RosetteFilled, "Other", []);
 		public static TablerIcon SaladFilled => field ??= new(nameof(SaladFilled), char.ConvertFromUtf32(0x10007), Sources.SaladFilled, "Other", []);
+		public static TablerIcon SatelliteFilled => field ??= new(nameof(SatelliteFilled), char.ConvertFromUtf32(0x101b4), Sources.SatelliteFilled, "Other", []);
+		public static TablerIcon ScaleFilled => field ??= new(nameof(ScaleFilled), char.ConvertFromUtf32(0x101cd), Sources.ScaleFilled, "Other", []);
+		public static TablerIcon SchoolFilled => field ??= new(nameof(SchoolFilled), char.ConvertFromUtf32(0x101cc), Sources.SchoolFilled, "Other", []);
 		public static TablerIcon ScubaDivingTankFilled => field ??= new(nameof(ScubaDivingTankFilled), "\uFF04", Sources.ScubaDivingTankFilled, "Other", []);
+		public static TablerIcon SearchFilled => field ??= new(nameof(SearchFilled), char.ConvertFromUtf32(0x101cb), Sources.SearchFilled, "Other", []);
 		public static TablerIcon SectionFilled => field ??= new(nameof(SectionFilled), "\uFE09", Sources.SectionFilled, "Other", []);
 		public static TablerIcon SeedlingFilled => field ??= new(nameof(SeedlingFilled), char.ConvertFromUtf32(0x10006), Sources.SeedlingFilled, "Other", []);
+		public static TablerIcon SendFilled => field ??= new(nameof(SendFilled), char.ConvertFromUtf32(0x101ca), Sources.SendFilled, "Other", []);
 		public static TablerIcon SettingsFilled => field ??= new(nameof(SettingsFilled), "\uF69E", Sources.SettingsFilled, "Other", []);
 		public static TablerIcon ShieldCheckFilled => field ??= new(nameof(ShieldCheckFilled), "\uF761", Sources.ShieldCheckFilled, "Other", []);
 		public static TablerIcon ShieldCheckeredFilled => field ??= new(nameof(ShieldCheckeredFilled), "\uF762", Sources.ShieldCheckeredFilled, "Other", []);
@@ -812,6 +858,8 @@ public static partial class TablerIcons
 		public static TablerIcon SortDescendingShapesFilled => field ??= new(nameof(SortDescendingShapesFilled), "\uFF58", Sources.SortDescendingShapesFilled, "Other", []);
 		public static TablerIcon SoupFilled => field ??= new(nameof(SoupFilled), "\uFE08", Sources.SoupFilled, "Other", []);
 		public static TablerIcon SpadeFilled => field ??= new(nameof(SpadeFilled), "\uF6A3", Sources.SpadeFilled, "Other", []);
+		public static TablerIcon Sparkles2Filled => field ??= new(nameof(Sparkles2Filled), char.ConvertFromUtf32(0x101b3), Sources.Sparkles2Filled, "Other", []);
+		public static TablerIcon SparklesFilled => field ??= new(nameof(SparklesFilled), char.ConvertFromUtf32(0x101b2), Sources.SparklesFilled, "Other", []);
 		public static TablerIcon SpeedboatFilled => field ??= new(nameof(SpeedboatFilled), char.ConvertFromUtf32(0x100f6), Sources.SpeedboatFilled, "Other", []);
 		public static TablerIcon SpiderFilled => field ??= new(nameof(SpiderFilled), char.ConvertFromUtf32(0x10109), Sources.SpiderFilled, "Other", []);
 		public static TablerIcon SquareArrowDownFilled => field ??= new(nameof(SquareArrowDownFilled), "\uFB31", Sources.SquareArrowDownFilled, "Other", []);
@@ -960,10 +1008,12 @@ public static partial class TablerIcons
 		public static TablerIcon TestPipe2Filled => field ??= new(nameof(TestPipe2Filled), "\uFF53", Sources.TestPipe2Filled, "Other", []);
 		public static TablerIcon ThumbDownFilled => field ??= new(nameof(ThumbDownFilled), "\uF6AA", Sources.ThumbDownFilled, "Other", []);
 		public static TablerIcon ThumbUpFilled => field ??= new(nameof(ThumbUpFilled), "\uF6AB", Sources.ThumbUpFilled, "Other", []);
+		public static TablerIcon TicketFilled => field ??= new(nameof(TicketFilled), char.ConvertFromUtf32(0x101c9), Sources.TicketFilled, "Other", []);
 		public static TablerIcon TiltShiftFilled => field ??= new(nameof(TiltShiftFilled), "\uFEC7", Sources.TiltShiftFilled, "Other", []);
 		public static TablerIcon TimelineEventFilled => field ??= new(nameof(TimelineEventFilled), "\uFD18", Sources.TimelineEventFilled, "Other", []);
 		public static TablerIcon ToggleLeftFilled => field ??= new(nameof(ToggleLeftFilled), "\uFEC0", Sources.ToggleLeftFilled, "Other", []);
 		public static TablerIcon ToggleRightFilled => field ??= new(nameof(ToggleRightFilled), "\uFEBF", Sources.ToggleRightFilled, "Other", []);
+		public static TablerIcon ToolsKitchen2Filled => field ??= new(nameof(ToolsKitchen2Filled), char.ConvertFromUtf32(0x101c8), Sources.ToolsKitchen2Filled, "Other", []);
 		public static TablerIcon TrainFilled => field ??= new(nameof(TrainFilled), char.ConvertFromUtf32(0x100f5), Sources.TrainFilled, "Other", []);
 		public static TablerIcon TransformFilled => field ??= new(nameof(TransformFilled), "\uF6AC", Sources.TransformFilled, "Other", []);
 		public static TablerIcon TransitionBottomFilled => field ??= new(nameof(TransitionBottomFilled), "\uFDD0", Sources.TransitionBottomFilled, "Other", []);
@@ -988,8 +1038,10 @@ public static partial class TablerIcons
 		public static TablerIcon WindmillFilled => field ??= new(nameof(WindmillFilled), "\uF6B2", Sources.WindmillFilled, "Other", []);
 		public static TablerIcon WindsockFilled => field ??= new(nameof(WindsockFilled), char.ConvertFromUtf32(0x1009a), Sources.WindsockFilled, "Other", []);
 		public static TablerIcon WomanFilled => field ??= new(nameof(WomanFilled), "\uFDCC", Sources.WomanFilled, "Other", []);
+		public static TablerIcon WorldFilled => field ??= new(nameof(WorldFilled), char.ConvertFromUtf32(0x101c7), Sources.WorldFilled, "Other", []);
 		public static TablerIcon WritingSignFilled => field ??= new(nameof(WritingSignFilled), char.ConvertFromUtf32(0x1018c), Sources.WritingSignFilled, "Other", []);
 		public static TablerIcon WritingFilled => field ??= new(nameof(WritingFilled), char.ConvertFromUtf32(0x1018b), Sources.WritingFilled, "Other", []);
+		public static TablerIcon XFilled => field ??= new(nameof(XFilled), char.ConvertFromUtf32(0x101c6), Sources.XFilled, "Other", []);
 		public static TablerIcon XboxAFilled => field ??= new(nameof(XboxAFilled), "\uFDCB", Sources.XboxAFilled, "Other", []);
 		public static TablerIcon XboxBFilled => field ??= new(nameof(XboxBFilled), "\uFDCA", Sources.XboxBFilled, "Other", []);
 		public static TablerIcon XboxXFilled => field ??= new(nameof(XboxXFilled), "\uFDC9", Sources.XboxXFilled, "Other", []);
@@ -1014,6 +1066,7 @@ public static partial class TablerIcons
 			AccessibleFilled,
 			AdCircleFilled,
 			AdFilled,
+			AdjustmentsHorizontalFilled,
 			AdjustmentsFilled,
 			AerialLiftFilled,
 			AffiliateFilled,
@@ -1111,6 +1164,7 @@ public static partial class TablerIcons
 			BadgeWcFilled,
 			BadgeFilled,
 			BadgesFilled,
+			BallBowlingFilled,
 			BalloonFilled,
 			BallpenFilled,
 			BandageFilled,
@@ -1267,6 +1321,7 @@ public static partial class TablerIcons
 			ChartPie3Filled,
 			ChartPie4Filled,
 			ChartPieFilled,
+			CheckFilled,
 			ChefHatFilled,
 			CherryFilled,
 			ChessBishopFilled,
@@ -1275,6 +1330,8 @@ public static partial class TablerIcons
 			ChessQueenFilled,
 			ChessRookFilled,
 			ChessFilled,
+			ChevronDownFilled,
+			ChevronRightFilled,
 			ChristmasTreeFilled,
 			CircleArrowDownLeftFilled,
 			CircleArrowDownRightFilled,
@@ -1341,6 +1398,7 @@ public static partial class TablerIcons
 			CircleXFilled,
 			CircleFilled,
 			CirclesFilled,
+			ClickFilled,
 			ClipboardCheckFilled,
 			ClipboardDataFilled,
 			ClipboardListFilled,
@@ -1395,6 +1453,7 @@ public static partial class TablerIcons
 			CopyMinusFilled,
 			CopyPlusFilled,
 			CopyXFilled,
+			CopyFilled,
 			CopyleftFilled,
 			CopyrightFilled,
 			CreditCardFilled,
@@ -1409,8 +1468,11 @@ public static partial class TablerIcons
 			CrownFilled,
 			CurrentLocationFilled,
 			DashboardFilled,
+			DatabaseFilled,
 			DeviceCctvFilled,
 			DeviceDesktopFilled,
+			DeviceFloppyFilled,
+			DeviceGamepad2Filled,
 			DeviceGamepad3Filled,
 			DeviceGamepadFilled,
 			DeviceHeartMonitorFilled,
@@ -1441,6 +1503,9 @@ public static partial class TablerIcons
 			DirectionsFilled,
 			DiscFilled,
 			DiscountFilled,
+			DotsVerticalFilled,
+			DotsFilled,
+			DownloadFilled,
 			DropCircleFilled,
 			DropletHalf2Filled,
 			DropletHalfFilled,
@@ -1451,6 +1516,7 @@ public static partial class TablerIcons
 			EaseInControlPointFilled,
 			EaseInOutControlPointsFilled,
 			EaseOutControlPointFilled,
+			EditFilled,
 			EggCrackedFilled,
 			EggFriedFilled,
 			EggFilled,
@@ -1463,6 +1529,7 @@ public static partial class TablerIcons
 			ExclamationCircleFilled,
 			ExplicitFilled,
 			ExposureFilled,
+			ExternalLinkFilled,
 			EyeTableFilled,
 			EyeFilled,
 			Eyeglass2Filled,
@@ -1550,6 +1617,7 @@ public static partial class TablerIcons
 			GuitarPickFilled,
 			Hanger2Filled,
 			HeadphonesFilled,
+			HeadsetFilled,
 			HeartBrokenFilled,
 			HeartFilled,
 			HelicopterLandingFilled,
@@ -1560,6 +1628,7 @@ public static partial class TablerIcons
 			HelpSquareRoundedFilled,
 			HelpSquareFilled,
 			HelpTriangleFilled,
+			HelpFilled,
 			HexagonLetterAFilled,
 			HexagonLetterBFilled,
 			HexagonLetterCFilled,
@@ -1599,10 +1668,12 @@ public static partial class TablerIcons
 			HexagonNumber9Filled,
 			HexagonPlusFilled,
 			HexagonFilled,
+			Home2Filled,
 			HomeFilled,
 			HospitalCircleFilled,
 			HourglassFilled,
 			IconsIconFilled,
+			IdFilled,
 			InfoCircleFilled,
 			InfoHexagonFilled,
 			InfoOctagonFilled,
@@ -1667,11 +1738,16 @@ public static partial class TablerIcons
 			LayoutSidebarRightFilled,
 			LayoutSidebarFilled,
 			LayoutFilled,
+			LeafFilled,
 			LegoFilled,
 			Lemon2Filled,
 			LibraryPlusFilled,
 			LibraryFilled,
 			LifebuoyFilled,
+			LinkFilled,
+			ListCheckFilled,
+			ListDetailsFilled,
+			ListFilled,
 			LivePhotoFilled,
 			LiveViewFilled,
 			LocationFilled,
@@ -1688,11 +1764,13 @@ public static partial class TablerIcons
 			MedicalCrossFilled,
 			MeepleFilled,
 			MelonFilled,
+			Menu2Filled,
 			Message2Filled,
 			MessageChatbotFilled,
 			MessageCircleFilled,
 			MessageReportFilled,
 			MessageFilled,
+			MessagesFilled,
 			MeteorFilled,
 			MichelinStarFilled,
 			MickeyFilled,
@@ -1724,15 +1802,21 @@ public static partial class TablerIcons
 			OctagonFilled,
 			OvalVerticalFilled,
 			OvalFilled,
+			PacmanFilled,
 			PaintFilled,
 			PaletteFilled,
 			PanoramaHorizontalFilled,
 			PanoramaVerticalFilled,
 			ParkingCircleFilled,
 			PawFilled,
+			PencilFilled,
 			Pennant2Filled,
 			PennantFilled,
 			PentagonFilled,
+			PhoneCallFilled,
+			PhoneCallingFilled,
+			PhoneCheckFilled,
+			PhoneXFilled,
 			PhoneFilled,
 			PhotoFilled,
 			PictureInPictureTopFilled,
@@ -1742,6 +1826,10 @@ public static partial class TablerIcons
 			PinFilled,
 			PinnedFilled,
 			PizzaFilled,
+			PlaneArrivalFilled,
+			PlaneDepartureFilled,
+			PlaneTiltFilled,
+			PlaneFilled,
 			PlayCard1Filled,
 			PlayCard10Filled,
 			PlayCard2Filled,
@@ -1757,6 +1845,7 @@ public static partial class TablerIcons
 			PlayCardKFilled,
 			PlayCardQFilled,
 			PlayCardStarFilled,
+			PlayCardFilled,
 			PlayerEjectFilled,
 			PlayerPauseFilled,
 			PlayerPlayFilled,
@@ -1766,6 +1855,8 @@ public static partial class TablerIcons
 			PlayerStopFilled,
 			PlayerTrackNextFilled,
 			PlayerTrackPrevFilled,
+			PlaylistFilled,
+			PlusFilled,
 			PointFilled,
 			PointerFilled,
 			PolaroidFilled,
@@ -1790,14 +1881,21 @@ public static partial class TablerIcons
 			RelationOneToManyFilled,
 			RelationOneToOneFilled,
 			ReplaceFilled,
+			ReportAnalyticsFilled,
+			ReportMoneyFilled,
 			RollercoasterFilled,
 			RosetteDiscountCheckFilled,
 			RosetteDiscountFilled,
 			RosetteFilled,
 			SaladFilled,
+			SatelliteFilled,
+			ScaleFilled,
+			SchoolFilled,
 			ScubaDivingTankFilled,
+			SearchFilled,
 			SectionFilled,
 			SeedlingFilled,
+			SendFilled,
 			SettingsFilled,
 			ShieldCheckFilled,
 			ShieldCheckeredFilled,
@@ -1815,6 +1913,8 @@ public static partial class TablerIcons
 			SortDescendingShapesFilled,
 			SoupFilled,
 			SpadeFilled,
+			Sparkles2Filled,
+			SparklesFilled,
 			SpeedboatFilled,
 			SpiderFilled,
 			SquareArrowDownFilled,
@@ -1963,10 +2063,12 @@ public static partial class TablerIcons
 			TestPipe2Filled,
 			ThumbDownFilled,
 			ThumbUpFilled,
+			TicketFilled,
 			TiltShiftFilled,
 			TimelineEventFilled,
 			ToggleLeftFilled,
 			ToggleRightFilled,
+			ToolsKitchen2Filled,
 			TrainFilled,
 			TransformFilled,
 			TransitionBottomFilled,
@@ -1991,8 +2093,10 @@ public static partial class TablerIcons
 			WindmillFilled,
 			WindsockFilled,
 			WomanFilled,
+			WorldFilled,
 			WritingSignFilled,
 			WritingFilled,
+			XFilled,
 			XboxAFilled,
 			XboxBFilled,
 			XboxXFilled,

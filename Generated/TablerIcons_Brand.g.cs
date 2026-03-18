@@ -171,6 +171,7 @@ public static partial class TablerIcons
 		public static TablerIcon BrandHipchat => field ??= new(nameof(BrandHipchat), "\uEDCD", Sources.BrandHipchat, "Brand", ["chat", "communicate", "communication", "talk", "discuss", "app", "collaborate", "collaboration", "technology", "brand"]);
 		public static TablerIcon BrandHtml5 => field ??= new(nameof(BrandHtml5), "\uED6C", Sources.BrandHtml5, "Brand", ["programming", "development", "web", "website", "technology", "markup", "language", "brand", "html5", "logo"]);
 		public static TablerIcon BrandInertia => field ??= new(nameof(BrandInertia), "\uF34A", Sources.BrandInertia, "Brand", ["create", "app", "online", "javascript", "brand", "inertia", "logo", "company", "trademark", "identity"]);
+		public static TablerIcon BrandInfakt => field ??= new(nameof(BrandInfakt), char.ConvertFromUtf32(0x1020a), Sources.BrandInfakt, "Brand", ["invoice", "accounting", "polish", "infakt", "finance", "billing", "brand", "software", "company"]);
 		public static TablerIcon BrandInstagram => field ??= new(nameof(BrandInstagram), "\uEC20", Sources.BrandInstagram, "Brand", ["logo", "app", "application", "images", "photos", "videos", "post", "stories", "online", "community"]);
 		public static TablerIcon BrandIntercom => field ??= new(nameof(BrandIntercom), "\uF1CF", Sources.BrandIntercom, "Brand", ["chat", "communcation", "software", "brand", "intercom", "logo", "company", "trademark", "identity", "corporate"]);
 		public static TablerIcon BrandItch => field ??= new(nameof(BrandItch), "\uFA22", Sources.BrandItch, "Brand", ["game", "indie", "platform", "play", "developer", "download", "collection", "community", "creative", "interactive"]);
@@ -543,6 +544,7 @@ public static partial class TablerIcons
 			BrandHipchat,
 			BrandHtml5,
 			BrandInertia,
+			BrandInfakt,
 			BrandInstagram,
 			BrandIntercom,
 			BrandItch,

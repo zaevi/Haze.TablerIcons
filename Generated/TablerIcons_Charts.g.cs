@@ -46,6 +46,7 @@ public static partial class TablerIcons
 		public static TablerIcon ChartScatter3d => field ??= new(nameof(ChartScatter3d), "\uFD92", Sources.ChartScatter3d, "Charts", ["analytics", "data", "visualization", "statistics", "scatterplot", "dimensions", "depth", "relationship", "distribution", "graph"]);
 		public static TablerIcon ChartScatter => field ??= new(nameof(ChartScatter), "\uFD93", Sources.ChartScatter, "Charts", ["analytics", "data", "visualization", "statistics", "scatterplot", "relationship", "distribution", "spread", "graph", "plot"]);
 		public static TablerIcon ChartTreemap => field ??= new(nameof(ChartTreemap), "\uF381", Sources.ChartTreemap, "Charts", ["diagram", "analytics", "buisness", "data", "chart", "treemap", "statistics", "visualization", "metrics", "report"]);
+		public static TablerIcon TrendingUpDown => field ??= new(nameof(TrendingUpDown), char.ConvertFromUtf32(0x101fb), Sources.TrendingUpDown, "Charts", ["trend", "chart", "up", "down", "growth", "decline", "statistics", "data", "arrow", "navigation"]);
 		
 		public static TablerIcon[] Icons => field ??= [
 			ChartArcs3,
@@ -86,6 +87,7 @@ public static partial class TablerIcons
 			ChartScatter3d,
 			ChartScatter,
 			ChartTreemap,
+			TrendingUpDown,
 		];
 	}
 }

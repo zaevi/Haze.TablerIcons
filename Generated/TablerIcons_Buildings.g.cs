@@ -70,6 +70,7 @@ public static partial class TablerIcons
 		public static TablerIcon HomeHeart => field ??= new(nameof(HomeHeart), "\uF353", Sources.HomeHeart, "Buildings", ["love", "sweet", "dating", "care", "safety", "home", "heart", "house", "main", "architecture"]);
 		public static TablerIcon HomeInfinity => field ??= new(nameof(HomeInfinity), "\uF505", Sources.HomeInfinity, "Buildings", ["house", "dashboard", "living", "building", "endless", "home", "infinity", "main", "architecture", "structure"]);
 		public static TablerIcon HomeLink => field ??= new(nameof(HomeLink), "\uF354", Sources.HomeLink, "Buildings", ["address", "technology", "smart", "internet", "home", "link", "house", "main", "architecture", "structure"]);
+		public static TablerIcon HomeLock => field ??= new(nameof(HomeLock), char.ConvertFromUtf32(0x10204), Sources.HomeLock, "Buildings", ["home", "lock", "security", "protected", "house", "access", "secure"]);
 		public static TablerIcon HomeMinus => field ??= new(nameof(HomeMinus), "\uF33D", Sources.HomeMinus, "Buildings", ["remove", "delete", "cancel", "close", "home", "minus", "house", "main", "architecture", "structure"]);
 		public static TablerIcon HomeMove => field ??= new(nameof(HomeMove), "\uF33E", Sources.HomeMove, "Buildings", ["relocation", "moving", "house", "change", "exchange", "home", "move", "main", "architecture", "structure"]);
 		public static TablerIcon HomeOff => field ??= new(nameof(HomeOff), "\uF145", Sources.HomeOff, "Buildings", ["house", "dashboard", "living", "building", "home", "off", "main", "architecture", "structure", "disabled"]);
@@ -162,6 +163,7 @@ public static partial class TablerIcons
 			HomeHeart,
 			HomeInfinity,
 			HomeLink,
+			HomeLock,
 			HomeMinus,
 			HomeMove,
 			HomeOff,
