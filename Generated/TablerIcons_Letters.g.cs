@@ -6,434 +6,320 @@ namespace Haze;
 
 public static partial class TablerIcons
 {
-	public static partial class Letters
-	{
-		public static TablerIcon Alpha => field ??= new(nameof(Alpha), "\uF543", Sources.Alpha, "Letters", ["letter", "alphabet", "greek", "math", "alpha", "character", "typography", "text", "writing"]);
-		public static TablerIcon Beta => field ??= new(nameof(Beta), "\uF544", Sources.Beta, "Letters", ["letter", "alphabet", "greek", "math", "beta", "character", "typography", "text", "writing"]);
-		public static TablerIcon CircleDashedLetterA => field ??= new(nameof(CircleDashedLetterA), "\uFF9A", Sources.CircleDashedLetterA, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterB => field ??= new(nameof(CircleDashedLetterB), "\uFF99", Sources.CircleDashedLetterB, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterC => field ??= new(nameof(CircleDashedLetterC), "\uFF98", Sources.CircleDashedLetterC, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterD => field ??= new(nameof(CircleDashedLetterD), "\uFF97", Sources.CircleDashedLetterD, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterE => field ??= new(nameof(CircleDashedLetterE), "\uFF96", Sources.CircleDashedLetterE, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterF => field ??= new(nameof(CircleDashedLetterF), "\uFF95", Sources.CircleDashedLetterF, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterG => field ??= new(nameof(CircleDashedLetterG), "\uFF94", Sources.CircleDashedLetterG, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterH => field ??= new(nameof(CircleDashedLetterH), "\uFF93", Sources.CircleDashedLetterH, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterI => field ??= new(nameof(CircleDashedLetterI), "\uFF92", Sources.CircleDashedLetterI, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterJ => field ??= new(nameof(CircleDashedLetterJ), "\uFF91", Sources.CircleDashedLetterJ, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterK => field ??= new(nameof(CircleDashedLetterK), "\uFF90", Sources.CircleDashedLetterK, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterL => field ??= new(nameof(CircleDashedLetterL), "\uFF8F", Sources.CircleDashedLetterL, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterM => field ??= new(nameof(CircleDashedLetterM), "\uFF8D", Sources.CircleDashedLetterM, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterN => field ??= new(nameof(CircleDashedLetterN), "\uFF8C", Sources.CircleDashedLetterN, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterO => field ??= new(nameof(CircleDashedLetterO), "\uFF8B", Sources.CircleDashedLetterO, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterP => field ??= new(nameof(CircleDashedLetterP), "\uFF8A", Sources.CircleDashedLetterP, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterQ => field ??= new(nameof(CircleDashedLetterQ), "\uFF89", Sources.CircleDashedLetterQ, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterR => field ??= new(nameof(CircleDashedLetterR), "\uFF88", Sources.CircleDashedLetterR, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterS => field ??= new(nameof(CircleDashedLetterS), "\uFF87", Sources.CircleDashedLetterS, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterT => field ??= new(nameof(CircleDashedLetterT), "\uFF86", Sources.CircleDashedLetterT, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterU => field ??= new(nameof(CircleDashedLetterU), "\uFF85", Sources.CircleDashedLetterU, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterV => field ??= new(nameof(CircleDashedLetterV), "\uFF84", Sources.CircleDashedLetterV, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterW => field ??= new(nameof(CircleDashedLetterW), "\uFF83", Sources.CircleDashedLetterW, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterX => field ??= new(nameof(CircleDashedLetterX), "\uFF82", Sources.CircleDashedLetterX, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterY => field ??= new(nameof(CircleDashedLetterY), "\uFF81", Sources.CircleDashedLetterY, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDashedLetterZ => field ??= new(nameof(CircleDashedLetterZ), "\uFF80", Sources.CircleDashedLetterZ, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
-		public static TablerIcon CircleDottedLetterA => field ??= new(nameof(CircleDottedLetterA), "\uFF7F", Sources.CircleDottedLetterA, "Letters", ["alpha", "start", "first-letter", "vowel", "beginning", "top", "initial", "aleph", "prime", "fore"]);
-		public static TablerIcon CircleDottedLetterB => field ??= new(nameof(CircleDottedLetterB), "\uFF7E", Sources.CircleDottedLetterB, "Letters", ["bravo", "second-letter", "consonant", "backup", "beta", "second", "subsection", "subordinate", "quick", "circle"]);
-		public static TablerIcon CircleDottedLetterC => field ??= new(nameof(CircleDottedLetterC), "\uFF7D", Sources.CircleDottedLetterC, "Letters", ["charlie", "third-letter", "consonant", "carbon", "celsius", "circular", "corner", "cut", "curve", "central"]);
-		public static TablerIcon CircleDottedLetterD => field ??= new(nameof(CircleDottedLetterD), "\uFF7C", Sources.CircleDottedLetterD, "Letters", ["delta", "fourth-letter", "consonant", "diagonal", "divide", "down", "direct", "dorsal", "dormant", "demand"]);
-		public static TablerIcon CircleDottedLetterE => field ??= new(nameof(CircleDottedLetterE), "\uFF7B", Sources.CircleDottedLetterE, "Letters", ["echo", "vowel", "fifth-letter", "end", "execute", "eagle", "expect", "entry", "east", "earth"]);
-		public static TablerIcon CircleDottedLetterF => field ??= new(nameof(CircleDottedLetterF), "\uFF7A", Sources.CircleDottedLetterF, "Letters", ["foxtrot", "sixth-letter", "consonant", "function", "follow", "fast", "fix", "fair", "focus", "flake"]);
-		public static TablerIcon CircleDottedLetterG => field ??= new(nameof(CircleDottedLetterG), "\uFF79", Sources.CircleDottedLetterG, "Letters", ["golf", "seventh-letter", "consonant", "goal", "grow", "greet", "globe", "gauge", "guard", "glance"]);
-		public static TablerIcon CircleDottedLetterH => field ??= new(nameof(CircleDottedLetterH), "\uFF78", Sources.CircleDottedLetterH, "Letters", ["hotel", "eighth-letter", "consonant", "home", "hover", "hold", "height", "haste", "harmony", "hoist"]);
-		public static TablerIcon CircleDottedLetterI => field ??= new(nameof(CircleDottedLetterI), "\uFF77", Sources.CircleDottedLetterI, "Letters", ["india", "ninth-letter", "vowel", "input", "index", "idea", "ignite", "imagine", "circle", "dotted"]);
-		public static TablerIcon CircleDottedLetterJ => field ??= new(nameof(CircleDottedLetterJ), "\uFF76", Sources.CircleDottedLetterJ, "Letters", ["juliett", "tenth-letter", "consonant", "join", "jump", "justify", "journey", "jury", "jewel", "jest"]);
-		public static TablerIcon CircleDottedLetterK => field ??= new(nameof(CircleDottedLetterK), "\uFF75", Sources.CircleDottedLetterK, "Letters", ["kilo", "eleventh-letter", "consonant", "key", "keep", "kick", "kind", "kite", "knot", "knock"]);
-		public static TablerIcon CircleDottedLetterL => field ??= new(nameof(CircleDottedLetterL), "\uFF74", Sources.CircleDottedLetterL, "Letters", ["lima", "twelfth-letter", "consonant", "light", "line", "lead", "link", "long", "lock", "list"]);
-		public static TablerIcon CircleDottedLetterM => field ??= new(nameof(CircleDottedLetterM), "\uFF73", Sources.CircleDottedLetterM, "Letters", ["mike", "thirteenth-letter", "consonant", "move", "mix", "march", "match", "mark", "mind", "mint"]);
-		public static TablerIcon CircleDottedLetterN => field ??= new(nameof(CircleDottedLetterN), "\uFF72", Sources.CircleDottedLetterN, "Letters", ["november", "fourteenth-letter", "consonant", "north", "note", "now", "nurture", "need", "neck", "nap"]);
-		public static TablerIcon CircleDottedLetterO => field ??= new(nameof(CircleDottedLetterO), "\uFF71", Sources.CircleDottedLetterO, "Letters", ["oscar", "fifteenth-letter", "vowel", "open", "order", "offer", "over", "octave", "occupy", "origin"]);
-		public static TablerIcon CircleDottedLetterP => field ??= new(nameof(CircleDottedLetterP), "\uFF70", Sources.CircleDottedLetterP, "Letters", ["papa", "sixteenth-letter", "consonant", "point", "place", "path", "pair", "plan", "push", "pull"]);
-		public static TablerIcon CircleDottedLetterQ => field ??= new(nameof(CircleDottedLetterQ), "\uFF6F", Sources.CircleDottedLetterQ, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
-		public static TablerIcon CircleDottedLetterR => field ??= new(nameof(CircleDottedLetterR), "\uFF6E", Sources.CircleDottedLetterR, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
-		public static TablerIcon CircleDottedLetterS => field ??= new(nameof(CircleDottedLetterS), "\uFF6D", Sources.CircleDottedLetterS, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
-		public static TablerIcon CircleDottedLetterT => field ??= new(nameof(CircleDottedLetterT), "\uFF6C", Sources.CircleDottedLetterT, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
-		public static TablerIcon CircleDottedLetterU => field ??= new(nameof(CircleDottedLetterU), "\uFF6B", Sources.CircleDottedLetterU, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
-		public static TablerIcon CircleDottedLetterV => field ??= new(nameof(CircleDottedLetterV), "\uFF6A", Sources.CircleDottedLetterV, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
-		public static TablerIcon CircleDottedLetterW => field ??= new(nameof(CircleDottedLetterW), "\uFF69", Sources.CircleDottedLetterW, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
-		public static TablerIcon CircleDottedLetterX => field ??= new(nameof(CircleDottedLetterX), "\uFF68", Sources.CircleDottedLetterX, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
-		public static TablerIcon CircleDottedLetterY => field ??= new(nameof(CircleDottedLetterY), "\uFF67", Sources.CircleDottedLetterY, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
-		public static TablerIcon CircleDottedLetterZ => field ??= new(nameof(CircleDottedLetterZ), "\uFF66", Sources.CircleDottedLetterZ, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
-		public static TablerIcon CircleLetterA => field ??= new(nameof(CircleLetterA), "\uF441", Sources.CircleLetterA, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterB => field ??= new(nameof(CircleLetterB), "\uF442", Sources.CircleLetterB, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterC => field ??= new(nameof(CircleLetterC), "\uF443", Sources.CircleLetterC, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterD => field ??= new(nameof(CircleLetterD), "\uF444", Sources.CircleLetterD, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterE => field ??= new(nameof(CircleLetterE), "\uF445", Sources.CircleLetterE, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterF => field ??= new(nameof(CircleLetterF), "\uF446", Sources.CircleLetterF, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterG => field ??= new(nameof(CircleLetterG), "\uF447", Sources.CircleLetterG, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterH => field ??= new(nameof(CircleLetterH), "\uF448", Sources.CircleLetterH, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterI => field ??= new(nameof(CircleLetterI), "\uF449", Sources.CircleLetterI, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterJ => field ??= new(nameof(CircleLetterJ), "\uF44A", Sources.CircleLetterJ, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterK => field ??= new(nameof(CircleLetterK), "\uF44B", Sources.CircleLetterK, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterL => field ??= new(nameof(CircleLetterL), "\uF44C", Sources.CircleLetterL, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterM => field ??= new(nameof(CircleLetterM), "\uF44D", Sources.CircleLetterM, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterN => field ??= new(nameof(CircleLetterN), "\uF44E", Sources.CircleLetterN, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterO => field ??= new(nameof(CircleLetterO), "\uF44F", Sources.CircleLetterO, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterP => field ??= new(nameof(CircleLetterP), "\uF450", Sources.CircleLetterP, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterQ => field ??= new(nameof(CircleLetterQ), "\uF451", Sources.CircleLetterQ, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterR => field ??= new(nameof(CircleLetterR), "\uF452", Sources.CircleLetterR, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterS => field ??= new(nameof(CircleLetterS), "\uF453", Sources.CircleLetterS, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterT => field ??= new(nameof(CircleLetterT), "\uF454", Sources.CircleLetterT, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterU => field ??= new(nameof(CircleLetterU), "\uF455", Sources.CircleLetterU, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterV => field ??= new(nameof(CircleLetterV), "\uF4AD", Sources.CircleLetterV, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterW => field ??= new(nameof(CircleLetterW), "\uF456", Sources.CircleLetterW, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterX => field ??= new(nameof(CircleLetterX), "\uF4AE", Sources.CircleLetterX, "Letters", ["cancel", "no", "circle", "letter", "round", "circular", "alphabet", "character", "typography", "text"]);
-		public static TablerIcon CircleLetterY => field ??= new(nameof(CircleLetterY), "\uF457", Sources.CircleLetterY, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon CircleLetterZ => field ??= new(nameof(CircleLetterZ), "\uF458", Sources.CircleLetterZ, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
-		public static TablerIcon Delta => field ??= new(nameof(Delta), "\uF53C", Sources.Delta, "Letters", ["letter", "alphabet", "greek", "math", "delta", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterA => field ??= new(nameof(HexagonLetterA), "\uF463", Sources.HexagonLetterA, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterB => field ??= new(nameof(HexagonLetterB), "\uF464", Sources.HexagonLetterB, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterC => field ??= new(nameof(HexagonLetterC), "\uF465", Sources.HexagonLetterC, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterD => field ??= new(nameof(HexagonLetterD), "\uF466", Sources.HexagonLetterD, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterE => field ??= new(nameof(HexagonLetterE), "\uF467", Sources.HexagonLetterE, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterF => field ??= new(nameof(HexagonLetterF), "\uF468", Sources.HexagonLetterF, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterG => field ??= new(nameof(HexagonLetterG), "\uF469", Sources.HexagonLetterG, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterH => field ??= new(nameof(HexagonLetterH), "\uF46A", Sources.HexagonLetterH, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterI => field ??= new(nameof(HexagonLetterI), "\uF46B", Sources.HexagonLetterI, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterJ => field ??= new(nameof(HexagonLetterJ), "\uF46C", Sources.HexagonLetterJ, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterK => field ??= new(nameof(HexagonLetterK), "\uF46D", Sources.HexagonLetterK, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterL => field ??= new(nameof(HexagonLetterL), "\uF46E", Sources.HexagonLetterL, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterM => field ??= new(nameof(HexagonLetterM), "\uF46F", Sources.HexagonLetterM, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterN => field ??= new(nameof(HexagonLetterN), "\uF470", Sources.HexagonLetterN, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterO => field ??= new(nameof(HexagonLetterO), "\uF471", Sources.HexagonLetterO, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterP => field ??= new(nameof(HexagonLetterP), "\uF472", Sources.HexagonLetterP, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterQ => field ??= new(nameof(HexagonLetterQ), "\uF473", Sources.HexagonLetterQ, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterR => field ??= new(nameof(HexagonLetterR), "\uF474", Sources.HexagonLetterR, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterS => field ??= new(nameof(HexagonLetterS), "\uF475", Sources.HexagonLetterS, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterT => field ??= new(nameof(HexagonLetterT), "\uF476", Sources.HexagonLetterT, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterU => field ??= new(nameof(HexagonLetterU), "\uF477", Sources.HexagonLetterU, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterV => field ??= new(nameof(HexagonLetterV), "\uF4B3", Sources.HexagonLetterV, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterW => field ??= new(nameof(HexagonLetterW), "\uF478", Sources.HexagonLetterW, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterX => field ??= new(nameof(HexagonLetterX), "\uF479", Sources.HexagonLetterX, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterY => field ??= new(nameof(HexagonLetterY), "\uF47A", Sources.HexagonLetterY, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon HexagonLetterZ => field ??= new(nameof(HexagonLetterZ), "\uF47B", Sources.HexagonLetterZ, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
-		public static TablerIcon Lambda => field ??= new(nameof(Lambda), "\uF541", Sources.Lambda, "Letters", ["letter", "alphabet", "greek", "math", "lambda", "character", "typography", "text", "writing"]);
-		public static TablerIcon LetterASmall => field ??= new(nameof(LetterASmall), "\uFCC7", Sources.LetterASmall, "Letters", ["a", "alpha", "alphabet", "first", "letter", "initial", "character", "typeface", "glyph", "script"]);
-		public static TablerIcon LetterA => field ??= new(nameof(LetterA), "\uEC50", Sources.LetterA, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "a", "glyph"]);
-		public static TablerIcon LetterBSmall => field ??= new(nameof(LetterBSmall), "\uFCC8", Sources.LetterBSmall, "Letters", ["b", "beta", "second", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterB => field ??= new(nameof(LetterB), "\uEC51", Sources.LetterB, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "b", "glyph"]);
-		public static TablerIcon LetterCSmall => field ??= new(nameof(LetterCSmall), "\uFCC9", Sources.LetterCSmall, "Letters", ["c", "charlie", "third", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterC => field ??= new(nameof(LetterC), "\uEC52", Sources.LetterC, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "c", "glyph"]);
-		public static TablerIcon LetterDSmall => field ??= new(nameof(LetterDSmall), "\uFCCA", Sources.LetterDSmall, "Letters", ["d", "delta", "fourth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterD => field ??= new(nameof(LetterD), "\uEC53", Sources.LetterD, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "d", "glyph"]);
-		public static TablerIcon LetterESmall => field ??= new(nameof(LetterESmall), "\uFCCB", Sources.LetterESmall, "Letters", ["e", "echo", "fifth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterE => field ??= new(nameof(LetterE), "\uEC54", Sources.LetterE, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "e", "glyph"]);
-		public static TablerIcon LetterFSmall => field ??= new(nameof(LetterFSmall), "\uFCCC", Sources.LetterFSmall, "Letters", ["f", "foxtrot", "sixth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterF => field ??= new(nameof(LetterF), "\uEC55", Sources.LetterF, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "f", "glyph"]);
-		public static TablerIcon LetterGSmall => field ??= new(nameof(LetterGSmall), "\uFCCD", Sources.LetterGSmall, "Letters", ["g", "golf", "seventh", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterG => field ??= new(nameof(LetterG), "\uEC56", Sources.LetterG, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "g", "glyph"]);
-		public static TablerIcon LetterHSmall => field ??= new(nameof(LetterHSmall), "\uFCCE", Sources.LetterHSmall, "Letters", ["h", "hotel", "eighth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterH => field ??= new(nameof(LetterH), "\uEC57", Sources.LetterH, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "h", "glyph"]);
-		public static TablerIcon LetterISmall => field ??= new(nameof(LetterISmall), "\uFCCF", Sources.LetterISmall, "Letters", ["i", "india", "ninth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterI => field ??= new(nameof(LetterI), "\uEC58", Sources.LetterI, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "i", "glyph"]);
-		public static TablerIcon LetterJSmall => field ??= new(nameof(LetterJSmall), "\uFCD0", Sources.LetterJSmall, "Letters", ["j", "juliett", "tenth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterJ => field ??= new(nameof(LetterJ), "\uEC59", Sources.LetterJ, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "j", "glyph"]);
-		public static TablerIcon LetterKSmall => field ??= new(nameof(LetterKSmall), "\uFCD1", Sources.LetterKSmall, "Letters", ["k", "kilo", "eleventh", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterK => field ??= new(nameof(LetterK), "\uEC5A", Sources.LetterK, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "k", "glyph"]);
-		public static TablerIcon LetterLSmall => field ??= new(nameof(LetterLSmall), "\uFCD2", Sources.LetterLSmall, "Letters", ["l", "lima", "twelfth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterL => field ??= new(nameof(LetterL), "\uEC5B", Sources.LetterL, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "l", "glyph"]);
-		public static TablerIcon LetterMSmall => field ??= new(nameof(LetterMSmall), "\uFCD3", Sources.LetterMSmall, "Letters", ["m", "mike", "thirteenth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterM => field ??= new(nameof(LetterM), "\uEC5C", Sources.LetterM, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "m", "glyph"]);
-		public static TablerIcon LetterNSmall => field ??= new(nameof(LetterNSmall), "\uFCD4", Sources.LetterNSmall, "Letters", ["n", "november", "fourteenth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterN => field ??= new(nameof(LetterN), "\uEC5D", Sources.LetterN, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "n", "glyph"]);
-		public static TablerIcon LetterOSmall => field ??= new(nameof(LetterOSmall), "\uFCD5", Sources.LetterOSmall, "Letters", ["o", "oscar", "fifteenth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterO => field ??= new(nameof(LetterO), "\uEC5E", Sources.LetterO, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "o", "glyph"]);
-		public static TablerIcon LetterPSmall => field ??= new(nameof(LetterPSmall), "\uFCD6", Sources.LetterPSmall, "Letters", ["p", "papa", "sixteenth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterP => field ??= new(nameof(LetterP), "\uEC5F", Sources.LetterP, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "p", "glyph"]);
-		public static TablerIcon LetterQSmall => field ??= new(nameof(LetterQSmall), "\uFCD7", Sources.LetterQSmall, "Letters", ["q", "quebec", "seventeenth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterQ => field ??= new(nameof(LetterQ), "\uEC60", Sources.LetterQ, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "q", "glyph"]);
-		public static TablerIcon LetterRSmall => field ??= new(nameof(LetterRSmall), "\uFCD8", Sources.LetterRSmall, "Letters", ["r", "romeo", "eighteenth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterR => field ??= new(nameof(LetterR), "\uEC61", Sources.LetterR, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "r", "glyph"]);
-		public static TablerIcon LetterSSmall => field ??= new(nameof(LetterSSmall), "\uFCD9", Sources.LetterSSmall, "Letters", ["s", "sierra", "nineteenth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterS => field ??= new(nameof(LetterS), "\uEC62", Sources.LetterS, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "s", "glyph"]);
-		public static TablerIcon LetterTSmall => field ??= new(nameof(LetterTSmall), "\uFCDA", Sources.LetterTSmall, "Letters", ["t", "tango", "twentieth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterT => field ??= new(nameof(LetterT), "\uEC63", Sources.LetterT, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "t", "glyph"]);
-		public static TablerIcon LetterUSmall => field ??= new(nameof(LetterUSmall), "\uFCDB", Sources.LetterUSmall, "Letters", ["u", "uniform", "twenty-first", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterU => field ??= new(nameof(LetterU), "\uEC64", Sources.LetterU, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "u", "glyph"]);
-		public static TablerIcon LetterVSmall => field ??= new(nameof(LetterVSmall), "\uFCDC", Sources.LetterVSmall, "Letters", ["v", "victor", "twenty-second", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterV => field ??= new(nameof(LetterV), "\uEC65", Sources.LetterV, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "v", "glyph"]);
-		public static TablerIcon LetterWSmall => field ??= new(nameof(LetterWSmall), "\uFCDD", Sources.LetterWSmall, "Letters", ["w", "whiskey", "twenty-third", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterW => field ??= new(nameof(LetterW), "\uEC66", Sources.LetterW, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "w", "glyph"]);
-		public static TablerIcon LetterXSmall => field ??= new(nameof(LetterXSmall), "\uFCDE", Sources.LetterXSmall, "Letters", ["x", "x-ray", "twenty-fourth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterX => field ??= new(nameof(LetterX), "\uEC67", Sources.LetterX, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "x", "glyph"]);
-		public static TablerIcon LetterYSmall => field ??= new(nameof(LetterYSmall), "\uFCDF", Sources.LetterYSmall, "Letters", ["y", "yankee", "twenty-fifth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterY => field ??= new(nameof(LetterY), "\uEC68", Sources.LetterY, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "y", "glyph"]);
-		public static TablerIcon LetterZSmall => field ??= new(nameof(LetterZSmall), "\uFCE0", Sources.LetterZSmall, "Letters", ["z", "zulu", "twenty-sixth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
-		public static TablerIcon LetterZ => field ??= new(nameof(LetterZ), "\uEC69", Sources.LetterZ, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "z", "glyph"]);
-		public static TablerIcon SquareLetterA => field ??= new(nameof(SquareLetterA), "\uF47C", Sources.SquareLetterA, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterB => field ??= new(nameof(SquareLetterB), "\uF47D", Sources.SquareLetterB, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterC => field ??= new(nameof(SquareLetterC), "\uF47E", Sources.SquareLetterC, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterD => field ??= new(nameof(SquareLetterD), "\uF47F", Sources.SquareLetterD, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterE => field ??= new(nameof(SquareLetterE), "\uF480", Sources.SquareLetterE, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterF => field ??= new(nameof(SquareLetterF), "\uF481", Sources.SquareLetterF, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterG => field ??= new(nameof(SquareLetterG), "\uF482", Sources.SquareLetterG, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterH => field ??= new(nameof(SquareLetterH), "\uF483", Sources.SquareLetterH, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterI => field ??= new(nameof(SquareLetterI), "\uF484", Sources.SquareLetterI, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterJ => field ??= new(nameof(SquareLetterJ), "\uF485", Sources.SquareLetterJ, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterK => field ??= new(nameof(SquareLetterK), "\uF486", Sources.SquareLetterK, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterL => field ??= new(nameof(SquareLetterL), "\uF487", Sources.SquareLetterL, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterM => field ??= new(nameof(SquareLetterM), "\uF488", Sources.SquareLetterM, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterN => field ??= new(nameof(SquareLetterN), "\uF489", Sources.SquareLetterN, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterO => field ??= new(nameof(SquareLetterO), "\uF48A", Sources.SquareLetterO, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterP => field ??= new(nameof(SquareLetterP), "\uF48B", Sources.SquareLetterP, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterQ => field ??= new(nameof(SquareLetterQ), "\uF48C", Sources.SquareLetterQ, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterR => field ??= new(nameof(SquareLetterR), "\uF48D", Sources.SquareLetterR, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterS => field ??= new(nameof(SquareLetterS), "\uF48E", Sources.SquareLetterS, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterT => field ??= new(nameof(SquareLetterT), "\uF48F", Sources.SquareLetterT, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterU => field ??= new(nameof(SquareLetterU), "\uF490", Sources.SquareLetterU, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterV => field ??= new(nameof(SquareLetterV), "\uF4BB", Sources.SquareLetterV, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterW => field ??= new(nameof(SquareLetterW), "\uF491", Sources.SquareLetterW, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterX => field ??= new(nameof(SquareLetterX), "\uF4BC", Sources.SquareLetterX, "Letters", ["cancel", "close", "delete", "remove", "times", "clear", "no", "square", "letter", "rectangular"]);
-		public static TablerIcon SquareLetterY => field ??= new(nameof(SquareLetterY), "\uF492", Sources.SquareLetterY, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareLetterZ => field ??= new(nameof(SquareLetterZ), "\uF493", Sources.SquareLetterZ, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
-		public static TablerIcon SquareRoundedLetterA => field ??= new(nameof(SquareRoundedLetterA), "\uF5AE", Sources.SquareRoundedLetterA, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterB => field ??= new(nameof(SquareRoundedLetterB), "\uF5AF", Sources.SquareRoundedLetterB, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterC => field ??= new(nameof(SquareRoundedLetterC), "\uF5B0", Sources.SquareRoundedLetterC, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterD => field ??= new(nameof(SquareRoundedLetterD), "\uF5B1", Sources.SquareRoundedLetterD, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterE => field ??= new(nameof(SquareRoundedLetterE), "\uF5B2", Sources.SquareRoundedLetterE, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterF => field ??= new(nameof(SquareRoundedLetterF), "\uF5B3", Sources.SquareRoundedLetterF, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterG => field ??= new(nameof(SquareRoundedLetterG), "\uF5B4", Sources.SquareRoundedLetterG, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterH => field ??= new(nameof(SquareRoundedLetterH), "\uF5B5", Sources.SquareRoundedLetterH, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterI => field ??= new(nameof(SquareRoundedLetterI), "\uF5B6", Sources.SquareRoundedLetterI, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterJ => field ??= new(nameof(SquareRoundedLetterJ), "\uF5B7", Sources.SquareRoundedLetterJ, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterK => field ??= new(nameof(SquareRoundedLetterK), "\uF5B8", Sources.SquareRoundedLetterK, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterL => field ??= new(nameof(SquareRoundedLetterL), "\uF5B9", Sources.SquareRoundedLetterL, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterM => field ??= new(nameof(SquareRoundedLetterM), "\uF5BA", Sources.SquareRoundedLetterM, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterN => field ??= new(nameof(SquareRoundedLetterN), "\uF5BB", Sources.SquareRoundedLetterN, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterO => field ??= new(nameof(SquareRoundedLetterO), "\uF5BC", Sources.SquareRoundedLetterO, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterP => field ??= new(nameof(SquareRoundedLetterP), "\uF5BD", Sources.SquareRoundedLetterP, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterQ => field ??= new(nameof(SquareRoundedLetterQ), "\uF5BE", Sources.SquareRoundedLetterQ, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterR => field ??= new(nameof(SquareRoundedLetterR), "\uF5BF", Sources.SquareRoundedLetterR, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterS => field ??= new(nameof(SquareRoundedLetterS), "\uF5C0", Sources.SquareRoundedLetterS, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterT => field ??= new(nameof(SquareRoundedLetterT), "\uF5C1", Sources.SquareRoundedLetterT, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterU => field ??= new(nameof(SquareRoundedLetterU), "\uF5C2", Sources.SquareRoundedLetterU, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterV => field ??= new(nameof(SquareRoundedLetterV), "\uF5C3", Sources.SquareRoundedLetterV, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterW => field ??= new(nameof(SquareRoundedLetterW), "\uF5C4", Sources.SquareRoundedLetterW, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterX => field ??= new(nameof(SquareRoundedLetterX), "\uF5C5", Sources.SquareRoundedLetterX, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterY => field ??= new(nameof(SquareRoundedLetterY), "\uF5C6", Sources.SquareRoundedLetterY, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		public static TablerIcon SquareRoundedLetterZ => field ??= new(nameof(SquareRoundedLetterZ), "\uF5C7", Sources.SquareRoundedLetterZ, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
-		
-		public static TablerIcon[] Icons => field ??= [
-			Alpha,
-			Beta,
-			CircleDashedLetterA,
-			CircleDashedLetterB,
-			CircleDashedLetterC,
-			CircleDashedLetterD,
-			CircleDashedLetterE,
-			CircleDashedLetterF,
-			CircleDashedLetterG,
-			CircleDashedLetterH,
-			CircleDashedLetterI,
-			CircleDashedLetterJ,
-			CircleDashedLetterK,
-			CircleDashedLetterL,
-			CircleDashedLetterM,
-			CircleDashedLetterN,
-			CircleDashedLetterO,
-			CircleDashedLetterP,
-			CircleDashedLetterQ,
-			CircleDashedLetterR,
-			CircleDashedLetterS,
-			CircleDashedLetterT,
-			CircleDashedLetterU,
-			CircleDashedLetterV,
-			CircleDashedLetterW,
-			CircleDashedLetterX,
-			CircleDashedLetterY,
-			CircleDashedLetterZ,
-			CircleDottedLetterA,
-			CircleDottedLetterB,
-			CircleDottedLetterC,
-			CircleDottedLetterD,
-			CircleDottedLetterE,
-			CircleDottedLetterF,
-			CircleDottedLetterG,
-			CircleDottedLetterH,
-			CircleDottedLetterI,
-			CircleDottedLetterJ,
-			CircleDottedLetterK,
-			CircleDottedLetterL,
-			CircleDottedLetterM,
-			CircleDottedLetterN,
-			CircleDottedLetterO,
-			CircleDottedLetterP,
-			CircleDottedLetterQ,
-			CircleDottedLetterR,
-			CircleDottedLetterS,
-			CircleDottedLetterT,
-			CircleDottedLetterU,
-			CircleDottedLetterV,
-			CircleDottedLetterW,
-			CircleDottedLetterX,
-			CircleDottedLetterY,
-			CircleDottedLetterZ,
-			CircleLetterA,
-			CircleLetterB,
-			CircleLetterC,
-			CircleLetterD,
-			CircleLetterE,
-			CircleLetterF,
-			CircleLetterG,
-			CircleLetterH,
-			CircleLetterI,
-			CircleLetterJ,
-			CircleLetterK,
-			CircleLetterL,
-			CircleLetterM,
-			CircleLetterN,
-			CircleLetterO,
-			CircleLetterP,
-			CircleLetterQ,
-			CircleLetterR,
-			CircleLetterS,
-			CircleLetterT,
-			CircleLetterU,
-			CircleLetterV,
-			CircleLetterW,
-			CircleLetterX,
-			CircleLetterY,
-			CircleLetterZ,
-			Delta,
-			HexagonLetterA,
-			HexagonLetterB,
-			HexagonLetterC,
-			HexagonLetterD,
-			HexagonLetterE,
-			HexagonLetterF,
-			HexagonLetterG,
-			HexagonLetterH,
-			HexagonLetterI,
-			HexagonLetterJ,
-			HexagonLetterK,
-			HexagonLetterL,
-			HexagonLetterM,
-			HexagonLetterN,
-			HexagonLetterO,
-			HexagonLetterP,
-			HexagonLetterQ,
-			HexagonLetterR,
-			HexagonLetterS,
-			HexagonLetterT,
-			HexagonLetterU,
-			HexagonLetterV,
-			HexagonLetterW,
-			HexagonLetterX,
-			HexagonLetterY,
-			HexagonLetterZ,
-			Lambda,
-			LetterASmall,
-			LetterA,
-			LetterBSmall,
-			LetterB,
-			LetterCSmall,
-			LetterC,
-			LetterDSmall,
-			LetterD,
-			LetterESmall,
-			LetterE,
-			LetterFSmall,
-			LetterF,
-			LetterGSmall,
-			LetterG,
-			LetterHSmall,
-			LetterH,
-			LetterISmall,
-			LetterI,
-			LetterJSmall,
-			LetterJ,
-			LetterKSmall,
-			LetterK,
-			LetterLSmall,
-			LetterL,
-			LetterMSmall,
-			LetterM,
-			LetterNSmall,
-			LetterN,
-			LetterOSmall,
-			LetterO,
-			LetterPSmall,
-			LetterP,
-			LetterQSmall,
-			LetterQ,
-			LetterRSmall,
-			LetterR,
-			LetterSSmall,
-			LetterS,
-			LetterTSmall,
-			LetterT,
-			LetterUSmall,
-			LetterU,
-			LetterVSmall,
-			LetterV,
-			LetterWSmall,
-			LetterW,
-			LetterXSmall,
-			LetterX,
-			LetterYSmall,
-			LetterY,
-			LetterZSmall,
-			LetterZ,
-			SquareLetterA,
-			SquareLetterB,
-			SquareLetterC,
-			SquareLetterD,
-			SquareLetterE,
-			SquareLetterF,
-			SquareLetterG,
-			SquareLetterH,
-			SquareLetterI,
-			SquareLetterJ,
-			SquareLetterK,
-			SquareLetterL,
-			SquareLetterM,
-			SquareLetterN,
-			SquareLetterO,
-			SquareLetterP,
-			SquareLetterQ,
-			SquareLetterR,
-			SquareLetterS,
-			SquareLetterT,
-			SquareLetterU,
-			SquareLetterV,
-			SquareLetterW,
-			SquareLetterX,
-			SquareLetterY,
-			SquareLetterZ,
-			SquareRoundedLetterA,
-			SquareRoundedLetterB,
-			SquareRoundedLetterC,
-			SquareRoundedLetterD,
-			SquareRoundedLetterE,
-			SquareRoundedLetterF,
-			SquareRoundedLetterG,
-			SquareRoundedLetterH,
-			SquareRoundedLetterI,
-			SquareRoundedLetterJ,
-			SquareRoundedLetterK,
-			SquareRoundedLetterL,
-			SquareRoundedLetterM,
-			SquareRoundedLetterN,
-			SquareRoundedLetterO,
-			SquareRoundedLetterP,
-			SquareRoundedLetterQ,
-			SquareRoundedLetterR,
-			SquareRoundedLetterS,
-			SquareRoundedLetterT,
-			SquareRoundedLetterU,
-			SquareRoundedLetterV,
-			SquareRoundedLetterW,
-			SquareRoundedLetterX,
-			SquareRoundedLetterY,
-			SquareRoundedLetterZ,
-		];
-	}
+	public static TablerIcon Alpha => field ??= new("Alpha", "\uF543", Sources.Alpha, "Letters", ["letter", "alphabet", "greek", "math", "alpha", "character", "typography", "text", "writing"]);
+	public static TablerIcon Beta => field ??= new("Beta", "\uF544", Sources.Beta, "Letters", ["letter", "alphabet", "greek", "math", "beta", "character", "typography", "text", "writing"]);
+	public static TablerIcon CircleDashedLetterA => field ??= new("CircleDashedLetterA", "\uFF9A", Sources.CircleDashedLetterA, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterB => field ??= new("CircleDashedLetterB", "\uFF99", Sources.CircleDashedLetterB, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterC => field ??= new("CircleDashedLetterC", "\uFF98", Sources.CircleDashedLetterC, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterD => field ??= new("CircleDashedLetterD", "\uFF97", Sources.CircleDashedLetterD, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterE => field ??= new("CircleDashedLetterE", "\uFF96", Sources.CircleDashedLetterE, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterF => field ??= new("CircleDashedLetterF", "\uFF95", Sources.CircleDashedLetterF, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterG => field ??= new("CircleDashedLetterG", "\uFF94", Sources.CircleDashedLetterG, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterH => field ??= new("CircleDashedLetterH", "\uFF93", Sources.CircleDashedLetterH, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterI => field ??= new("CircleDashedLetterI", "\uFF92", Sources.CircleDashedLetterI, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterJ => field ??= new("CircleDashedLetterJ", "\uFF91", Sources.CircleDashedLetterJ, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterK => field ??= new("CircleDashedLetterK", "\uFF90", Sources.CircleDashedLetterK, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterL => field ??= new("CircleDashedLetterL", "\uFF8F", Sources.CircleDashedLetterL, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterM => field ??= new("CircleDashedLetterM", "\uFF8D", Sources.CircleDashedLetterM, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterN => field ??= new("CircleDashedLetterN", "\uFF8C", Sources.CircleDashedLetterN, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterO => field ??= new("CircleDashedLetterO", "\uFF8B", Sources.CircleDashedLetterO, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterP => field ??= new("CircleDashedLetterP", "\uFF8A", Sources.CircleDashedLetterP, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterQ => field ??= new("CircleDashedLetterQ", "\uFF89", Sources.CircleDashedLetterQ, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterR => field ??= new("CircleDashedLetterR", "\uFF88", Sources.CircleDashedLetterR, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterS => field ??= new("CircleDashedLetterS", "\uFF87", Sources.CircleDashedLetterS, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterT => field ??= new("CircleDashedLetterT", "\uFF86", Sources.CircleDashedLetterT, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterU => field ??= new("CircleDashedLetterU", "\uFF85", Sources.CircleDashedLetterU, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterV => field ??= new("CircleDashedLetterV", "\uFF84", Sources.CircleDashedLetterV, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterW => field ??= new("CircleDashedLetterW", "\uFF83", Sources.CircleDashedLetterW, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterX => field ??= new("CircleDashedLetterX", "\uFF82", Sources.CircleDashedLetterX, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterY => field ??= new("CircleDashedLetterY", "\uFF81", Sources.CircleDashedLetterY, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDashedLetterZ => field ??= new("CircleDashedLetterZ", "\uFF80", Sources.CircleDashedLetterZ, "Letters", ["alphabet", "uppercase", "character", "text", "type", "font", "typography", "letter", "writing", "circle"]);
+	public static TablerIcon CircleDottedLetterA => field ??= new("CircleDottedLetterA", "\uFF7F", Sources.CircleDottedLetterA, "Letters", ["alpha", "start", "first-letter", "vowel", "beginning", "top", "initial", "aleph", "prime", "fore"]);
+	public static TablerIcon CircleDottedLetterB => field ??= new("CircleDottedLetterB", "\uFF7E", Sources.CircleDottedLetterB, "Letters", ["bravo", "second-letter", "consonant", "backup", "beta", "second", "subsection", "subordinate", "quick", "circle"]);
+	public static TablerIcon CircleDottedLetterC => field ??= new("CircleDottedLetterC", "\uFF7D", Sources.CircleDottedLetterC, "Letters", ["charlie", "third-letter", "consonant", "carbon", "celsius", "circular", "corner", "cut", "curve", "central"]);
+	public static TablerIcon CircleDottedLetterD => field ??= new("CircleDottedLetterD", "\uFF7C", Sources.CircleDottedLetterD, "Letters", ["delta", "fourth-letter", "consonant", "diagonal", "divide", "down", "direct", "dorsal", "dormant", "demand"]);
+	public static TablerIcon CircleDottedLetterE => field ??= new("CircleDottedLetterE", "\uFF7B", Sources.CircleDottedLetterE, "Letters", ["echo", "vowel", "fifth-letter", "end", "execute", "eagle", "expect", "entry", "east", "earth"]);
+	public static TablerIcon CircleDottedLetterF => field ??= new("CircleDottedLetterF", "\uFF7A", Sources.CircleDottedLetterF, "Letters", ["foxtrot", "sixth-letter", "consonant", "function", "follow", "fast", "fix", "fair", "focus", "flake"]);
+	public static TablerIcon CircleDottedLetterG => field ??= new("CircleDottedLetterG", "\uFF79", Sources.CircleDottedLetterG, "Letters", ["golf", "seventh-letter", "consonant", "goal", "grow", "greet", "globe", "gauge", "guard", "glance"]);
+	public static TablerIcon CircleDottedLetterH => field ??= new("CircleDottedLetterH", "\uFF78", Sources.CircleDottedLetterH, "Letters", ["hotel", "eighth-letter", "consonant", "home", "hover", "hold", "height", "haste", "harmony", "hoist"]);
+	public static TablerIcon CircleDottedLetterI => field ??= new("CircleDottedLetterI", "\uFF77", Sources.CircleDottedLetterI, "Letters", ["india", "ninth-letter", "vowel", "input", "index", "idea", "ignite", "imagine", "circle", "dotted"]);
+	public static TablerIcon CircleDottedLetterJ => field ??= new("CircleDottedLetterJ", "\uFF76", Sources.CircleDottedLetterJ, "Letters", ["juliett", "tenth-letter", "consonant", "join", "jump", "justify", "journey", "jury", "jewel", "jest"]);
+	public static TablerIcon CircleDottedLetterK => field ??= new("CircleDottedLetterK", "\uFF75", Sources.CircleDottedLetterK, "Letters", ["kilo", "eleventh-letter", "consonant", "key", "keep", "kick", "kind", "kite", "knot", "knock"]);
+	public static TablerIcon CircleDottedLetterL => field ??= new("CircleDottedLetterL", "\uFF74", Sources.CircleDottedLetterL, "Letters", ["lima", "twelfth-letter", "consonant", "light", "line", "lead", "link", "long", "lock", "list"]);
+	public static TablerIcon CircleDottedLetterM => field ??= new("CircleDottedLetterM", "\uFF73", Sources.CircleDottedLetterM, "Letters", ["mike", "thirteenth-letter", "consonant", "move", "mix", "march", "match", "mark", "mind", "mint"]);
+	public static TablerIcon CircleDottedLetterN => field ??= new("CircleDottedLetterN", "\uFF72", Sources.CircleDottedLetterN, "Letters", ["november", "fourteenth-letter", "consonant", "north", "note", "now", "nurture", "need", "neck", "nap"]);
+	public static TablerIcon CircleDottedLetterO => field ??= new("CircleDottedLetterO", "\uFF71", Sources.CircleDottedLetterO, "Letters", ["oscar", "fifteenth-letter", "vowel", "open", "order", "offer", "over", "octave", "occupy", "origin"]);
+	public static TablerIcon CircleDottedLetterP => field ??= new("CircleDottedLetterP", "\uFF70", Sources.CircleDottedLetterP, "Letters", ["papa", "sixteenth-letter", "consonant", "point", "place", "path", "pair", "plan", "push", "pull"]);
+	public static TablerIcon CircleDottedLetterQ => field ??= new("CircleDottedLetterQ", "\uFF6F", Sources.CircleDottedLetterQ, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
+	public static TablerIcon CircleDottedLetterR => field ??= new("CircleDottedLetterR", "\uFF6E", Sources.CircleDottedLetterR, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
+	public static TablerIcon CircleDottedLetterS => field ??= new("CircleDottedLetterS", "\uFF6D", Sources.CircleDottedLetterS, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
+	public static TablerIcon CircleDottedLetterT => field ??= new("CircleDottedLetterT", "\uFF6C", Sources.CircleDottedLetterT, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
+	public static TablerIcon CircleDottedLetterU => field ??= new("CircleDottedLetterU", "\uFF6B", Sources.CircleDottedLetterU, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
+	public static TablerIcon CircleDottedLetterV => field ??= new("CircleDottedLetterV", "\uFF6A", Sources.CircleDottedLetterV, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
+	public static TablerIcon CircleDottedLetterW => field ??= new("CircleDottedLetterW", "\uFF69", Sources.CircleDottedLetterW, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
+	public static TablerIcon CircleDottedLetterX => field ??= new("CircleDottedLetterX", "\uFF68", Sources.CircleDottedLetterX, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
+	public static TablerIcon CircleDottedLetterY => field ??= new("CircleDottedLetterY", "\uFF67", Sources.CircleDottedLetterY, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
+	public static TablerIcon CircleDottedLetterZ => field ??= new("CircleDottedLetterZ", "\uFF66", Sources.CircleDottedLetterZ, "Letters", ["alphabet", "monogram", "typography", "emblem", "character", "initial", "design", "decoration", "circle", "dotted"]);
+	public static TablerIcon CircleLetterA => field ??= new("CircleLetterA", "\uF441", Sources.CircleLetterA, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterAFilled => field ??= new("CircleLetterAFilled", "\uFE7F", Sources.CircleLetterAFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterB => field ??= new("CircleLetterB", "\uF442", Sources.CircleLetterB, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterBFilled => field ??= new("CircleLetterBFilled", "\uFE7E", Sources.CircleLetterBFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterC => field ??= new("CircleLetterC", "\uF443", Sources.CircleLetterC, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterCFilled => field ??= new("CircleLetterCFilled", "\uFE7D", Sources.CircleLetterCFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterD => field ??= new("CircleLetterD", "\uF444", Sources.CircleLetterD, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterDFilled => field ??= new("CircleLetterDFilled", "\uFE7C", Sources.CircleLetterDFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterE => field ??= new("CircleLetterE", "\uF445", Sources.CircleLetterE, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterEFilled => field ??= new("CircleLetterEFilled", "\uFE7B", Sources.CircleLetterEFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterF => field ??= new("CircleLetterF", "\uF446", Sources.CircleLetterF, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterFFilled => field ??= new("CircleLetterFFilled", "\uFE7A", Sources.CircleLetterFFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterG => field ??= new("CircleLetterG", "\uF447", Sources.CircleLetterG, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterGFilled => field ??= new("CircleLetterGFilled", "\uFE79", Sources.CircleLetterGFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterH => field ??= new("CircleLetterH", "\uF448", Sources.CircleLetterH, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterHFilled => field ??= new("CircleLetterHFilled", "\uFE78", Sources.CircleLetterHFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterI => field ??= new("CircleLetterI", "\uF449", Sources.CircleLetterI, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterIFilled => field ??= new("CircleLetterIFilled", "\uFE77", Sources.CircleLetterIFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterJ => field ??= new("CircleLetterJ", "\uF44A", Sources.CircleLetterJ, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterJFilled => field ??= new("CircleLetterJFilled", "\uFE76", Sources.CircleLetterJFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterK => field ??= new("CircleLetterK", "\uF44B", Sources.CircleLetterK, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterKFilled => field ??= new("CircleLetterKFilled", "\uFE75", Sources.CircleLetterKFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterL => field ??= new("CircleLetterL", "\uF44C", Sources.CircleLetterL, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterLFilled => field ??= new("CircleLetterLFilled", "\uFE74", Sources.CircleLetterLFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterM => field ??= new("CircleLetterM", "\uF44D", Sources.CircleLetterM, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterMFilled => field ??= new("CircleLetterMFilled", "\uFE73", Sources.CircleLetterMFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterN => field ??= new("CircleLetterN", "\uF44E", Sources.CircleLetterN, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterNFilled => field ??= new("CircleLetterNFilled", "\uFE72", Sources.CircleLetterNFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterO => field ??= new("CircleLetterO", "\uF44F", Sources.CircleLetterO, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterOFilled => field ??= new("CircleLetterOFilled", "\uFE71", Sources.CircleLetterOFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterP => field ??= new("CircleLetterP", "\uF450", Sources.CircleLetterP, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterPFilled => field ??= new("CircleLetterPFilled", "\uFE70", Sources.CircleLetterPFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterQ => field ??= new("CircleLetterQ", "\uF451", Sources.CircleLetterQ, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterQFilled => field ??= new("CircleLetterQFilled", "\uFE6F", Sources.CircleLetterQFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterR => field ??= new("CircleLetterR", "\uF452", Sources.CircleLetterR, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterRFilled => field ??= new("CircleLetterRFilled", "\uFE6E", Sources.CircleLetterRFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterS => field ??= new("CircleLetterS", "\uF453", Sources.CircleLetterS, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterSFilled => field ??= new("CircleLetterSFilled", "\uFE6D", Sources.CircleLetterSFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterT => field ??= new("CircleLetterT", "\uF454", Sources.CircleLetterT, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterTFilled => field ??= new("CircleLetterTFilled", "\uFE6C", Sources.CircleLetterTFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterU => field ??= new("CircleLetterU", "\uF455", Sources.CircleLetterU, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterUFilled => field ??= new("CircleLetterUFilled", "\uFE6B", Sources.CircleLetterUFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterV => field ??= new("CircleLetterV", "\uF4AD", Sources.CircleLetterV, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterVFilled => field ??= new("CircleLetterVFilled", "\uFE6A", Sources.CircleLetterVFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterW => field ??= new("CircleLetterW", "\uF456", Sources.CircleLetterW, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterWFilled => field ??= new("CircleLetterWFilled", "\uFE69", Sources.CircleLetterWFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterX => field ??= new("CircleLetterX", "\uF4AE", Sources.CircleLetterX, "Letters", ["cancel", "no", "circle", "letter", "round", "circular", "alphabet", "character", "typography", "text"]);
+	public static TablerIcon CircleLetterXFilled => field ??= new("CircleLetterXFilled", "\uFE68", Sources.CircleLetterXFilled, "Letters", ["cancel", "no", "circle", "letter", "round", "circular", "alphabet", "character", "typography", "text"]);
+	public static TablerIcon CircleLetterY => field ??= new("CircleLetterY", "\uF457", Sources.CircleLetterY, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterYFilled => field ??= new("CircleLetterYFilled", "\uFE67", Sources.CircleLetterYFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterZ => field ??= new("CircleLetterZ", "\uF458", Sources.CircleLetterZ, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon CircleLetterZFilled => field ??= new("CircleLetterZFilled", "\uFE66", Sources.CircleLetterZFilled, "Letters", ["shape", "alphabet", "sign", "latin", "circle", "letter", "round", "circular", "character", "typography"]);
+	public static TablerIcon Delta => field ??= new("Delta", "\uF53C", Sources.Delta, "Letters", ["letter", "alphabet", "greek", "math", "delta", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterA => field ??= new("HexagonLetterA", "\uF463", Sources.HexagonLetterA, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterAFilled => field ??= new("HexagonLetterAFilled", "\uFE47", Sources.HexagonLetterAFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterB => field ??= new("HexagonLetterB", "\uF464", Sources.HexagonLetterB, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterBFilled => field ??= new("HexagonLetterBFilled", "\uFE46", Sources.HexagonLetterBFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterC => field ??= new("HexagonLetterC", "\uF465", Sources.HexagonLetterC, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterCFilled => field ??= new("HexagonLetterCFilled", "\uFE45", Sources.HexagonLetterCFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterD => field ??= new("HexagonLetterD", "\uF466", Sources.HexagonLetterD, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterDFilled => field ??= new("HexagonLetterDFilled", "\uFE44", Sources.HexagonLetterDFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterE => field ??= new("HexagonLetterE", "\uF467", Sources.HexagonLetterE, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterEFilled => field ??= new("HexagonLetterEFilled", "\uFE43", Sources.HexagonLetterEFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterF => field ??= new("HexagonLetterF", "\uF468", Sources.HexagonLetterF, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterFFilled => field ??= new("HexagonLetterFFilled", "\uFE42", Sources.HexagonLetterFFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterG => field ??= new("HexagonLetterG", "\uF469", Sources.HexagonLetterG, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterGFilled => field ??= new("HexagonLetterGFilled", "\uFE41", Sources.HexagonLetterGFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterH => field ??= new("HexagonLetterH", "\uF46A", Sources.HexagonLetterH, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterHFilled => field ??= new("HexagonLetterHFilled", "\uFE40", Sources.HexagonLetterHFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterI => field ??= new("HexagonLetterI", "\uF46B", Sources.HexagonLetterI, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterIFilled => field ??= new("HexagonLetterIFilled", "\uFE3F", Sources.HexagonLetterIFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterJ => field ??= new("HexagonLetterJ", "\uF46C", Sources.HexagonLetterJ, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterJFilled => field ??= new("HexagonLetterJFilled", "\uFE3E", Sources.HexagonLetterJFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterK => field ??= new("HexagonLetterK", "\uF46D", Sources.HexagonLetterK, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterKFilled => field ??= new("HexagonLetterKFilled", "\uFE3D", Sources.HexagonLetterKFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterL => field ??= new("HexagonLetterL", "\uF46E", Sources.HexagonLetterL, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterLFilled => field ??= new("HexagonLetterLFilled", "\uFE3C", Sources.HexagonLetterLFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterM => field ??= new("HexagonLetterM", "\uF46F", Sources.HexagonLetterM, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterMFilled => field ??= new("HexagonLetterMFilled", "\uFE3B", Sources.HexagonLetterMFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterN => field ??= new("HexagonLetterN", "\uF470", Sources.HexagonLetterN, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterNFilled => field ??= new("HexagonLetterNFilled", "\uFE3A", Sources.HexagonLetterNFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterO => field ??= new("HexagonLetterO", "\uF471", Sources.HexagonLetterO, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterOFilled => field ??= new("HexagonLetterOFilled", "\uFE39", Sources.HexagonLetterOFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterP => field ??= new("HexagonLetterP", "\uF472", Sources.HexagonLetterP, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterPFilled => field ??= new("HexagonLetterPFilled", "\uFE38", Sources.HexagonLetterPFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterQ => field ??= new("HexagonLetterQ", "\uF473", Sources.HexagonLetterQ, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterQFilled => field ??= new("HexagonLetterQFilled", "\uFE37", Sources.HexagonLetterQFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterR => field ??= new("HexagonLetterR", "\uF474", Sources.HexagonLetterR, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterRFilled => field ??= new("HexagonLetterRFilled", "\uFE36", Sources.HexagonLetterRFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterS => field ??= new("HexagonLetterS", "\uF475", Sources.HexagonLetterS, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterSFilled => field ??= new("HexagonLetterSFilled", "\uFE35", Sources.HexagonLetterSFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterT => field ??= new("HexagonLetterT", "\uF476", Sources.HexagonLetterT, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterTFilled => field ??= new("HexagonLetterTFilled", "\uFE34", Sources.HexagonLetterTFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterU => field ??= new("HexagonLetterU", "\uF477", Sources.HexagonLetterU, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterUFilled => field ??= new("HexagonLetterUFilled", "\uFE33", Sources.HexagonLetterUFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterV => field ??= new("HexagonLetterV", "\uF4B3", Sources.HexagonLetterV, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterVFilled => field ??= new("HexagonLetterVFilled", "\uFE32", Sources.HexagonLetterVFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterW => field ??= new("HexagonLetterW", "\uF478", Sources.HexagonLetterW, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterWFilled => field ??= new("HexagonLetterWFilled", "\uFE31", Sources.HexagonLetterWFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterX => field ??= new("HexagonLetterX", "\uF479", Sources.HexagonLetterX, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterXFilled => field ??= new("HexagonLetterXFilled", "\uFE30", Sources.HexagonLetterXFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterY => field ??= new("HexagonLetterY", "\uF47A", Sources.HexagonLetterY, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterYFilled => field ??= new("HexagonLetterYFilled", "\uFE2F", Sources.HexagonLetterYFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterZ => field ??= new("HexagonLetterZ", "\uF47B", Sources.HexagonLetterZ, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon HexagonLetterZFilled => field ??= new("HexagonLetterZFilled", "\uFE2E", Sources.HexagonLetterZFilled, "Letters", ["shape", "alphabet", "sign", "latin", "hexagon", "letter", "character", "typography", "text", "writing"]);
+	public static TablerIcon Lambda => field ??= new("Lambda", "\uF541", Sources.Lambda, "Letters", ["letter", "alphabet", "greek", "math", "lambda", "character", "typography", "text", "writing"]);
+	public static TablerIcon LetterA => field ??= new("LetterA", "\uEC50", Sources.LetterA, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "a", "glyph"]);
+	public static TablerIcon LetterASmall => field ??= new("LetterASmall", "\uFCC7", Sources.LetterASmall, "Letters", ["a", "alpha", "alphabet", "first", "letter", "initial", "character", "typeface", "glyph", "script"]);
+	public static TablerIcon LetterB => field ??= new("LetterB", "\uEC51", Sources.LetterB, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "b", "glyph"]);
+	public static TablerIcon LetterBSmall => field ??= new("LetterBSmall", "\uFCC8", Sources.LetterBSmall, "Letters", ["b", "beta", "second", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterC => field ??= new("LetterC", "\uEC52", Sources.LetterC, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "c", "glyph"]);
+	public static TablerIcon LetterCSmall => field ??= new("LetterCSmall", "\uFCC9", Sources.LetterCSmall, "Letters", ["c", "charlie", "third", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterD => field ??= new("LetterD", "\uEC53", Sources.LetterD, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "d", "glyph"]);
+	public static TablerIcon LetterDSmall => field ??= new("LetterDSmall", "\uFCCA", Sources.LetterDSmall, "Letters", ["d", "delta", "fourth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterE => field ??= new("LetterE", "\uEC54", Sources.LetterE, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "e", "glyph"]);
+	public static TablerIcon LetterESmall => field ??= new("LetterESmall", "\uFCCB", Sources.LetterESmall, "Letters", ["e", "echo", "fifth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterF => field ??= new("LetterF", "\uEC55", Sources.LetterF, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "f", "glyph"]);
+	public static TablerIcon LetterFSmall => field ??= new("LetterFSmall", "\uFCCC", Sources.LetterFSmall, "Letters", ["f", "foxtrot", "sixth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterG => field ??= new("LetterG", "\uEC56", Sources.LetterG, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "g", "glyph"]);
+	public static TablerIcon LetterGSmall => field ??= new("LetterGSmall", "\uFCCD", Sources.LetterGSmall, "Letters", ["g", "golf", "seventh", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterH => field ??= new("LetterH", "\uEC57", Sources.LetterH, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "h", "glyph"]);
+	public static TablerIcon LetterHSmall => field ??= new("LetterHSmall", "\uFCCE", Sources.LetterHSmall, "Letters", ["h", "hotel", "eighth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterI => field ??= new("LetterI", "\uEC58", Sources.LetterI, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "i", "glyph"]);
+	public static TablerIcon LetterISmall => field ??= new("LetterISmall", "\uFCCF", Sources.LetterISmall, "Letters", ["i", "india", "ninth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterJ => field ??= new("LetterJ", "\uEC59", Sources.LetterJ, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "j", "glyph"]);
+	public static TablerIcon LetterJSmall => field ??= new("LetterJSmall", "\uFCD0", Sources.LetterJSmall, "Letters", ["j", "juliett", "tenth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterK => field ??= new("LetterK", "\uEC5A", Sources.LetterK, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "k", "glyph"]);
+	public static TablerIcon LetterKSmall => field ??= new("LetterKSmall", "\uFCD1", Sources.LetterKSmall, "Letters", ["k", "kilo", "eleventh", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterL => field ??= new("LetterL", "\uEC5B", Sources.LetterL, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "l", "glyph"]);
+	public static TablerIcon LetterLSmall => field ??= new("LetterLSmall", "\uFCD2", Sources.LetterLSmall, "Letters", ["l", "lima", "twelfth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterM => field ??= new("LetterM", "\uEC5C", Sources.LetterM, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "m", "glyph"]);
+	public static TablerIcon LetterMSmall => field ??= new("LetterMSmall", "\uFCD3", Sources.LetterMSmall, "Letters", ["m", "mike", "thirteenth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterN => field ??= new("LetterN", "\uEC5D", Sources.LetterN, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "n", "glyph"]);
+	public static TablerIcon LetterNSmall => field ??= new("LetterNSmall", "\uFCD4", Sources.LetterNSmall, "Letters", ["n", "november", "fourteenth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterO => field ??= new("LetterO", "\uEC5E", Sources.LetterO, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "o", "glyph"]);
+	public static TablerIcon LetterOSmall => field ??= new("LetterOSmall", "\uFCD5", Sources.LetterOSmall, "Letters", ["o", "oscar", "fifteenth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterP => field ??= new("LetterP", "\uEC5F", Sources.LetterP, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "p", "glyph"]);
+	public static TablerIcon LetterPSmall => field ??= new("LetterPSmall", "\uFCD6", Sources.LetterPSmall, "Letters", ["p", "papa", "sixteenth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterQ => field ??= new("LetterQ", "\uEC60", Sources.LetterQ, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "q", "glyph"]);
+	public static TablerIcon LetterQSmall => field ??= new("LetterQSmall", "\uFCD7", Sources.LetterQSmall, "Letters", ["q", "quebec", "seventeenth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterR => field ??= new("LetterR", "\uEC61", Sources.LetterR, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "r", "glyph"]);
+	public static TablerIcon LetterRSmall => field ??= new("LetterRSmall", "\uFCD8", Sources.LetterRSmall, "Letters", ["r", "romeo", "eighteenth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterS => field ??= new("LetterS", "\uEC62", Sources.LetterS, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "s", "glyph"]);
+	public static TablerIcon LetterSSmall => field ??= new("LetterSSmall", "\uFCD9", Sources.LetterSSmall, "Letters", ["s", "sierra", "nineteenth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterT => field ??= new("LetterT", "\uEC63", Sources.LetterT, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "t", "glyph"]);
+	public static TablerIcon LetterTSmall => field ??= new("LetterTSmall", "\uFCDA", Sources.LetterTSmall, "Letters", ["t", "tango", "twentieth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterU => field ??= new("LetterU", "\uEC64", Sources.LetterU, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "u", "glyph"]);
+	public static TablerIcon LetterUSmall => field ??= new("LetterUSmall", "\uFCDB", Sources.LetterUSmall, "Letters", ["u", "uniform", "twenty-first", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterV => field ??= new("LetterV", "\uEC65", Sources.LetterV, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "v", "glyph"]);
+	public static TablerIcon LetterVSmall => field ??= new("LetterVSmall", "\uFCDC", Sources.LetterVSmall, "Letters", ["v", "victor", "twenty-second", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterW => field ??= new("LetterW", "\uEC66", Sources.LetterW, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "w", "glyph"]);
+	public static TablerIcon LetterWSmall => field ??= new("LetterWSmall", "\uFCDD", Sources.LetterWSmall, "Letters", ["w", "whiskey", "twenty-third", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterX => field ??= new("LetterX", "\uEC67", Sources.LetterX, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "x", "glyph"]);
+	public static TablerIcon LetterXSmall => field ??= new("LetterXSmall", "\uFCDE", Sources.LetterXSmall, "Letters", ["x", "x-ray", "twenty-fourth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterY => field ??= new("LetterY", "\uEC68", Sources.LetterY, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "y", "glyph"]);
+	public static TablerIcon LetterYSmall => field ??= new("LetterYSmall", "\uFCDF", Sources.LetterYSmall, "Letters", ["y", "yankee", "twenty-fifth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon LetterZ => field ??= new("LetterZ", "\uEC69", Sources.LetterZ, "Letters", ["alphabet", "text", "code", "letter", "character", "typography", "writing", "z", "glyph"]);
+	public static TablerIcon LetterZSmall => field ??= new("LetterZSmall", "\uFCE0", Sources.LetterZSmall, "Letters", ["z", "zulu", "twenty-sixth", "letter", "alphabet", "character", "typeface", "glyph", "script", "small"]);
+	public static TablerIcon SquareLetterA => field ??= new("SquareLetterA", "\uF47C", Sources.SquareLetterA, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterAFilled => field ??= new("SquareLetterAFilled", "\uFE07", Sources.SquareLetterAFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterB => field ??= new("SquareLetterB", "\uF47D", Sources.SquareLetterB, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterBFilled => field ??= new("SquareLetterBFilled", "\uFE06", Sources.SquareLetterBFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterC => field ??= new("SquareLetterC", "\uF47E", Sources.SquareLetterC, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterCFilled => field ??= new("SquareLetterCFilled", "\uFE05", Sources.SquareLetterCFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterD => field ??= new("SquareLetterD", "\uF47F", Sources.SquareLetterD, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterDFilled => field ??= new("SquareLetterDFilled", "\uFE04", Sources.SquareLetterDFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterE => field ??= new("SquareLetterE", "\uF480", Sources.SquareLetterE, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterEFilled => field ??= new("SquareLetterEFilled", "\uFE03", Sources.SquareLetterEFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterF => field ??= new("SquareLetterF", "\uF481", Sources.SquareLetterF, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterFFilled => field ??= new("SquareLetterFFilled", "\uFE02", Sources.SquareLetterFFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterG => field ??= new("SquareLetterG", "\uF482", Sources.SquareLetterG, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterGFilled => field ??= new("SquareLetterGFilled", "\uFE01", Sources.SquareLetterGFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterH => field ??= new("SquareLetterH", "\uF483", Sources.SquareLetterH, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterHFilled => field ??= new("SquareLetterHFilled", "\uFE00", Sources.SquareLetterHFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterI => field ??= new("SquareLetterI", "\uF484", Sources.SquareLetterI, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterIFilled => field ??= new("SquareLetterIFilled", "\uFDFF", Sources.SquareLetterIFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterJ => field ??= new("SquareLetterJ", "\uF485", Sources.SquareLetterJ, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterJFilled => field ??= new("SquareLetterJFilled", "\uFDFE", Sources.SquareLetterJFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterK => field ??= new("SquareLetterK", "\uF486", Sources.SquareLetterK, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterKFilled => field ??= new("SquareLetterKFilled", "\uFDFD", Sources.SquareLetterKFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterL => field ??= new("SquareLetterL", "\uF487", Sources.SquareLetterL, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterLFilled => field ??= new("SquareLetterLFilled", "\uFDFC", Sources.SquareLetterLFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterM => field ??= new("SquareLetterM", "\uF488", Sources.SquareLetterM, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterMFilled => field ??= new("SquareLetterMFilled", "\uFDFB", Sources.SquareLetterMFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterN => field ??= new("SquareLetterN", "\uF489", Sources.SquareLetterN, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterNFilled => field ??= new("SquareLetterNFilled", "\uFDFA", Sources.SquareLetterNFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterO => field ??= new("SquareLetterO", "\uF48A", Sources.SquareLetterO, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterOFilled => field ??= new("SquareLetterOFilled", "\uFDF9", Sources.SquareLetterOFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterP => field ??= new("SquareLetterP", "\uF48B", Sources.SquareLetterP, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterPFilled => field ??= new("SquareLetterPFilled", "\uFDF8", Sources.SquareLetterPFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterQ => field ??= new("SquareLetterQ", "\uF48C", Sources.SquareLetterQ, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterQFilled => field ??= new("SquareLetterQFilled", "\uFDF7", Sources.SquareLetterQFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterR => field ??= new("SquareLetterR", "\uF48D", Sources.SquareLetterR, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterRFilled => field ??= new("SquareLetterRFilled", "\uFDF6", Sources.SquareLetterRFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterS => field ??= new("SquareLetterS", "\uF48E", Sources.SquareLetterS, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterSFilled => field ??= new("SquareLetterSFilled", "\uFDF5", Sources.SquareLetterSFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterT => field ??= new("SquareLetterT", "\uF48F", Sources.SquareLetterT, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterTFilled => field ??= new("SquareLetterTFilled", "\uFDF4", Sources.SquareLetterTFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterU => field ??= new("SquareLetterU", "\uF490", Sources.SquareLetterU, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterUFilled => field ??= new("SquareLetterUFilled", "\uFDF3", Sources.SquareLetterUFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterV => field ??= new("SquareLetterV", "\uF4BB", Sources.SquareLetterV, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterVFilled => field ??= new("SquareLetterVFilled", "\uFDF2", Sources.SquareLetterVFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterW => field ??= new("SquareLetterW", "\uF491", Sources.SquareLetterW, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterWFilled => field ??= new("SquareLetterWFilled", "\uFDF1", Sources.SquareLetterWFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterX => field ??= new("SquareLetterX", "\uF4BC", Sources.SquareLetterX, "Letters", ["cancel", "close", "delete", "remove", "times", "clear", "no", "square", "letter", "rectangular"]);
+	public static TablerIcon SquareLetterXFilled => field ??= new("SquareLetterXFilled", "\uFDF0", Sources.SquareLetterXFilled, "Letters", ["cancel", "close", "delete", "remove", "times", "clear", "no", "square", "letter", "rectangular"]);
+	public static TablerIcon SquareLetterY => field ??= new("SquareLetterY", "\uF492", Sources.SquareLetterY, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterYFilled => field ??= new("SquareLetterYFilled", "\uFDEF", Sources.SquareLetterYFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterZ => field ??= new("SquareLetterZ", "\uF493", Sources.SquareLetterZ, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareLetterZFilled => field ??= new("SquareLetterZFilled", "\uFDEE", Sources.SquareLetterZFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "letter", "rectangular", "character", "typography", "text"]);
+	public static TablerIcon SquareRoundedLetterA => field ??= new("SquareRoundedLetterA", "\uF5AE", Sources.SquareRoundedLetterA, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterAFilled => field ??= new("SquareRoundedLetterAFilled", "\uFDED", Sources.SquareRoundedLetterAFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterB => field ??= new("SquareRoundedLetterB", "\uF5AF", Sources.SquareRoundedLetterB, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterBFilled => field ??= new("SquareRoundedLetterBFilled", "\uFDEC", Sources.SquareRoundedLetterBFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterC => field ??= new("SquareRoundedLetterC", "\uF5B0", Sources.SquareRoundedLetterC, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterCFilled => field ??= new("SquareRoundedLetterCFilled", "\uFDEB", Sources.SquareRoundedLetterCFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterD => field ??= new("SquareRoundedLetterD", "\uF5B1", Sources.SquareRoundedLetterD, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterDFilled => field ??= new("SquareRoundedLetterDFilled", "\uFDEA", Sources.SquareRoundedLetterDFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterE => field ??= new("SquareRoundedLetterE", "\uF5B2", Sources.SquareRoundedLetterE, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterEFilled => field ??= new("SquareRoundedLetterEFilled", "\uFDE9", Sources.SquareRoundedLetterEFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterF => field ??= new("SquareRoundedLetterF", "\uF5B3", Sources.SquareRoundedLetterF, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterFFilled => field ??= new("SquareRoundedLetterFFilled", "\uFDE8", Sources.SquareRoundedLetterFFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterG => field ??= new("SquareRoundedLetterG", "\uF5B4", Sources.SquareRoundedLetterG, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterGFilled => field ??= new("SquareRoundedLetterGFilled", "\uFDE7", Sources.SquareRoundedLetterGFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterH => field ??= new("SquareRoundedLetterH", "\uF5B5", Sources.SquareRoundedLetterH, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterHFilled => field ??= new("SquareRoundedLetterHFilled", "\uFDE6", Sources.SquareRoundedLetterHFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterI => field ??= new("SquareRoundedLetterI", "\uF5B6", Sources.SquareRoundedLetterI, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterIFilled => field ??= new("SquareRoundedLetterIFilled", "\uFDE5", Sources.SquareRoundedLetterIFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterJ => field ??= new("SquareRoundedLetterJ", "\uF5B7", Sources.SquareRoundedLetterJ, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterJFilled => field ??= new("SquareRoundedLetterJFilled", "\uFDE4", Sources.SquareRoundedLetterJFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterK => field ??= new("SquareRoundedLetterK", "\uF5B8", Sources.SquareRoundedLetterK, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterKFilled => field ??= new("SquareRoundedLetterKFilled", "\uFDE3", Sources.SquareRoundedLetterKFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterL => field ??= new("SquareRoundedLetterL", "\uF5B9", Sources.SquareRoundedLetterL, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterLFilled => field ??= new("SquareRoundedLetterLFilled", "\uFDE2", Sources.SquareRoundedLetterLFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterM => field ??= new("SquareRoundedLetterM", "\uF5BA", Sources.SquareRoundedLetterM, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterMFilled => field ??= new("SquareRoundedLetterMFilled", "\uFDE1", Sources.SquareRoundedLetterMFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterN => field ??= new("SquareRoundedLetterN", "\uF5BB", Sources.SquareRoundedLetterN, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterNFilled => field ??= new("SquareRoundedLetterNFilled", "\uFDE0", Sources.SquareRoundedLetterNFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterO => field ??= new("SquareRoundedLetterO", "\uF5BC", Sources.SquareRoundedLetterO, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterOFilled => field ??= new("SquareRoundedLetterOFilled", "\uFDDF", Sources.SquareRoundedLetterOFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterP => field ??= new("SquareRoundedLetterP", "\uF5BD", Sources.SquareRoundedLetterP, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterPFilled => field ??= new("SquareRoundedLetterPFilled", "\uFDDE", Sources.SquareRoundedLetterPFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterQ => field ??= new("SquareRoundedLetterQ", "\uF5BE", Sources.SquareRoundedLetterQ, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterQFilled => field ??= new("SquareRoundedLetterQFilled", "\uFDDD", Sources.SquareRoundedLetterQFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterR => field ??= new("SquareRoundedLetterR", "\uF5BF", Sources.SquareRoundedLetterR, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterRFilled => field ??= new("SquareRoundedLetterRFilled", "\uFDDC", Sources.SquareRoundedLetterRFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterS => field ??= new("SquareRoundedLetterS", "\uF5C0", Sources.SquareRoundedLetterS, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterSFilled => field ??= new("SquareRoundedLetterSFilled", "\uFDDB", Sources.SquareRoundedLetterSFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterT => field ??= new("SquareRoundedLetterT", "\uF5C1", Sources.SquareRoundedLetterT, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterTFilled => field ??= new("SquareRoundedLetterTFilled", "\uFDDA", Sources.SquareRoundedLetterTFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterU => field ??= new("SquareRoundedLetterU", "\uF5C2", Sources.SquareRoundedLetterU, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterUFilled => field ??= new("SquareRoundedLetterUFilled", "\uFDD9", Sources.SquareRoundedLetterUFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterV => field ??= new("SquareRoundedLetterV", "\uF5C3", Sources.SquareRoundedLetterV, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterVFilled => field ??= new("SquareRoundedLetterVFilled", "\uFDD8", Sources.SquareRoundedLetterVFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterW => field ??= new("SquareRoundedLetterW", "\uF5C4", Sources.SquareRoundedLetterW, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterWFilled => field ??= new("SquareRoundedLetterWFilled", "\uFDD7", Sources.SquareRoundedLetterWFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterX => field ??= new("SquareRoundedLetterX", "\uF5C5", Sources.SquareRoundedLetterX, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterXFilled => field ??= new("SquareRoundedLetterXFilled", "\uFDD6", Sources.SquareRoundedLetterXFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterY => field ??= new("SquareRoundedLetterY", "\uF5C6", Sources.SquareRoundedLetterY, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterYFilled => field ??= new("SquareRoundedLetterYFilled", "\uFDD5", Sources.SquareRoundedLetterYFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterZ => field ??= new("SquareRoundedLetterZ", "\uF5C7", Sources.SquareRoundedLetterZ, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
+	public static TablerIcon SquareRoundedLetterZFilled => field ??= new("SquareRoundedLetterZFilled", "\uFDD4", Sources.SquareRoundedLetterZFilled, "Letters", ["shape", "alphabet", "sign", "latin", "square", "rounded", "letter", "rectangular", "character", "typography"]);
 }

@@ -6,532 +6,308 @@ namespace Haze;
 
 public static partial class TablerIcons
 {
-	public static partial class Map
-	{
-		public static TablerIcon AirTrafficControl => field ??= new(nameof(AirTrafficControl), "\uFB01", Sources.AirTrafficControl, "Map", ["aviation", "guidance", "navigation", "flight", "monitor", "manage", "tower", "signal", "route", "supervise"]);
-		public static TablerIcon AnchorOff => field ??= new(nameof(AnchorOff), "\uF0F7", Sources.AnchorOff, "Map", ["hold", "ship", "harbor", "docks", "anchor", "off", "location", "navigation", "disabled", "inactive"]);
-		public static TablerIcon Anchor => field ??= new(nameof(Anchor), "\uEB76", Sources.Anchor, "Map", ["hold", "ship", "harbor", "docks", "anchor", "location", "navigation", "geography", "place", "position"]);
-		public static TablerIcon BeachOff => field ??= new(nameof(BeachOff), "\uF0B7", Sources.BeachOff, "Map", ["sand", "sun", "umbrella", "vacation", "travel", "beach", "off", "location", "navigation", "disabled"]);
-		public static TablerIcon Beach => field ??= new(nameof(Beach), "\uEF3D", Sources.Beach, "Map", ["sand", "sun", "umbrella", "vacation", "travel", "beach", "location", "navigation", "geography", "place"]);
-		public static TablerIcon BedOff => field ??= new(nameof(BedOff), "\uF100", Sources.BedOff, "Map", ["furniture", "sleeping", "comfortable", "bedroom", "mattress", "resting", "relax", "sleep", "futon", "cozy"]);
-		public static TablerIcon Bed => field ??= new(nameof(Bed), "\uEB5C", Sources.Bed, "Map", ["furniture", "sleeping", "comfortable", "bedroom", "mattress", "resting", "relax", "sleep", "futon", "cozy"]);
-		public static TablerIcon Campfire => field ??= new(nameof(Campfire), "\uF5A7", Sources.Campfire, "Map", ["camping", "bonfire", "wood", "camp", "burn", "flame", "campfire", "location", "navigation", "geography"]);
-		public static TablerIcon CompassOff => field ??= new(nameof(CompassOff), "\uF0D5", Sources.CompassOff, "Map", ["navigation", "safari", "travel", "direction", "discover", "compass", "off", "location", "disabled", "inactive"]);
-		public static TablerIcon Compass => field ??= new(nameof(Compass), "\uEA79", Sources.Compass, "Map", ["navigation", "safari", "travel", "direction", "discover", "compass", "location", "geography", "place", "position"]);
-		public static TablerIcon CurrentLocationOff => field ??= new(nameof(CurrentLocationOff), "\uF10E", Sources.CurrentLocationOff, "Map", ["localization", "maps", "navigation", "pin", "target", "current", "location", "off", "disabled", "inactive"]);
-		public static TablerIcon CurrentLocation => field ??= new(nameof(CurrentLocation), "\uECEF", Sources.CurrentLocation, "Map", ["localization", "maps", "navigation", "pin", "target", "current", "location", "geography", "place", "position"]);
-		public static TablerIcon DirectionsOff => field ??= new(nameof(DirectionsOff), "\uF116", Sources.DirectionsOff, "Map", ["travel", "navigation", "discover", "directions", "off", "location", "disabled", "inactive", "geography", "place"]);
-		public static TablerIcon Directions => field ??= new(nameof(Directions), "\uEA8E", Sources.Directions, "Map", ["travel", "navigation", "discover", "directions", "location", "geography", "place", "position"]);
-		public static TablerIcon EscalatorDown => field ??= new(nameof(EscalatorDown), "\uFB04", Sources.EscalatorDown, "Map", ["descend", "lower", "elevate", "transport", "step", "decline", "decrease", "move", "drop", "reduce"]);
-		public static TablerIcon EscalatorUp => field ??= new(nameof(EscalatorUp), "\uFB05", Sources.EscalatorUp, "Map", ["ascend", "elevate", "rise", "climb", "increase", "step", "upward", "lift", "boost", "soar"]);
-		public static TablerIcon Escalator => field ??= new(nameof(Escalator), "\uFB06", Sources.Escalator, "Map", ["transport", "move", "stairs", "conveyor", "step", "elevate", "rise", "platform", "climb", "system"]);
-		public static TablerIcon FireHydrantOff => field ??= new(nameof(FireHydrantOff), "\uF3EC", Sources.FireHydrantOff, "Map", ["water", "emergency", "fireman", "safety", "urban", "fire", "hydrant", "off", "location", "navigation"]);
-		public static TablerIcon FireHydrant => field ??= new(nameof(FireHydrant), "\uF3A9", Sources.FireHydrant, "Map", ["water", "emergency", "fireman", "safety", "urban", "fire", "hydrant", "location", "navigation", "geography"]);
-		public static TablerIcon Flag2Off => field ??= new(nameof(Flag2Off), "\uF12C", Sources.Flag2Off, "Map", ["banner", "pin", "report", "map", "warning", "alert", "flag", "off", "location", "navigation"]);
-		public static TablerIcon Flag2 => field ??= new(nameof(Flag2), "\uEE8C", Sources.Flag2, "Map", ["banner", "pin", "report", "map", "warning", "alert", "flag", "location", "navigation", "geography"]);
-		public static TablerIcon Flag3 => field ??= new(nameof(Flag3), "\uEE8D", Sources.Flag3, "Map", ["banner", "pin", "report", "map", "warning", "alert", "flag", "location", "navigation", "geography"]);
-		public static TablerIcon FlagBolt => field ??= new(nameof(FlagBolt), "\uFB8A", Sources.FlagBolt, "Map", ["electricity", "energy", "power", "speed", "charge", "thunder", "zap", "storm", "blast", "current"]);
-		public static TablerIcon FlagCancel => field ??= new(nameof(FlagCancel), "\uFB8B", Sources.FlagCancel, "Map", ["abort", "terminate", "stop", "void", "nullify", "cease", "discontinue", "break", "quash", "revoke"]);
-		public static TablerIcon FlagCheck => field ??= new(nameof(FlagCheck), "\uFB8C", Sources.FlagCheck, "Map", ["confirm", "verify", "approve", "validate", "okay", "certify", "endorse", "affirm", "ensure", "accept"]);
-		public static TablerIcon FlagCode => field ??= new(nameof(FlagCode), "\uFB8D", Sources.FlagCode, "Map", ["program", "software", "develop", "script", "application", "compile", "debug", "algorithm", "command", "markup"]);
-		public static TablerIcon FlagCog => field ??= new(nameof(FlagCog), "\uFB8E", Sources.FlagCog, "Map", ["settings", "preferences", "configure", "tweak", "adjust", "gear", "mechanism", "options", "control", "customize"]);
-		public static TablerIcon FlagDollar => field ??= new(nameof(FlagDollar), "\uFB90", Sources.FlagDollar, "Map", ["money", "currency", "finance", "cash", "funds", "payment", "wealth", "economy", "capital", "trade"]);
-		public static TablerIcon FlagDown => field ??= new(nameof(FlagDown), "\uFB91", Sources.FlagDown, "Map", ["decrease", "lower", "reduce", "drop", "fall", "decline", "dim", "subside", "descend", "minimize"]);
-		public static TablerIcon FlagExclamation => field ??= new(nameof(FlagExclamation), "\uFB92", Sources.FlagExclamation, "Map", ["alert", "warning", "surprise", "note", "caution", "attention", "danger", "important", "remark", "notify"]);
-		public static TablerIcon FlagHeart => field ??= new(nameof(FlagHeart), "\uFB93", Sources.FlagHeart, "Map", ["love", "like", "passion", "affection", "adore", "cherish", "fondness", "romance", "emotion", "favor"]);
-		public static TablerIcon FlagMinus => field ??= new(nameof(FlagMinus), "\uFB94", Sources.FlagMinus, "Map", ["subtract", "reduce", "decrease", "deduct", "less", "negative", "diminish", "lower", "shrink", "takeaway"]);
-		public static TablerIcon FlagOff => field ??= new(nameof(FlagOff), "\uF12D", Sources.FlagOff, "Map", ["banner", "pin", "report", "map", "warning", "alert", "flag", "off", "location", "navigation"]);
-		public static TablerIcon FlagPause => field ??= new(nameof(FlagPause), "\uFB95", Sources.FlagPause, "Map", ["stop", "break", "halt", "interrupt", "freeze", "rest", "suspend", "stall", "hold", "delay"]);
-		public static TablerIcon FlagPin => field ??= new(nameof(FlagPin), "\uFB96", Sources.FlagPin, "Map", ["attach", "fix", "anchor", "mark", "stick", "position", "secure", "location", "tag", "place"]);
-		public static TablerIcon FlagPlus => field ??= new(nameof(FlagPlus), "\uFB97", Sources.FlagPlus, "Map", ["add", "increase", "more", "grow", "expand", "multiply", "benefit", "positive", "enhance", "amplify"]);
-		public static TablerIcon FlagQuestion => field ??= new(nameof(FlagQuestion), "\uFB98", Sources.FlagQuestion, "Map", ["query", "ask", "inquire", "doubt", "ponder", "wonder", "probe", "interrogate", "curiosity", "uncertainty"]);
-		public static TablerIcon FlagSearch => field ??= new(nameof(FlagSearch), "\uFB99", Sources.FlagSearch, "Map", ["find", "discover", "seek", "locate", "look", "explore", "hunt", "inspect", "track", "identify"]);
-		public static TablerIcon FlagShare => field ??= new(nameof(FlagShare), "\uFB9A", Sources.FlagShare, "Map", ["broadcast", "distribution", "circulate", "propagate", "publicize", "emit", "transmit", "divulge", "announce", "disseminate"]);
-		public static TablerIcon FlagSpark => field ??= new(nameof(FlagSpark), "\uFFB7", Sources.FlagSpark, "Map", ["banner", "pin", "report", "map", "warning", "alert", "flag", "spark", "location", "navigation"]);
-		public static TablerIcon FlagStar => field ??= new(nameof(FlagStar), "\uFB9B", Sources.FlagStar, "Map", ["favorite", "rate", "highlight", "spotlight", "pinnacle", "premier", "top", "peak", "acclaim", "noteworthy"]);
-		public static TablerIcon FlagUp => field ??= new(nameof(FlagUp), "\uFB9C", Sources.FlagUp, "Map", ["increase", "ascend", "elevate", "climb", "rise", "advance", "boost", "progress", "lift", "uplift"]);
-		public static TablerIcon FlagX => field ??= new(nameof(FlagX), "\uFB9D", Sources.FlagX, "Map", ["cancel", "remove", "delete", "terminate", "crossout", "eliminate", "invalidate", "reject", "void", "obliterate"]);
-		public static TablerIcon Flag => field ??= new(nameof(Flag), "\uEAA6", Sources.Flag, "Map", ["banner", "pin", "report", "map", "warning", "alert", "flag", "location", "navigation", "geography"]);
-		public static TablerIcon FountainOff => field ??= new(nameof(FountainOff), "\uF134", Sources.FountainOff, "Map", ["park", "decoration", "water", "spring", "public", "fountain", "off", "location", "navigation", "disabled"]);
-		public static TablerIcon Fountain => field ??= new(nameof(Fountain), "\uF09B", Sources.Fountain, "Map", ["park", "decoration", "water", "spring", "public", "fountain", "location", "navigation", "geography", "place"]);
-		public static TablerIcon Geometry => field ??= new(nameof(Geometry), "\uEE90", Sources.Geometry, "Map", ["build", "architecture", "create", "compass", "geometry", "location", "navigation", "geography", "place", "position"]);
-		public static TablerIcon GlobeOff => field ??= new(nameof(GlobeOff), "\uF139", Sources.GlobeOff, "Map", ["world", "travel", "journey", "trip", "planet", "earth", "globe", "off", "location", "navigation"]);
-		public static TablerIcon Globe => field ??= new(nameof(Globe), "\uEAB9", Sources.Globe, "Map", ["world", "travel", "journey", "trip", "planet", "earth", "globe", "location", "navigation", "geography"]);
-		public static TablerIcon Gps => field ??= new(nameof(Gps), "\uED7A", Sources.Gps, "Map", ["navigation", "directions", "global", "positioning", "system", "satnav", "radionavigation", "travel", "car", "gps"]);
-		public static TablerIcon Grave2 => field ??= new(nameof(Grave2), "\uF57F", Sources.Grave2, "Map", ["cementry", "halloween", "death", "dead", "tomb", "grave", "location", "navigation", "geography", "place"]);
-		public static TablerIcon Grave => field ??= new(nameof(Grave), "\uF580", Sources.Grave, "Map", ["cemetery", "halloween", "death", "dead", "tomb", "grave", "location", "navigation", "geography", "place"]);
-		public static TablerIcon LiveView => field ??= new(nameof(LiveView), "\uEC6B", Sources.LiveView, "Map", ["camera", "preview", "photo", "live", "view", "location", "navigation", "geography", "place", "position"]);
-		public static TablerIcon LocationBolt => field ??= new(nameof(LocationBolt), "\uFBAF", Sources.LocationBolt, "Map", ["energy", "electric", "speed", "power", "flash", "lightning", "rapid", "force", "strike", "charge"]);
-		public static TablerIcon LocationBroken => field ??= new(nameof(LocationBroken), "\uF2C4", Sources.LocationBroken, "Map", ["delete", "map", "navigation", "pin", "location", "broken", "geography", "place", "position"]);
-		public static TablerIcon LocationCancel => field ??= new(nameof(LocationCancel), "\uFBB0", Sources.LocationCancel, "Map", ["remove", "delete", "stop", "terminate", "revoke", "nullify", "discard", "halt", "block", "abort"]);
-		public static TablerIcon LocationCheck => field ??= new(nameof(LocationCheck), "\uFBB1", Sources.LocationCheck, "Map", ["verify", "confirm", "approve", "validate", "tick", "pass", "authenticate", "mark", "agree", "okay"]);
-		public static TablerIcon LocationCode => field ??= new(nameof(LocationCode), "\uFBB2", Sources.LocationCode, "Map", ["programming", "software", "script", "algorithm", "cipher", "decode", "encode", "function", "syntax", "compile"]);
-		public static TablerIcon LocationCog => field ??= new(nameof(LocationCog), "\uFBB3", Sources.LocationCog, "Map", ["settings", "gear", "configure", "adjust", "control", "modify", "tune", "regulate", "calibrate", "system"]);
-		public static TablerIcon LocationDollar => field ??= new(nameof(LocationDollar), "\uFBB5", Sources.LocationDollar, "Map", ["currency", "money", "finance", "cash", "payment", "economy", "wealth", "income", "fund", "transaction"]);
-		public static TablerIcon LocationDown => field ??= new(nameof(LocationDown), "\uFBB6", Sources.LocationDown, "Map", ["descend", "fall", "decrease", "drop", "lower", "sink", "diminish", "reduce", "subside", "plunge"]);
-		public static TablerIcon LocationExclamation => field ??= new(nameof(LocationExclamation), "\uFBB7", Sources.LocationExclamation, "Map", ["alert", "warning", "caution", "notice", "attention", "emphasize", "important", "notify", "highlight", "signal"]);
-		public static TablerIcon LocationHeart => field ??= new(nameof(LocationHeart), "\uFBB8", Sources.LocationHeart, "Map", ["love", "affection", "like", "passion", "emotion", "fondness", "adoration", "desire", "appreciation", "care"]);
-		public static TablerIcon LocationMinus => field ??= new(nameof(LocationMinus), "\uFBB9", Sources.LocationMinus, "Map", ["subtract", "reduce", "decrease", "lessen", "diminish", "remove", "takeaway", "minus", "negate", "location"]);
-		public static TablerIcon LocationOff => field ??= new(nameof(LocationOff), "\uF155", Sources.LocationOff, "Map", ["navigation", "map", "direction", "discover", "travel", "location", "off", "disabled", "inactive", "geography"]);
-		public static TablerIcon LocationPause => field ??= new(nameof(LocationPause), "\uFBBA", Sources.LocationPause, "Map", ["halt", "break", "stop", "interruption", "cease", "freeze", "wait", "delay", "suspend", "linger"]);
-		public static TablerIcon LocationPin => field ??= new(nameof(LocationPin), "\uFBBB", Sources.LocationPin, "Map", ["marker", "point", "drop", "pointer", "site", "place", "spot", "map", "indicator", "location"]);
-		public static TablerIcon LocationPlus => field ??= new(nameof(LocationPlus), "\uFBBC", Sources.LocationPlus, "Map", ["add", "increase", "expand", "amplify", "augment", "extend", "escalate", "enlarge", "boost", "advance"]);
-		public static TablerIcon LocationQuestion => field ??= new(nameof(LocationQuestion), "\uFBBD", Sources.LocationQuestion, "Map", ["query", "ask", "inquire", "probe", "quiz", "wonder", "explore", "interrogate", "investigate", "doubt"]);
-		public static TablerIcon LocationSearch => field ??= new(nameof(LocationSearch), "\uFBBE", Sources.LocationSearch, "Map", ["find", "discover", "locate", "seek", "explore", "look", "investigate", "probe", "scan", "delve"]);
-		public static TablerIcon LocationShare => field ??= new(nameof(LocationShare), "\uFBBF", Sources.LocationShare, "Map", ["distribute", "give", "send", "forward", "assign", "allocate", "disseminate", "spread", "impart", "divide"]);
-		public static TablerIcon LocationStar => field ??= new(nameof(LocationStar), "\uFBC0", Sources.LocationStar, "Map", ["favorite", "rate", "highlight", "notable", "prestige", "celebrity", "important", "acclaim", "renown", "shine"]);
-		public static TablerIcon LocationUp => field ??= new(nameof(LocationUp), "\uFBC1", Sources.LocationUp, "Map", ["ascend", "rise", "increase", "climb", "elevate", "boost", "uplift", "enhance", "escalate", "soar"]);
-		public static TablerIcon LocationX => field ??= new(nameof(LocationX), "\uFBC2", Sources.LocationX, "Map", ["close", "remove", "delete", "cancel", "cross", "negate", "eliminate", "terminate", "end", "exit"]);
-		public static TablerIcon Location => field ??= new(nameof(Location), "\uEAE0", Sources.Location, "Map", ["navigation", "map", "direction", "discover", "travel", "location", "geography", "place", "position"]);
-		public static TablerIcon Map2 => field ??= new(nameof(Map2), "\uEAE7", Sources.Map2, "Map", ["navigation", "location", "travel", "pin", "position", "marker", "map", "geography", "place", "2"]);
-		public static TablerIcon MapBolt => field ??= new(nameof(MapBolt), "\uFBC3", Sources.MapBolt, "Map", ["charge", "power", "lightning", "thunder", "electric", "energy", "flash", "zap", "storm", "force"]);
-		public static TablerIcon MapCancel => field ??= new(nameof(MapCancel), "\uFBC4", Sources.MapCancel, "Map", ["void", "dismiss", "negate", "stop", "abort", "halt", "revoke", "quit", "retract", "discontinue"]);
-		public static TablerIcon MapCheck => field ??= new(nameof(MapCheck), "\uFBC5", Sources.MapCheck, "Map", ["verify", "approve", "confirm", "validate", "ensure", "authenticate", "inspect", "certify", "affirm", "map"]);
-		public static TablerIcon MapCode => field ??= new(nameof(MapCode), "\uFBC6", Sources.MapCode, "Map", ["encrypt", "program", "key", "cipher", "algorithm", "syntax", "script", "data", "language", "encode"]);
-		public static TablerIcon MapCog => field ??= new(nameof(MapCog), "\uFBC7", Sources.MapCog, "Map", ["settings", "adjust", "configure", "mechanism", "engine", "process", "gear", "system", "apparatus", "tweak"]);
-		public static TablerIcon MapDiscount => field ??= new(nameof(MapDiscount), "\uFBC8", Sources.MapDiscount, "Map", ["bargain", "sale", "off", "reduce", "cut", "decrease", "deduct", "concession", "markdown", "deal"]);
-		public static TablerIcon MapDollar => field ??= new(nameof(MapDollar), "\uFBC9", Sources.MapDollar, "Map", ["currency", "money", "finance", "cash", "economy", "payment", "funds", "wealth", "revenue", "profit"]);
-		public static TablerIcon MapDown => field ??= new(nameof(MapDown), "\uFBCA", Sources.MapDown, "Map", ["decrease", "lower", "reduce", "descend", "drop", "decline", "fall", "sink", "plunge", "subside"]);
-		public static TablerIcon MapEast => field ??= new(nameof(MapEast), "\uFC5D", Sources.MapEast, "Map", ["orient", "sunrise", "direction", "right", "oriental", "asia", "compass", "cardinal", "sunup", "far"]);
-		public static TablerIcon MapExclamation => field ??= new(nameof(MapExclamation), "\uFBCB", Sources.MapExclamation, "Map", ["alert", "warn", "caution", "notice", "emphasis", "signal", "highlight", "stress", "attention", "callout"]);
-		public static TablerIcon MapHeart => field ??= new(nameof(MapHeart), "\uFBCC", Sources.MapHeart, "Map", ["love", "affection", "romance", "care", "passion", "emotion", "fondness", "devotion", "adore", "cherish"]);
-		public static TablerIcon MapLock => field ??= new(nameof(MapLock), char.ConvertFromUtf32(0x10203), Sources.MapLock, "Map", ["map", "lock", "security", "location", "protected", "access", "secure"]);
-		public static TablerIcon MapMinus => field ??= new(nameof(MapMinus), "\uFBCD", Sources.MapMinus, "Map", ["subtract", "reduce", "lessen", "decrease", "diminish", "lower", "deduct", "decline", "shrink", "contract"]);
-		public static TablerIcon MapNorth => field ??= new(nameof(MapNorth), "\uFC5E", Sources.MapNorth, "Map", ["northward", "upward", "compass", "boreal", "cardinal", "arctic", "poleward", "direction", "trip", "geographic"]);
-		public static TablerIcon MapOff => field ??= new(nameof(MapOff), "\uF15C", Sources.MapOff, "Map", ["navigation", "location", "travel", "map", "off", "disabled", "inactive", "geography", "place", "position"]);
-		public static TablerIcon MapPause => field ??= new(nameof(MapPause), "\uFBCE", Sources.MapPause, "Map", ["stop", "halt", "break", "wait", "delay", "interruption", "hold", "cease", "freeze", "suspend"]);
-		public static TablerIcon MapPin2 => field ??= new(nameof(MapPin2), "\uFC48", Sources.MapPin2, "Map", ["locate", "landmark", "site", "fixed", "anchor", "point", "attach", "secure", "embed", "map"]);
-		public static TablerIcon MapPinBolt => field ??= new(nameof(MapPinBolt), "\uF94A", Sources.MapPinBolt, "Map", ["energize", "spark", "charge", "thunder", "dynamic", "lightning", "flash", "impulse", "storm", "shock"]);
-		public static TablerIcon MapPinCancel => field ??= new(nameof(MapPinCancel), "\uF94B", Sources.MapPinCancel, "Map", ["retract", "nullify", "undo", "remove", "eliminate", "dismiss", "delete", "void", "reject", "discard"]);
-		public static TablerIcon MapPinCheck => field ??= new(nameof(MapPinCheck), "\uF94C", Sources.MapPinCheck, "Map", ["approve", "validate", "confirm", "verify", "certify", "affirm", "correct", "inspect", "authenticate", "endorse"]);
-		public static TablerIcon MapPinCode => field ??= new(nameof(MapPinCode), "\uF94D", Sources.MapPinCode, "Map", ["cipher", "cryptic", "encrypt", "program", "key", "script", "syntax", "translate", "compute", "algorithm"]);
-		public static TablerIcon MapPinCog => field ??= new(nameof(MapPinCog), "\uF94E", Sources.MapPinCog, "Map", ["configure", "adjust", "gear", "apparatus", "mechanism", "tweak", "system", "settings", "operation", "process"]);
-		public static TablerIcon MapPinDollar => field ??= new(nameof(MapPinDollar), "\uF94F", Sources.MapPinDollar, "Map", ["currency", "value", "payment", "wealth", "funds", "cash", "finance", "profit", "revenue", "investment"]);
-		public static TablerIcon MapPinDown => field ??= new(nameof(MapPinDown), "\uF950", Sources.MapPinDown, "Map", ["drop", "shift", "descend", "lower", "decline", "plunge", "sink", "reduce", "fall", "decrease"]);
-		public static TablerIcon MapPinExclamation => field ??= new(nameof(MapPinExclamation), "\uF951", Sources.MapPinExclamation, "Map", ["alert", "warning", "attention", "urgent", "notify", "caution", "emphasis", "important", "signal", "highlight"]);
-		public static TablerIcon MapPinHeart => field ??= new(nameof(MapPinHeart), "\uF952", Sources.MapPinHeart, "Map", ["love", "favorite", "like", "affection", "emotion", "passion", "romantic", "adore", "cherish", "valentine"]);
-		public static TablerIcon MapPinMinus => field ??= new(nameof(MapPinMinus), "\uF953", Sources.MapPinMinus, "Map", ["decrease", "subtract", "remove", "reduce", "lessen", "detract", "shorten", "minimize", "negate", "deduct"]);
-		public static TablerIcon MapPinOff => field ??= new(nameof(MapPinOff), "\uECF3", Sources.MapPinOff, "Map", ["navigation", "location", "travel", "pin", "position", "marker", "map", "off", "disabled", "inactive"]);
-		public static TablerIcon MapPinPause => field ??= new(nameof(MapPinPause), "\uF954", Sources.MapPinPause, "Map", ["halt", "stop", "break", "interrupt", "pause", "wait", "hold", "delay", "stall", "freeze"]);
-		public static TablerIcon MapPinPin => field ??= new(nameof(MapPinPin), "\uF955", Sources.MapPinPin, "Map", ["secure", "attach", "fix", "position", "locate", "mark", "anchor", "stable", "stick", "fasten"]);
-		public static TablerIcon MapPinPlus => field ??= new(nameof(MapPinPlus), "\uF956", Sources.MapPinPlus, "Map", ["add", "increase", "expand", "enlarge", "grow", "boost", "enhance", "amplify", "raise", "supplement"]);
-		public static TablerIcon MapPinQuestion => field ??= new(nameof(MapPinQuestion), "\uF957", Sources.MapPinQuestion, "Map", ["inquire", "ask", "wonder", "confuse", "puzzle", "curious", "doubt", "query", "seek", "probability"]);
-		public static TablerIcon MapPinSearch => field ??= new(nameof(MapPinSearch), "\uF958", Sources.MapPinSearch, "Map", ["find", "locate", "seek", "explore", "scan", "look", "discover", "detect", "probe", "inspect"]);
-		public static TablerIcon MapPinShare => field ??= new(nameof(MapPinShare), "\uF795", Sources.MapPinShare, "Map", ["location", "gps", "pointer", "marker", "place", "send", "map", "pin", "share", "navigation"]);
-		public static TablerIcon MapPinStar => field ??= new(nameof(MapPinStar), "\uF959", Sources.MapPinStar, "Map", ["highlight", "favorite", "feature", "emphasize", "spotlight", "shine", "premium", "top", "elite", "noteworthy"]);
-		public static TablerIcon MapPinUp => field ??= new(nameof(MapPinUp), "\uF95A", Sources.MapPinUp, "Map", ["elevate", "raise", "increase", "ascend", "advance", "boost", "climb", "uplift", "lift", "heighten"]);
-		public static TablerIcon MapPinX => field ??= new(nameof(MapPinX), "\uF95B", Sources.MapPinX, "Map", ["cross", "remove", "cancel", "delete", "close", "void", "reject", "exclude", "terminate", "stop"]);
-		public static TablerIcon MapPin => field ??= new(nameof(MapPin), "\uEAE8", Sources.MapPin, "Map", ["navigation", "location", "travel", "pin", "position", "marker", "map", "attach", "fix", "mark"]);
-		public static TablerIcon MapPins => field ??= new(nameof(MapPins), "\uED5E", Sources.MapPins, "Map", ["place", "direction", "travel", "destination", "mark", "location", "address", "map", "pins", "navigation"]);
-		public static TablerIcon MapPlus => field ??= new(nameof(MapPlus), "\uFBCF", Sources.MapPlus, "Map", ["expand", "enlarge", "add", "increase", "grow", "upscale", "multiply", "boost", "enhance", "extend"]);
-		public static TablerIcon MapQuestion => field ??= new(nameof(MapQuestion), "\uFBD0", Sources.MapQuestion, "Map", ["inquiry", "query", "ask", "explore", "puzzle", "confuse", "investigate", "research", "examine", "exploration"]);
-		public static TablerIcon MapRoute => field ??= new(nameof(MapRoute), "\uFC79", Sources.MapRoute, "Map", ["path", "way", "course", "track", "journey", "navigation", "direction", "trail", "road", "map"]);
-		public static TablerIcon MapSearch => field ??= new(nameof(MapSearch), "\uEF82", Sources.MapSearch, "Map", ["location", "navigation", "gps", "find", "pin", "map", "search", "look", "seek", "query"]);
-		public static TablerIcon MapShare => field ??= new(nameof(MapShare), "\uFBD1", Sources.MapShare, "Map", ["distribute", "spread", "exchange", "give", "publish", "connect", "send", "communicate", "broadcast", "release"]);
-		public static TablerIcon MapShield => field ??= new(nameof(MapShield), char.ConvertFromUtf32(0x10202), Sources.MapShield, "Map", ["map", "shield", "security", "protection", "location", "safe", "guarded"]);
-		public static TablerIcon MapSouth => field ??= new(nameof(MapSouth), "\uFC5F", Sources.MapSouth, "Map", ["down", "below", "lower", "under", "beneath", "sub", "southward", "descend", "bottom", "inferior"]);
-		public static TablerIcon MapStar => field ??= new(nameof(MapStar), "\uFBD2", Sources.MapStar, "Map", ["favorite", "highlight", "feature", "premium", "elite", "top", "famous", "prominent", "renowned", "prestige"]);
-		public static TablerIcon MapUp => field ??= new(nameof(MapUp), "\uFBD3", Sources.MapUp, "Map", ["elevate", "raise", "ascend", "higher", "boost", "increase", "climb", "lift", "improve", "uplift"]);
-		public static TablerIcon MapWest => field ??= new(nameof(MapWest), "\uFC60", Sources.MapWest, "Map", ["left", "westward", "sunset", "horizon", "westbound", "western", "navigate", "direction", "sunfall", "occidental"]);
-		public static TablerIcon MapX => field ??= new(nameof(MapX), "\uFBD4", Sources.MapX, "Map", ["cross", "cancel", "forget", "delete", "deny", "void", "prohibit", "exclude", "disallow", "annul"]);
-		public static TablerIcon MapIcon => field ??= new(nameof(MapIcon), "\uEAE9", Sources.MapIcon, "Map", ["navigation", "location", "travel", "map", "geography", "place", "position"]);
-		public static TablerIcon MasksTheaterOff => field ??= new(nameof(MasksTheaterOff), "\uF408", Sources.MasksTheaterOff, "Map", ["cinema", "comedy", "acting", "face", "art", "masks", "theater", "off", "location", "navigation"]);
-		public static TablerIcon MasksTheater => field ??= new(nameof(MasksTheater), "\uF263", Sources.MasksTheater, "Map", ["cinema", "comedy", "acting", "face", "art", "masks", "theater", "location", "navigation", "geography"]);
-		public static TablerIcon MedicalCrossCircle => field ??= new(nameof(MedicalCrossCircle), "\uFAE8", Sources.MedicalCrossCircle, "Map", ["health", "aid", "emergency", "hospital", "firstaid", "medic", "heal", "treatment", "care", "wellness"]);
-		public static TablerIcon MedicalCrossOff => field ??= new(nameof(MedicalCrossOff), "\uF160", Sources.MedicalCrossOff, "Map", ["sign", "hospital", "help", "indication", "medical", "cross", "off", "location", "navigation", "disabled"]);
-		public static TablerIcon MedicalCross => field ??= new(nameof(MedicalCross), "\uEC2F", Sources.MedicalCross, "Map", ["sign", "hospital", "help", "indication", "medical", "cross", "location", "navigation", "geography", "place"]);
-		public static TablerIcon Monkeybar => field ??= new(nameof(Monkeybar), "\uFEB4", Sources.Monkeybar, "Map", ["playground", "park", "monkey", "bar", "jungle", "gym", "exercise", "fitness", "outdoor", "fun", "children", "kids", "play", "swing", "jungle gym"]);
-		public static TablerIcon NavigationBolt => field ??= new(nameof(NavigationBolt), "\uFBE9", Sources.NavigationBolt, "Map", ["fast", "electric", "swift", "speed", "charge", "lightning", "dynamic", "racing", "accelerate", "quick"]);
-		public static TablerIcon NavigationCancel => field ??= new(nameof(NavigationCancel), "\uFBEA", Sources.NavigationCancel, "Map", ["stop", "abort", "end", "halt", "terminate", "cut", "cease", "close", "discontinue", "exit"]);
-		public static TablerIcon NavigationCheck => field ??= new(nameof(NavigationCheck), "\uFBEB", Sources.NavigationCheck, "Map", ["approve", "confirm", "validate", "verify", "agree", "accept", "okay", "pass", "authorization", "tick"]);
-		public static TablerIcon NavigationCode => field ??= new(nameof(NavigationCode), "\uFBEC", Sources.NavigationCode, "Map", ["program", "development", "syntax", "coding", "script", "sequence", "algorithm", "method", "digital", "parse"]);
-		public static TablerIcon NavigationCog => field ??= new(nameof(NavigationCog), "\uFBED", Sources.NavigationCog, "Map", ["settings", "gear", "mechanism", "adjustment", "options", "preferences", "customization", "control", "wheel", "configuration"]);
-		public static TablerIcon NavigationDiscount => field ??= new(nameof(NavigationDiscount), "\uFBEE", Sources.NavigationDiscount, "Map", ["sale", "offer", "promotion", "deal", "coupon", "rebate", "markdown", "pricecut", "bargain", "savings"]);
-		public static TablerIcon NavigationDollar => field ??= new(nameof(NavigationDollar), "\uFBEF", Sources.NavigationDollar, "Map", ["currency", "money", "finance", "cash", "payment", "wealth", "transaction", "banknote", "funds", "economics"]);
-		public static TablerIcon NavigationDown => field ??= new(nameof(NavigationDown), "\uFBF0", Sources.NavigationDown, "Map", ["lower", "descend", "below", "drop", "fall", "sink", "bottom", "submerge", "reduce", "decrease"]);
-		public static TablerIcon NavigationEast => field ??= new(nameof(NavigationEast), "\uFCBA", Sources.NavigationEast, "Map", ["rightward", "orient", "eastward", "sunrise", "asia", "oriental", "eastbound", "longitude", "eastside", "directional"]);
-		public static TablerIcon NavigationExclamation => field ??= new(nameof(NavigationExclamation), "\uFBF1", Sources.NavigationExclamation, "Map", ["alert", "attention", "notice", "warning", "remark", "surprise", "point", "caution", "highlight", "emphasis"]);
-		public static TablerIcon NavigationHeart => field ??= new(nameof(NavigationHeart), "\uFBF2", Sources.NavigationHeart, "Map", ["love", "affection", "like", "favorite", "care", "passion", "romance", "emotion", "devotion", "pulse"]);
-		public static TablerIcon NavigationMinus => field ??= new(nameof(NavigationMinus), "\uFBF3", Sources.NavigationMinus, "Map", ["subtract", "remove", "decrease", "reduce", "deduct", "less", "negate", "takeaway", "negative", "shorten"]);
-		public static TablerIcon NavigationNorth => field ??= new(nameof(NavigationNorth), "\uFCBB", Sources.NavigationNorth, "Map", ["upward", "arctic", "northern", "polar", "topside", "ascend", "climb", "uphill", "northward", "cardinal"]);
-		public static TablerIcon NavigationOff => field ??= new(nameof(NavigationOff), "\uF413", Sources.NavigationOff, "Map", ["map", "location", "direction", "pin", "gps", "navigation", "off", "disabled", "inactive", "geography"]);
-		public static TablerIcon NavigationPause => field ??= new(nameof(NavigationPause), "\uFBF4", Sources.NavigationPause, "Map", ["stop", "halt", "wait", "break", "intermission", "rest", "delay", "freeze", "pausebutton", "cease"]);
-		public static TablerIcon NavigationPin => field ??= new(nameof(NavigationPin), "\uFBF5", Sources.NavigationPin, "Map", ["point", "marker", "destination", "location", "place", "position", "spot", "tack", "map", "pushpin"]);
-		public static TablerIcon NavigationPlus => field ??= new(nameof(NavigationPlus), "\uFBF6", Sources.NavigationPlus, "Map", ["add", "increase", "gain", "more", "expand", "augment", "include", "positive", "additional", "supplement"]);
-		public static TablerIcon NavigationQuestion => field ??= new(nameof(NavigationQuestion), "\uFBF7", Sources.NavigationQuestion, "Map", ["ask", "inquire", "query", "doubt", "enquiry", "uncertain", "confusion", "probe", "puzzle", "interrogate"]);
-		public static TablerIcon NavigationSearch => field ??= new(nameof(NavigationSearch), "\uFBF8", Sources.NavigationSearch, "Map", ["find", "explore", "lookup", "detect", "seek", "discover", "scout", "inspect", "investigate", "locate"]);
-		public static TablerIcon NavigationShare => field ??= new(nameof(NavigationShare), "\uFBF9", Sources.NavigationShare, "Map", ["distribute", "exchange", "broadcast", "spread", "circulate", "publish", "post", "collaborate", "connect", "send"]);
-		public static TablerIcon NavigationSouth => field ??= new(nameof(NavigationSouth), "\uFCBC", Sources.NavigationSouth, "Map", ["downward", "southern", "equator", "tropic", "descent", "drop", "southward", "bottomward", "antarctic", "latitude"]);
-		public static TablerIcon NavigationStar => field ??= new(nameof(NavigationStar), "\uFBFA", Sources.NavigationStar, "Map", ["favorite", "highlight", "fame", "rate", "celebrity", "asterisk", "notable", "feature", "shine", "emphasis"]);
-		public static TablerIcon NavigationTop => field ??= new(nameof(NavigationTop), "\uFAEC", Sources.NavigationTop, "Map", ["peak", "summit", "highest", "foremost", "acme", "crest", "pinnacle", "head", "vertex", "apex"]);
-		public static TablerIcon NavigationUp => field ??= new(nameof(NavigationUp), "\uFBFB", Sources.NavigationUp, "Map", ["ascend", "rise", "elevate", "climb", "increase", "surge", "uplift", "upward", "boost", "advance"]);
-		public static TablerIcon NavigationWest => field ??= new(nameof(NavigationWest), "\uFCBD", Sources.NavigationWest, "Map", ["leftward", "occidental", "westward", "sunset", "america", "westerly", "westbound", "westside", "latitude", "cardinal"]);
-		public static TablerIcon NavigationX => field ??= new(nameof(NavigationX), "\uFBFC", Sources.NavigationX, "Map", ["close", "exit", "terminate", "cancel", "reject", "deny", "remove", "eliminate", "cross", "end"]);
-		public static TablerIcon Navigation => field ??= new(nameof(Navigation), "\uF2C8", Sources.Navigation, "Map", ["map", "location", "direction", "pin", "gps", "navigation", "geography", "place", "position"]);
-		public static TablerIcon NorthStar => field ??= new(nameof(NorthStar), "\uF014", Sources.NorthStar, "Map", ["compas", "location", "point", "christmas", "direction", "north", "star", "navigation", "favorite", "rating"]);
-		public static TablerIcon ParkingOff => field ??= new(nameof(ParkingOff), "\uF172", Sources.ParkingOff, "Map", ["sign", "car", "vehicle", "space", "parking", "off", "location", "navigation", "disabled", "inactive"]);
-		public static TablerIcon Parking => field ??= new(nameof(Parking), "\uEB03", Sources.Parking, "Map", ["sign", "car", "vehicle", "space", "parking", "location", "navigation", "geography", "place", "position"]);
-		public static TablerIcon Pennant2 => field ??= new(nameof(Pennant2), "\uF06A", Sources.Pennant2, "Map", ["flag", "ship", "sports", "championship", "mark", "spot", "winner", "pennant", "location", "navigation"]);
-		public static TablerIcon PennantOff => field ??= new(nameof(PennantOff), "\uF174", Sources.PennantOff, "Map", ["flag", "ship", "sports", "championship", "mark", "spot", "winner", "pennant", "off", "location"]);
-		public static TablerIcon Pennant => field ??= new(nameof(Pennant), "\uED7D", Sources.Pennant, "Map", ["flag", "ship", "sports", "championship", "mark", "spot", "winner", "pennant", "location", "navigation"]);
-		public static TablerIcon PicnicTable => field ??= new(nameof(PicnicTable), "\uFED6", Sources.PicnicTable, "Map", ["outdoor", "furniture", "camping", "seat", "park", "garden", "nature", "wood", "food", "picnic"]);
-		public static TablerIcon Pin => field ??= new(nameof(Pin), "\uEC9C", Sources.Pin, "Map", ["thing", "localization", "maps", "clip", "place", "location", "pin", "navigation", "attach", "fix"]);
-		public static TablerIcon PinnedOff => field ??= new(nameof(PinnedOff), "\uED5F", Sources.PinnedOff, "Map", ["board", "attach", "nail", "pointed", "corkboard", "favourite", "noticeboard", "pinned", "off", "location"]);
-		public static TablerIcon Pinned => field ??= new(nameof(Pinned), "\uED60", Sources.Pinned, "Map", ["board", "attach", "nail", "pointed", "corkboard", "favourite", "noticeboard", "pinned", "location", "navigation"]);
-		public static TablerIcon PlanetOff => field ??= new(nameof(PlanetOff), "\uF17B", Sources.PlanetOff, "Map", ["earth", "uranus", "universe", "space", "galaxy", "orbit", "atmosphere", "planet", "off", "location"]);
-		public static TablerIcon Planet => field ??= new(nameof(Planet), "\uEC08", Sources.Planet, "Map", ["earth", "uranus", "universe", "space", "galaxy", "orbit", "atmosphere", "planet", "location", "navigation"]);
-		public static TablerIcon PokeballOff => field ??= new(nameof(PokeballOff), "\uF41C", Sources.PokeballOff, "Map", ["pokemon", "go", "catch", "game", "play", "pokeball", "off", "location", "navigation", "disabled"]);
-		public static TablerIcon Pokeball => field ??= new(nameof(Pokeball), "\uEEC1", Sources.Pokeball, "Map", ["pokemon", "go", "catch", "game", "play", "pokeball", "location", "navigation", "geography", "place"]);
-		public static TablerIcon Prison => field ??= new(nameof(Prison), "\uEF79", Sources.Prison, "Map", ["jail", "policeman", "police", "cop", "handcuff", "arrest", "prisoner", "thief", "prison", "location"]);
-		public static TablerIcon Radar2 => field ??= new(nameof(Radar2), "\uF016", Sources.Radar2, "Map", ["location", "navigation", "gps", "find", "signal", "technology", "submarine", "radar", "geography", "place"]);
-		public static TablerIcon RadarOff => field ??= new(nameof(RadarOff), "\uF41F", Sources.RadarOff, "Map", ["location", "navigation", "gps", "find", "signal", "technology", "submarine", "radar", "off", "disabled"]);
-		public static TablerIcon Radar => field ??= new(nameof(Radar), "\uF017", Sources.Radar, "Map", ["location", "navigation", "gps", "find", "signal", "technology", "submarine", "radar", "geography", "place"]);
-		public static TablerIcon RoadOff => field ??= new(nameof(RoadOff), "\uF191", Sources.RoadOff, "Map", ["car", "travel", "journey", "traffic", "highway", "route", "racing", "road", "off", "location"]);
-		public static TablerIcon RoadSign => field ??= new(nameof(RoadSign), "\uECDD", Sources.RoadSign, "Map", ["telltale", "prohibitive", "indicative", "cautionary", "codex", "restrictions", "road", "sign", "location", "navigation"]);
-		public static TablerIcon Road => field ??= new(nameof(Road), "\uF018", Sources.Road, "Map", ["car", "travel", "journey", "traffic", "highway", "route", "racing", "road", "location", "navigation"]);
-		public static TablerIcon RocketOff => field ??= new(nameof(RocketOff), "\uF193", Sources.RocketOff, "Map", ["universe", "galaxy", "space", "journey", "discover", "extraterrestrial", "spaceship", "rocket", "off", "location"]);
-		public static TablerIcon Rocket => field ??= new(nameof(Rocket), "\uEC45", Sources.Rocket, "Map", ["universe", "galaxy", "space", "journey", "discover", "extraterrestrial", "spaceship", "rocket", "location", "navigation"]);
-		public static TablerIcon Route2 => field ??= new(nameof(Route2), "\uF4B6", Sources.Route2, "Map", ["path", "journey", "direction", "trail", "navigate", "travel", "way", "road", "route-two", "2-direction"]);
-		public static TablerIcon RouteAltLeft => field ??= new(nameof(RouteAltLeft), "\uFCA9", Sources.RouteAltLeft, "Map", ["alternate-left", "alternate-route", "left-path", "alternate-way", "left-trail", "alt-left-road", "leftward-route", "shift-left", "change-left", "left-road"]);
-		public static TablerIcon RouteAltRight => field ??= new(nameof(RouteAltRight), "\uFCAA", Sources.RouteAltRight, "Map", ["alternate-right", "alternate-route", "right-path", "alternate-way", "right-trail", "alt-right-road", "rightward-route", "shift-right", "change-right", "right-road"]);
-		public static TablerIcon RouteOff => field ??= new(nameof(RouteOff), "\uF194", Sources.RouteOff, "Map", ["path", "journey", "direction", "trail", "navigate", "travel", "way", "road", "travel-route", "route-way"]);
-		public static TablerIcon RouteSquare2 => field ??= new(nameof(RouteSquare2), "\uFCAB", Sources.RouteSquare2, "Map", ["square-route", "route-square", "path", "journey", "direction", "trail", "navigate", "travel", "way", "square-direction"]);
-		public static TablerIcon RouteSquare => field ??= new(nameof(RouteSquare), "\uFCAC", Sources.RouteSquare, "Map", ["path", "journey", "direction", "trail", "navigate", "travel", "way", "square", "geometric-route", "square-path"]);
-		public static TablerIcon RouteX2 => field ??= new(nameof(RouteX2), "\uFCAD", Sources.RouteX2, "Map", ["x-route", "route-x", "path", "journey", "direction", "trail", "navigate", "travel", "way", "crossing"]);
-		public static TablerIcon RouteX => field ??= new(nameof(RouteX), "\uFCAE", Sources.RouteX, "Map", ["path", "journey", "direction", "trail", "navigate", "travel", "way", "cross", "x-cross", "cross-path"]);
-		public static TablerIcon Route => field ??= new(nameof(Route), "\uEB17", Sources.Route, "Map", ["path", "journey", "direction", "trail", "navigate", "travel", "way", "road", "travel-route", "route-way"]);
-		public static TablerIcon SatelliteOff => field ??= new(nameof(SatelliteOff), "\uF197", Sources.SatelliteOff, "Map", ["orbit", "space", "moon", "earth", "planet", "communication", "information", "celestial", "satellite", "off"]);
-		public static TablerIcon Satellite => field ??= new(nameof(Satellite), "\uEED3", Sources.Satellite, "Map", ["orbit", "space", "moon", "earth", "planet", "communication", "information", "celestial", "satellite", "location"]);
-		public static TablerIcon SchoolOff => field ??= new(nameof(SchoolOff), "\uF19A", Sources.SchoolOff, "Map", ["students", "class", "teachers", "professors", "doctors", "hall", "classroom", "subject", "science", "break", "lesson"]);
-		public static TablerIcon School => field ??= new(nameof(School), "\uECF7", Sources.School, "Map", ["students", "class", "teachers", "professors", "doctors", "hall", "classroom", "subject", "science", "break", "lesson"]);
-		public static TablerIcon SignLeft => field ??= new(nameof(SignLeft), "\uF06B", Sources.SignLeft, "Map", ["direction", "west", "navigation", "arrow", "navigate", "sign", "left", "location", "geography", "place"]);
-		public static TablerIcon SignRight => field ??= new(nameof(SignRight), "\uF06C", Sources.SignRight, "Map", ["direction", "east", "navigation", "arrow", "navigate", "sign", "right", "location", "geography", "place"]);
-		public static TablerIcon StairsDown => field ??= new(nameof(StairsDown), "\uECA4", Sources.StairsDown, "Map", ["building", "step", "floor", "staircase", "clamber", "stairs", "down", "bottom", "decrease", "location"]);
-		public static TablerIcon StairsUp => field ??= new(nameof(StairsUp), "\uECA5", Sources.StairsUp, "Map", ["building", "step", "floor", "staircase", "entryway", "stairs", "top", "increase", "location", "navigation"]);
-		public static TablerIcon Stairs => field ??= new(nameof(Stairs), "\uECA6", Sources.Stairs, "Map", ["building", "step", "floor", "staircase", "stairs", "location", "navigation", "geography", "place", "position"]);
-		public static TablerIcon TargetOff => field ??= new(nameof(TargetOff), "\uF1AD", Sources.TargetOff, "Map", ["focus", "bullseye", "aim", "target", "off", "location", "navigation", "disabled", "inactive", "geography"]);
-		public static TablerIcon Target => field ??= new(nameof(Target), "\uEB35", Sources.Target, "Map", ["focus", "bullseye", "aim", "target", "location", "navigation", "geography", "place", "position"]);
-		public static TablerIcon TentOff => field ??= new(nameof(TentOff), "\uF435", Sources.TentOff, "Map", ["camping", "holiday", "vacation", "outdoor", "survival", "travel", "adventure", "tent", "off", "location"]);
-		public static TablerIcon Tent => field ??= new(nameof(Tent), "\uEEFB", Sources.Tent, "Map", ["camping", "holiday", "vacation", "outdoor", "survival", "travel", "adventure", "tent", "location", "navigation"]);
-		public static TablerIcon Theater => field ??= new(nameof(Theater), "\uF79B", Sources.Theater, "Map", ["movie", "film", "show", "mask", "entertainment", "theater", "location", "navigation", "geography", "place"]);
-		public static TablerIcon ToolsKitchen2Off => field ??= new(nameof(ToolsKitchen2Off), "\uF1B5", Sources.ToolsKitchen2Off, "Map", ["knife", "fork", "spoon", "cutlery", "eat", "restaurant", "menu", "cafe", "cook", "cut", "soup", "dinner", "breakfast", "dining", "plate", "dish"]);
-		public static TablerIcon ToolsKitchenOff => field ??= new(nameof(ToolsKitchenOff), "\uF1B6", Sources.ToolsKitchenOff, "Map", ["knife", "fork", "spoon", "cutlery", "eat", "restaurant", "menu", "cafe", "cook", "cut", "soup", "dinner", "breakfast", "dining", "plate", "dish"]);
-		public static TablerIcon TrafficConeOff => field ??= new(nameof(TrafficConeOff), "\uF1B8", Sources.TrafficConeOff, "Map", ["street", "road", "vehicle", "repair", "warning", "lane", "drive", "traffic", "cone", "off"]);
-		public static TablerIcon TrafficCone => field ??= new(nameof(TrafficCone), "\uEC0F", Sources.TrafficCone, "Map", ["street", "road", "vehicle", "repair", "warning", "lane", "drive", "traffic", "cone", "location"]);
-		public static TablerIcon TrafficLightsOff => field ??= new(nameof(TrafficLightsOff), "\uF1B9", Sources.TrafficLightsOff, "Map", ["street", "road", "green", "red", "yellow", "vehicle", "stop", "drive", "crossing", "pedestrian", "crossroads", "junction", "intersection"]);
-		public static TablerIcon TrafficLights => field ??= new(nameof(TrafficLights), "\uED39", Sources.TrafficLights, "Map", ["street", "road", "green", "red", "yellow", "vehicle", "stop", "drive", "crossing", "pedestrian", "crossroads", "junction", "intersection"]);
-		public static TablerIcon Tree => field ??= new(nameof(Tree), "\uEF01", Sources.Tree, "Map", ["nature", "greenery", "park", "leaf", "trunk", "stem", "root", "forest", "garden", "tree"]);
-		public static TablerIcon Trees => field ??= new(nameof(Trees), "\uEC10", Sources.Trees, "Map", ["nature", "greenery", "park", "leaf", "trunk", "stem", "root", "forest", "garden", "trees"]);
-		public static TablerIcon ViewfinderOff => field ??= new(nameof(ViewfinderOff), "\uF1C2", Sources.ViewfinderOff, "Map", ["target", "aim", "focus", "viewfinder", "off", "location", "navigation", "disabled", "inactive", "geography"]);
-		public static TablerIcon Viewfinder => field ??= new(nameof(Viewfinder), "\uEB4E", Sources.Viewfinder, "Map", ["target", "aim", "focus", "viewfinder", "location", "navigation", "geography", "place", "position"]);
-		public static TablerIcon Volcano => field ??= new(nameof(Volcano), "\uF79C", Sources.Volcano, "Map", ["erumption", "lava", "nature", "danger", "explosion", "volcano", "location", "navigation", "geography", "place"]);
-		public static TablerIcon WindmillOff => field ??= new(nameof(WindmillOff), "\uF1C8", Sources.WindmillOff, "Map", ["generate", "power", "blade", "energy", "electricity", "windmill", "off", "location", "navigation", "disabled"]);
-		public static TablerIcon Windmill => field ??= new(nameof(Windmill), "\uED85", Sources.Windmill, "Map", ["generate", "power", "blade", "energy", "electricity", "windmill", "location", "navigation", "geography", "place"]);
-		public static TablerIcon Windsock => field ??= new(nameof(Windsock), "\uF06D", Sources.Windsock, "Map", ["weather", "meteorology", "windy", "storm", "wind", "windsock", "location", "navigation", "geography", "place"]);
-		public static TablerIcon WorldBolt => field ??= new(nameof(WorldBolt), "\uF9D9", Sources.WorldBolt, "Map", ["fast", "instant", "speed", "global", "electric", "impact", "energy", "strike", "lightning", "flash"]);
-		public static TablerIcon WorldCancel => field ??= new(nameof(WorldCancel), "\uF9DA", Sources.WorldCancel, "Map", ["stop", "halt", "terminate", "void", "invalidate", "abort", "end", "cease", "prevent", "reject"]);
-		public static TablerIcon WorldCheck => field ??= new(nameof(WorldCheck), "\uF9DB", Sources.WorldCheck, "Map", ["verify", "approve", "confirm", "validate", "correct", "ensure", "certify", "global", "accept", "world"]);
-		public static TablerIcon WorldCode => field ??= new(nameof(WorldCode), "\uF9DC", Sources.WorldCode, "Map", ["programming", "software", "development", "script", "internet", "technology", "digital", "encrypt", "global", "computer"]);
-		public static TablerIcon WorldCog => field ??= new(nameof(WorldCog), "\uF9DD", Sources.WorldCog, "Map", ["settings", "configure", "gear", "adjust", "mechanism", "system", "control", "customize", "global", "engine"]);
-		public static TablerIcon WorldDollar => field ??= new(nameof(WorldDollar), "\uF9DE", Sources.WorldDollar, "Map", ["finance", "currency", "economics", "global", "money", "trade", "wealth", "business", "budget", "fiscal"]);
-		public static TablerIcon WorldDown => field ??= new(nameof(WorldDown), "\uF9DF", Sources.WorldDown, "Map", ["lower", "descend", "decrease", "sink", "drop", "global", "reduce", "fall", "diminish", "decline"]);
-		public static TablerIcon WorldDownload => field ??= new(nameof(WorldDownload), "\uEF8A", Sources.WorldDownload, "Map", ["global", "down", "globe", "arrow", "earth", "world", "download", "location", "navigation", "geography"]);
-		public static TablerIcon WorldExclamation => field ??= new(nameof(WorldExclamation), "\uF9E0", Sources.WorldExclamation, "Map", ["alert", "important", "notice", "attention", "caution", "warning", "global", "highlight", "urgent", "remark"]);
-		public static TablerIcon WorldHeart => field ??= new(nameof(WorldHeart), "\uF9E1", Sources.WorldHeart, "Map", ["love", "care", "affection", "emotion", "compassion", "global", "humanity", "bond", "connection", "empathy"]);
-		public static TablerIcon WorldLatitude => field ??= new(nameof(WorldLatitude), "\uED2E", Sources.WorldLatitude, "Map", ["earth", "globe", "global", "language", "union", "world", "latitude", "location", "navigation", "geography"]);
-		public static TablerIcon WorldLongitude => field ??= new(nameof(WorldLongitude), "\uED2F", Sources.WorldLongitude, "Map", ["earth", "globe", "global", "language", "union", "world", "longitude", "location", "navigation", "geography"]);
-		public static TablerIcon WorldMap => field ??= new(nameof(WorldMap), char.ConvertFromUtf32(0x101e9), Sources.WorldMap, "Map", ["world", "map", "globe", "earth", "geography", "location", "travel", "planet", "navigation"]);
-		public static TablerIcon WorldMinus => field ??= new(nameof(WorldMinus), "\uF9E2", Sources.WorldMinus, "Map", ["reduce", "subtract", "decrease", "delete", "remove", "diminish", "global", "lessen", "deduct", "deplete"]);
-		public static TablerIcon WorldOff => field ??= new(nameof(WorldOff), "\uF1CA", Sources.WorldOff, "Map", ["earth", "globe", "global", "language", "union", "world", "off", "location", "navigation", "disabled"]);
-		public static TablerIcon WorldPause => field ??= new(nameof(WorldPause), "\uF9E3", Sources.WorldPause, "Map", ["halt", "rest", "stop", "freeze", "break", "suspend", "global", "interval", "wait", "intermission"]);
-		public static TablerIcon WorldPin => field ??= new(nameof(WorldPin), "\uF9E4", Sources.WorldPin, "Map", ["location", "marker", "spot", "global", "place", "position", "site", "point", "navigate", "enzyme"]);
-		public static TablerIcon WorldPlus => field ??= new(nameof(WorldPlus), "\uF9E5", Sources.WorldPlus, "Map", ["add", "increase", "expand", "global", "grow", "enlarge", "supplement", "augment", "boost", "amplify"]);
-		public static TablerIcon WorldQuestion => field ??= new(nameof(WorldQuestion), "\uF9E6", Sources.WorldQuestion, "Map", ["inquire", "ask", "wonder", "curiosity", "global", "puzzle", "query", "doubt", "uncertainty", "probe"]);
-		public static TablerIcon WorldSearch => field ??= new(nameof(WorldSearch), "\uF9E7", Sources.WorldSearch, "Map", ["explore", "find", "seek", "lookup", "inspect", "scan", "global", "hunt", "pursue", "discover"]);
-		public static TablerIcon WorldShare => field ??= new(nameof(WorldShare), "\uF9E8", Sources.WorldShare, "Map", ["distribute", "broadcast", "communicate", "transfer", "global", "convey", "transmit", "spread", "disseminate", "exchange"]);
-		public static TablerIcon WorldStar => field ??= new(nameof(WorldStar), "\uF9E9", Sources.WorldStar, "Map", ["globe", "stellar", "earth", "universe", "cosmos", "planet", "celestial", "galaxy", "shine", "astronomy"]);
-		public static TablerIcon WorldUp => field ??= new(nameof(WorldUp), "\uF9EA", Sources.WorldUp, "Map", ["ascend", "rise", "elevate", "uplift", "skyward", "summit", "advance", "climb", "soar", "progress"]);
-		public static TablerIcon WorldUpload => field ??= new(nameof(WorldUpload), "\uEF8B", Sources.WorldUpload, "Map", ["earth", "global", "up", "globe", "arrow", "internet", "world", "upload", "import", "transfer"]);
-		public static TablerIcon WorldWww => field ??= new(nameof(WorldWww), "\uF38F", Sources.WorldWww, "Map", ["internet", "online", "web", "website", "browser", "world", "www", "location", "navigation", "geography"]);
-		public static TablerIcon WorldX => field ??= new(nameof(WorldX), "\uF9EB", Sources.WorldX, "Map", ["cancel", "reject", "deny", "cross", "exclude", "ban", "prohibit", "halt", "terminate", "remove"]);
-		public static TablerIcon World => field ??= new(nameof(World), "\uEB54", Sources.World, "Map", ["earth", "globe", "global", "language", "union", "world", "location", "navigation", "geography", "place"]);
-		public static TablerIcon ZoomCancel => field ??= new(nameof(ZoomCancel), "\uEC4D", Sources.ZoomCancel, "Map", ["magnifying glass", "zoom", "cancel", "location", "navigation", "magnify", "enlarge", "scale", "focus", "view"]);
-		public static TablerIcon ZoomCheck => field ??= new(nameof(ZoomCheck), "\uEF09", Sources.ZoomCheck, "Map", ["verify", "magnifying", "glass", "magnifier", "ok", "done", "zoom", "check", "location", "navigation"]);
-		public static TablerIcon ZoomCode => field ??= new(nameof(ZoomCode), "\uF07F", Sources.ZoomCode, "Map", ["inspect", "marketing", "search", "markup", "coding", "magnifier", "zoom", "code", "location", "navigation"]);
-		public static TablerIcon ZoomExclamation => field ??= new(nameof(ZoomExclamation), "\uF080", Sources.ZoomExclamation, "Map", ["alert", "caution", "error", "search", "warning", "zoom", "exclamation", "location", "navigation", "magnify"]);
-		public static TablerIcon ZoomInArea => field ??= new(nameof(ZoomInArea), "\uF1DC", Sources.ZoomInArea, "Map", ["selected", "square", "magnifier", "enlargement", "zoom", "area", "location", "navigation", "magnify", "enlarge"]);
-		public static TablerIcon ZoomIn => field ??= new(nameof(ZoomIn), "\uEB56", Sources.ZoomIn, "Map", ["magnifying glass", "zoom", "location", "navigation", "magnify", "enlarge", "scale", "focus", "view", "in", "accessibility", "a11y", "vision", "low-vision"]);
-		public static TablerIcon ZoomMoney => field ??= new(nameof(ZoomMoney), "\uEF0A", Sources.ZoomMoney, "Map", ["magnifying", "glass", "magnifier", "earn", "pay", "sum", "total", "finance", "financial", "zoom"]);
-		public static TablerIcon ZoomOutArea => field ??= new(nameof(ZoomOutArea), "\uF1DD", Sources.ZoomOutArea, "Map", ["selected", "square", "magnifier", "diminishing", "zoom", "out", "area", "location", "navigation", "magnify"]);
-		public static TablerIcon ZoomOut => field ??= new(nameof(ZoomOut), "\uEB57", Sources.ZoomOut, "Map", ["magnifying glass", "zoom", "out", "location", "navigation", "magnify", "enlarge", "scale", "focus", "view", "accessibility", "a11y", "vision"]);
-		public static TablerIcon ZoomPan => field ??= new(nameof(ZoomPan), "\uF1DE", Sources.ZoomPan, "Map", ["enlargement", "shifting", "magnifier", "zoom", "pan", "location", "navigation", "magnify", "enlarge", "scale"]);
-		public static TablerIcon ZoomQuestion => field ??= new(nameof(ZoomQuestion), "\uEDEB", Sources.ZoomQuestion, "Map", ["ask", "help", "support", "cue", "?", "zoom", "question", "location", "navigation", "magnify"]);
-		public static TablerIcon ZoomReplace => field ??= new(nameof(ZoomReplace), "\uF2A7", Sources.ZoomReplace, "Map", ["find", "change", "switch", "swap", "zoom", "replace", "location", "navigation", "magnify", "enlarge"]);
-		public static TablerIcon ZoomReset => field ??= new(nameof(ZoomReset), "\uF295", Sources.ZoomReset, "Map", ["refresh", "default", "settings", "vision", "zoom", "reset", "location", "navigation", "magnify", "enlarge"]);
-		public static TablerIcon Zoom => field ??= new(nameof(Zoom), "\uFDAA", Sources.Zoom, "Map", ["find", "magnifier", "magnifying glass", "zoom", "location", "navigation", "magnify", "enlarge", "scale", "focus"]);
-		
-		public static TablerIcon[] Icons => field ??= [
-			AirTrafficControl,
-			AnchorOff,
-			Anchor,
-			BeachOff,
-			Beach,
-			BedOff,
-			Bed,
-			Campfire,
-			CompassOff,
-			Compass,
-			CurrentLocationOff,
-			CurrentLocation,
-			DirectionsOff,
-			Directions,
-			EscalatorDown,
-			EscalatorUp,
-			Escalator,
-			FireHydrantOff,
-			FireHydrant,
-			Flag2Off,
-			Flag2,
-			Flag3,
-			FlagBolt,
-			FlagCancel,
-			FlagCheck,
-			FlagCode,
-			FlagCog,
-			FlagDollar,
-			FlagDown,
-			FlagExclamation,
-			FlagHeart,
-			FlagMinus,
-			FlagOff,
-			FlagPause,
-			FlagPin,
-			FlagPlus,
-			FlagQuestion,
-			FlagSearch,
-			FlagShare,
-			FlagSpark,
-			FlagStar,
-			FlagUp,
-			FlagX,
-			Flag,
-			FountainOff,
-			Fountain,
-			Geometry,
-			GlobeOff,
-			Globe,
-			Gps,
-			Grave2,
-			Grave,
-			LiveView,
-			LocationBolt,
-			LocationBroken,
-			LocationCancel,
-			LocationCheck,
-			LocationCode,
-			LocationCog,
-			LocationDollar,
-			LocationDown,
-			LocationExclamation,
-			LocationHeart,
-			LocationMinus,
-			LocationOff,
-			LocationPause,
-			LocationPin,
-			LocationPlus,
-			LocationQuestion,
-			LocationSearch,
-			LocationShare,
-			LocationStar,
-			LocationUp,
-			LocationX,
-			Location,
-			Map2,
-			MapBolt,
-			MapCancel,
-			MapCheck,
-			MapCode,
-			MapCog,
-			MapDiscount,
-			MapDollar,
-			MapDown,
-			MapEast,
-			MapExclamation,
-			MapHeart,
-			MapLock,
-			MapMinus,
-			MapNorth,
-			MapOff,
-			MapPause,
-			MapPin2,
-			MapPinBolt,
-			MapPinCancel,
-			MapPinCheck,
-			MapPinCode,
-			MapPinCog,
-			MapPinDollar,
-			MapPinDown,
-			MapPinExclamation,
-			MapPinHeart,
-			MapPinMinus,
-			MapPinOff,
-			MapPinPause,
-			MapPinPin,
-			MapPinPlus,
-			MapPinQuestion,
-			MapPinSearch,
-			MapPinShare,
-			MapPinStar,
-			MapPinUp,
-			MapPinX,
-			MapPin,
-			MapPins,
-			MapPlus,
-			MapQuestion,
-			MapRoute,
-			MapSearch,
-			MapShare,
-			MapShield,
-			MapSouth,
-			MapStar,
-			MapUp,
-			MapWest,
-			MapX,
-			MapIcon,
-			MasksTheaterOff,
-			MasksTheater,
-			MedicalCrossCircle,
-			MedicalCrossOff,
-			MedicalCross,
-			Monkeybar,
-			NavigationBolt,
-			NavigationCancel,
-			NavigationCheck,
-			NavigationCode,
-			NavigationCog,
-			NavigationDiscount,
-			NavigationDollar,
-			NavigationDown,
-			NavigationEast,
-			NavigationExclamation,
-			NavigationHeart,
-			NavigationMinus,
-			NavigationNorth,
-			NavigationOff,
-			NavigationPause,
-			NavigationPin,
-			NavigationPlus,
-			NavigationQuestion,
-			NavigationSearch,
-			NavigationShare,
-			NavigationSouth,
-			NavigationStar,
-			NavigationTop,
-			NavigationUp,
-			NavigationWest,
-			NavigationX,
-			Navigation,
-			NorthStar,
-			ParkingOff,
-			Parking,
-			Pennant2,
-			PennantOff,
-			Pennant,
-			PicnicTable,
-			Pin,
-			PinnedOff,
-			Pinned,
-			PlanetOff,
-			Planet,
-			PokeballOff,
-			Pokeball,
-			Prison,
-			Radar2,
-			RadarOff,
-			Radar,
-			RoadOff,
-			RoadSign,
-			Road,
-			RocketOff,
-			Rocket,
-			Route2,
-			RouteAltLeft,
-			RouteAltRight,
-			RouteOff,
-			RouteSquare2,
-			RouteSquare,
-			RouteX2,
-			RouteX,
-			Route,
-			SatelliteOff,
-			Satellite,
-			SchoolOff,
-			School,
-			SignLeft,
-			SignRight,
-			StairsDown,
-			StairsUp,
-			Stairs,
-			TargetOff,
-			Target,
-			TentOff,
-			Tent,
-			Theater,
-			ToolsKitchen2Off,
-			ToolsKitchenOff,
-			TrafficConeOff,
-			TrafficCone,
-			TrafficLightsOff,
-			TrafficLights,
-			Tree,
-			Trees,
-			ViewfinderOff,
-			Viewfinder,
-			Volcano,
-			WindmillOff,
-			Windmill,
-			Windsock,
-			WorldBolt,
-			WorldCancel,
-			WorldCheck,
-			WorldCode,
-			WorldCog,
-			WorldDollar,
-			WorldDown,
-			WorldDownload,
-			WorldExclamation,
-			WorldHeart,
-			WorldLatitude,
-			WorldLongitude,
-			WorldMap,
-			WorldMinus,
-			WorldOff,
-			WorldPause,
-			WorldPin,
-			WorldPlus,
-			WorldQuestion,
-			WorldSearch,
-			WorldShare,
-			WorldStar,
-			WorldUp,
-			WorldUpload,
-			WorldWww,
-			WorldX,
-			World,
-			ZoomCancel,
-			ZoomCheck,
-			ZoomCode,
-			ZoomExclamation,
-			ZoomInArea,
-			ZoomIn,
-			ZoomMoney,
-			ZoomOutArea,
-			ZoomOut,
-			ZoomPan,
-			ZoomQuestion,
-			ZoomReplace,
-			ZoomReset,
-			Zoom,
-		];
-	}
+	public static TablerIcon AirTrafficControl => field ??= new("AirTrafficControl", "\uFB01", Sources.AirTrafficControl, "Map", ["aviation", "guidance", "navigation", "flight", "monitor", "manage", "tower", "signal", "route", "supervise"]);
+	public static TablerIcon Anchor => field ??= new("Anchor", "\uEB76", Sources.Anchor, "Map", ["hold", "ship", "harbor", "docks", "anchor", "location", "navigation", "geography", "place", "position"]);
+	public static TablerIcon AnchorOff => field ??= new("AnchorOff", "\uF0F7", Sources.AnchorOff, "Map", ["hold", "ship", "harbor", "docks", "anchor", "off", "location", "navigation", "disabled", "inactive"]);
+	public static TablerIcon Beach => field ??= new("Beach", "\uEF3D", Sources.Beach, "Map", ["sand", "sun", "umbrella", "vacation", "travel", "beach", "location", "navigation", "geography", "place"]);
+	public static TablerIcon BeachOff => field ??= new("BeachOff", "\uF0B7", Sources.BeachOff, "Map", ["sand", "sun", "umbrella", "vacation", "travel", "beach", "off", "location", "navigation", "disabled"]);
+	public static TablerIcon Bed => field ??= new("Bed", "\uEB5C", Sources.Bed, "Map", ["furniture", "sleeping", "comfortable", "bedroom", "mattress", "resting", "relax", "sleep", "futon", "cozy"]);
+	public static TablerIcon BedFilled => field ??= new("BedFilled", "\uF7E0", Sources.BedFilled, "Map", ["furniture", "sleeping", "comfortable", "bedroom", "mattress", "resting", "relax", "sleep", "futon", "cozy"]);
+	public static TablerIcon BedOff => field ??= new("BedOff", "\uF100", Sources.BedOff, "Map", ["furniture", "sleeping", "comfortable", "bedroom", "mattress", "resting", "relax", "sleep", "futon", "cozy"]);
+	public static TablerIcon Campfire => field ??= new("Campfire", "\uF5A7", Sources.Campfire, "Map", ["camping", "bonfire", "wood", "camp", "burn", "flame", "campfire", "location", "navigation", "geography"]);
+	public static TablerIcon CampfireFilled => field ??= new("CampfireFilled", "\uFB28", Sources.CampfireFilled, "Map", ["camping", "bonfire", "wood", "camp", "burn", "flame", "campfire", "location", "navigation", "geography"]);
+	public static TablerIcon Compass => field ??= new("Compass", "\uEA79", Sources.Compass, "Map", ["navigation", "safari", "travel", "direction", "discover", "compass", "location", "geography", "place", "position"]);
+	public static TablerIcon CompassFilled => field ??= new("CompassFilled", "\uFD10", Sources.CompassFilled, "Map", ["navigation", "safari", "travel", "direction", "discover", "compass", "location", "geography", "place", "position"]);
+	public static TablerIcon CompassOff => field ??= new("CompassOff", "\uF0D5", Sources.CompassOff, "Map", ["navigation", "safari", "travel", "direction", "discover", "compass", "off", "location", "disabled", "inactive"]);
+	public static TablerIcon CurrentLocation => field ??= new("CurrentLocation", "\uECEF", Sources.CurrentLocation, "Map", ["localization", "maps", "navigation", "pin", "target", "current", "location", "geography", "place", "position"]);
+	public static TablerIcon CurrentLocationFilled => field ??= new("CurrentLocationFilled", char.ConvertFromUtf32(0x10125), Sources.CurrentLocationFilled, "Map", ["localization", "maps", "navigation", "pin", "target", "current", "location", "geography", "place", "position"]);
+	public static TablerIcon CurrentLocationOff => field ??= new("CurrentLocationOff", "\uF10E", Sources.CurrentLocationOff, "Map", ["localization", "maps", "navigation", "pin", "target", "current", "location", "off", "disabled", "inactive"]);
+	public static TablerIcon Directions => field ??= new("Directions", "\uEA8E", Sources.Directions, "Map", ["travel", "navigation", "discover", "directions", "location", "geography", "place", "position"]);
+	public static TablerIcon DirectionsFilled => field ??= new("DirectionsFilled", char.ConvertFromUtf32(0x1003f), Sources.DirectionsFilled, "Map", ["travel", "navigation", "discover", "directions", "location", "geography", "place", "position"]);
+	public static TablerIcon DirectionsOff => field ??= new("DirectionsOff", "\uF116", Sources.DirectionsOff, "Map", ["travel", "navigation", "discover", "directions", "off", "location", "disabled", "inactive", "geography", "place"]);
+	public static TablerIcon Escalator => field ??= new("Escalator", "\uFB06", Sources.Escalator, "Map", ["transport", "move", "stairs", "conveyor", "step", "elevate", "rise", "platform", "climb", "system"]);
+	public static TablerIcon EscalatorDown => field ??= new("EscalatorDown", "\uFB04", Sources.EscalatorDown, "Map", ["descend", "lower", "elevate", "transport", "step", "decline", "decrease", "move", "drop", "reduce"]);
+	public static TablerIcon EscalatorDownFilled => field ??= new("EscalatorDownFilled", char.ConvertFromUtf32(0x10133), Sources.EscalatorDownFilled, "Map", ["descend", "lower", "elevate", "transport", "step", "decline", "decrease", "move", "drop", "reduce"]);
+	public static TablerIcon EscalatorFilled => field ??= new("EscalatorFilled", char.ConvertFromUtf32(0x10131), Sources.EscalatorFilled, "Map", ["transport", "move", "stairs", "conveyor", "step", "elevate", "rise", "platform", "climb", "system"]);
+	public static TablerIcon EscalatorUp => field ??= new("EscalatorUp", "\uFB05", Sources.EscalatorUp, "Map", ["ascend", "elevate", "rise", "climb", "increase", "step", "upward", "lift", "boost", "soar"]);
+	public static TablerIcon EscalatorUpFilled => field ??= new("EscalatorUpFilled", char.ConvertFromUtf32(0x10132), Sources.EscalatorUpFilled, "Map", ["ascend", "elevate", "rise", "climb", "increase", "step", "upward", "lift", "boost", "soar"]);
+	public static TablerIcon FireHydrant => field ??= new("FireHydrant", "\uF3A9", Sources.FireHydrant, "Map", ["water", "emergency", "fireman", "safety", "urban", "fire", "hydrant", "location", "navigation", "geography"]);
+	public static TablerIcon FireHydrantOff => field ??= new("FireHydrantOff", "\uF3EC", Sources.FireHydrantOff, "Map", ["water", "emergency", "fireman", "safety", "urban", "fire", "hydrant", "off", "location", "navigation"]);
+	public static TablerIcon Flag => field ??= new("Flag", "\uEAA6", Sources.Flag, "Map", ["banner", "pin", "report", "map", "warning", "alert", "flag", "location", "navigation", "geography"]);
+	public static TablerIcon Flag2 => field ??= new("Flag2", "\uEE8C", Sources.Flag2, "Map", ["banner", "pin", "report", "map", "warning", "alert", "flag", "location", "navigation", "geography"]);
+	public static TablerIcon Flag2Filled => field ??= new("Flag2Filled", "\uF707", Sources.Flag2Filled, "Map", ["banner", "pin", "report", "map", "warning", "alert", "flag", "location", "navigation", "geography"]);
+	public static TablerIcon Flag2Off => field ??= new("Flag2Off", "\uF12C", Sources.Flag2Off, "Map", ["banner", "pin", "report", "map", "warning", "alert", "flag", "off", "location", "navigation"]);
+	public static TablerIcon Flag3 => field ??= new("Flag3", "\uEE8D", Sources.Flag3, "Map", ["banner", "pin", "report", "map", "warning", "alert", "flag", "location", "navigation", "geography"]);
+	public static TablerIcon Flag3Filled => field ??= new("Flag3Filled", "\uF708", Sources.Flag3Filled, "Map", ["banner", "pin", "report", "map", "warning", "alert", "flag", "location", "navigation", "geography"]);
+	public static TablerIcon FlagBolt => field ??= new("FlagBolt", "\uFB8A", Sources.FlagBolt, "Map", ["electricity", "energy", "power", "speed", "charge", "thunder", "zap", "storm", "blast", "current"]);
+	public static TablerIcon FlagCancel => field ??= new("FlagCancel", "\uFB8B", Sources.FlagCancel, "Map", ["abort", "terminate", "stop", "void", "nullify", "cease", "discontinue", "break", "quash", "revoke"]);
+	public static TablerIcon FlagCheck => field ??= new("FlagCheck", "\uFB8C", Sources.FlagCheck, "Map", ["confirm", "verify", "approve", "validate", "okay", "certify", "endorse", "affirm", "ensure", "accept"]);
+	public static TablerIcon FlagCode => field ??= new("FlagCode", "\uFB8D", Sources.FlagCode, "Map", ["program", "software", "develop", "script", "application", "compile", "debug", "algorithm", "command", "markup"]);
+	public static TablerIcon FlagCog => field ??= new("FlagCog", "\uFB8E", Sources.FlagCog, "Map", ["settings", "preferences", "configure", "tweak", "adjust", "gear", "mechanism", "options", "control", "customize"]);
+	public static TablerIcon FlagDollar => field ??= new("FlagDollar", "\uFB90", Sources.FlagDollar, "Map", ["money", "currency", "finance", "cash", "funds", "payment", "wealth", "economy", "capital", "trade"]);
+	public static TablerIcon FlagDown => field ??= new("FlagDown", "\uFB91", Sources.FlagDown, "Map", ["decrease", "lower", "reduce", "drop", "fall", "decline", "dim", "subside", "descend", "minimize"]);
+	public static TablerIcon FlagExclamation => field ??= new("FlagExclamation", "\uFB92", Sources.FlagExclamation, "Map", ["alert", "warning", "surprise", "note", "caution", "attention", "danger", "important", "remark", "notify"]);
+	public static TablerIcon FlagFilled => field ??= new("FlagFilled", "\uF67A", Sources.FlagFilled, "Map", ["banner", "pin", "report", "map", "warning", "alert", "flag", "location", "navigation", "geography"]);
+	public static TablerIcon FlagHeart => field ??= new("FlagHeart", "\uFB93", Sources.FlagHeart, "Map", ["love", "like", "passion", "affection", "adore", "cherish", "fondness", "romance", "emotion", "favor"]);
+	public static TablerIcon FlagMinus => field ??= new("FlagMinus", "\uFB94", Sources.FlagMinus, "Map", ["subtract", "reduce", "decrease", "deduct", "less", "negative", "diminish", "lower", "shrink", "takeaway"]);
+	public static TablerIcon FlagOff => field ??= new("FlagOff", "\uF12D", Sources.FlagOff, "Map", ["banner", "pin", "report", "map", "warning", "alert", "flag", "off", "location", "navigation"]);
+	public static TablerIcon FlagPause => field ??= new("FlagPause", "\uFB95", Sources.FlagPause, "Map", ["stop", "break", "halt", "interrupt", "freeze", "rest", "suspend", "stall", "hold", "delay"]);
+	public static TablerIcon FlagPin => field ??= new("FlagPin", "\uFB96", Sources.FlagPin, "Map", ["attach", "fix", "anchor", "mark", "stick", "position", "secure", "location", "tag", "place"]);
+	public static TablerIcon FlagPlus => field ??= new("FlagPlus", "\uFB97", Sources.FlagPlus, "Map", ["add", "increase", "more", "grow", "expand", "multiply", "benefit", "positive", "enhance", "amplify"]);
+	public static TablerIcon FlagQuestion => field ??= new("FlagQuestion", "\uFB98", Sources.FlagQuestion, "Map", ["query", "ask", "inquire", "doubt", "ponder", "wonder", "probe", "interrogate", "curiosity", "uncertainty"]);
+	public static TablerIcon FlagSearch => field ??= new("FlagSearch", "\uFB99", Sources.FlagSearch, "Map", ["find", "discover", "seek", "locate", "look", "explore", "hunt", "inspect", "track", "identify"]);
+	public static TablerIcon FlagShare => field ??= new("FlagShare", "\uFB9A", Sources.FlagShare, "Map", ["broadcast", "distribution", "circulate", "propagate", "publicize", "emit", "transmit", "divulge", "announce", "disseminate"]);
+	public static TablerIcon FlagSpark => field ??= new("FlagSpark", "\uFFB7", Sources.FlagSpark, "Map", ["banner", "pin", "report", "map", "warning", "alert", "flag", "spark", "location", "navigation"]);
+	public static TablerIcon FlagStar => field ??= new("FlagStar", "\uFB9B", Sources.FlagStar, "Map", ["favorite", "rate", "highlight", "spotlight", "pinnacle", "premier", "top", "peak", "acclaim", "noteworthy"]);
+	public static TablerIcon FlagUp => field ??= new("FlagUp", "\uFB9C", Sources.FlagUp, "Map", ["increase", "ascend", "elevate", "climb", "rise", "advance", "boost", "progress", "lift", "uplift"]);
+	public static TablerIcon FlagX => field ??= new("FlagX", "\uFB9D", Sources.FlagX, "Map", ["cancel", "remove", "delete", "terminate", "crossout", "eliminate", "invalidate", "reject", "void", "obliterate"]);
+	public static TablerIcon Fountain => field ??= new("Fountain", "\uF09B", Sources.Fountain, "Map", ["park", "decoration", "water", "spring", "public", "fountain", "location", "navigation", "geography", "place"]);
+	public static TablerIcon FountainFilled => field ??= new("FountainFilled", "\uFC2A", Sources.FountainFilled, "Map", ["park", "decoration", "water", "spring", "public", "fountain", "location", "navigation", "geography", "place"]);
+	public static TablerIcon FountainOff => field ??= new("FountainOff", "\uF134", Sources.FountainOff, "Map", ["park", "decoration", "water", "spring", "public", "fountain", "off", "location", "navigation", "disabled"]);
+	public static TablerIcon Geometry => field ??= new("Geometry", "\uEE90", Sources.Geometry, "Map", ["build", "architecture", "create", "compass", "geometry", "location", "navigation", "geography", "place", "position"]);
+	public static TablerIcon Globe => field ??= new("Globe", "\uEAB9", Sources.Globe, "Map", ["world", "travel", "journey", "trip", "planet", "earth", "globe", "location", "navigation", "geography"]);
+	public static TablerIcon GlobeFilled => field ??= new("GlobeFilled", "\uFC2F", Sources.GlobeFilled, "Map", ["world", "travel", "journey", "trip", "planet", "earth", "globe", "location", "navigation", "geography"]);
+	public static TablerIcon GlobeOff => field ??= new("GlobeOff", "\uF139", Sources.GlobeOff, "Map", ["world", "travel", "journey", "trip", "planet", "earth", "globe", "off", "location", "navigation"]);
+	public static TablerIcon Gps => field ??= new("Gps", "\uED7A", Sources.Gps, "Map", ["navigation", "directions", "global", "positioning", "system", "satnav", "radionavigation", "travel", "car", "gps"]);
+	public static TablerIcon GpsFilled => field ??= new("GpsFilled", "\uFE48", Sources.GpsFilled, "Map", ["navigation", "directions", "global", "positioning", "system", "satnav", "radionavigation", "travel", "car", "gps"]);
+	public static TablerIcon Grave => field ??= new("Grave", "\uF580", Sources.Grave, "Map", ["cemetery", "halloween", "death", "dead", "tomb", "grave", "location", "navigation", "geography", "place"]);
+	public static TablerIcon Grave2 => field ??= new("Grave2", "\uF57F", Sources.Grave2, "Map", ["cementry", "halloween", "death", "dead", "tomb", "grave", "location", "navigation", "geography", "place"]);
+	public static TablerIcon LiveView => field ??= new("LiveView", "\uEC6B", Sources.LiveView, "Map", ["camera", "preview", "photo", "live", "view", "location", "navigation", "geography", "place", "position"]);
+	public static TablerIcon LiveViewFilled => field ??= new("LiveViewFilled", char.ConvertFromUtf32(0x100a1), Sources.LiveViewFilled, "Map", ["camera", "preview", "photo", "live", "view", "location", "navigation", "geography", "place", "position"]);
+	public static TablerIcon Location => field ??= new("Location", "\uEAE0", Sources.Location, "Map", ["navigation", "map", "direction", "discover", "travel", "location", "geography", "place", "position"]);
+	public static TablerIcon LocationBolt => field ??= new("LocationBolt", "\uFBAF", Sources.LocationBolt, "Map", ["energy", "electric", "speed", "power", "flash", "lightning", "rapid", "force", "strike", "charge"]);
+	public static TablerIcon LocationBroken => field ??= new("LocationBroken", "\uF2C4", Sources.LocationBroken, "Map", ["delete", "map", "navigation", "pin", "location", "broken", "geography", "place", "position"]);
+	public static TablerIcon LocationCancel => field ??= new("LocationCancel", "\uFBB0", Sources.LocationCancel, "Map", ["remove", "delete", "stop", "terminate", "revoke", "nullify", "discard", "halt", "block", "abort"]);
+	public static TablerIcon LocationCheck => field ??= new("LocationCheck", "\uFBB1", Sources.LocationCheck, "Map", ["verify", "confirm", "approve", "validate", "tick", "pass", "authenticate", "mark", "agree", "okay"]);
+	public static TablerIcon LocationCode => field ??= new("LocationCode", "\uFBB2", Sources.LocationCode, "Map", ["programming", "software", "script", "algorithm", "cipher", "decode", "encode", "function", "syntax", "compile"]);
+	public static TablerIcon LocationCog => field ??= new("LocationCog", "\uFBB3", Sources.LocationCog, "Map", ["settings", "gear", "configure", "adjust", "control", "modify", "tune", "regulate", "calibrate", "system"]);
+	public static TablerIcon LocationDollar => field ??= new("LocationDollar", "\uFBB5", Sources.LocationDollar, "Map", ["currency", "money", "finance", "cash", "payment", "economy", "wealth", "income", "fund", "transaction"]);
+	public static TablerIcon LocationDown => field ??= new("LocationDown", "\uFBB6", Sources.LocationDown, "Map", ["descend", "fall", "decrease", "drop", "lower", "sink", "diminish", "reduce", "subside", "plunge"]);
+	public static TablerIcon LocationExclamation => field ??= new("LocationExclamation", "\uFBB7", Sources.LocationExclamation, "Map", ["alert", "warning", "caution", "notice", "attention", "emphasize", "important", "notify", "highlight", "signal"]);
+	public static TablerIcon LocationFilled => field ??= new("LocationFilled", "\uF67F", Sources.LocationFilled, "Map", ["navigation", "map", "direction", "discover", "travel", "location", "geography", "place", "position"]);
+	public static TablerIcon LocationHeart => field ??= new("LocationHeart", "\uFBB8", Sources.LocationHeart, "Map", ["love", "affection", "like", "passion", "emotion", "fondness", "adoration", "desire", "appreciation", "care"]);
+	public static TablerIcon LocationMinus => field ??= new("LocationMinus", "\uFBB9", Sources.LocationMinus, "Map", ["subtract", "reduce", "decrease", "lessen", "diminish", "remove", "takeaway", "minus", "negate", "location"]);
+	public static TablerIcon LocationOff => field ??= new("LocationOff", "\uF155", Sources.LocationOff, "Map", ["navigation", "map", "direction", "discover", "travel", "location", "off", "disabled", "inactive", "geography"]);
+	public static TablerIcon LocationPause => field ??= new("LocationPause", "\uFBBA", Sources.LocationPause, "Map", ["halt", "break", "stop", "interruption", "cease", "freeze", "wait", "delay", "suspend", "linger"]);
+	public static TablerIcon LocationPin => field ??= new("LocationPin", "\uFBBB", Sources.LocationPin, "Map", ["marker", "point", "drop", "pointer", "site", "place", "spot", "map", "indicator", "location"]);
+	public static TablerIcon LocationPlus => field ??= new("LocationPlus", "\uFBBC", Sources.LocationPlus, "Map", ["add", "increase", "expand", "amplify", "augment", "extend", "escalate", "enlarge", "boost", "advance"]);
+	public static TablerIcon LocationQuestion => field ??= new("LocationQuestion", "\uFBBD", Sources.LocationQuestion, "Map", ["query", "ask", "inquire", "probe", "quiz", "wonder", "explore", "interrogate", "investigate", "doubt"]);
+	public static TablerIcon LocationSearch => field ??= new("LocationSearch", "\uFBBE", Sources.LocationSearch, "Map", ["find", "discover", "locate", "seek", "explore", "look", "investigate", "probe", "scan", "delve"]);
+	public static TablerIcon LocationShare => field ??= new("LocationShare", "\uFBBF", Sources.LocationShare, "Map", ["distribute", "give", "send", "forward", "assign", "allocate", "disseminate", "spread", "impart", "divide"]);
+	public static TablerIcon LocationStar => field ??= new("LocationStar", "\uFBC0", Sources.LocationStar, "Map", ["favorite", "rate", "highlight", "notable", "prestige", "celebrity", "important", "acclaim", "renown", "shine"]);
+	public static TablerIcon LocationUp => field ??= new("LocationUp", "\uFBC1", Sources.LocationUp, "Map", ["ascend", "rise", "increase", "climb", "elevate", "boost", "uplift", "enhance", "escalate", "soar"]);
+	public static TablerIcon LocationX => field ??= new("LocationX", "\uFBC2", Sources.LocationX, "Map", ["close", "remove", "delete", "cancel", "cross", "negate", "eliminate", "terminate", "end", "exit"]);
+	public static TablerIcon Map2 => field ??= new("Map2", "\uEAE7", Sources.Map2, "Map", ["navigation", "location", "travel", "pin", "position", "marker", "map", "geography", "place", "2"]);
+	public static TablerIcon MapBolt => field ??= new("MapBolt", "\uFBC3", Sources.MapBolt, "Map", ["charge", "power", "lightning", "thunder", "electric", "energy", "flash", "zap", "storm", "force"]);
+	public static TablerIcon MapCancel => field ??= new("MapCancel", "\uFBC4", Sources.MapCancel, "Map", ["void", "dismiss", "negate", "stop", "abort", "halt", "revoke", "quit", "retract", "discontinue"]);
+	public static TablerIcon MapCheck => field ??= new("MapCheck", "\uFBC5", Sources.MapCheck, "Map", ["verify", "approve", "confirm", "validate", "ensure", "authenticate", "inspect", "certify", "affirm", "map"]);
+	public static TablerIcon MapCode => field ??= new("MapCode", "\uFBC6", Sources.MapCode, "Map", ["encrypt", "program", "key", "cipher", "algorithm", "syntax", "script", "data", "language", "encode"]);
+	public static TablerIcon MapCog => field ??= new("MapCog", "\uFBC7", Sources.MapCog, "Map", ["settings", "adjust", "configure", "mechanism", "engine", "process", "gear", "system", "apparatus", "tweak"]);
+	public static TablerIcon MapDiscount => field ??= new("MapDiscount", "\uFBC8", Sources.MapDiscount, "Map", ["bargain", "sale", "off", "reduce", "cut", "decrease", "deduct", "concession", "markdown", "deal"]);
+	public static TablerIcon MapDollar => field ??= new("MapDollar", "\uFBC9", Sources.MapDollar, "Map", ["currency", "money", "finance", "cash", "economy", "payment", "funds", "wealth", "revenue", "profit"]);
+	public static TablerIcon MapDown => field ??= new("MapDown", "\uFBCA", Sources.MapDown, "Map", ["decrease", "lower", "reduce", "descend", "drop", "decline", "fall", "sink", "plunge", "subside"]);
+	public static TablerIcon MapEast => field ??= new("MapEast", "\uFC5D", Sources.MapEast, "Map", ["orient", "sunrise", "direction", "right", "oriental", "asia", "compass", "cardinal", "sunup", "far"]);
+	public static TablerIcon MapExclamation => field ??= new("MapExclamation", "\uFBCB", Sources.MapExclamation, "Map", ["alert", "warn", "caution", "notice", "emphasis", "signal", "highlight", "stress", "attention", "callout"]);
+	public static TablerIcon MapHeart => field ??= new("MapHeart", "\uFBCC", Sources.MapHeart, "Map", ["love", "affection", "romance", "care", "passion", "emotion", "fondness", "devotion", "adore", "cherish"]);
+	public static TablerIcon MapIcon => field ??= new("MapIcon", "\uEAE9", Sources.MapIcon, "Map", ["navigation", "location", "travel", "map", "geography", "place", "position"]);
+	public static TablerIcon MapLock => field ??= new("MapLock", char.ConvertFromUtf32(0x10203), Sources.MapLock, "Map", ["map", "lock", "security", "location", "protected", "access", "secure"]);
+	public static TablerIcon MapMinus => field ??= new("MapMinus", "\uFBCD", Sources.MapMinus, "Map", ["subtract", "reduce", "lessen", "decrease", "diminish", "lower", "deduct", "decline", "shrink", "contract"]);
+	public static TablerIcon MapNorth => field ??= new("MapNorth", "\uFC5E", Sources.MapNorth, "Map", ["northward", "upward", "compass", "boreal", "cardinal", "arctic", "poleward", "direction", "trip", "geographic"]);
+	public static TablerIcon MapOff => field ??= new("MapOff", "\uF15C", Sources.MapOff, "Map", ["navigation", "location", "travel", "map", "off", "disabled", "inactive", "geography", "place", "position"]);
+	public static TablerIcon MapPause => field ??= new("MapPause", "\uFBCE", Sources.MapPause, "Map", ["stop", "halt", "break", "wait", "delay", "interruption", "hold", "cease", "freeze", "suspend"]);
+	public static TablerIcon MapPin => field ??= new("MapPin", "\uEAE8", Sources.MapPin, "Map", ["navigation", "location", "travel", "pin", "position", "marker", "map", "attach", "fix", "mark"]);
+	public static TablerIcon MapPin2 => field ??= new("MapPin2", "\uFC48", Sources.MapPin2, "Map", ["locate", "landmark", "site", "fixed", "anchor", "point", "attach", "secure", "embed", "map"]);
+	public static TablerIcon MapPinBolt => field ??= new("MapPinBolt", "\uF94A", Sources.MapPinBolt, "Map", ["energize", "spark", "charge", "thunder", "dynamic", "lightning", "flash", "impulse", "storm", "shock"]);
+	public static TablerIcon MapPinCancel => field ??= new("MapPinCancel", "\uF94B", Sources.MapPinCancel, "Map", ["retract", "nullify", "undo", "remove", "eliminate", "dismiss", "delete", "void", "reject", "discard"]);
+	public static TablerIcon MapPinCheck => field ??= new("MapPinCheck", "\uF94C", Sources.MapPinCheck, "Map", ["approve", "validate", "confirm", "verify", "certify", "affirm", "correct", "inspect", "authenticate", "endorse"]);
+	public static TablerIcon MapPinCode => field ??= new("MapPinCode", "\uF94D", Sources.MapPinCode, "Map", ["cipher", "cryptic", "encrypt", "program", "key", "script", "syntax", "translate", "compute", "algorithm"]);
+	public static TablerIcon MapPinCog => field ??= new("MapPinCog", "\uF94E", Sources.MapPinCog, "Map", ["configure", "adjust", "gear", "apparatus", "mechanism", "tweak", "system", "settings", "operation", "process"]);
+	public static TablerIcon MapPinDollar => field ??= new("MapPinDollar", "\uF94F", Sources.MapPinDollar, "Map", ["currency", "value", "payment", "wealth", "funds", "cash", "finance", "profit", "revenue", "investment"]);
+	public static TablerIcon MapPinDown => field ??= new("MapPinDown", "\uF950", Sources.MapPinDown, "Map", ["drop", "shift", "descend", "lower", "decline", "plunge", "sink", "reduce", "fall", "decrease"]);
+	public static TablerIcon MapPinExclamation => field ??= new("MapPinExclamation", "\uF951", Sources.MapPinExclamation, "Map", ["alert", "warning", "attention", "urgent", "notify", "caution", "emphasis", "important", "signal", "highlight"]);
+	public static TablerIcon MapPinFilled => field ??= new("MapPinFilled", "\uF680", Sources.MapPinFilled, "Map", ["navigation", "location", "travel", "pin", "position", "marker", "map", "attach", "fix", "mark"]);
+	public static TablerIcon MapPinHeart => field ??= new("MapPinHeart", "\uF952", Sources.MapPinHeart, "Map", ["love", "favorite", "like", "affection", "emotion", "passion", "romantic", "adore", "cherish", "valentine"]);
+	public static TablerIcon MapPinMinus => field ??= new("MapPinMinus", "\uF953", Sources.MapPinMinus, "Map", ["decrease", "subtract", "remove", "reduce", "lessen", "detract", "shorten", "minimize", "negate", "deduct"]);
+	public static TablerIcon MapPinOff => field ??= new("MapPinOff", "\uECF3", Sources.MapPinOff, "Map", ["navigation", "location", "travel", "pin", "position", "marker", "map", "off", "disabled", "inactive"]);
+	public static TablerIcon MapPinPause => field ??= new("MapPinPause", "\uF954", Sources.MapPinPause, "Map", ["halt", "stop", "break", "interrupt", "pause", "wait", "hold", "delay", "stall", "freeze"]);
+	public static TablerIcon MapPinPin => field ??= new("MapPinPin", "\uF955", Sources.MapPinPin, "Map", ["secure", "attach", "fix", "position", "locate", "mark", "anchor", "stable", "stick", "fasten"]);
+	public static TablerIcon MapPinPlus => field ??= new("MapPinPlus", "\uF956", Sources.MapPinPlus, "Map", ["add", "increase", "expand", "enlarge", "grow", "boost", "enhance", "amplify", "raise", "supplement"]);
+	public static TablerIcon MapPinQuestion => field ??= new("MapPinQuestion", "\uF957", Sources.MapPinQuestion, "Map", ["inquire", "ask", "wonder", "confuse", "puzzle", "curious", "doubt", "query", "seek", "probability"]);
+	public static TablerIcon MapPins => field ??= new("MapPins", "\uED5E", Sources.MapPins, "Map", ["place", "direction", "travel", "destination", "mark", "location", "address", "map", "pins", "navigation"]);
+	public static TablerIcon MapPinSearch => field ??= new("MapPinSearch", "\uF958", Sources.MapPinSearch, "Map", ["find", "locate", "seek", "explore", "scan", "look", "discover", "detect", "probe", "inspect"]);
+	public static TablerIcon MapPinShare => field ??= new("MapPinShare", "\uF795", Sources.MapPinShare, "Map", ["location", "gps", "pointer", "marker", "place", "send", "map", "pin", "share", "navigation"]);
+	public static TablerIcon MapPinStar => field ??= new("MapPinStar", "\uF959", Sources.MapPinStar, "Map", ["highlight", "favorite", "feature", "emphasize", "spotlight", "shine", "premium", "top", "elite", "noteworthy"]);
+	public static TablerIcon MapPinUp => field ??= new("MapPinUp", "\uF95A", Sources.MapPinUp, "Map", ["elevate", "raise", "increase", "ascend", "advance", "boost", "climb", "uplift", "lift", "heighten"]);
+	public static TablerIcon MapPinX => field ??= new("MapPinX", "\uF95B", Sources.MapPinX, "Map", ["cross", "remove", "cancel", "delete", "close", "void", "reject", "exclude", "terminate", "stop"]);
+	public static TablerIcon MapPlus => field ??= new("MapPlus", "\uFBCF", Sources.MapPlus, "Map", ["expand", "enlarge", "add", "increase", "grow", "upscale", "multiply", "boost", "enhance", "extend"]);
+	public static TablerIcon MapQuestion => field ??= new("MapQuestion", "\uFBD0", Sources.MapQuestion, "Map", ["inquiry", "query", "ask", "explore", "puzzle", "confuse", "investigate", "research", "examine", "exploration"]);
+	public static TablerIcon MapRoute => field ??= new("MapRoute", "\uFC79", Sources.MapRoute, "Map", ["path", "way", "course", "track", "journey", "navigation", "direction", "trail", "road", "map"]);
+	public static TablerIcon MapSearch => field ??= new("MapSearch", "\uEF82", Sources.MapSearch, "Map", ["location", "navigation", "gps", "find", "pin", "map", "search", "look", "seek", "query"]);
+	public static TablerIcon MapShare => field ??= new("MapShare", "\uFBD1", Sources.MapShare, "Map", ["distribute", "spread", "exchange", "give", "publish", "connect", "send", "communicate", "broadcast", "release"]);
+	public static TablerIcon MapShield => field ??= new("MapShield", char.ConvertFromUtf32(0x10202), Sources.MapShield, "Map", ["map", "shield", "security", "protection", "location", "safe", "guarded"]);
+	public static TablerIcon MapSouth => field ??= new("MapSouth", "\uFC5F", Sources.MapSouth, "Map", ["down", "below", "lower", "under", "beneath", "sub", "southward", "descend", "bottom", "inferior"]);
+	public static TablerIcon MapStar => field ??= new("MapStar", "\uFBD2", Sources.MapStar, "Map", ["favorite", "highlight", "feature", "premium", "elite", "top", "famous", "prominent", "renowned", "prestige"]);
+	public static TablerIcon MapUp => field ??= new("MapUp", "\uFBD3", Sources.MapUp, "Map", ["elevate", "raise", "ascend", "higher", "boost", "increase", "climb", "lift", "improve", "uplift"]);
+	public static TablerIcon MapWest => field ??= new("MapWest", "\uFC60", Sources.MapWest, "Map", ["left", "westward", "sunset", "horizon", "westbound", "western", "navigate", "direction", "sunfall", "occidental"]);
+	public static TablerIcon MapX => field ??= new("MapX", "\uFBD4", Sources.MapX, "Map", ["cross", "cancel", "forget", "delete", "deny", "void", "prohibit", "exclude", "disallow", "annul"]);
+	public static TablerIcon MasksTheater => field ??= new("MasksTheater", "\uF263", Sources.MasksTheater, "Map", ["cinema", "comedy", "acting", "face", "art", "masks", "theater", "location", "navigation", "geography"]);
+	public static TablerIcon MasksTheaterOff => field ??= new("MasksTheaterOff", "\uF408", Sources.MasksTheaterOff, "Map", ["cinema", "comedy", "acting", "face", "art", "masks", "theater", "off", "location", "navigation"]);
+	public static TablerIcon MedicalCross => field ??= new("MedicalCross", "\uEC2F", Sources.MedicalCross, "Map", ["sign", "hospital", "help", "indication", "medical", "cross", "location", "navigation", "geography", "place"]);
+	public static TablerIcon MedicalCrossCircle => field ??= new("MedicalCrossCircle", "\uFAE8", Sources.MedicalCrossCircle, "Map", ["health", "aid", "emergency", "hospital", "firstaid", "medic", "heal", "treatment", "care", "wellness"]);
+	public static TablerIcon MedicalCrossFilled => field ??= new("MedicalCrossFilled", "\uF681", Sources.MedicalCrossFilled, "Map", ["sign", "hospital", "help", "indication", "medical", "cross", "location", "navigation", "geography", "place"]);
+	public static TablerIcon MedicalCrossOff => field ??= new("MedicalCrossOff", "\uF160", Sources.MedicalCrossOff, "Map", ["sign", "hospital", "help", "indication", "medical", "cross", "off", "location", "navigation", "disabled"]);
+	public static TablerIcon Monkeybar => field ??= new("Monkeybar", "\uFEB4", Sources.Monkeybar, "Map", ["playground", "park", "monkey", "bar", "jungle", "gym", "exercise", "fitness", "outdoor", "fun", "children", "kids", "play", "swing", "jungle gym"]);
+	public static TablerIcon Navigation => field ??= new("Navigation", "\uF2C8", Sources.Navigation, "Map", ["map", "location", "direction", "pin", "gps", "navigation", "geography", "place", "position"]);
+	public static TablerIcon NavigationBolt => field ??= new("NavigationBolt", "\uFBE9", Sources.NavigationBolt, "Map", ["fast", "electric", "swift", "speed", "charge", "lightning", "dynamic", "racing", "accelerate", "quick"]);
+	public static TablerIcon NavigationCancel => field ??= new("NavigationCancel", "\uFBEA", Sources.NavigationCancel, "Map", ["stop", "abort", "end", "halt", "terminate", "cut", "cease", "close", "discontinue", "exit"]);
+	public static TablerIcon NavigationCheck => field ??= new("NavigationCheck", "\uFBEB", Sources.NavigationCheck, "Map", ["approve", "confirm", "validate", "verify", "agree", "accept", "okay", "pass", "authorization", "tick"]);
+	public static TablerIcon NavigationCode => field ??= new("NavigationCode", "\uFBEC", Sources.NavigationCode, "Map", ["program", "development", "syntax", "coding", "script", "sequence", "algorithm", "method", "digital", "parse"]);
+	public static TablerIcon NavigationCog => field ??= new("NavigationCog", "\uFBED", Sources.NavigationCog, "Map", ["settings", "gear", "mechanism", "adjustment", "options", "preferences", "customization", "control", "wheel", "configuration"]);
+	public static TablerIcon NavigationDiscount => field ??= new("NavigationDiscount", "\uFBEE", Sources.NavigationDiscount, "Map", ["sale", "offer", "promotion", "deal", "coupon", "rebate", "markdown", "pricecut", "bargain", "savings"]);
+	public static TablerIcon NavigationDollar => field ??= new("NavigationDollar", "\uFBEF", Sources.NavigationDollar, "Map", ["currency", "money", "finance", "cash", "payment", "wealth", "transaction", "banknote", "funds", "economics"]);
+	public static TablerIcon NavigationDown => field ??= new("NavigationDown", "\uFBF0", Sources.NavigationDown, "Map", ["lower", "descend", "below", "drop", "fall", "sink", "bottom", "submerge", "reduce", "decrease"]);
+	public static TablerIcon NavigationEast => field ??= new("NavigationEast", "\uFCBA", Sources.NavigationEast, "Map", ["rightward", "orient", "eastward", "sunrise", "asia", "oriental", "eastbound", "longitude", "eastside", "directional"]);
+	public static TablerIcon NavigationExclamation => field ??= new("NavigationExclamation", "\uFBF1", Sources.NavigationExclamation, "Map", ["alert", "attention", "notice", "warning", "remark", "surprise", "point", "caution", "highlight", "emphasis"]);
+	public static TablerIcon NavigationFilled => field ??= new("NavigationFilled", "\uF685", Sources.NavigationFilled, "Map", ["map", "location", "direction", "pin", "gps", "navigation", "geography", "place", "position"]);
+	public static TablerIcon NavigationHeart => field ??= new("NavigationHeart", "\uFBF2", Sources.NavigationHeart, "Map", ["love", "affection", "like", "favorite", "care", "passion", "romance", "emotion", "devotion", "pulse"]);
+	public static TablerIcon NavigationMinus => field ??= new("NavigationMinus", "\uFBF3", Sources.NavigationMinus, "Map", ["subtract", "remove", "decrease", "reduce", "deduct", "less", "negate", "takeaway", "negative", "shorten"]);
+	public static TablerIcon NavigationNorth => field ??= new("NavigationNorth", "\uFCBB", Sources.NavigationNorth, "Map", ["upward", "arctic", "northern", "polar", "topside", "ascend", "climb", "uphill", "northward", "cardinal"]);
+	public static TablerIcon NavigationOff => field ??= new("NavigationOff", "\uF413", Sources.NavigationOff, "Map", ["map", "location", "direction", "pin", "gps", "navigation", "off", "disabled", "inactive", "geography"]);
+	public static TablerIcon NavigationPause => field ??= new("NavigationPause", "\uFBF4", Sources.NavigationPause, "Map", ["stop", "halt", "wait", "break", "intermission", "rest", "delay", "freeze", "pausebutton", "cease"]);
+	public static TablerIcon NavigationPin => field ??= new("NavigationPin", "\uFBF5", Sources.NavigationPin, "Map", ["point", "marker", "destination", "location", "place", "position", "spot", "tack", "map", "pushpin"]);
+	public static TablerIcon NavigationPlus => field ??= new("NavigationPlus", "\uFBF6", Sources.NavigationPlus, "Map", ["add", "increase", "gain", "more", "expand", "augment", "include", "positive", "additional", "supplement"]);
+	public static TablerIcon NavigationQuestion => field ??= new("NavigationQuestion", "\uFBF7", Sources.NavigationQuestion, "Map", ["ask", "inquire", "query", "doubt", "enquiry", "uncertain", "confusion", "probe", "puzzle", "interrogate"]);
+	public static TablerIcon NavigationSearch => field ??= new("NavigationSearch", "\uFBF8", Sources.NavigationSearch, "Map", ["find", "explore", "lookup", "detect", "seek", "discover", "scout", "inspect", "investigate", "locate"]);
+	public static TablerIcon NavigationShare => field ??= new("NavigationShare", "\uFBF9", Sources.NavigationShare, "Map", ["distribute", "exchange", "broadcast", "spread", "circulate", "publish", "post", "collaborate", "connect", "send"]);
+	public static TablerIcon NavigationSouth => field ??= new("NavigationSouth", "\uFCBC", Sources.NavigationSouth, "Map", ["downward", "southern", "equator", "tropic", "descent", "drop", "southward", "bottomward", "antarctic", "latitude"]);
+	public static TablerIcon NavigationStar => field ??= new("NavigationStar", "\uFBFA", Sources.NavigationStar, "Map", ["favorite", "highlight", "fame", "rate", "celebrity", "asterisk", "notable", "feature", "shine", "emphasis"]);
+	public static TablerIcon NavigationTop => field ??= new("NavigationTop", "\uFAEC", Sources.NavigationTop, "Map", ["peak", "summit", "highest", "foremost", "acme", "crest", "pinnacle", "head", "vertex", "apex"]);
+	public static TablerIcon NavigationUp => field ??= new("NavigationUp", "\uFBFB", Sources.NavigationUp, "Map", ["ascend", "rise", "elevate", "climb", "increase", "surge", "uplift", "upward", "boost", "advance"]);
+	public static TablerIcon NavigationWest => field ??= new("NavigationWest", "\uFCBD", Sources.NavigationWest, "Map", ["leftward", "occidental", "westward", "sunset", "america", "westerly", "westbound", "westside", "latitude", "cardinal"]);
+	public static TablerIcon NavigationX => field ??= new("NavigationX", "\uFBFC", Sources.NavigationX, "Map", ["close", "exit", "terminate", "cancel", "reject", "deny", "remove", "eliminate", "cross", "end"]);
+	public static TablerIcon NorthStar => field ??= new("NorthStar", "\uF014", Sources.NorthStar, "Map", ["compas", "location", "point", "christmas", "direction", "north", "star", "navigation", "favorite", "rating"]);
+	public static TablerIcon Parking => field ??= new("Parking", "\uEB03", Sources.Parking, "Map", ["sign", "car", "vehicle", "space", "parking", "location", "navigation", "geography", "place", "position"]);
+	public static TablerIcon ParkingOff => field ??= new("ParkingOff", "\uF172", Sources.ParkingOff, "Map", ["sign", "car", "vehicle", "space", "parking", "off", "location", "navigation", "disabled", "inactive"]);
+	public static TablerIcon Pennant => field ??= new("Pennant", "\uED7D", Sources.Pennant, "Map", ["flag", "ship", "sports", "championship", "mark", "spot", "winner", "pennant", "location", "navigation"]);
+	public static TablerIcon Pennant2 => field ??= new("Pennant2", "\uF06A", Sources.Pennant2, "Map", ["flag", "ship", "sports", "championship", "mark", "spot", "winner", "pennant", "location", "navigation"]);
+	public static TablerIcon Pennant2Filled => field ??= new("Pennant2Filled", "\uF68A", Sources.Pennant2Filled, "Map", ["flag", "ship", "sports", "championship", "mark", "spot", "winner", "pennant", "location", "navigation"]);
+	public static TablerIcon PennantFilled => field ??= new("PennantFilled", "\uF68B", Sources.PennantFilled, "Map", ["flag", "ship", "sports", "championship", "mark", "spot", "winner", "pennant", "location", "navigation"]);
+	public static TablerIcon PennantOff => field ??= new("PennantOff", "\uF174", Sources.PennantOff, "Map", ["flag", "ship", "sports", "championship", "mark", "spot", "winner", "pennant", "off", "location"]);
+	public static TablerIcon PicnicTable => field ??= new("PicnicTable", "\uFED6", Sources.PicnicTable, "Map", ["outdoor", "furniture", "camping", "seat", "park", "garden", "nature", "wood", "food", "picnic"]);
+	public static TablerIcon Pin => field ??= new("Pin", "\uEC9C", Sources.Pin, "Map", ["thing", "localization", "maps", "clip", "place", "location", "pin", "navigation", "attach", "fix"]);
+	public static TablerIcon PinFilled => field ??= new("PinFilled", "\uF68D", Sources.PinFilled, "Map", ["thing", "localization", "maps", "clip", "place", "location", "pin", "navigation", "attach", "fix"]);
+	public static TablerIcon Pinned => field ??= new("Pinned", "\uED60", Sources.Pinned, "Map", ["board", "attach", "nail", "pointed", "corkboard", "favourite", "noticeboard", "pinned", "location", "navigation"]);
+	public static TablerIcon PinnedFilled => field ??= new("PinnedFilled", "\uF68E", Sources.PinnedFilled, "Map", ["board", "attach", "nail", "pointed", "corkboard", "favourite", "noticeboard", "pinned", "location", "navigation"]);
+	public static TablerIcon PinnedOff => field ??= new("PinnedOff", "\uED5F", Sources.PinnedOff, "Map", ["board", "attach", "nail", "pointed", "corkboard", "favourite", "noticeboard", "pinned", "off", "location"]);
+	public static TablerIcon Planet => field ??= new("Planet", "\uEC08", Sources.Planet, "Map", ["earth", "uranus", "universe", "space", "galaxy", "orbit", "atmosphere", "planet", "location", "navigation"]);
+	public static TablerIcon PlanetOff => field ??= new("PlanetOff", "\uF17B", Sources.PlanetOff, "Map", ["earth", "uranus", "universe", "space", "galaxy", "orbit", "atmosphere", "planet", "off", "location"]);
+	public static TablerIcon Pokeball => field ??= new("Pokeball", "\uEEC1", Sources.Pokeball, "Map", ["pokemon", "go", "catch", "game", "play", "pokeball", "location", "navigation", "geography", "place"]);
+	public static TablerIcon PokeballOff => field ??= new("PokeballOff", "\uF41C", Sources.PokeballOff, "Map", ["pokemon", "go", "catch", "game", "play", "pokeball", "off", "location", "navigation", "disabled"]);
+	public static TablerIcon Prison => field ??= new("Prison", "\uEF79", Sources.Prison, "Map", ["jail", "policeman", "police", "cop", "handcuff", "arrest", "prisoner", "thief", "prison", "location"]);
+	public static TablerIcon Radar => field ??= new("Radar", "\uF017", Sources.Radar, "Map", ["location", "navigation", "gps", "find", "signal", "technology", "submarine", "radar", "geography", "place"]);
+	public static TablerIcon Radar2 => field ??= new("Radar2", "\uF016", Sources.Radar2, "Map", ["location", "navigation", "gps", "find", "signal", "technology", "submarine", "radar", "geography", "place"]);
+	public static TablerIcon RadarFilled => field ??= new("RadarFilled", "\uFE0D", Sources.RadarFilled, "Map", ["location", "navigation", "gps", "find", "signal", "technology", "submarine", "radar", "geography", "place"]);
+	public static TablerIcon RadarOff => field ??= new("RadarOff", "\uF41F", Sources.RadarOff, "Map", ["location", "navigation", "gps", "find", "signal", "technology", "submarine", "radar", "off", "disabled"]);
+	public static TablerIcon Road => field ??= new("Road", "\uF018", Sources.Road, "Map", ["car", "travel", "journey", "traffic", "highway", "route", "racing", "road", "location", "navigation"]);
+	public static TablerIcon RoadOff => field ??= new("RoadOff", "\uF191", Sources.RoadOff, "Map", ["car", "travel", "journey", "traffic", "highway", "route", "racing", "road", "off", "location"]);
+	public static TablerIcon RoadSign => field ??= new("RoadSign", "\uECDD", Sources.RoadSign, "Map", ["telltale", "prohibitive", "indicative", "cautionary", "codex", "restrictions", "road", "sign", "location", "navigation"]);
+	public static TablerIcon Rocket => field ??= new("Rocket", "\uEC45", Sources.Rocket, "Map", ["universe", "galaxy", "space", "journey", "discover", "extraterrestrial", "spaceship", "rocket", "location", "navigation"]);
+	public static TablerIcon RocketOff => field ??= new("RocketOff", "\uF193", Sources.RocketOff, "Map", ["universe", "galaxy", "space", "journey", "discover", "extraterrestrial", "spaceship", "rocket", "off", "location"]);
+	public static TablerIcon Route => field ??= new("Route", "\uEB17", Sources.Route, "Map", ["path", "journey", "direction", "trail", "navigate", "travel", "way", "road", "travel-route", "route-way"]);
+	public static TablerIcon Route2 => field ??= new("Route2", "\uF4B6", Sources.Route2, "Map", ["path", "journey", "direction", "trail", "navigate", "travel", "way", "road", "route-two", "2-direction"]);
+	public static TablerIcon RouteAltLeft => field ??= new("RouteAltLeft", "\uFCA9", Sources.RouteAltLeft, "Map", ["alternate-left", "alternate-route", "left-path", "alternate-way", "left-trail", "alt-left-road", "leftward-route", "shift-left", "change-left", "left-road"]);
+	public static TablerIcon RouteAltRight => field ??= new("RouteAltRight", "\uFCAA", Sources.RouteAltRight, "Map", ["alternate-right", "alternate-route", "right-path", "alternate-way", "right-trail", "alt-right-road", "rightward-route", "shift-right", "change-right", "right-road"]);
+	public static TablerIcon RouteOff => field ??= new("RouteOff", "\uF194", Sources.RouteOff, "Map", ["path", "journey", "direction", "trail", "navigate", "travel", "way", "road", "travel-route", "route-way"]);
+	public static TablerIcon RouteSquare => field ??= new("RouteSquare", "\uFCAC", Sources.RouteSquare, "Map", ["path", "journey", "direction", "trail", "navigate", "travel", "way", "square", "geometric-route", "square-path"]);
+	public static TablerIcon RouteSquare2 => field ??= new("RouteSquare2", "\uFCAB", Sources.RouteSquare2, "Map", ["square-route", "route-square", "path", "journey", "direction", "trail", "navigate", "travel", "way", "square-direction"]);
+	public static TablerIcon RouteX => field ??= new("RouteX", "\uFCAE", Sources.RouteX, "Map", ["path", "journey", "direction", "trail", "navigate", "travel", "way", "cross", "x-cross", "cross-path"]);
+	public static TablerIcon RouteX2 => field ??= new("RouteX2", "\uFCAD", Sources.RouteX2, "Map", ["x-route", "route-x", "path", "journey", "direction", "trail", "navigate", "travel", "way", "crossing"]);
+	public static TablerIcon Satellite => field ??= new("Satellite", "\uEED3", Sources.Satellite, "Map", ["orbit", "space", "moon", "earth", "planet", "communication", "information", "celestial", "satellite", "location"]);
+	public static TablerIcon SatelliteFilled => field ??= new("SatelliteFilled", char.ConvertFromUtf32(0x101b4), Sources.SatelliteFilled, "Map", ["orbit", "space", "moon", "earth", "planet", "communication", "information", "celestial", "satellite", "location"]);
+	public static TablerIcon SatelliteOff => field ??= new("SatelliteOff", "\uF197", Sources.SatelliteOff, "Map", ["orbit", "space", "moon", "earth", "planet", "communication", "information", "celestial", "satellite", "off"]);
+	public static TablerIcon School => field ??= new("School", "\uECF7", Sources.School, "Map", ["students", "class", "teachers", "professors", "doctors", "hall", "classroom", "subject", "science", "break", "lesson"]);
+	public static TablerIcon SchoolFilled => field ??= new("SchoolFilled", char.ConvertFromUtf32(0x101cc), Sources.SchoolFilled, "Map", ["students", "class", "teachers", "professors", "doctors", "hall", "classroom", "subject", "science", "break", "lesson"]);
+	public static TablerIcon SchoolOff => field ??= new("SchoolOff", "\uF19A", Sources.SchoolOff, "Map", ["students", "class", "teachers", "professors", "doctors", "hall", "classroom", "subject", "science", "break", "lesson"]);
+	public static TablerIcon SignLeft => field ??= new("SignLeft", "\uF06B", Sources.SignLeft, "Map", ["direction", "west", "navigation", "arrow", "navigate", "sign", "left", "location", "geography", "place"]);
+	public static TablerIcon SignLeftFilled => field ??= new("SignLeftFilled", "\uF6A1", Sources.SignLeftFilled, "Map", ["direction", "west", "navigation", "arrow", "navigate", "sign", "left", "location", "geography", "place"]);
+	public static TablerIcon SignRight => field ??= new("SignRight", "\uF06C", Sources.SignRight, "Map", ["direction", "east", "navigation", "arrow", "navigate", "sign", "right", "location", "geography", "place"]);
+	public static TablerIcon SignRightFilled => field ??= new("SignRightFilled", "\uF6A2", Sources.SignRightFilled, "Map", ["direction", "east", "navigation", "arrow", "navigate", "sign", "right", "location", "geography", "place"]);
+	public static TablerIcon Stairs => field ??= new("Stairs", "\uECA6", Sources.Stairs, "Map", ["building", "step", "floor", "staircase", "stairs", "location", "navigation", "geography", "place", "position"]);
+	public static TablerIcon StairsDown => field ??= new("StairsDown", "\uECA4", Sources.StairsDown, "Map", ["building", "step", "floor", "staircase", "clamber", "stairs", "down", "bottom", "decrease", "location"]);
+	public static TablerIcon StairsUp => field ??= new("StairsUp", "\uECA5", Sources.StairsUp, "Map", ["building", "step", "floor", "staircase", "entryway", "stairs", "top", "increase", "location", "navigation"]);
+	public static TablerIcon Target => field ??= new("Target", "\uEB35", Sources.Target, "Map", ["focus", "bullseye", "aim", "target", "location", "navigation", "geography", "place", "position"]);
+	public static TablerIcon TargetOff => field ??= new("TargetOff", "\uF1AD", Sources.TargetOff, "Map", ["focus", "bullseye", "aim", "target", "off", "location", "navigation", "disabled", "inactive", "geography"]);
+	public static TablerIcon Tent => field ??= new("Tent", "\uEEFB", Sources.Tent, "Map", ["camping", "holiday", "vacation", "outdoor", "survival", "travel", "adventure", "tent", "location", "navigation"]);
+	public static TablerIcon TentOff => field ??= new("TentOff", "\uF435", Sources.TentOff, "Map", ["camping", "holiday", "vacation", "outdoor", "survival", "travel", "adventure", "tent", "off", "location"]);
+	public static TablerIcon Theater => field ??= new("Theater", "\uF79B", Sources.Theater, "Map", ["movie", "film", "show", "mask", "entertainment", "theater", "location", "navigation", "geography", "place"]);
+	public static TablerIcon ToolsKitchen2Off => field ??= new("ToolsKitchen2Off", "\uF1B5", Sources.ToolsKitchen2Off, "Map", ["knife", "fork", "spoon", "cutlery", "eat", "restaurant", "menu", "cafe", "cook", "cut", "soup", "dinner", "breakfast", "dining", "plate", "dish"]);
+	public static TablerIcon ToolsKitchenOff => field ??= new("ToolsKitchenOff", "\uF1B6", Sources.ToolsKitchenOff, "Map", ["knife", "fork", "spoon", "cutlery", "eat", "restaurant", "menu", "cafe", "cook", "cut", "soup", "dinner", "breakfast", "dining", "plate", "dish"]);
+	public static TablerIcon TrafficCone => field ??= new("TrafficCone", "\uEC0F", Sources.TrafficCone, "Map", ["street", "road", "vehicle", "repair", "warning", "lane", "drive", "traffic", "cone", "location"]);
+	public static TablerIcon TrafficConeOff => field ??= new("TrafficConeOff", "\uF1B8", Sources.TrafficConeOff, "Map", ["street", "road", "vehicle", "repair", "warning", "lane", "drive", "traffic", "cone", "off"]);
+	public static TablerIcon TrafficLights => field ??= new("TrafficLights", "\uED39", Sources.TrafficLights, "Map", ["street", "road", "green", "red", "yellow", "vehicle", "stop", "drive", "crossing", "pedestrian", "crossroads", "junction", "intersection"]);
+	public static TablerIcon TrafficLightsOff => field ??= new("TrafficLightsOff", "\uF1B9", Sources.TrafficLightsOff, "Map", ["street", "road", "green", "red", "yellow", "vehicle", "stop", "drive", "crossing", "pedestrian", "crossroads", "junction", "intersection"]);
+	public static TablerIcon Tree => field ??= new("Tree", "\uEF01", Sources.Tree, "Map", ["nature", "greenery", "park", "leaf", "trunk", "stem", "root", "forest", "garden", "tree"]);
+	public static TablerIcon Trees => field ??= new("Trees", "\uEC10", Sources.Trees, "Map", ["nature", "greenery", "park", "leaf", "trunk", "stem", "root", "forest", "garden", "trees"]);
+	public static TablerIcon Viewfinder => field ??= new("Viewfinder", "\uEB4E", Sources.Viewfinder, "Map", ["target", "aim", "focus", "viewfinder", "location", "navigation", "geography", "place", "position"]);
+	public static TablerIcon ViewfinderOff => field ??= new("ViewfinderOff", "\uF1C2", Sources.ViewfinderOff, "Map", ["target", "aim", "focus", "viewfinder", "off", "location", "navigation", "disabled", "inactive", "geography"]);
+	public static TablerIcon Volcano => field ??= new("Volcano", "\uF79C", Sources.Volcano, "Map", ["erumption", "lava", "nature", "danger", "explosion", "volcano", "location", "navigation", "geography", "place"]);
+	public static TablerIcon Windmill => field ??= new("Windmill", "\uED85", Sources.Windmill, "Map", ["generate", "power", "blade", "energy", "electricity", "windmill", "location", "navigation", "geography", "place"]);
+	public static TablerIcon WindmillFilled => field ??= new("WindmillFilled", "\uF6B2", Sources.WindmillFilled, "Map", ["generate", "power", "blade", "energy", "electricity", "windmill", "location", "navigation", "geography", "place"]);
+	public static TablerIcon WindmillOff => field ??= new("WindmillOff", "\uF1C8", Sources.WindmillOff, "Map", ["generate", "power", "blade", "energy", "electricity", "windmill", "off", "location", "navigation", "disabled"]);
+	public static TablerIcon Windsock => field ??= new("Windsock", "\uF06D", Sources.Windsock, "Map", ["weather", "meteorology", "windy", "storm", "wind", "windsock", "location", "navigation", "geography", "place"]);
+	public static TablerIcon WindsockFilled => field ??= new("WindsockFilled", char.ConvertFromUtf32(0x1009a), Sources.WindsockFilled, "Map", ["weather", "meteorology", "windy", "storm", "wind", "windsock", "location", "navigation", "geography", "place"]);
+	public static TablerIcon World => field ??= new("World", "\uEB54", Sources.World, "Map", ["earth", "globe", "global", "language", "union", "world", "location", "navigation", "geography", "place"]);
+	public static TablerIcon WorldBolt => field ??= new("WorldBolt", "\uF9D9", Sources.WorldBolt, "Map", ["fast", "instant", "speed", "global", "electric", "impact", "energy", "strike", "lightning", "flash"]);
+	public static TablerIcon WorldCancel => field ??= new("WorldCancel", "\uF9DA", Sources.WorldCancel, "Map", ["stop", "halt", "terminate", "void", "invalidate", "abort", "end", "cease", "prevent", "reject"]);
+	public static TablerIcon WorldCheck => field ??= new("WorldCheck", "\uF9DB", Sources.WorldCheck, "Map", ["verify", "approve", "confirm", "validate", "correct", "ensure", "certify", "global", "accept", "world"]);
+	public static TablerIcon WorldCode => field ??= new("WorldCode", "\uF9DC", Sources.WorldCode, "Map", ["programming", "software", "development", "script", "internet", "technology", "digital", "encrypt", "global", "computer"]);
+	public static TablerIcon WorldCog => field ??= new("WorldCog", "\uF9DD", Sources.WorldCog, "Map", ["settings", "configure", "gear", "adjust", "mechanism", "system", "control", "customize", "global", "engine"]);
+	public static TablerIcon WorldDollar => field ??= new("WorldDollar", "\uF9DE", Sources.WorldDollar, "Map", ["finance", "currency", "economics", "global", "money", "trade", "wealth", "business", "budget", "fiscal"]);
+	public static TablerIcon WorldDown => field ??= new("WorldDown", "\uF9DF", Sources.WorldDown, "Map", ["lower", "descend", "decrease", "sink", "drop", "global", "reduce", "fall", "diminish", "decline"]);
+	public static TablerIcon WorldDownload => field ??= new("WorldDownload", "\uEF8A", Sources.WorldDownload, "Map", ["global", "down", "globe", "arrow", "earth", "world", "download", "location", "navigation", "geography"]);
+	public static TablerIcon WorldExclamation => field ??= new("WorldExclamation", "\uF9E0", Sources.WorldExclamation, "Map", ["alert", "important", "notice", "attention", "caution", "warning", "global", "highlight", "urgent", "remark"]);
+	public static TablerIcon WorldFilled => field ??= new("WorldFilled", char.ConvertFromUtf32(0x101c7), Sources.WorldFilled, "Map", ["earth", "globe", "global", "language", "union", "world", "location", "navigation", "geography", "place"]);
+	public static TablerIcon WorldHeart => field ??= new("WorldHeart", "\uF9E1", Sources.WorldHeart, "Map", ["love", "care", "affection", "emotion", "compassion", "global", "humanity", "bond", "connection", "empathy"]);
+	public static TablerIcon WorldLatitude => field ??= new("WorldLatitude", "\uED2E", Sources.WorldLatitude, "Map", ["earth", "globe", "global", "language", "union", "world", "latitude", "location", "navigation", "geography"]);
+	public static TablerIcon WorldLongitude => field ??= new("WorldLongitude", "\uED2F", Sources.WorldLongitude, "Map", ["earth", "globe", "global", "language", "union", "world", "longitude", "location", "navigation", "geography"]);
+	public static TablerIcon WorldMap => field ??= new("WorldMap", char.ConvertFromUtf32(0x101e9), Sources.WorldMap, "Map", ["world", "map", "globe", "earth", "geography", "location", "travel", "planet", "navigation"]);
+	public static TablerIcon WorldMinus => field ??= new("WorldMinus", "\uF9E2", Sources.WorldMinus, "Map", ["reduce", "subtract", "decrease", "delete", "remove", "diminish", "global", "lessen", "deduct", "deplete"]);
+	public static TablerIcon WorldOff => field ??= new("WorldOff", "\uF1CA", Sources.WorldOff, "Map", ["earth", "globe", "global", "language", "union", "world", "off", "location", "navigation", "disabled"]);
+	public static TablerIcon WorldPause => field ??= new("WorldPause", "\uF9E3", Sources.WorldPause, "Map", ["halt", "rest", "stop", "freeze", "break", "suspend", "global", "interval", "wait", "intermission"]);
+	public static TablerIcon WorldPin => field ??= new("WorldPin", "\uF9E4", Sources.WorldPin, "Map", ["location", "marker", "spot", "global", "place", "position", "site", "point", "navigate", "enzyme"]);
+	public static TablerIcon WorldPlus => field ??= new("WorldPlus", "\uF9E5", Sources.WorldPlus, "Map", ["add", "increase", "expand", "global", "grow", "enlarge", "supplement", "augment", "boost", "amplify"]);
+	public static TablerIcon WorldQuestion => field ??= new("WorldQuestion", "\uF9E6", Sources.WorldQuestion, "Map", ["inquire", "ask", "wonder", "curiosity", "global", "puzzle", "query", "doubt", "uncertainty", "probe"]);
+	public static TablerIcon WorldSearch => field ??= new("WorldSearch", "\uF9E7", Sources.WorldSearch, "Map", ["explore", "find", "seek", "lookup", "inspect", "scan", "global", "hunt", "pursue", "discover"]);
+	public static TablerIcon WorldShare => field ??= new("WorldShare", "\uF9E8", Sources.WorldShare, "Map", ["distribute", "broadcast", "communicate", "transfer", "global", "convey", "transmit", "spread", "disseminate", "exchange"]);
+	public static TablerIcon WorldStar => field ??= new("WorldStar", "\uF9E9", Sources.WorldStar, "Map", ["globe", "stellar", "earth", "universe", "cosmos", "planet", "celestial", "galaxy", "shine", "astronomy"]);
+	public static TablerIcon WorldUp => field ??= new("WorldUp", "\uF9EA", Sources.WorldUp, "Map", ["ascend", "rise", "elevate", "uplift", "skyward", "summit", "advance", "climb", "soar", "progress"]);
+	public static TablerIcon WorldUpload => field ??= new("WorldUpload", "\uEF8B", Sources.WorldUpload, "Map", ["earth", "global", "up", "globe", "arrow", "internet", "world", "upload", "import", "transfer"]);
+	public static TablerIcon WorldWww => field ??= new("WorldWww", "\uF38F", Sources.WorldWww, "Map", ["internet", "online", "web", "website", "browser", "world", "www", "location", "navigation", "geography"]);
+	public static TablerIcon WorldX => field ??= new("WorldX", "\uF9EB", Sources.WorldX, "Map", ["cancel", "reject", "deny", "cross", "exclude", "ban", "prohibit", "halt", "terminate", "remove"]);
+	public static TablerIcon Zoom => field ??= new("Zoom", "\uFDAA", Sources.Zoom, "Map", ["find", "magnifier", "magnifying glass", "zoom", "location", "navigation", "magnify", "enlarge", "scale", "focus"]);
+	public static TablerIcon ZoomCancel => field ??= new("ZoomCancel", "\uEC4D", Sources.ZoomCancel, "Map", ["magnifying glass", "zoom", "cancel", "location", "navigation", "magnify", "enlarge", "scale", "focus", "view"]);
+	public static TablerIcon ZoomCancelFilled => field ??= new("ZoomCancelFilled", "\uFDC6", Sources.ZoomCancelFilled, "Map", ["magnifying glass", "zoom", "cancel", "location", "navigation", "magnify", "enlarge", "scale", "focus", "view"]);
+	public static TablerIcon ZoomCheck => field ??= new("ZoomCheck", "\uEF09", Sources.ZoomCheck, "Map", ["verify", "magnifying", "glass", "magnifier", "ok", "done", "zoom", "check", "location", "navigation"]);
+	public static TablerIcon ZoomCheckFilled => field ??= new("ZoomCheckFilled", "\uF786", Sources.ZoomCheckFilled, "Map", ["verify", "magnifying", "glass", "magnifier", "ok", "done", "zoom", "check", "location", "navigation"]);
+	public static TablerIcon ZoomCode => field ??= new("ZoomCode", "\uF07F", Sources.ZoomCode, "Map", ["inspect", "marketing", "search", "markup", "coding", "magnifier", "zoom", "code", "location", "navigation"]);
+	public static TablerIcon ZoomCodeFilled => field ??= new("ZoomCodeFilled", "\uFDC5", Sources.ZoomCodeFilled, "Map", ["inspect", "marketing", "search", "markup", "coding", "magnifier", "zoom", "code", "location", "navigation"]);
+	public static TablerIcon ZoomExclamation => field ??= new("ZoomExclamation", "\uF080", Sources.ZoomExclamation, "Map", ["alert", "caution", "error", "search", "warning", "zoom", "exclamation", "location", "navigation", "magnify"]);
+	public static TablerIcon ZoomExclamationFilled => field ??= new("ZoomExclamationFilled", "\uFDC4", Sources.ZoomExclamationFilled, "Map", ["alert", "caution", "error", "search", "warning", "zoom", "exclamation", "location", "navigation", "magnify"]);
+	public static TablerIcon ZoomFilled => field ??= new("ZoomFilled", "\uF787", Sources.ZoomFilled, "Map", ["find", "magnifier", "magnifying glass", "zoom", "location", "navigation", "magnify", "enlarge", "scale", "focus"]);
+	public static TablerIcon ZoomIn => field ??= new("ZoomIn", "\uEB56", Sources.ZoomIn, "Map", ["magnifying glass", "zoom", "location", "navigation", "magnify", "enlarge", "scale", "focus", "view", "in", "accessibility", "a11y", "vision", "low-vision"]);
+	public static TablerIcon ZoomInArea => field ??= new("ZoomInArea", "\uF1DC", Sources.ZoomInArea, "Map", ["selected", "square", "magnifier", "enlargement", "zoom", "area", "location", "navigation", "magnify", "enlarge"]);
+	public static TablerIcon ZoomInAreaFilled => field ??= new("ZoomInAreaFilled", "\uF788", Sources.ZoomInAreaFilled, "Map", ["selected", "square", "magnifier", "enlargement", "zoom", "area", "location", "navigation", "magnify", "enlarge"]);
+	public static TablerIcon ZoomInFilled => field ??= new("ZoomInFilled", "\uF789", Sources.ZoomInFilled, "Map", ["magnifying glass", "zoom", "location", "navigation", "magnify", "enlarge", "scale", "focus", "view", "in", "accessibility", "a11y", "vision", "low-vision"]);
+	public static TablerIcon ZoomMoney => field ??= new("ZoomMoney", "\uEF0A", Sources.ZoomMoney, "Map", ["magnifying", "glass", "magnifier", "earn", "pay", "sum", "total", "finance", "financial", "zoom"]);
+	public static TablerIcon ZoomMoneyFilled => field ??= new("ZoomMoneyFilled", "\uFDC3", Sources.ZoomMoneyFilled, "Map", ["magnifying", "glass", "magnifier", "earn", "pay", "sum", "total", "finance", "financial", "zoom"]);
+	public static TablerIcon ZoomOut => field ??= new("ZoomOut", "\uEB57", Sources.ZoomOut, "Map", ["magnifying glass", "zoom", "out", "location", "navigation", "magnify", "enlarge", "scale", "focus", "view", "accessibility", "a11y", "vision"]);
+	public static TablerIcon ZoomOutArea => field ??= new("ZoomOutArea", "\uF1DD", Sources.ZoomOutArea, "Map", ["selected", "square", "magnifier", "diminishing", "zoom", "out", "area", "location", "navigation", "magnify"]);
+	public static TablerIcon ZoomOutAreaFilled => field ??= new("ZoomOutAreaFilled", "\uFDC2", Sources.ZoomOutAreaFilled, "Map", ["selected", "square", "magnifier", "diminishing", "zoom", "out", "area", "location", "navigation", "magnify"]);
+	public static TablerIcon ZoomOutFilled => field ??= new("ZoomOutFilled", "\uF78A", Sources.ZoomOutFilled, "Map", ["magnifying glass", "zoom", "out", "location", "navigation", "magnify", "enlarge", "scale", "focus", "view", "accessibility", "a11y", "vision"]);
+	public static TablerIcon ZoomPan => field ??= new("ZoomPan", "\uF1DE", Sources.ZoomPan, "Map", ["enlargement", "shifting", "magnifier", "zoom", "pan", "location", "navigation", "magnify", "enlarge", "scale"]);
+	public static TablerIcon ZoomPanFilled => field ??= new("ZoomPanFilled", "\uFDC1", Sources.ZoomPanFilled, "Map", ["enlargement", "shifting", "magnifier", "zoom", "pan", "location", "navigation", "magnify", "enlarge", "scale"]);
+	public static TablerIcon ZoomQuestion => field ??= new("ZoomQuestion", "\uEDEB", Sources.ZoomQuestion, "Map", ["ask", "help", "support", "cue", "?", "zoom", "question", "location", "navigation", "magnify"]);
+	public static TablerIcon ZoomQuestionFilled => field ??= new("ZoomQuestionFilled", "\uFDC0", Sources.ZoomQuestionFilled, "Map", ["ask", "help", "support", "cue", "?", "zoom", "question", "location", "navigation", "magnify"]);
+	public static TablerIcon ZoomReplace => field ??= new("ZoomReplace", "\uF2A7", Sources.ZoomReplace, "Map", ["find", "change", "switch", "swap", "zoom", "replace", "location", "navigation", "magnify", "enlarge"]);
+	public static TablerIcon ZoomReset => field ??= new("ZoomReset", "\uF295", Sources.ZoomReset, "Map", ["refresh", "default", "settings", "vision", "zoom", "reset", "location", "navigation", "magnify", "enlarge"]);
 }

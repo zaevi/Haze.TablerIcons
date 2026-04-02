@@ -5,15 +5,15 @@
 
 A Godot library that provides direct access to [Tabler Icons](https://github.com/tabler/tabler-icons) as embedded SVG resources.
 
->  Since `SvgTexture` was introduced in Godot 4.5, this library can only be used with Godot 4.5 or later.
+>  Since `DpiTexture` was introduced in Godot 4.6, this library can only be used with Godot 4.6 or later.
 
 ## Usage
 
 ```csharp
 using Haze;
 
-// Access icons by category and name
-var icon = TablerIcons.Design.LayoutGridAdd;
+// Access icons by `Category_Name`
+var icon = TablerIcons.Design_LayoutGridAdd;
 
 // Get or create a cached texture (recommended for performance)
 Texture2D texture1 = icon.GetTexture();
@@ -25,7 +25,7 @@ Texture2D texture2 = icon;
 Texture2D texture3 = icon.CreateTexture();
 
 // Use with custom scale
-SvgTexture scaledTexture = icon.GetTexture(2.0f);
+DpiTexture scaledTexture = icon.GetTexture(2.0f);
 ```
 
 ## License

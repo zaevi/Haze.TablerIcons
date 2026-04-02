@@ -40,7 +40,7 @@ public static partial class TablerIcons
 	/// <returns>A stream containing the Tabler Icons TTF font data.</returns>
 	public static Stream OpenFont()
 	{
-		var assembly = Assembly.GetExecutingAssembly();
+		var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 		var resourceName = "Haze.TablerIcons.Resources.tabler-icons.ttf";
 		var stream = assembly.GetManifestResourceStream(resourceName);
 		if (stream == null)

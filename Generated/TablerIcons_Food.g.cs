@@ -6,196 +6,125 @@ namespace Haze;
 
 public static partial class TablerIcons
 {
-	public static partial class Food
-	{
-		public static TablerIcon Apple => field ??= new(nameof(Apple), "\uEF21", Sources.Apple, "Food", ["fruit", "healthy", "diet", "fitness", "apple", "meal", "cuisine", "eating", "nutrition", "culinary"]);
-		public static TablerIcon Avocado => field ??= new(nameof(Avocado), "\uFD8E", Sources.Avocado, "Food", ["fruit", "food", "green", "nutrition", "healthy", "ingredient", "diet", "vegetable", "meal", "snack"]);
-		public static TablerIcon Baguette => field ??= new(nameof(Baguette), "\uF3A5", Sources.Baguette, "Food", ["bread", "french", "breakfast", "bakery", "loaf", "baguette", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon BeerOff => field ??= new(nameof(BeerOff), "\uF101", Sources.BeerOff, "Food", ["alcohol", "drink", "beverage", "bar", "pub", "beer", "off", "meal", "cuisine", "disabled"]);
-		public static TablerIcon Beer => field ??= new(nameof(Beer), "\uEFA1", Sources.Beer, "Food", ["alcohol", "drink", "beverage", "bar", "pub", "beer", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon BoneOff => field ??= new(nameof(BoneOff), "\uF0BB", Sources.BoneOff, "Food", ["skeleton", "human", "dog", "body", "bone", "off", "meal", "cuisine", "disabled", "inactive"]);
-		public static TablerIcon Bone => field ??= new(nameof(Bone), "\uEDB8", Sources.Bone, "Food", ["skeleton", "human", "dog", "body", "bone", "meal", "cuisine", "eating", "nutrition", "culinary"]);
-		public static TablerIcon BottleOff => field ??= new(nameof(BottleOff), "\uF3C8", Sources.BottleOff, "Food", ["water", "drink", "beer", "energy", "wine", "bottle", "off", "meal", "cuisine", "disabled"]);
-		public static TablerIcon Bottle => field ??= new(nameof(Bottle), "\uEF0B", Sources.Bottle, "Food", ["water", "drink", "beer", "energy", "wine", "bottle", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon BowlChopsticks => field ??= new(nameof(BowlChopsticks), "\uFD90", Sources.BowlChopsticks, "Food", ["asian", "meal", "noodles", "utensils", "dine", "cookware", "culinary", "dish", "eat", "serve"]);
-		public static TablerIcon BowlSpoon => field ??= new(nameof(BowlSpoon), "\uFD91", Sources.BowlSpoon, "Food", ["soup", "breakfast", "cereal", "cutlery", "utensils", "dine", "culinary", "cookware", "eat", "dish"]);
-		public static TablerIcon Bowl => field ??= new(nameof(Bowl), "\uF4FA", Sources.Bowl, "Food", ["food", "soup", "kitchen", "vessel", "bowl", "meal", "cuisine", "eating", "nutrition", "culinary"]);
-		public static TablerIcon BreadOff => field ??= new(nameof(BreadOff), "\uF3CB", Sources.BreadOff, "Food", ["food", "breakfast", "sandwich", "toast", "baking", "bread", "off", "meal", "cuisine", "disabled"]);
-		public static TablerIcon Bread => field ??= new(nameof(Bread), "\uEFA3", Sources.Bread, "Food", ["food", "breakfast", "sandwich", "toast", "baking", "bread", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon BubbleTea2 => field ??= new(nameof(BubbleTea2), "\uFF52", Sources.BubbleTea2, "Food", ["drink", "taiwanese", "flavor", "boba", "beverage", "refreshment", "sweet", "pearl", "milk", "tapioca"]);
-		public static TablerIcon BubbleTea => field ??= new(nameof(BubbleTea), "\uFF51", Sources.BubbleTea, "Food", ["drink", "taiwanese", "flavor", "boba", "beverage", "refreshment", "sweet", "pearl", "milk", "tapioca"]);
-		public static TablerIcon Burger => field ??= new(nameof(Burger), "\uFCB4", Sources.Burger, "Food", ["food", "sandwich", "beef", "cheese", "lettuce", "bun", "fastfood", "delicious", "grill", "meal"]);
-		public static TablerIcon CakeOff => field ??= new(nameof(CakeOff), "\uF104", Sources.CakeOff, "Food", ["baking", "birthday", "party", "chocolate", "sweet", "cake", "off", "meal", "cuisine", "disabled"]);
-		public static TablerIcon CakeRoll => field ??= new(nameof(CakeRoll), char.ConvertFromUtf32(0x100bd), Sources.CakeRoll, "Food", ["dessert", "pastry", "roll", "sweet", "delicacy", "treat", "bake", "confection", "culinary", "indulgence"]);
-		public static TablerIcon Cake => field ??= new(nameof(Cake), "\uF00F", Sources.Cake, "Food", ["baking", "birthday", "party", "chocolate", "sweet", "cake", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon CandyOff => field ??= new(nameof(CandyOff), "\uF0C5", Sources.CandyOff, "Food", ["sweet", "food", "sugar", "cane", "halloween", "candy", "off", "meal", "cuisine", "disabled"]);
-		public static TablerIcon Candy => field ??= new(nameof(Candy), "\uEF0D", Sources.Candy, "Food", ["sweet", "food", "sugar", "cane", "halloween", "candy", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon Carambola => field ??= new(nameof(Carambola), "\uFEB9", Sources.Carambola, "Food", ["fruit", "starfruit", "carambola", "tropical", "exotic", "five", "five-pointed", "star", "healthy", "vitamin", "nutrition", "diet"]);
-		public static TablerIcon CarrotOff => field ??= new(nameof(CarrotOff), "\uF3D0", Sources.CarrotOff, "Food", ["food", "healthy", "rabbit", "vegetable", "carrot", "off", "meal", "cuisine", "disabled", "inactive"]);
-		public static TablerIcon Carrot => field ??= new(nameof(Carrot), "\uF21C", Sources.Carrot, "Food", ["food", "healthy", "rabbit", "vegetable", "carrot", "meal", "cuisine", "eating", "nutrition", "culinary"]);
-		public static TablerIcon Cheese => field ??= new(nameof(Cheese), "\uEF26", Sources.Cheese, "Food", ["food", "mouse", "cooking", "pizza", "sandwiches", "product", "edam", "gouda", "cheese", "meal"]);
-		public static TablerIcon ChefHatOff => field ??= new(nameof(ChefHatOff), "\uF3D4", Sources.ChefHatOff, "Food", ["cooking", "kitchen", "restaurant", "food", "job", "chef", "hat", "off", "meal", "cuisine"]);
-		public static TablerIcon ChefHat => field ??= new(nameof(ChefHat), "\uF21D", Sources.ChefHat, "Food", ["cooking", "kitchen", "restaurant", "food", "job", "chef", "hat", "meal", "cuisine", "eating"]);
-		public static TablerIcon CoffeeOff => field ??= new(nameof(CoffeeOff), "\uF106", Sources.CoffeeOff, "Food", ["espresso", "hot", "cup", "latte", "cafe", "drink", "coffee", "off", "meal", "cuisine"]);
-		public static TablerIcon Coffee => field ??= new(nameof(Coffee), "\uEF0E", Sources.Coffee, "Food", ["espresso", "hot", "cup", "latte", "cafe", "drink", "coffee", "meal", "cuisine", "eating"]);
-		public static TablerIcon Cooker => field ??= new(nameof(Cooker), "\uF57A", Sources.Cooker, "Food", ["kitchen", "cook", "oven", "chef", "cooker", "meal", "cuisine", "eating", "nutrition", "culinary"]);
-		public static TablerIcon CookieOff => field ??= new(nameof(CookieOff), "\uF0D7", Sources.CookieOff, "Food", ["food", "sweet", "cooking", "snack", "internet", "privacy", "cookie", "off", "meal", "cuisine"]);
-		public static TablerIcon Cookie => field ??= new(nameof(Cookie), "\uFDB1", Sources.Cookie, "Food", ["biscuit", "treat", "dessert", "snack", "sweet", "bake", "confection", "dough", "pastry", "crumb"]);
-		public static TablerIcon CupOff => field ??= new(nameof(CupOff), "\uF10D", Sources.CupOff, "Food", ["coffee", "drink", "water", "food", "cup", "off", "meal", "cuisine", "disabled", "inactive"]);
-		public static TablerIcon Cup => field ??= new(nameof(Cup), "\uEF28", Sources.Cup, "Food", ["coffee", "drink", "water", "food", "cup", "meal", "cuisine", "eating", "nutrition", "culinary"]);
-		public static TablerIcon DogBowl => field ??= new(nameof(DogBowl), "\uEF29", Sources.DogBowl, "Food", ["pet", "food", "animal", "bone", "dog", "bowl", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon Dumpling => field ??= new(nameof(Dumpling), "\uFEB5", Sources.Dumpling, "Food", ["food", "chinese", "asian", "meal", "snack", "dough", "meat", "vegetable", "steamed", "boiled", "fried", "cuisine", "traditional", "delicious", "tasty"]);
-		public static TablerIcon EggCracked => field ??= new(nameof(EggCracked), "\uF2D6", Sources.EggCracked, "Food", ["breaking", "broken", "food", "breakfast", "egg", "cracked", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon EggFried => field ??= new(nameof(EggFried), "\uF386", Sources.EggFried, "Food", ["food", "breakfast", "cooking", "kitchen", "egg", "fried", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon EggOff => field ??= new(nameof(EggOff), "\uF11F", Sources.EggOff, "Food", ["food", "easter", "chicken", "egg", "off", "meal", "cuisine", "disabled", "inactive", "eating"]);
-		public static TablerIcon Egg => field ??= new(nameof(Egg), "\uEB8A", Sources.Egg, "Food", ["food", "easter", "chicken", "egg", "meal", "cuisine", "eating", "nutrition", "culinary"]);
-		public static TablerIcon Eggs => field ??= new(nameof(Eggs), "\uF500", Sources.Eggs, "Food", ["food", "chicken", "easter", "eggs", "meal", "cuisine", "eating", "nutrition", "culinary"]);
-		public static TablerIcon GlassChampagne => field ??= new(nameof(GlassChampagne), "\uFD9C", Sources.GlassChampagne, "Food", ["bubbly", "celebrate", "toast", "sparkling", "fizz", "bubbles", "party", "celebration", "luxury", "drink"]);
-		public static TablerIcon GlassCocktail => field ??= new(nameof(GlassCocktail), "\uFD9D", Sources.GlassCocktail, "Food", ["mix", "alcohol", "drink", "beverage", "martini", "shaker", "refreshing", "summer", "beach", "garnish"]);
-		public static TablerIcon GlassFull => field ??= new(nameof(GlassFull), "\uEAB7", Sources.GlassFull, "Food", ["wine", "cup", "goblet", "glass", "full", "meal", "cuisine", "eating", "nutrition", "culinary"]);
-		public static TablerIcon GlassGin => field ??= new(nameof(GlassGin), "\uFD9E", Sources.GlassGin, "Food", ["juniper", "spirit", "alcohol", "liquor", "distilled", "drink", "tonic", "bitter", "cocktail", "botanical"]);
-		public static TablerIcon GlassOff => field ??= new(nameof(GlassOff), "\uEE91", Sources.GlassOff, "Food", ["wine", "cup", "goblet", "glass", "off", "meal", "cuisine", "disabled", "inactive", "eating"]);
-		public static TablerIcon Glass => field ??= new(nameof(Glass), "\uEAB8", Sources.Glass, "Food", ["wine", "cup", "goblet", "glass", "meal", "cuisine", "eating", "nutrition", "culinary"]);
-		public static TablerIcon GrillFork => field ??= new(nameof(GrillFork), "\uF35B", Sources.GrillFork, "Food", ["cook", "cooking", "bbq", "meat", "tool", "grill", "fork", "meal", "cuisine", "eating"]);
-		public static TablerIcon GrillOff => field ??= new(nameof(GrillOff), "\uF3F5", Sources.GrillOff, "Food", ["food", "sasuage", "beef", "steak", "bbq", "cooking", "grill", "off", "meal", "cuisine"]);
-		public static TablerIcon GrillSpatula => field ??= new(nameof(GrillSpatula), "\uF35C", Sources.GrillSpatula, "Food", ["cook", "cooking", "bbq", "meat", "tool", "grill", "spatula", "meal", "cuisine", "eating"]);
-		public static TablerIcon Grill => field ??= new(nameof(Grill), "\uEFA9", Sources.Grill, "Food", ["food", "sasuage", "beef", "steak", "bbq", "cooking", "grill", "meal", "cuisine", "eating"]);
-		public static TablerIcon IceCream2 => field ??= new(nameof(IceCream2), "\uEE9F", Sources.IceCream2, "Food", ["sweet", "cold", "dessert", "food", "taste", "frozen", "snack", "flavour", "flavor", "cone"]);
-		public static TablerIcon IceCreamOff => field ??= new(nameof(IceCreamOff), "\uF148", Sources.IceCreamOff, "Food", ["candy", "dessert", "frozen", "sweet", "ice", "cream", "off", "meal", "cuisine", "disabled"]);
-		public static TablerIcon IceCream => field ??= new(nameof(IceCream), "\uEAC2", Sources.IceCream, "Food", ["candy", "dessert", "frozen", "sweet", "ice", "cream", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon Lemon2 => field ??= new(nameof(Lemon2), "\uEF81", Sources.Lemon2, "Food", ["fruit", "citrus", "lime", "food", "vitamin", "lemon", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon Lemon => field ??= new(nameof(Lemon), "\uEF10", Sources.Lemon, "Food", ["fruit", "citrus", "lime", "food", "vitamin", "slice", "lemon", "meal", "cuisine", "eating"]);
-		public static TablerIcon LollipopOff => field ??= new(nameof(LollipopOff), "\uF157", Sources.LollipopOff, "Food", ["candy", "food", "sweet", "halloween", "dessert", "sugar", "lollipop", "off", "meal", "cuisine"]);
-		public static TablerIcon Lollipop => field ??= new(nameof(Lollipop), "\uEFCC", Sources.Lollipop, "Food", ["candy", "food", "sweet", "halloween", "dessert", "sugar", "lollipop", "meal", "cuisine", "eating"]);
-		public static TablerIcon MeatOff => field ??= new(nameof(MeatOff), "\uF40A", Sources.MeatOff, "Food", ["food", "beef", "steak", "chicken", "sasuage", "dinner", "meat", "off", "meal", "cuisine"]);
-		public static TablerIcon Meat => field ??= new(nameof(Meat), "\uEF12", Sources.Meat, "Food", ["food", "beef", "steak", "chicken", "sasuage", "dinner", "meat", "meal", "cuisine", "eating"]);
-		public static TablerIcon Melon => field ??= new(nameof(Melon), "\uFC7A", Sources.Melon, "Food", ["fruit", "sweet", "summer", "refresh", "juicy", "round", "tropical", "cool", "refreshing", "tasty"]);
-		public static TablerIcon MichelinBibGourmand => field ??= new(nameof(MichelinBibGourmand), "\uFAE9", Sources.MichelinBibGourmand, "Food", ["gourmet", "cuisine", "dining", "restaurant", "food", "quality", "dish", "eatery", "meal", "gastronomy"]);
-		public static TablerIcon MichelinStarGreen => field ??= new(nameof(MichelinStarGreen), "\uFAEA", Sources.MichelinStarGreen, "Food", ["sustainable", "ecofriendly", "responsible", "ethical", "green", "environment", "quality", "dining", "food", "cuisine"]);
-		public static TablerIcon MichelinStar => field ??= new(nameof(MichelinStar), "\uFAEB", Sources.MichelinStar, "Food", ["prestige", "quality", "excellence", "dining", "gourmet", "restaurant", "top", "reputation", "award", "esteem"]);
-		public static TablerIcon MicrowaveOff => field ??= new(nameof(MicrowaveOff), "\uF264", Sources.MicrowaveOff, "Food", ["oven", "kitchen", "cooking", "food", "cook", "microwave", "off", "meal", "cuisine", "disabled"]);
-		public static TablerIcon Microwave => field ??= new(nameof(Microwave), "\uF248", Sources.Microwave, "Food", ["oven", "kitchen", "cooking", "food", "cook", "microwave", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon MilkOff => field ??= new(nameof(MilkOff), "\uF40F", Sources.MilkOff, "Food", ["food", "drink", "cow", "healthy", "breakfast", "bottle", "coffee", "milk", "off", "meal"]);
-		public static TablerIcon Milk => field ??= new(nameof(Milk), "\uEF13", Sources.Milk, "Food", ["food", "drink", "cow", "healthy", "breakfast", "bottle", "coffee", "milk", "meal", "cuisine"]);
-		public static TablerIcon Milkshake => field ??= new(nameof(Milkshake), "\uF4C8", Sources.Milkshake, "Food", ["drink", "sweet", "food", "cocktail", "cream", "milkshake", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon MugOff => field ??= new(nameof(MugOff), "\uF165", Sources.MugOff, "Food", ["tea", "coffee", "drink", "container", "jug", "mug", "off", "meal", "cuisine", "disabled"]);
-		public static TablerIcon Mug => field ??= new(nameof(Mug), "\uEAFB", Sources.Mug, "Food", ["tea", "coffee", "drink", "container", "jug", "mug", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon MushroomOff => field ??= new(nameof(MushroomOff), "\uF412", Sources.MushroomOff, "Food", ["food", "vegetable", "cooking", "fungus", "mushrooming", "mushroom", "off", "meal", "cuisine", "disabled"]);
-		public static TablerIcon Mushroom => field ??= new(nameof(Mushroom), "\uEF14", Sources.Mushroom, "Food", ["food", "vegetable", "cooking", "fungus", "mushrooming", "mushroom", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon Nut => field ??= new(nameof(Nut), "\uFC61", Sources.Nut, "Food", ["hardware", "fastener", "metal", "steel", "hexagon", "fitting", "mechanical", "industrial", "tool", "connection"]);
-		public static TablerIcon PaperBagOff => field ??= new(nameof(PaperBagOff), "\uF16F", Sources.PaperBagOff, "Food", ["recycle", "shopping", "ecology", "food", "paper", "bag", "off", "meal", "cuisine", "disabled"]);
-		public static TablerIcon PaperBag => field ??= new(nameof(PaperBag), "\uF02F", Sources.PaperBag, "Food", ["recycle", "shopping", "ecology", "food", "paper", "bag", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon PepperOff => field ??= new(nameof(PepperOff), "\uF175", Sources.PepperOff, "Food", ["food", "spice", "chili", "jalapeño", "hot", "spicy", "pepper", "off", "meal", "cuisine"]);
-		public static TablerIcon Pepper => field ??= new(nameof(Pepper), "\uEF15", Sources.Pepper, "Food", ["food", "spice", "chili", "jalapeño", "hot", "spicy", "pepper", "meal", "cuisine", "eating"]);
-		public static TablerIcon PizzaOff => field ??= new(nameof(PizzaOff), "\uF179", Sources.PizzaOff, "Food", ["food", "cheese", "italy", "pepperoni", "margherita", "capricciosa", "rucole", "pizza", "off", "meal"]);
-		public static TablerIcon Pizza => field ??= new(nameof(Pizza), "\uEDBB", Sources.Pizza, "Food", ["food", "cheese", "italy", "pepperoni", "margherita", "capricciosa", "rucole", "pizza", "meal", "cuisine"]);
-		public static TablerIcon Salad => field ??= new(nameof(Salad), "\uF50A", Sources.Salad, "Food", ["food", "vegetable", "vegan", "healthy", "salad", "meal", "cuisine", "eating", "nutrition", "culinary"]);
-		public static TablerIcon Salt => field ??= new(nameof(Salt), "\uEF16", Sources.Salt, "Food", ["food", "cooking", "kitchen", "spice", "salty", "salt", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon Sausage => field ??= new(nameof(Sausage), "\uEF17", Sources.Sausage, "Food", ["food", "grill", "bonfire", "campfire", "meat", "hot-dog", "sausage", "meal", "cuisine", "eating"]);
-		public static TablerIcon SoupOff => field ??= new(nameof(SoupOff), "\uF42D", Sources.SoupOff, "Food", ["food", "cooking", "restaurant", "bowl", "hot", "kitchen", "soup", "off", "meal", "cuisine"]);
-		public static TablerIcon Soup => field ??= new(nameof(Soup), "\uEF2E", Sources.Soup, "Food", ["food", "cooking", "restaurant", "bowl", "hot", "kitchen", "soup", "meal", "cuisine", "eating"]);
-		public static TablerIcon Teapot => field ??= new(nameof(Teapot), "\uF552", Sources.Teapot, "Food", ["kettle", "kitchen", "hot", "coffee", "kitchenware", "teapot", "meal", "cuisine", "eating", "nutrition"]);
-		public static TablerIcon ToolsKitchen2 => field ??= new(nameof(ToolsKitchen2), "\uEEFF", Sources.ToolsKitchen2, "Food", ["knife", "fork", "spoon", "cutlery", "eat", "restaurant", "menu", "cafe", "cook", "cut", "soup", "dinner", "breakfast", "dining", "plate", "dish"]);
-		public static TablerIcon ToolsKitchen3 => field ??= new(nameof(ToolsKitchen3), "\uFD2B", Sources.ToolsKitchen3, "Food", ["cooking", "utensils", "home", "equipment", "cook", "culinary", "appliances", "kitchen", "food", "cutlery"]);
-		public static TablerIcon ToolsKitchen => field ??= new(nameof(ToolsKitchen), "\uED64", Sources.ToolsKitchen, "Food", ["knife", "fork", "spoon", "cutlery", "eat", "restaurant", "menu", "cafe", "cook", "cut", "soup", "dinner", "breakfast", "dining", "plate", "dish"]);
-		public static TablerIcon WheatOff => field ??= new(nameof(WheatOff), char.ConvertFromUtf32(0x100a9), Sources.WheatOff, "Food", ["food", "nature", "greenary", "grow", "soil", "harvest", "plant", "leaf", "tree", "flower"]);
-		public static TablerIcon Wheat => field ??= new(nameof(Wheat), char.ConvertFromUtf32(0x100a8), Sources.Wheat, "Food", ["food", "nature", "greenary", "grow", "soil", "harvest", "plant", "leaf", "tree", "flower"]);
-		public static TablerIcon Whisk => field ??= new(nameof(Whisk), char.ConvertFromUtf32(0x101a0), Sources.Whisk, "Food", ["whisk", "kitchen", "cooking", "baking", "food", "utensil", "mix", "beat", "eggs", "chef"]);
-		
-		public static TablerIcon[] Icons => field ??= [
-			Apple,
-			Avocado,
-			Baguette,
-			BeerOff,
-			Beer,
-			BoneOff,
-			Bone,
-			BottleOff,
-			Bottle,
-			BowlChopsticks,
-			BowlSpoon,
-			Bowl,
-			BreadOff,
-			Bread,
-			BubbleTea2,
-			BubbleTea,
-			Burger,
-			CakeOff,
-			CakeRoll,
-			Cake,
-			CandyOff,
-			Candy,
-			Carambola,
-			CarrotOff,
-			Carrot,
-			Cheese,
-			ChefHatOff,
-			ChefHat,
-			CoffeeOff,
-			Coffee,
-			Cooker,
-			CookieOff,
-			Cookie,
-			CupOff,
-			Cup,
-			DogBowl,
-			Dumpling,
-			EggCracked,
-			EggFried,
-			EggOff,
-			Egg,
-			Eggs,
-			GlassChampagne,
-			GlassCocktail,
-			GlassFull,
-			GlassGin,
-			GlassOff,
-			Glass,
-			GrillFork,
-			GrillOff,
-			GrillSpatula,
-			Grill,
-			IceCream2,
-			IceCreamOff,
-			IceCream,
-			Lemon2,
-			Lemon,
-			LollipopOff,
-			Lollipop,
-			MeatOff,
-			Meat,
-			Melon,
-			MichelinBibGourmand,
-			MichelinStarGreen,
-			MichelinStar,
-			MicrowaveOff,
-			Microwave,
-			MilkOff,
-			Milk,
-			Milkshake,
-			MugOff,
-			Mug,
-			MushroomOff,
-			Mushroom,
-			Nut,
-			PaperBagOff,
-			PaperBag,
-			PepperOff,
-			Pepper,
-			PizzaOff,
-			Pizza,
-			Salad,
-			Salt,
-			Sausage,
-			SoupOff,
-			Soup,
-			Teapot,
-			ToolsKitchen2,
-			ToolsKitchen3,
-			ToolsKitchen,
-			WheatOff,
-			Wheat,
-			Whisk,
-		];
-	}
+	public static TablerIcon Apple => field ??= new("Apple", "\uEF21", Sources.Apple, "Food", ["fruit", "healthy", "diet", "fitness", "apple", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon AppleFilled => field ??= new("AppleFilled", char.ConvertFromUtf32(0x10017), Sources.AppleFilled, "Food", ["fruit", "healthy", "diet", "fitness", "apple", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon Avocado => field ??= new("Avocado", "\uFD8E", Sources.Avocado, "Food", ["fruit", "food", "green", "nutrition", "healthy", "ingredient", "diet", "vegetable", "meal", "snack"]);
+	public static TablerIcon Baguette => field ??= new("Baguette", "\uF3A5", Sources.Baguette, "Food", ["bread", "french", "breakfast", "bakery", "loaf", "baguette", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon Beer => field ??= new("Beer", "\uEFA1", Sources.Beer, "Food", ["alcohol", "drink", "beverage", "bar", "pub", "beer", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon BeerFilled => field ??= new("BeerFilled", "\uF7E1", Sources.BeerFilled, "Food", ["alcohol", "drink", "beverage", "bar", "pub", "beer", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon BeerOff => field ??= new("BeerOff", "\uF101", Sources.BeerOff, "Food", ["alcohol", "drink", "beverage", "bar", "pub", "beer", "off", "meal", "cuisine", "disabled"]);
+	public static TablerIcon Bone => field ??= new("Bone", "\uEDB8", Sources.Bone, "Food", ["skeleton", "human", "dog", "body", "bone", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon BoneFilled => field ??= new("BoneFilled", "\uFE8B", Sources.BoneFilled, "Food", ["skeleton", "human", "dog", "body", "bone", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon BoneOff => field ??= new("BoneOff", "\uF0BB", Sources.BoneOff, "Food", ["skeleton", "human", "dog", "body", "bone", "off", "meal", "cuisine", "disabled", "inactive"]);
+	public static TablerIcon Bottle => field ??= new("Bottle", "\uEF0B", Sources.Bottle, "Food", ["water", "drink", "beer", "energy", "wine", "bottle", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon BottleFilled => field ??= new("BottleFilled", "\uFA89", Sources.BottleFilled, "Food", ["water", "drink", "beer", "energy", "wine", "bottle", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon BottleOff => field ??= new("BottleOff", "\uF3C8", Sources.BottleOff, "Food", ["water", "drink", "beer", "energy", "wine", "bottle", "off", "meal", "cuisine", "disabled"]);
+	public static TablerIcon Bowl => field ??= new("Bowl", "\uF4FA", Sources.Bowl, "Food", ["food", "soup", "kitchen", "vessel", "bowl", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon BowlChopsticks => field ??= new("BowlChopsticks", "\uFD90", Sources.BowlChopsticks, "Food", ["asian", "meal", "noodles", "utensils", "dine", "cookware", "culinary", "dish", "eat", "serve"]);
+	public static TablerIcon BowlChopsticksFilled => field ??= new("BowlChopsticksFilled", "\uFE88", Sources.BowlChopsticksFilled, "Food", ["asian", "meal", "noodles", "utensils", "dine", "cookware", "culinary", "dish", "eat", "serve"]);
+	public static TablerIcon BowlFilled => field ??= new("BowlFilled", "\uFB22", Sources.BowlFilled, "Food", ["food", "soup", "kitchen", "vessel", "bowl", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon BowlSpoon => field ??= new("BowlSpoon", "\uFD91", Sources.BowlSpoon, "Food", ["soup", "breakfast", "cereal", "cutlery", "utensils", "dine", "culinary", "cookware", "eat", "dish"]);
+	public static TablerIcon BowlSpoonFilled => field ??= new("BowlSpoonFilled", "\uFE87", Sources.BowlSpoonFilled, "Food", ["soup", "breakfast", "cereal", "cutlery", "utensils", "dine", "culinary", "cookware", "eat", "dish"]);
+	public static TablerIcon Bread => field ??= new("Bread", "\uEFA3", Sources.Bread, "Food", ["food", "breakfast", "sandwich", "toast", "baking", "bread", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon BreadFilled => field ??= new("BreadFilled", "\uFE85", Sources.BreadFilled, "Food", ["food", "breakfast", "sandwich", "toast", "baking", "bread", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon BreadOff => field ??= new("BreadOff", "\uF3CB", Sources.BreadOff, "Food", ["food", "breakfast", "sandwich", "toast", "baking", "bread", "off", "meal", "cuisine", "disabled"]);
+	public static TablerIcon BubbleTea => field ??= new("BubbleTea", "\uFF51", Sources.BubbleTea, "Food", ["drink", "taiwanese", "flavor", "boba", "beverage", "refreshment", "sweet", "pearl", "milk", "tapioca"]);
+	public static TablerIcon BubbleTea2 => field ??= new("BubbleTea2", "\uFF52", Sources.BubbleTea2, "Food", ["drink", "taiwanese", "flavor", "boba", "beverage", "refreshment", "sweet", "pearl", "milk", "tapioca"]);
+	public static TablerIcon Burger => field ??= new("Burger", "\uFCB4", Sources.Burger, "Food", ["food", "sandwich", "beef", "cheese", "lettuce", "bun", "fastfood", "delicious", "grill", "meal"]);
+	public static TablerIcon Cake => field ??= new("Cake", "\uF00F", Sources.Cake, "Food", ["baking", "birthday", "party", "chocolate", "sweet", "cake", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon CakeOff => field ??= new("CakeOff", "\uF104", Sources.CakeOff, "Food", ["baking", "birthday", "party", "chocolate", "sweet", "cake", "off", "meal", "cuisine", "disabled"]);
+	public static TablerIcon CakeRoll => field ??= new("CakeRoll", char.ConvertFromUtf32(0x100bd), Sources.CakeRoll, "Food", ["dessert", "pastry", "roll", "sweet", "delicacy", "treat", "bake", "confection", "culinary", "indulgence"]);
+	public static TablerIcon Candy => field ??= new("Candy", "\uEF0D", Sources.Candy, "Food", ["sweet", "food", "sugar", "cane", "halloween", "candy", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon CandyOff => field ??= new("CandyOff", "\uF0C5", Sources.CandyOff, "Food", ["sweet", "food", "sugar", "cane", "halloween", "candy", "off", "meal", "cuisine", "disabled"]);
+	public static TablerIcon Carambola => field ??= new("Carambola", "\uFEB9", Sources.Carambola, "Food", ["fruit", "starfruit", "carambola", "tropical", "exotic", "five", "five-pointed", "star", "healthy", "vitamin", "nutrition", "diet"]);
+	public static TablerIcon CarambolaFilled => field ??= new("CarambolaFilled", char.ConvertFromUtf32(0x10014), Sources.CarambolaFilled, "Food", ["fruit", "starfruit", "carambola", "tropical", "exotic", "five", "five-pointed", "star", "healthy", "vitamin", "nutrition", "diet"]);
+	public static TablerIcon Carrot => field ??= new("Carrot", "\uF21C", Sources.Carrot, "Food", ["food", "healthy", "rabbit", "vegetable", "carrot", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon CarrotOff => field ??= new("CarrotOff", "\uF3D0", Sources.CarrotOff, "Food", ["food", "healthy", "rabbit", "vegetable", "carrot", "off", "meal", "cuisine", "disabled", "inactive"]);
+	public static TablerIcon Cheese => field ??= new("Cheese", "\uEF26", Sources.Cheese, "Food", ["food", "mouse", "cooking", "pizza", "sandwiches", "product", "edam", "gouda", "cheese", "meal"]);
+	public static TablerIcon ChefHat => field ??= new("ChefHat", "\uF21D", Sources.ChefHat, "Food", ["cooking", "kitchen", "restaurant", "food", "job", "chef", "hat", "meal", "cuisine", "eating"]);
+	public static TablerIcon ChefHatFilled => field ??= new("ChefHatFilled", char.ConvertFromUtf32(0x100d7), Sources.ChefHatFilled, "Food", ["cooking", "kitchen", "restaurant", "food", "job", "chef", "hat", "meal", "cuisine", "eating"]);
+	public static TablerIcon ChefHatOff => field ??= new("ChefHatOff", "\uF3D4", Sources.ChefHatOff, "Food", ["cooking", "kitchen", "restaurant", "food", "job", "chef", "hat", "off", "meal", "cuisine"]);
+	public static TablerIcon Coffee => field ??= new("Coffee", "\uEF0E", Sources.Coffee, "Food", ["espresso", "hot", "cup", "latte", "cafe", "drink", "coffee", "meal", "cuisine", "eating"]);
+	public static TablerIcon CoffeeOff => field ??= new("CoffeeOff", "\uF106", Sources.CoffeeOff, "Food", ["espresso", "hot", "cup", "latte", "cafe", "drink", "coffee", "off", "meal", "cuisine"]);
+	public static TablerIcon Cooker => field ??= new("Cooker", "\uF57A", Sources.Cooker, "Food", ["kitchen", "cook", "oven", "chef", "cooker", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon Cookie => field ??= new("Cookie", "\uFDB1", Sources.Cookie, "Food", ["biscuit", "treat", "dessert", "snack", "sweet", "bake", "confection", "dough", "pastry", "crumb"]);
+	public static TablerIcon CookieFilled => field ??= new("CookieFilled", "\uFE54", Sources.CookieFilled, "Food", ["biscuit", "treat", "dessert", "snack", "sweet", "bake", "confection", "dough", "pastry", "crumb"]);
+	public static TablerIcon CookieOff => field ??= new("CookieOff", "\uF0D7", Sources.CookieOff, "Food", ["food", "sweet", "cooking", "snack", "internet", "privacy", "cookie", "off", "meal", "cuisine"]);
+	public static TablerIcon Cup => field ??= new("Cup", "\uEF28", Sources.Cup, "Food", ["coffee", "drink", "water", "food", "cup", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon CupOff => field ??= new("CupOff", "\uF10D", Sources.CupOff, "Food", ["coffee", "drink", "water", "food", "cup", "off", "meal", "cuisine", "disabled", "inactive"]);
+	public static TablerIcon DogBowl => field ??= new("DogBowl", "\uEF29", Sources.DogBowl, "Food", ["pet", "food", "animal", "bone", "dog", "bowl", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon Dumpling => field ??= new("Dumpling", "\uFEB5", Sources.Dumpling, "Food", ["food", "chinese", "asian", "meal", "snack", "dough", "meat", "vegetable", "steamed", "boiled", "fried", "cuisine", "traditional", "delicious", "tasty"]);
+	public static TablerIcon DumplingFilled => field ??= new("DumplingFilled", char.ConvertFromUtf32(0x10135), Sources.DumplingFilled, "Food", ["food", "chinese", "asian", "meal", "snack", "dough", "meat", "vegetable", "steamed", "boiled", "fried", "cuisine", "traditional", "delicious", "tasty"]);
+	public static TablerIcon Egg => field ??= new("Egg", "\uEB8A", Sources.Egg, "Food", ["food", "easter", "chicken", "egg", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon EggCracked => field ??= new("EggCracked", "\uF2D6", Sources.EggCracked, "Food", ["breaking", "broken", "food", "breakfast", "egg", "cracked", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon EggCrackedFilled => field ??= new("EggCrackedFilled", char.ConvertFromUtf32(0x10012), Sources.EggCrackedFilled, "Food", ["breaking", "broken", "food", "breakfast", "egg", "cracked", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon EggFilled => field ??= new("EggFilled", "\uF678", Sources.EggFilled, "Food", ["food", "easter", "chicken", "egg", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon EggFried => field ??= new("EggFried", "\uF386", Sources.EggFried, "Food", ["food", "breakfast", "cooking", "kitchen", "egg", "fried", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon EggFriedFilled => field ??= new("EggFriedFilled", char.ConvertFromUtf32(0x10134), Sources.EggFriedFilled, "Food", ["food", "breakfast", "cooking", "kitchen", "egg", "fried", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon EggOff => field ??= new("EggOff", "\uF11F", Sources.EggOff, "Food", ["food", "easter", "chicken", "egg", "off", "meal", "cuisine", "disabled", "inactive", "eating"]);
+	public static TablerIcon Eggs => field ??= new("Eggs", "\uF500", Sources.Eggs, "Food", ["food", "chicken", "easter", "eggs", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon Glass => field ??= new("Glass", "\uEAB8", Sources.Glass, "Food", ["wine", "cup", "goblet", "glass", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon GlassChampagne => field ??= new("GlassChampagne", "\uFD9C", Sources.GlassChampagne, "Food", ["bubbly", "celebrate", "toast", "sparkling", "fizz", "bubbles", "party", "celebration", "luxury", "drink"]);
+	public static TablerIcon GlassCocktail => field ??= new("GlassCocktail", "\uFD9D", Sources.GlassCocktail, "Food", ["mix", "alcohol", "drink", "beverage", "martini", "shaker", "refreshing", "summer", "beach", "garnish"]);
+	public static TablerIcon GlassFilled => field ??= new("GlassFilled", char.ConvertFromUtf32(0x1000f), Sources.GlassFilled, "Food", ["wine", "cup", "goblet", "glass", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon GlassFull => field ??= new("GlassFull", "\uEAB7", Sources.GlassFull, "Food", ["wine", "cup", "goblet", "glass", "full", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon GlassFullFilled => field ??= new("GlassFullFilled", "\uFC2E", Sources.GlassFullFilled, "Food", ["wine", "cup", "goblet", "glass", "full", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon GlassGin => field ??= new("GlassGin", "\uFD9E", Sources.GlassGin, "Food", ["juniper", "spirit", "alcohol", "liquor", "distilled", "drink", "tonic", "bitter", "cocktail", "botanical"]);
+	public static TablerIcon GlassOff => field ??= new("GlassOff", "\uEE91", Sources.GlassOff, "Food", ["wine", "cup", "goblet", "glass", "off", "meal", "cuisine", "disabled", "inactive", "eating"]);
+	public static TablerIcon Grill => field ??= new("Grill", "\uEFA9", Sources.Grill, "Food", ["food", "sasuage", "beef", "steak", "bbq", "cooking", "grill", "meal", "cuisine", "eating"]);
+	public static TablerIcon GrillFork => field ??= new("GrillFork", "\uF35B", Sources.GrillFork, "Food", ["cook", "cooking", "bbq", "meat", "tool", "grill", "fork", "meal", "cuisine", "eating"]);
+	public static TablerIcon GrillOff => field ??= new("GrillOff", "\uF3F5", Sources.GrillOff, "Food", ["food", "sasuage", "beef", "steak", "bbq", "cooking", "grill", "off", "meal", "cuisine"]);
+	public static TablerIcon GrillSpatula => field ??= new("GrillSpatula", "\uF35C", Sources.GrillSpatula, "Food", ["cook", "cooking", "bbq", "meat", "tool", "grill", "spatula", "meal", "cuisine", "eating"]);
+	public static TablerIcon IceCream => field ??= new("IceCream", "\uEAC2", Sources.IceCream, "Food", ["candy", "dessert", "frozen", "sweet", "ice", "cream", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon IceCream2 => field ??= new("IceCream2", "\uEE9F", Sources.IceCream2, "Food", ["sweet", "cold", "dessert", "food", "taste", "frozen", "snack", "flavour", "flavor", "cone"]);
+	public static TablerIcon IceCreamOff => field ??= new("IceCreamOff", "\uF148", Sources.IceCreamOff, "Food", ["candy", "dessert", "frozen", "sweet", "ice", "cream", "off", "meal", "cuisine", "disabled"]);
+	public static TablerIcon Lemon => field ??= new("Lemon", "\uEF10", Sources.Lemon, "Food", ["fruit", "citrus", "lime", "food", "vitamin", "slice", "lemon", "meal", "cuisine", "eating"]);
+	public static TablerIcon Lemon2 => field ??= new("Lemon2", "\uEF81", Sources.Lemon2, "Food", ["fruit", "citrus", "lime", "food", "vitamin", "lemon", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon Lemon2Filled => field ??= new("Lemon2Filled", char.ConvertFromUtf32(0x100bf), Sources.Lemon2Filled, "Food", ["fruit", "citrus", "lime", "food", "vitamin", "lemon", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon Lollipop => field ??= new("Lollipop", "\uEFCC", Sources.Lollipop, "Food", ["candy", "food", "sweet", "halloween", "dessert", "sugar", "lollipop", "meal", "cuisine", "eating"]);
+	public static TablerIcon LollipopOff => field ??= new("LollipopOff", "\uF157", Sources.LollipopOff, "Food", ["candy", "food", "sweet", "halloween", "dessert", "sugar", "lollipop", "off", "meal", "cuisine"]);
+	public static TablerIcon Meat => field ??= new("Meat", "\uEF12", Sources.Meat, "Food", ["food", "beef", "steak", "chicken", "sasuage", "dinner", "meat", "meal", "cuisine", "eating"]);
+	public static TablerIcon MeatOff => field ??= new("MeatOff", "\uF40A", Sources.MeatOff, "Food", ["food", "beef", "steak", "chicken", "sasuage", "dinner", "meat", "off", "meal", "cuisine"]);
+	public static TablerIcon Melon => field ??= new("Melon", "\uFC7A", Sources.Melon, "Food", ["fruit", "sweet", "summer", "refresh", "juicy", "round", "tropical", "cool", "refreshing", "tasty"]);
+	public static TablerIcon MelonFilled => field ??= new("MelonFilled", char.ConvertFromUtf32(0x1000e), Sources.MelonFilled, "Food", ["fruit", "sweet", "summer", "refresh", "juicy", "round", "tropical", "cool", "refreshing", "tasty"]);
+	public static TablerIcon MichelinBibGourmand => field ??= new("MichelinBibGourmand", "\uFAE9", Sources.MichelinBibGourmand, "Food", ["gourmet", "cuisine", "dining", "restaurant", "food", "quality", "dish", "eatery", "meal", "gastronomy"]);
+	public static TablerIcon MichelinStar => field ??= new("MichelinStar", "\uFAEB", Sources.MichelinStar, "Food", ["prestige", "quality", "excellence", "dining", "gourmet", "restaurant", "top", "reputation", "award", "esteem"]);
+	public static TablerIcon MichelinStarFilled => field ??= new("MichelinStarFilled", char.ConvertFromUtf32(0x1000c), Sources.MichelinStarFilled, "Food", ["prestige", "quality", "excellence", "dining", "gourmet", "restaurant", "top", "reputation", "award", "esteem"]);
+	public static TablerIcon MichelinStarGreen => field ??= new("MichelinStarGreen", "\uFAEA", Sources.MichelinStarGreen, "Food", ["sustainable", "ecofriendly", "responsible", "ethical", "green", "environment", "quality", "dining", "food", "cuisine"]);
+	public static TablerIcon Microwave => field ??= new("Microwave", "\uF248", Sources.Microwave, "Food", ["oven", "kitchen", "cooking", "food", "cook", "microwave", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon MicrowaveFilled => field ??= new("MicrowaveFilled", "\uFE0E", Sources.MicrowaveFilled, "Food", ["oven", "kitchen", "cooking", "food", "cook", "microwave", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon MicrowaveOff => field ??= new("MicrowaveOff", "\uF264", Sources.MicrowaveOff, "Food", ["oven", "kitchen", "cooking", "food", "cook", "microwave", "off", "meal", "cuisine", "disabled"]);
+	public static TablerIcon Milk => field ??= new("Milk", "\uEF13", Sources.Milk, "Food", ["food", "drink", "cow", "healthy", "breakfast", "bottle", "coffee", "milk", "meal", "cuisine"]);
+	public static TablerIcon MilkFilled => field ??= new("MilkFilled", char.ConvertFromUtf32(0x1000b), Sources.MilkFilled, "Food", ["food", "drink", "cow", "healthy", "breakfast", "bottle", "coffee", "milk", "meal", "cuisine"]);
+	public static TablerIcon MilkOff => field ??= new("MilkOff", "\uF40F", Sources.MilkOff, "Food", ["food", "drink", "cow", "healthy", "breakfast", "bottle", "coffee", "milk", "off", "meal"]);
+	public static TablerIcon Milkshake => field ??= new("Milkshake", "\uF4C8", Sources.Milkshake, "Food", ["drink", "sweet", "food", "cocktail", "cream", "milkshake", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon Mug => field ??= new("Mug", "\uEAFB", Sources.Mug, "Food", ["tea", "coffee", "drink", "container", "jug", "mug", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon MugFilled => field ??= new("MugFilled", char.ConvertFromUtf32(0x10009), Sources.MugFilled, "Food", ["tea", "coffee", "drink", "container", "jug", "mug", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon MugOff => field ??= new("MugOff", "\uF165", Sources.MugOff, "Food", ["tea", "coffee", "drink", "container", "jug", "mug", "off", "meal", "cuisine", "disabled"]);
+	public static TablerIcon Mushroom => field ??= new("Mushroom", "\uEF14", Sources.Mushroom, "Food", ["food", "vegetable", "cooking", "fungus", "mushrooming", "mushroom", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon MushroomFilled => field ??= new("MushroomFilled", "\uF7F9", Sources.MushroomFilled, "Food", ["food", "vegetable", "cooking", "fungus", "mushrooming", "mushroom", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon MushroomOff => field ??= new("MushroomOff", "\uF412", Sources.MushroomOff, "Food", ["food", "vegetable", "cooking", "fungus", "mushrooming", "mushroom", "off", "meal", "cuisine", "disabled"]);
+	public static TablerIcon Nut => field ??= new("Nut", "\uFC61", Sources.Nut, "Food", ["hardware", "fastener", "metal", "steel", "hexagon", "fitting", "mechanical", "industrial", "tool", "connection"]);
+	public static TablerIcon PaperBag => field ??= new("PaperBag", "\uF02F", Sources.PaperBag, "Food", ["recycle", "shopping", "ecology", "food", "paper", "bag", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon PaperBagOff => field ??= new("PaperBagOff", "\uF16F", Sources.PaperBagOff, "Food", ["recycle", "shopping", "ecology", "food", "paper", "bag", "off", "meal", "cuisine", "disabled"]);
+	public static TablerIcon Pepper => field ??= new("Pepper", "\uEF15", Sources.Pepper, "Food", ["food", "spice", "chili", "jalapeño", "hot", "spicy", "pepper", "meal", "cuisine", "eating"]);
+	public static TablerIcon PepperOff => field ??= new("PepperOff", "\uF175", Sources.PepperOff, "Food", ["food", "spice", "chili", "jalapeño", "hot", "spicy", "pepper", "off", "meal", "cuisine"]);
+	public static TablerIcon Pizza => field ??= new("Pizza", "\uEDBB", Sources.Pizza, "Food", ["food", "cheese", "italy", "pepperoni", "margherita", "capricciosa", "rucole", "pizza", "meal", "cuisine"]);
+	public static TablerIcon PizzaFilled => field ??= new("PizzaFilled", char.ConvertFromUtf32(0x10008), Sources.PizzaFilled, "Food", ["food", "cheese", "italy", "pepperoni", "margherita", "capricciosa", "rucole", "pizza", "meal", "cuisine"]);
+	public static TablerIcon PizzaOff => field ??= new("PizzaOff", "\uF179", Sources.PizzaOff, "Food", ["food", "cheese", "italy", "pepperoni", "margherita", "capricciosa", "rucole", "pizza", "off", "meal"]);
+	public static TablerIcon Salad => field ??= new("Salad", "\uF50A", Sources.Salad, "Food", ["food", "vegetable", "vegan", "healthy", "salad", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon SaladFilled => field ??= new("SaladFilled", char.ConvertFromUtf32(0x10007), Sources.SaladFilled, "Food", ["food", "vegetable", "vegan", "healthy", "salad", "meal", "cuisine", "eating", "nutrition", "culinary"]);
+	public static TablerIcon Salt => field ??= new("Salt", "\uEF16", Sources.Salt, "Food", ["food", "cooking", "kitchen", "spice", "salty", "salt", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon Sausage => field ??= new("Sausage", "\uEF17", Sources.Sausage, "Food", ["food", "grill", "bonfire", "campfire", "meat", "hot-dog", "sausage", "meal", "cuisine", "eating"]);
+	public static TablerIcon Soup => field ??= new("Soup", "\uEF2E", Sources.Soup, "Food", ["food", "cooking", "restaurant", "bowl", "hot", "kitchen", "soup", "meal", "cuisine", "eating"]);
+	public static TablerIcon SoupFilled => field ??= new("SoupFilled", "\uFE08", Sources.SoupFilled, "Food", ["food", "cooking", "restaurant", "bowl", "hot", "kitchen", "soup", "meal", "cuisine", "eating"]);
+	public static TablerIcon SoupOff => field ??= new("SoupOff", "\uF42D", Sources.SoupOff, "Food", ["food", "cooking", "restaurant", "bowl", "hot", "kitchen", "soup", "off", "meal", "cuisine"]);
+	public static TablerIcon Teapot => field ??= new("Teapot", "\uF552", Sources.Teapot, "Food", ["kettle", "kitchen", "hot", "coffee", "kitchenware", "teapot", "meal", "cuisine", "eating", "nutrition"]);
+	public static TablerIcon ToolsKitchen => field ??= new("ToolsKitchen", "\uED64", Sources.ToolsKitchen, "Food", ["knife", "fork", "spoon", "cutlery", "eat", "restaurant", "menu", "cafe", "cook", "cut", "soup", "dinner", "breakfast", "dining", "plate", "dish"]);
+	public static TablerIcon ToolsKitchen2 => field ??= new("ToolsKitchen2", "\uEEFF", Sources.ToolsKitchen2, "Food", ["knife", "fork", "spoon", "cutlery", "eat", "restaurant", "menu", "cafe", "cook", "cut", "soup", "dinner", "breakfast", "dining", "plate", "dish"]);
+	public static TablerIcon ToolsKitchen2Filled => field ??= new("ToolsKitchen2Filled", char.ConvertFromUtf32(0x101c8), Sources.ToolsKitchen2Filled, "Food", ["knife", "fork", "spoon", "cutlery", "eat", "restaurant", "menu", "cafe", "cook", "cut", "soup", "dinner", "breakfast", "dining", "plate", "dish"]);
+	public static TablerIcon ToolsKitchen3 => field ??= new("ToolsKitchen3", "\uFD2B", Sources.ToolsKitchen3, "Food", ["cooking", "utensils", "home", "equipment", "cook", "culinary", "appliances", "kitchen", "food", "cutlery"]);
+	public static TablerIcon Wheat => field ??= new("Wheat", char.ConvertFromUtf32(0x100a8), Sources.Wheat, "Food", ["food", "nature", "greenary", "grow", "soil", "harvest", "plant", "leaf", "tree", "flower"]);
+	public static TablerIcon WheatOff => field ??= new("WheatOff", char.ConvertFromUtf32(0x100a9), Sources.WheatOff, "Food", ["food", "nature", "greenary", "grow", "soil", "harvest", "plant", "leaf", "tree", "flower"]);
+	public static TablerIcon Whisk => field ??= new("Whisk", char.ConvertFromUtf32(0x101a0), Sources.Whisk, "Food", ["whisk", "kitchen", "cooking", "baking", "food", "utensil", "mix", "beat", "eggs", "chef"]);
 }
