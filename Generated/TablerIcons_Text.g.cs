@@ -159,6 +159,7 @@ public static partial class TablerIcons
 	public static TablerIcon Quote => field ??= new("Quote", "\uEFBE", Sources.Quote, "Text", ["chat", "message", "text", "punctuation", "quotation", "comment", "quote", "typography", "writing", "font"]);
 	public static TablerIcon QuoteFilled => field ??= new("QuoteFilled", char.ConvertFromUtf32(0x1009c), Sources.QuoteFilled, "Text", ["chat", "message", "text", "punctuation", "quotation", "comment", "quote", "typography", "writing", "font"]);
 	public static TablerIcon QuoteOff => field ??= new("QuoteOff", "\uF188", Sources.QuoteOff, "Text", ["chat", "message", "text", "punctuation", "quotation", "comment", "quote", "off", "disabled", "inactive"]);
+	public static TablerIcon QuoteOpen => field ??= new("QuoteOpen", char.ConvertFromUtf32(0x10224), Sources.QuoteOpen, "Text", ["quotation", "citation", "saying", "text", "quote", "typography", "writing", "open", "speech"]);
 	public static TablerIcon Quotes => field ??= new("Quotes", "\uFB1E", Sources.Quotes, "Text", ["chat", "message", "text", "punctuation", "quotation", "comment", "quotes", "typography", "writing", "font"]);
 	public static TablerIcon Regex => field ??= new("Regex", "\uF31F", Sources.Regex, "Text", ["regular", "expression", "code", "replace", "programming", "coding", "variables", "regex", "typography", "writing"]);
 	public static TablerIcon RegexOff => field ??= new("RegexOff", "\uF421", Sources.RegexOff, "Text", ["regular", "expression", "code", "replace", "programming", "coding", "variables", "regex", "off", "disabled"]);

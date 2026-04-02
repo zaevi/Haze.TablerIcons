@@ -30,9 +30,10 @@ public static partial class TablerIcons
 	public static TablerIcon BadgeHd => field ??= new("BadgeHd", "\uF55B", Sources.BadgeHd, "Badges", ["shape", "video", "display", "resolution", "movie", "badge", "hd", "award", "achievement", "recognition"]);
 	public static TablerIcon BadgeHdFilled => field ??= new("BadgeHdFilled", "\uFE95", Sources.BadgeHdFilled, "Badges", ["shape", "video", "display", "resolution", "movie", "badge", "hd", "award", "achievement", "recognition"]);
 	public static TablerIcon BadgeOff => field ??= new("BadgeOff", "\uF0FB", Sources.BadgeOff, "Badges", ["army", "badge", "military", "rank", "soldier", "war", "off", "disabled", "inactive", "label"]);
+	public static TablerIcon Badges => field ??= new("Badges", "\uEFC3", Sources.Badges, "Badges", ["army", "badge", "military", "rank", "soldier", "war", "badges", "label", "tag", "marker"]);
 	public static TablerIcon BadgeSd => field ??= new("BadgeSd", "\uF55C", Sources.BadgeSd, "Badges", ["shape", "card", "memory", "sim", "phone", "badge", "sd", "award", "achievement", "recognition"]);
 	public static TablerIcon BadgeSdFilled => field ??= new("BadgeSdFilled", "\uFE94", Sources.BadgeSdFilled, "Badges", ["shape", "card", "memory", "sim", "phone", "badge", "sd", "award", "achievement", "recognition"]);
-	public static TablerIcon BadgesIcon => field ??= new("BadgesIcon", "\uEFC3", Sources.BadgesIcon, "Badges", ["army", "badge", "military", "rank", "soldier", "war", "badges", "label", "tag", "marker"]);
+	public static TablerIcon BadgesFilled => field ??= new("BadgesFilled", "\uF7DD", Sources.BadgesFilled, "Badges", ["army", "badge", "military", "rank", "soldier", "war", "badges", "label", "tag", "marker"]);
 	public static TablerIcon BadgesOff => field ??= new("BadgesOff", "\uF0FC", Sources.BadgesOff, "Badges", ["army", "badge", "military", "rank", "soldier", "war", "badges", "off", "disabled", "inactive"]);
 	public static TablerIcon BadgeTm => field ??= new("BadgeTm", "\uF55D", Sources.BadgeTm, "Badges", ["shape", "brand", "copyright", "logo", "product", "badge", "tm", "award", "achievement", "recognition"]);
 	public static TablerIcon BadgeTmFilled => field ??= new("BadgeTmFilled", "\uFE93", Sources.BadgeTmFilled, "Badges", ["shape", "brand", "copyright", "logo", "product", "badge", "tm", "award", "achievement", "recognition"]);

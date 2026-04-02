@@ -97,6 +97,7 @@ public static partial class TablerIcons
 	public static TablerIcon LocationStar => field ??= new("LocationStar", "\uFBC0", Sources.LocationStar, "Map", ["favorite", "rate", "highlight", "notable", "prestige", "celebrity", "important", "acclaim", "renown", "shine"]);
 	public static TablerIcon LocationUp => field ??= new("LocationUp", "\uFBC1", Sources.LocationUp, "Map", ["ascend", "rise", "increase", "climb", "elevate", "boost", "uplift", "enhance", "escalate", "soar"]);
 	public static TablerIcon LocationX => field ??= new("LocationX", "\uFBC2", Sources.LocationX, "Map", ["close", "remove", "delete", "cancel", "cross", "negate", "eliminate", "terminate", "end", "exit"]);
+	public static TablerIcon Map => field ??= new("Map", "\uEAE9", Sources.Map, "Map", ["navigation", "location", "travel", "map", "geography", "place", "position"]);
 	public static TablerIcon Map2 => field ??= new("Map2", "\uEAE7", Sources.Map2, "Map", ["navigation", "location", "travel", "pin", "position", "marker", "map", "geography", "place", "2"]);
 	public static TablerIcon MapBolt => field ??= new("MapBolt", "\uFBC3", Sources.MapBolt, "Map", ["charge", "power", "lightning", "thunder", "electric", "energy", "flash", "zap", "storm", "force"]);
 	public static TablerIcon MapCancel => field ??= new("MapCancel", "\uFBC4", Sources.MapCancel, "Map", ["void", "dismiss", "negate", "stop", "abort", "halt", "revoke", "quit", "retract", "discontinue"]);
@@ -109,7 +110,6 @@ public static partial class TablerIcons
 	public static TablerIcon MapEast => field ??= new("MapEast", "\uFC5D", Sources.MapEast, "Map", ["orient", "sunrise", "direction", "right", "oriental", "asia", "compass", "cardinal", "sunup", "far"]);
 	public static TablerIcon MapExclamation => field ??= new("MapExclamation", "\uFBCB", Sources.MapExclamation, "Map", ["alert", "warn", "caution", "notice", "emphasis", "signal", "highlight", "stress", "attention", "callout"]);
 	public static TablerIcon MapHeart => field ??= new("MapHeart", "\uFBCC", Sources.MapHeart, "Map", ["love", "affection", "romance", "care", "passion", "emotion", "fondness", "devotion", "adore", "cherish"]);
-	public static TablerIcon MapIcon => field ??= new("MapIcon", "\uEAE9", Sources.MapIcon, "Map", ["navigation", "location", "travel", "map", "geography", "place", "position"]);
 	public static TablerIcon MapLock => field ??= new("MapLock", char.ConvertFromUtf32(0x10203), Sources.MapLock, "Map", ["map", "lock", "security", "location", "protected", "access", "secure"]);
 	public static TablerIcon MapMinus => field ??= new("MapMinus", "\uFBCD", Sources.MapMinus, "Map", ["subtract", "reduce", "lessen", "decrease", "diminish", "lower", "deduct", "decline", "shrink", "contract"]);
 	public static TablerIcon MapNorth => field ??= new("MapNorth", "\uFC5E", Sources.MapNorth, "Map", ["northward", "upward", "compass", "boreal", "cardinal", "arctic", "poleward", "direction", "trip", "geographic"]);
@@ -187,6 +187,7 @@ public static partial class TablerIcons
 	public static TablerIcon NavigationX => field ??= new("NavigationX", "\uFBFC", Sources.NavigationX, "Map", ["close", "exit", "terminate", "cancel", "reject", "deny", "remove", "eliminate", "cross", "end"]);
 	public static TablerIcon NorthStar => field ??= new("NorthStar", "\uF014", Sources.NorthStar, "Map", ["compas", "location", "point", "christmas", "direction", "north", "star", "navigation", "favorite", "rating"]);
 	public static TablerIcon Parking => field ??= new("Parking", "\uEB03", Sources.Parking, "Map", ["sign", "car", "vehicle", "space", "parking", "location", "navigation", "geography", "place", "position"]);
+	public static TablerIcon ParkingMeter => field ??= new("ParkingMeter", char.ConvertFromUtf32(0x10227), Sources.ParkingMeter, "Map", ["parking", "meter", "paid-parking", "ticket", "urban", "city", "curb", "car", "time-limit", "fee"]);
 	public static TablerIcon ParkingOff => field ??= new("ParkingOff", "\uF172", Sources.ParkingOff, "Map", ["sign", "car", "vehicle", "space", "parking", "off", "location", "navigation", "disabled", "inactive"]);
 	public static TablerIcon Pennant => field ??= new("Pennant", "\uED7D", Sources.Pennant, "Map", ["flag", "ship", "sports", "championship", "mark", "spot", "winner", "pennant", "location", "navigation"]);
 	public static TablerIcon Pennant2 => field ??= new("Pennant2", "\uF06A", Sources.Pennant2, "Map", ["flag", "ship", "sports", "championship", "mark", "spot", "winner", "pennant", "location", "navigation"]);

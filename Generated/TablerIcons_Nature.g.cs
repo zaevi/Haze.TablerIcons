@@ -45,6 +45,7 @@ public static partial class TablerIcons
 	public static TablerIcon FlowerFilled => field ??= new("FlowerFilled", char.ConvertFromUtf32(0x10010), Sources.FlowerFilled, "Nature", ["plant", "garden", "rose", "lotus", "flower", "environment", "natural", "outdoor", "ecosystem", "earth"]);
 	public static TablerIcon FlowerOff => field ??= new("FlowerOff", "\uF131", Sources.FlowerOff, "Nature", ["plant", "garden", "rose", "lotus", "flower", "off", "environment", "natural", "disabled", "inactive"]);
 	public static TablerIcon Growth => field ??= new("Growth", "\uEE93", Sources.Growth, "Nature", ["seed", "harvest", "plant", "tree", "flower", "grain", "greenery", "garden", "growth", "environment"]);
+	public static TablerIcon Iceberg => field ??= new("Iceberg", char.ConvertFromUtf32(0x1022a), Sources.Iceberg, "Nature", ["iceberg", "ice", "glacier", "arctic", "polar", "cold", "ocean", "sea", "climate", "environment"]);
 	public static TablerIcon Leaf => field ??= new("Leaf", "\uED4F", Sources.Leaf, "Nature", ["nature", "plant", "tree", "autumn", "fall", "greenery", "flower", "forest", "garden", "leaf"]);
 	public static TablerIcon Leaf2 => field ??= new("Leaf2", "\uFF44", Sources.Leaf2, "Nature", ["nature", "plant", "green", "botany", "foliage", "tree", "garden", "growth", "leaflet", "botanical"]);
 	public static TablerIcon LeafFilled => field ??= new("LeafFilled", char.ConvertFromUtf32(0x101c2), Sources.LeafFilled, "Nature", ["nature", "plant", "tree", "autumn", "fall", "greenery", "flower", "forest", "garden", "leaf"]);

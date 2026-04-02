@@ -572,6 +572,7 @@ public static partial class TablerIcons
 	public static TablerIcon Percentage80 => field ??= new("Percentage80", "\uFED8", Sources.Percentage80, "System", ["eighty", "percentage", "fourfifths", "fraction", "portion", "slice", "section", "part", "segment", "80"]);
 	public static TablerIcon Percentage90 => field ??= new("Percentage90", "\uFED7", Sources.Percentage90, "System", ["ninety", "percentage", "nine-tenths", "fraction", "portion", "slice", "division", "segment", "part", "component"]);
 	public static TablerIcon PhotoScan => field ??= new("PhotoScan", "\uFCA8", Sources.PhotoScan, "System", ["capture", "photograph", "picture", "snapshot", "scan-image", "photogrammetry", "visual-scan", "picture-analysis", "photo-analysis", "photo"]);
+	public static TablerIcon Pillow => field ??= new("Pillow", char.ConvertFromUtf32(0x10226), Sources.Pillow, "System", ["pillow", "cushion", "bedding", "sleep", "rest", "bed", "furniture", "comfort", "hotel", "home"]);
 	public static TablerIcon PinEnd => field ??= new("PinEnd", "\uFD5B", Sources.PinEnd, "System", ["pin", "location-pin", "map-pin", "marker", "place-pin", "destination-pin", "end-pin", "point", "position-pin", "mark-end"]);
 	public static TablerIcon PinInvoke => field ??= new("PinInvoke", "\uFD5C", Sources.PinInvoke, "System", ["pin", "location-pin", "map-pin", "marker", "place-pin", "invoke-pin", "trigger-pin", "point", "position-pin", "invoke-mark"]);
 	public static TablerIcon PlaylistAdd => field ??= new("PlaylistAdd", "\uF008", Sources.PlaylistAdd, "System", ["music", "spotify", "new", "create", "library", "album", "playlist", "add", "insert", "plus"]);
@@ -897,6 +898,7 @@ public static partial class TablerIcons
 	public static TablerIcon X => field ??= new("X", "\uEB55", Sources.X, "System", ["cancel", "remove", "delete", "empty", "close", "x"]);
 	public static TablerIcon Xd => field ??= new("Xd", "\uFA33", Sources.Xd, "System", ["emotion", "funny", "smile", "giggle", "playful", "humor", "joy", "laugh", "happy", "amusement"]);
 	public static TablerIcon XFilled => field ??= new("XFilled", char.ConvertFromUtf32(0x101c6), Sources.XFilled, "System", ["cancel", "remove", "delete", "empty", "close", "x"]);
+	public static TablerIcon XMark => field ??= new("XMark", char.ConvertFromUtf32(0x10220), Sources.XMark, "System", ["cancel", "remove", "delete", "close", "x", "clear", "dismiss", "exit"]);
 	public static TablerIcon Xxx => field ??= new("Xxx", "\uFC20", Sources.Xxx, "System", ["private", "secret", "restricted", "forbidden", "exclusive", "classified", "intimate", "veiled", "covert", "unspoken"]);
 	public static TablerIcon ZoomScan => field ??= new("ZoomScan", "\uFCB0", Sources.ZoomScan, "System", ["magnify", "enlarge", "analyze", "focus", "enhance", "view", "magnification", "zoom-in", "scan-zoom", "magnify-scan"]);
 	public static TablerIcon ZoomScanFilled => field ??= new("ZoomScanFilled", "\uFDBF", Sources.ZoomScanFilled, "System", ["magnify", "enlarge", "analyze", "focus", "enhance", "view", "magnification", "zoom-in", "scan-zoom", "magnify-scan"]);

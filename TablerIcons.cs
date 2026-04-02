@@ -24,7 +24,7 @@ public static partial class TablerIcons
 			return texture;
 		}
 
-		texture = icon.CreateTexture();
+		texture = icon.CreateTexture(scale);
 		TablerIcons.Textures[key] = new WeakReference<DpiTexture>(texture);
 		return texture;
 	}
