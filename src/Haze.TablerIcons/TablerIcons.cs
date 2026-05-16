@@ -13,6 +13,8 @@ public static partial class TablerIcons
 
 	public static Func<TablerIcon, float, DpiTexture>? GetOrCreateFunc = DefaultGetOrCreate;
 
+	public static int DefaultIconHeight = 16;
+
 	/// <summary>
 	/// Default implementation for creating or getting an SVG texture.
 	/// </summary>

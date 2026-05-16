@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/TablerIconGenerator/TablerIconGenerator.csproj" />
+  <Project Path="src/Haze.TablerIcons/Haze.TablerIcons.csproj" />
+</Solution>

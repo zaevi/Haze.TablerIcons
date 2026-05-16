@@ -13,9 +13,9 @@ public record class TablerIcon(string Name, string Unicode, string Svg, string C
 	/// </summary>
 	/// <param name="scale">The scale factor for the texture (default: 1.0)</param>
 	/// <returns>A cached or new SvgTexture instance</returns>
-	public DpiTexture GetTexture(float scale = 1.0f)
+	public DpiTexture GetTexture(float? scale = null)
 	{
-		return GetOrCreate(scale);
+		return GetOrCreate(scale ?? TablerIcons.DefaultIconHeight / 24.0f);
 	}
 
 	public DpiTexture GetTextureByHeight(float height) => GetTexture(height / 24.0f);
